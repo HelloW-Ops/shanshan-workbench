@@ -376,6 +376,22 @@ details.today-section[open]>summary .collapse-icon{transform:rotate(180deg)}
 @keyframes cardIn{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
 .card,.ov-kpi,.ov-mod,.kpi-card,.course-card,.reading-card,.func-card,.inbox-item{animation:cardIn .32s ease both}
 .fc-actions .btn{white-space:nowrap}
+/* ── v1.8.1 CPA 备考增强 ── */
+.exam-kpi-strip{display:grid;grid-template-columns:repeat(auto-fit,minmax(148px,1fr));gap:12px;margin-bottom:22px}
+.exam-kpi{background:var(--white);border:1px solid var(--border);border-radius:var(--radius);padding:16px 16px;box-shadow:var(--shadow);transition:transform .2s ease,box-shadow .2s ease}
+.exam-kpi:hover{transform:translateY(-2px);box-shadow:var(--shadow-hover)}
+.exam-kpi-val{font-size:26px;font-weight:700;line-height:1.1;background:var(--grad-accent);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+.exam-kpi-unit{font-size:13px;font-weight:600;color:var(--text-2);-webkit-text-fill-color:var(--text-2)}
+.exam-kpi-label{font-size:12px;color:var(--text-2);margin-top:4px;font-weight:500}
+.exam-kpi-sub{font-size:11px;color:var(--text-2);margin-top:2px}
+.exam-kpi.urgent{border-color:var(--warn);background:var(--warn-bg)}
+.exam-kpi.urgent .exam-kpi-val{background:none;-webkit-text-fill-color:var(--warn);color:var(--warn)}
+.exam-tips{background:linear-gradient(135deg,#F3F8F5,#EAF2EE);border:1px solid #E2ECE6;border-radius:var(--radius);padding:16px 18px;margin-bottom:22px;box-shadow:var(--shadow)}
+.exam-tips-head{display:flex;align-items:center;gap:8px;font-size:14px;font-weight:700;color:var(--accent);margin-bottom:10px}
+.exam-tips-list{margin:0;padding-left:18px}
+.exam-tips-list li{font-size:13px;color:var(--text);line-height:1.7}
+.cc-acc{color:var(--accent);font-weight:600;background:var(--accent-light);border-radius:999px;padding:1px 8px;margin-left:8px}
+
 </style>
 </head><body>
 <svg style="display:none">
@@ -436,7 +452,7 @@ details.today-section[open]>summary .collapse-icon{transform:rotate(180deg)}
     <div class="nav-item" data-view="ai"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use href="#i-ai"/></svg><span>AI 帮手</span></div>
     <div class="nav-item" data-view="settings"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use href="#i-settings"/></svg><span>设置与数据</span></div>
   </nav>
-  <div class="sidebar-footer"><div id="sidebarFooterDate"></div><div>v1.8.0 · 视觉焕新</div></div>
+  <div class="sidebar-footer"><div id="sidebarFooterDate"></div><div>v1.8.4 · 收件箱打磨</div></div>
 </aside>
 <header class="mobile-header"><div class="mh-logo">珊</div><div class="mh-title" id="mobileTitle">今日</div><div style="width:32px"></div></header>
 <main class="main" id="mainContent"></main>
@@ -482,7 +498,7 @@ excel:{funcDates:[],functions:[{id:u(),name:'VLOOKUP',category:'查找引用',sy
 shiyebian:{items:[{id:u(),title:'省属事业单位招聘信息',content:'关注省人事考试网，预计明年3月发布公告',source:'省人事考试网',date:'2026-07-20'},{id:u(),title:'公共基础知识备考范围',content:'政治、经济、法律、管理、公文写作等',source:'备考论坛',date:'2026-07-15'}],lyg:[{id:u(),title:'连云港市事业单位招聘公告发布渠道',content:'连云港市人力资源和社会保障局官网(http://rsj.lyg.gov.cn)是发布事业单位招聘公告的官方渠道，建议每周关注。',source:'连云港市人社局',date:'2026-07-30'},{id:u(),title:'连云港2026年事业单位统考时间预测',content:'参考往年时间安排，连云港事业单位统考通常在上半年3-5月发布公告，5-6月笔试。建议提前3个月开始备考。',source:'备考分析',date:'2026-07-30'},{id:u(),title:'连云港事业编考试内容',content:'连云港事业单位考试一般包括：公共基础知识（政治、经济、法律、管理、公文写作）+ 职业能力测验 + 专业知识（根据岗位不同）',source:'考试大纲',date:'2026-07-30'}],tasks:[{id:u(),title:'收集历年真题',priority:'low',dueDate:'2026-12-31',done:false,note:'明年考试'}]},
 reading:{logs:[],books:[{id:u(),title:'认知觉醒',author:'周岭',totalPages:280,currentPage:156,status:'reading',startDate:'2026-06-15',source:''},{id:u(),title:'小岛经济学',author:'彼得·希夫',totalPages:320,currentPage:0,status:'planned',startDate:'',source:''}],podcasts:[{id:u(),title:'纵横四海',host:'携隐',totalEpisodes:120,listenedEpisodes:45,status:'reading',startDate:'2026-05-01',note:'商业类播客，很有启发',source:''},{id:u(),title:'知行小酒馆',host:'有知有行',totalEpisodes:80,listenedEpisodes:80,status:'done',startDate:'2025-11-01',note:'投资理财播客',source:''}],news:[{id:u(),date:'2026-07-30',title:'增值税留抵退税政策延续优化',summary:'财政部、税务总局联合发布通知，进一步完善增值税留抵退税政策，扩大适用范围。',category:'税务',reason:'直接关系企业税负，CPA税法和税务师考试高频考点',attention:'注意退税条件的变化和计算方法，考试可能出计算题',source:'国家税务总局'},{id:u(),date:'2026-07-30',title:'个人所得税专项附加扣除标准提高',summary:'3岁以下婴幼儿照护、子女教育、赡养老人三项专项附加扣除标准提高。',category:'税务',reason:'个税改革是近年热点，CPA经济法和税务师涉税法律常考内容',attention:'关注扣除标准和适用条件的变化，注意综合所得汇算清缴的影响',source:'国家税务总局'},{id:u(),date:'2026-07-30',title:'央行宣布降准0.5个百分点',summary:'中国人民银行决定下调金融机构存款准备金率0.5个百分点，释放长期资金。',category:'财经',reason:'货币政策影响企业融资成本和投资决策，审计和财管涉及宏观分析',attention:'理解降准对流动性、利率、资本市场的影响链条',source:'中国人民银行'},{id:u(),date:'2026-07-30',title:'国务院研究优化营商环境条例',summary:'国务院常务会议审议通过优化营商环境条例修订草案，进一步简化审批流程。',category:'时政',reason:'营商环境改革涉及企业注册、税务办理等，与CPA经济法相关',attention:'关注行政审批简化和税务服务优化的具体措施',source:'新华社'}],dailyPicks:[{id:u(),date:'2026-07-30',type:'book',title:'纳税筹划实务与案例',author:'蔡昌',reason:'结合当前税务政策变化，系统讲解纳税筹划思路，对CPA税法和税务师实务考试有直接帮助',attention:'重点关注增值税和企业所得税的筹划案例，与最新政策对照学习',source:''},{id:u(),date:'2026-07-30',type:'podcast',title:'纵横四海 · EP45：如何构建个人知识体系',author:'携隐',reason:'个人知识管理方法论，帮助你更高效地整合备考知识，建立系统化学习框架',attention:'尝试将播客中的知识管理方法应用到CPA和税务师备考中',source:''}]},
 inbox:[{id:u(),type:'text',content:'CPA报名时间是4月，记得提前准备照片和学历认证',date:'2026-07-29',target:''},{id:u(),type:'link',content:'https://www.cicpa.org.cn — 中注协官网',date:'2026-07-28',target:''},{id:u(),type:'task',content:'整理一份各科目考试时间表',date:'2026-07-26',target:''}],
-changelog:[{date:'2026-08-01',content:'视觉全面焕新：升级设计令牌与柔和分层阴影，侧边栏 logo、主按钮、倒计时进度条改为同系渐变；卡片与列表新增悬停微抬升与聚焦态；概述/看板 KPI 数字改用渐变强调色；新增「今日」个性化问候横幅与 Excel 语法一键复制，整体更通透、现代、好用',scope:'全站',action:'刷新页面即可看到'},{date:'2026-08-01',content:'倒计时彻底去红：临近考试（≤30天）的紧急态不再整卡翻红，改为卡片 body 保持各自模块柔色（CPA 绿 / 税务师蓝），仅以一枚柔琥珀色「冲刺 N 天」小徽章提示；同步移除所有倒计时相关红色样式，色彩彻底统一到工作台浅色调',scope:'今日',action:'刷新页面即可看到'},{date:'2026-08-01',content:'倒计时数字配色再柔化：CPA 倒计时大数字由深橄榄绿 #4A6B3A 改为更柔和的中绿 #5E8C6E，税务师由深藏蓝 #3A5A87 改为与日历 / 播客同系的柔和蓝 #5A87B5，整体更轻盈通透、与工作台浅色调统一；主内容区最大宽度 1060→1140 更充分利用桌面空间，数据看板 KPI 卡补齐悬停微抬升，侧边栏加极淡渐变与描边更显精致',scope:'今日 / 全站',action:'刷新页面即可看到'},{date:'2026-08-01',content:'倒计时配色融入整体：CPA 倒计时改为与课程卡片一致的柔绿、税务师改为柔蓝（沿用标签深绿/深蓝文字色），30 天内预警由刺眼纯红改为柔红底色，色彩与全站调性统一；概述 KPI 卡与倒计时卡新增悬停微抬升，交互更一致',scope:'今日 / 全站',action:'刷新页面即可看到'},{date:'2026-08-01',content:'概述页重构为仪表盘首页（3 大 KPI + 课程进度 + 6 模块快捷入口），与数据看板明确分工；全局视觉打磨（柔和边框/更大圆角/更宽松间距/更克制配色）',scope:'全模块',action:'进入概述与数据看板对比查看'},{date:'2026-08-01',content:'Excel 函数库打磨：新增搜索框（按函数名 / 语法 / 分类实时筛选）、筛选标签（全部 / 已掌握 / 学习中 / 未开始）、按分类折叠展开（可一键全部收起），长列表查找与聚焦更高效',scope:'Excel技能',action:'进入 Excel 模块即可看到'},{date:'2026-08-01',content:'考试倒计时不再重复：原本「概述」「备考页」「数据看板」三处各显示一遍，现统一收敛到「今日」页顶部一处，并升级为信息条——显示考试日期与星期、今年备考科目、课程完成度进度条、剩余课时与日均需完成量，考试 30 天内自动转为红色预警',scope:'今日 / 概述 / CPA备考 / 税务师备考 / 数据看板',action:'刷新页面即可看到更新'},{date:'2026-08-01',content:'「今日」页重构：新增今日已完成四格速览（完成任务 / 学习课程 / 练函数 / 阅读收听）、四个快捷入口，待办任务按「已过期 / 今天到期 / 稍后到期 / 未设截止」分组，并显示逾期或剩余天数',scope:'今日',action:'刷新页面即可看到更新'},{date:'2026-08-01',content:'各模块标签页加数量徽标：备考页七个标签、Excel、事业编标签均显示条目数（任务显示未完成数），不点开也知道里面有没有内容；空状态改为带一键操作按钮',scope:'CPA备考 / 税务师备考 / Excel技能 / 事业编备考 / 收集箱',action:'刷新页面即可看到更新'},{date:'2026-08-01',content:'排版视觉打磨：卡片阴影分层与悬停反馈、侧边栏当前项加绿色标识条、列表项悬停底色高亮且操作按钮常显（不再需要摸索）、页面切换淡入动画、数字统一等宽对齐、手机端底部导航新增「看板」入口；同时修复抽屉菜单角标不更新、部分背景色变量缺失导致的显示异常',scope:'全站',action:'刷新页面即可看到更新'},{date:'2026-08-01',content:'每日阅读页面精简：原「新闻」「推荐」两个标签与「知识库」内容完全重复，现已合并——统一在「知识库」中按类别分组查看与添加，标签栏由 5 个减为 3 个（书籍 / 播客 / 知识库）；「今日新闻推荐」「今日推荐」的"推荐原因/关注理由"改为默认收起、点击展开，页面高度大幅缩短，手机端滚动更快到达内容',scope:'每日阅读',action:'刷新页面即可看到更新'},{date:'2026-08-01',content:'代码瘦身与快捷键补全：清理历史遗留的无用样式与死代码（快捷键卡片残留样式、错题手动添加入口、统计卡片旧样式等）；新增 Alt+8 快捷键直达收集箱',scope:'全站',action:'按 Alt+8 试试'},{date:'2026-08-01',content:'事业编备考模块新增顶部日历：标记已完成的待办事项（绿点）和待办截止日期（橙点），点击任意日期即可展开当天完成的待办与截止任务详情；与 CPA/税务师/Excel/每日阅读模块的日历功能统一',scope:'事业编备考',action:'进入事业编模块，点击顶部月历任意日期查看'},{date:'2026-08-01',content:'各模块顶部日历支持点击查看当天记录：在 CPA 备考、税务师备考、Excel 技能、每日阅读的月历上点击任意日期，下方即展开当天的完成待办、练习记录、课程学习、函数学习、阅读记录与当日新闻推荐；勾选完成待办时会自动记录完成日期。每日阅读「知识库」改为按类别分组（税务/财经/AI科技/时政/书籍推荐/播客推荐），便于分类沉淀与回顾',scope:'CPA备考、税务师备考、Excel技能、每日阅读',action:'在模块顶部月历点击任意日期，再点一次收起'},{date:'2026-08-01',content:'每日阅读"今日新闻推荐"和"今日推荐"改为按日期种子每日轮换：内容库内置16条新闻（税务/财经/AI科技/时政）+12条书籍播客推荐，每天自动选出4条新闻（必含税务、财经、AI科技）和3条书籍/播客推荐，旧内容自动沉淀进"知识库"；新闻分类新增AI科技',scope:'每日阅读',action:'刷新页面即可看到每日更新'},{date:'2026-07-31',content:'手机端底部导航栏简化：仅保留「概述」「今日」「更多」三个主入口；CPA备考、税务师备考、Excel技能、事业编备考、每日阅读等学习模块统一收入「更多」抽屉；抽屉内新增"学习模块"分区，优先展示各学习入口',scope:'手机端',action:'刷新页面即可看到更新'},{date:'2026-07-31',content:'每日阅读新增「知识库」标签页：聚合所有历史新闻推荐和书籍/播客推荐，按日期倒序展示，形成持续积累的知识仓库；知识库概览卡片显示新闻、书籍推荐、播客推荐、总条目四项统计',scope:'每日阅读',action:'刷新页面即可看到更新'},{date:'2026-07-31',content:'事业编模块新增「连云港」专区：独立管理连云港市事业单位招聘信息、考试时间、备考资料等；概述页及搜索均支持连云港信息',scope:'事业编备考',action:'刷新页面即可看到更新'},{date:'2026-07-30',content:'Excel函数新增完成日期记录：拖动进度条时自动记录学习日期到顶部日历（紫色圆点），每个函数卡片显示最近学习时间，图例新增"函数学习"',scope:'Excel技能',action:'刷新页面即可看到更新'},{date:'2026-07-30',content:'每日阅读重磅升级：新增顶部阅读日历（书籍绿色圆点/播客蓝色圆点）、今日阅读情况板块、"记录阅读/收听"按钮可记录每日阅读页数或收听期数并自动更新进度',scope:'每日阅读',action:'刷新页面即可看到更新'},{date:'2026-07-30',content:'课程学习记录整合到顶部综合日历：课程+1/-1的学习日期以紫色圆点显示在顶部日历中，课程进度子栏目中的独立小日历已移除',scope:'CPA备考/税务师备考',action:'刷新页面即可看到更新'},{date:'2026-07-30',content:'精简小日历：顶部已有综合日历，各栏目内的小日历已移除，页面更简洁',scope:'CPA备考/税务师备考',action:'刷新页面即可看到更新'},{date:'2026-07-30',content:'备考模块课程进度新增学习日历：根据+1/-1课时调整记录自动标记有学习记录的日期（绿点），可按月翻页查看',scope:'CPA备考/税务师备考',action:'刷新页面即可看到更新'},{date:'2026-07-30',content:'今日页面统计卡片合并为一张"今日数据"卡片：待办任务、错题总量、收集箱、已开始科目、阅读中五项数据以紧凑的图标+数值形式展示，手机端自动两列排列',scope:'今日',action:'刷新页面即可看到更新'},{date:'2026-07-30',content:'Excel技能模块顶部新增日历：根据任务日期标记待完成（蓝点）、已过期（橙点）、已完成（绿点）的任务',scope:'Excel技能',action:'刷新页面即可看到更新'},{date:'2026-07-30',content:'备考模块课程进度新增"最近课程学习记录"：点击+1/-1按钮调整课时后自动记录学习日期和科目',scope:'CPA备考/税务师备考',action:'刷新页面即可看到更新'},{date:'2026-07-30',content:'备考模块顶部日历新增任务截止日期标记（橙色圆点），方便追踪各科目的任务截止时间',scope:'CPA备考/税务师备考',action:'刷新页面即可看到更新'},{date:'2026-07-30',content:'备考模块倒计时卡片手机端改为一排两个，节省空间',scope:'CPA备考/税务师备考',action:'刷新页面即可看到更新'},{date:'2026-07-30',content:'手机端底部导航栏调整为：今日、CPA、税务师、Excel、阅读；收集箱移至"更多"抽屉',scope:'全站',action:'刷新页面即可看到更新'},{date:'2026-07-30',content:'备考模板新增顶部综合日历：显示所有练习类型（客观一轮/主客观二轮/真题/模拟）的完成日期，用不同颜色标记',scope:'全站',action:'刷新页面即可看到更新'},{date:'2026-07-30',content:'错题总量自动同步：根据章节练习记录自动计算错题数，无需手动输入；仍可手动调整复习遍数和熟练程度',scope:'CPA备考/税务师备考',action:'刷新页面即可看到更新'},{date:'2026-07-30',content:'备考模板标签页改为两排显示：第一排（课程进度/章节题一轮/章节题二轮/错题本），第二排（历年真题/模拟题/任务）',scope:'CPA备考/税务师备考',action:'刷新页面即可看到更新'},{date:'2026-07-30',content:'今日页面手机端统计卡片改为一排两个方块，缩短页面长度',scope:'今日',action:'刷新页面即可看到更新'},{date:'2026-07-30',content:'新增每日阅读模块：管理书籍和播客的阅读/收听进度，支持从链接导入，同步到今日页面',scope:'全站',action:'刷新页面即可看到更新'},{date:'2026-07-30',content:'错题本改造：不再逐条记录，改为按科目汇总客观错题数、主观错题数、复习遍数和熟练程度',scope:'CPA备考/税务师备考',action:'刷新页面即可看到更新'},{date:'2026-07-30',content:'章节题标签页更名为"章节题一轮（客观）"和"章节题二轮（主观+客观）"，练习记录支持编辑修改',scope:'CPA备考/税务师备考',action:'刷新页面即可看到更新'},{date:'2026-07-30',content:'课程卡片新增编辑按钮，可直接修改科目名称、总课时、已完成课时和备考标记',scope:'CPA备考/税务师备考',action:'刷新页面即可看到更新'}]
+changelog:[{date:'2026-08-01',content:'收件箱打磨：新增收集箱驾驶舱（总量/任务类/链接类/本周新增）+ 洞察卡（归类与清理提醒）'},{date:'2026-08-01',content:'阅读打磨：新增阅读驾驶舱（在读书籍/在听播客/书籍平均进度/本周阅读量）+ 数据洞察卡（停滞与低频提醒）'},{date:'2026-08-01',content:'事业编备考增强：新增情报驾驶舱（情报总数/待办任务/时间敏感任务/最近更新）+ 数据洞察卡；信息按日期倒序'},{date:'2026-08-01',content:'CPA 备考增强：新增 KPI 驾驶舱（距考试/听课进度/练习正确率/待复习错题/待办任务）、智能备考建议卡（数据驱动洞察）、课程卡显示练习正确率。'},{date:'2026-08-01',content:'视觉全面焕新：升级设计令牌与柔和分层阴影，侧边栏 logo、主按钮、倒计时进度条改为同系渐变；卡片与列表新增悬停微抬升与聚焦态；概述/看板 KPI 数字改用渐变强调色；新增「今日」个性化问候横幅与 Excel 语法一键复制，整体更通透、现代、好用',scope:'全站',action:'刷新页面即可看到'},{date:'2026-08-01',content:'倒计时彻底去红：临近考试（≤30天）的紧急态不再整卡翻红，改为卡片 body 保持各自模块柔色（CPA 绿 / 税务师蓝），仅以一枚柔琥珀色「冲刺 N 天」小徽章提示；同步移除所有倒计时相关红色样式，色彩彻底统一到工作台浅色调',scope:'今日',action:'刷新页面即可看到'},{date:'2026-08-01',content:'倒计时数字配色再柔化：CPA 倒计时大数字由深橄榄绿 #4A6B3A 改为更柔和的中绿 #5E8C6E，税务师由深藏蓝 #3A5A87 改为与日历 / 播客同系的柔和蓝 #5A87B5，整体更轻盈通透、与工作台浅色调统一；主内容区最大宽度 1060→1140 更充分利用桌面空间，数据看板 KPI 卡补齐悬停微抬升，侧边栏加极淡渐变与描边更显精致',scope:'今日 / 全站',action:'刷新页面即可看到'},{date:'2026-08-01',content:'倒计时配色融入整体：CPA 倒计时改为与课程卡片一致的柔绿、税务师改为柔蓝（沿用标签深绿/深蓝文字色），30 天内预警由刺眼纯红改为柔红底色，色彩与全站调性统一；概述 KPI 卡与倒计时卡新增悬停微抬升，交互更一致',scope:'今日 / 全站',action:'刷新页面即可看到'},{date:'2026-08-01',content:'概述页重构为仪表盘首页（3 大 KPI + 课程进度 + 6 模块快捷入口），与数据看板明确分工；全局视觉打磨（柔和边框/更大圆角/更宽松间距/更克制配色）',scope:'全模块',action:'进入概述与数据看板对比查看'},{date:'2026-08-01',content:'Excel 函数库打磨：新增搜索框（按函数名 / 语法 / 分类实时筛选）、筛选标签（全部 / 已掌握 / 学习中 / 未开始）、按分类折叠展开（可一键全部收起），长列表查找与聚焦更高效',scope:'Excel技能',action:'进入 Excel 模块即可看到'},{date:'2026-08-01',content:'考试倒计时不再重复：原本「概述」「备考页」「数据看板」三处各显示一遍，现统一收敛到「今日」页顶部一处，并升级为信息条——显示考试日期与星期、今年备考科目、课程完成度进度条、剩余课时与日均需完成量，考试 30 天内自动转为红色预警',scope:'今日 / 概述 / CPA备考 / 税务师备考 / 数据看板',action:'刷新页面即可看到更新'},{date:'2026-08-01',content:'「今日」页重构：新增今日已完成四格速览（完成任务 / 学习课程 / 练函数 / 阅读收听）、四个快捷入口，待办任务按「已过期 / 今天到期 / 稍后到期 / 未设截止」分组，并显示逾期或剩余天数',scope:'今日',action:'刷新页面即可看到更新'},{date:'2026-08-01',content:'各模块标签页加数量徽标：备考页七个标签、Excel、事业编标签均显示条目数（任务显示未完成数），不点开也知道里面有没有内容；空状态改为带一键操作按钮',scope:'CPA备考 / 税务师备考 / Excel技能 / 事业编备考 / 收集箱',action:'刷新页面即可看到更新'},{date:'2026-08-01',content:'排版视觉打磨：卡片阴影分层与悬停反馈、侧边栏当前项加绿色标识条、列表项悬停底色高亮且操作按钮常显（不再需要摸索）、页面切换淡入动画、数字统一等宽对齐、手机端底部导航新增「看板」入口；同时修复抽屉菜单角标不更新、部分背景色变量缺失导致的显示异常',scope:'全站',action:'刷新页面即可看到更新'},{date:'2026-08-01',content:'每日阅读页面精简：原「新闻」「推荐」两个标签与「知识库」内容完全重复，现已合并——统一在「知识库」中按类别分组查看与添加，标签栏由 5 个减为 3 个（书籍 / 播客 / 知识库）；「今日新闻推荐」「今日推荐」的"推荐原因/关注理由"改为默认收起、点击展开，页面高度大幅缩短，手机端滚动更快到达内容',scope:'每日阅读',action:'刷新页面即可看到更新'},{date:'2026-08-01',content:'代码瘦身与快捷键补全：清理历史遗留的无用样式与死代码（快捷键卡片残留样式、错题手动添加入口、统计卡片旧样式等）；新增 Alt+8 快捷键直达收集箱',scope:'全站',action:'按 Alt+8 试试'},{date:'2026-08-01',content:'事业编备考模块新增顶部日历：标记已完成的待办事项（绿点）和待办截止日期（橙点），点击任意日期即可展开当天完成的待办与截止任务详情；与 CPA/税务师/Excel/每日阅读模块的日历功能统一',scope:'事业编备考',action:'进入事业编模块，点击顶部月历任意日期查看'},{date:'2026-08-01',content:'各模块顶部日历支持点击查看当天记录：在 CPA 备考、税务师备考、Excel 技能、每日阅读的月历上点击任意日期，下方即展开当天的完成待办、练习记录、课程学习、函数学习、阅读记录与当日新闻推荐；勾选完成待办时会自动记录完成日期。每日阅读「知识库」改为按类别分组（税务/财经/AI科技/时政/书籍推荐/播客推荐），便于分类沉淀与回顾',scope:'CPA备考、税务师备考、Excel技能、每日阅读',action:'在模块顶部月历点击任意日期，再点一次收起'},{date:'2026-08-01',content:'每日阅读"今日新闻推荐"和"今日推荐"改为按日期种子每日轮换：内容库内置16条新闻（税务/财经/AI科技/时政）+12条书籍播客推荐，每天自动选出4条新闻（必含税务、财经、AI科技）和3条书籍/播客推荐，旧内容自动沉淀进"知识库"；新闻分类新增AI科技',scope:'每日阅读',action:'刷新页面即可看到每日更新'},{date:'2026-07-31',content:'手机端底部导航栏简化：仅保留「概述」「今日」「更多」三个主入口；CPA备考、税务师备考、Excel技能、事业编备考、每日阅读等学习模块统一收入「更多」抽屉；抽屉内新增"学习模块"分区，优先展示各学习入口',scope:'手机端',action:'刷新页面即可看到更新'},{date:'2026-07-31',content:'每日阅读新增「知识库」标签页：聚合所有历史新闻推荐和书籍/播客推荐，按日期倒序展示，形成持续积累的知识仓库；知识库概览卡片显示新闻、书籍推荐、播客推荐、总条目四项统计',scope:'每日阅读',action:'刷新页面即可看到更新'},{date:'2026-07-31',content:'事业编模块新增「连云港」专区：独立管理连云港市事业单位招聘信息、考试时间、备考资料等；概述页及搜索均支持连云港信息',scope:'事业编备考',action:'刷新页面即可看到更新'},{date:'2026-07-30',content:'Excel函数新增完成日期记录：拖动进度条时自动记录学习日期到顶部日历（紫色圆点），每个函数卡片显示最近学习时间，图例新增"函数学习"',scope:'Excel技能',action:'刷新页面即可看到更新'},{date:'2026-07-30',content:'每日阅读重磅升级：新增顶部阅读日历（书籍绿色圆点/播客蓝色圆点）、今日阅读情况板块、"记录阅读/收听"按钮可记录每日阅读页数或收听期数并自动更新进度',scope:'每日阅读',action:'刷新页面即可看到更新'},{date:'2026-07-30',content:'课程学习记录整合到顶部综合日历：课程+1/-1的学习日期以紫色圆点显示在顶部日历中，课程进度子栏目中的独立小日历已移除',scope:'CPA备考/税务师备考',action:'刷新页面即可看到更新'},{date:'2026-07-30',content:'精简小日历：顶部已有综合日历，各栏目内的小日历已移除，页面更简洁',scope:'CPA备考/税务师备考',action:'刷新页面即可看到更新'},{date:'2026-07-30',content:'备考模块课程进度新增学习日历：根据+1/-1课时调整记录自动标记有学习记录的日期（绿点），可按月翻页查看',scope:'CPA备考/税务师备考',action:'刷新页面即可看到更新'},{date:'2026-07-30',content:'今日页面统计卡片合并为一张"今日数据"卡片：待办任务、错题总量、收集箱、已开始科目、阅读中五项数据以紧凑的图标+数值形式展示，手机端自动两列排列',scope:'今日',action:'刷新页面即可看到更新'},{date:'2026-07-30',content:'Excel技能模块顶部新增日历：根据任务日期标记待完成（蓝点）、已过期（橙点）、已完成（绿点）的任务',scope:'Excel技能',action:'刷新页面即可看到更新'},{date:'2026-07-30',content:'备考模块课程进度新增"最近课程学习记录"：点击+1/-1按钮调整课时后自动记录学习日期和科目',scope:'CPA备考/税务师备考',action:'刷新页面即可看到更新'},{date:'2026-07-30',content:'备考模块顶部日历新增任务截止日期标记（橙色圆点），方便追踪各科目的任务截止时间',scope:'CPA备考/税务师备考',action:'刷新页面即可看到更新'},{date:'2026-07-30',content:'备考模块倒计时卡片手机端改为一排两个，节省空间',scope:'CPA备考/税务师备考',action:'刷新页面即可看到更新'},{date:'2026-07-30',content:'手机端底部导航栏调整为：今日、CPA、税务师、Excel、阅读；收集箱移至"更多"抽屉',scope:'全站',action:'刷新页面即可看到更新'},{date:'2026-07-30',content:'备考模板新增顶部综合日历：显示所有练习类型（客观一轮/主客观二轮/真题/模拟）的完成日期，用不同颜色标记',scope:'全站',action:'刷新页面即可看到更新'},{date:'2026-07-30',content:'错题总量自动同步：根据章节练习记录自动计算错题数，无需手动输入；仍可手动调整复习遍数和熟练程度',scope:'CPA备考/税务师备考',action:'刷新页面即可看到更新'},{date:'2026-07-30',content:'备考模板标签页改为两排显示：第一排（课程进度/章节题一轮/章节题二轮/错题本），第二排（历年真题/模拟题/任务）',scope:'CPA备考/税务师备考',action:'刷新页面即可看到更新'},{date:'2026-07-30',content:'今日页面手机端统计卡片改为一排两个方块，缩短页面长度',scope:'今日',action:'刷新页面即可看到更新'},{date:'2026-07-30',content:'新增每日阅读模块：管理书籍和播客的阅读/收听进度，支持从链接导入，同步到今日页面',scope:'全站',action:'刷新页面即可看到更新'},{date:'2026-07-30',content:'错题本改造：不再逐条记录，改为按科目汇总客观错题数、主观错题数、复习遍数和熟练程度',scope:'CPA备考/税务师备考',action:'刷新页面即可看到更新'},{date:'2026-07-30',content:'章节题标签页更名为"章节题一轮（客观）"和"章节题二轮（主观+客观）"，练习记录支持编辑修改',scope:'CPA备考/税务师备考',action:'刷新页面即可看到更新'},{date:'2026-07-30',content:'课程卡片新增编辑按钮，可直接修改科目名称、总课时、已完成课时和备考标记',scope:'CPA备考/税务师备考',action:'刷新页面即可看到更新'}]
 ,_updated:''}}
 /* 每日推荐内容库：按日期种子轮换，实现“每日更新” */
 var NEWS_LIBRARY=[
@@ -886,6 +902,35 @@ var h='<div class="page-header"><h2>'+labels[key]+' '+helpBtn(key)+'</h2><div cl
 var fc=data.courses.filter(function(c){return c.focus});var pc=data.courses.filter(function(c){return c.passed});
 if(fc.length>0||pc.length>0){var ft='<b>今年备考重点：</b>'+fc.map(function(c){return c.name}).join('、');if(pc.length>0)ft+='　|　<b>已通过：</b>'+pc.map(function(c){return c.name+'('+c.passed+')'}).join('、');h+='<div class="exam-focus-bar">'+ft+'</div>'}else if(key==='tax'){h+='<div class="exam-focus-bar" style="background:#F5F5F0;color:#999">备考将于9月开始，当前无需安排任务</div>'}else if(key==='cpa'){h+='<div class="exam-focus-bar">暂无备考科目标记，请为科目设置备考标记</div>'}
 h+=renderExamTopCalendar(key);
+/* ── v1.8.1 CPA 备考增强：KPI 驾驶舱 + 智能建议 ── */
+var accBySubj={};(data.chapter1||[]).concat(data.chapter2||[]).forEach(function(p){if(!accBySubj[p.subject])accBySubj[p.subject]={t:0,c:0};accBySubj[p.subject].t+=(p.total||0);accBySubj[p.subject].c+=(p.correct||0)});
+var exDays=Math.max(0,Math.round((new Date(data.examDate)-new Date(new Date().toISOString().slice(0,10)))/86400000));
+var exUrgent=exDays<=30;
+var totC=data.courses.reduce(function(a,c){return a+(c.total||0)},0);
+var doneC=data.courses.reduce(function(a,c){return a+(c.completed||0)},0);
+var coursePct=totC>0?Math.round(doneC/totC*100):0;
+var allPrac=(data.chapter1||[]).concat(data.chapter2||[]);
+var praT=allPrac.reduce(function(a,p){return a+(p.total||0)},0);
+var praC=allPrac.reduce(function(a,p){return a+(p.correct||0)},0);
+var praAcc=praT>0?Math.round(praC/praT*100):null;
+var misW=data.mistakes.reduce(function(a,m){return a+((m.objectiveWrong||0)+(m.subjectiveWrong||0))},0);
+var kpiStrip='<div class="exam-kpi-strip">'
++'<div class="exam-kpi'+(exUrgent?' urgent':'')+'"><div class="exam-kpi-val">'+exDays+'<span class="exam-kpi-unit"> 天</span></div><div class="exam-kpi-label">距 '+labels[key]+'</div>'+(exUrgent?'<div class="exam-kpi-sub" style="color:var(--warn);font-weight:600">冲刺阶段 · 加油</div>':'<div class="exam-kpi-sub">'+data.examDate+'</div>')+'</div>'
++'<div class="exam-kpi"><div class="exam-kpi-val">'+coursePct+'%</div><div class="exam-kpi-label">听课总进度</div><div class="exam-kpi-sub">'+doneC+'/'+totC+' 课</div></div>'
++(praAcc!=null?'<div class="exam-kpi"><div class="exam-kpi-val">'+praAcc+'%</div><div class="exam-kpi-label">练习正确率</div><div class="exam-kpi-sub">'+(data.chapter1.length+data.chapter2.length)+' 条记录</div></div>':'')
++'<div class="exam-kpi"><div class="exam-kpi-val">'+misW+'</div><div class="exam-kpi-label">待复习错题</div><div class="exam-kpi-sub">'+data.mistakes.length+' 科</div></div>'
++'<div class="exam-kpi"><div class="exam-kpi-val">'+undoneT+'</div><div class="exam-kpi-label">待办任务</div><div class="exam-kpi-sub">共 '+data.tasks.length+' 个</div></div>'
++'</div>';
+h+=kpiStrip;
+var tips=[];
+data.courses.forEach(function(c){if(!c.passed&&c.focus&&c.total>0&&Math.round(c.completed/c.total*100)<70)tips.push('「'+c.name+'」进度仅 '+Math.round(c.completed/c.total*100)+'%，是今年重点，建议优先听完听课');});
+if(praAcc!=null&&praAcc<60)tips.push('近期练习正确率仅 '+praAcc+'%，低于 60%，建议重刷薄弱章节');
+data.mistakes.forEach(function(m){if((m.objectiveWrong||0)+(m.subjectiveWrong||0)>0&&(m.reviewCount||0)<=1)tips.push('「'+m.subject+'」错题尚未充分复习，建议安排 1–2 轮复盘');});
+if(exUrgent)tips.push('距考试仅 '+exDays+' 天，进入冲刺：每天至少推进 1 科');
+if(tips.length===0)tips.push('当前节奏良好，保持每日打卡即可');
+var tipsHtml='<div class="exam-tips"><div class="exam-tips-head">'+svgIcon('i-chart',16,16)+'<span>智能备考建议</span></div><ul class="exam-tips-list">'+tips.slice(0,4).map(function(t){return '<li>'+esc(t)+'</li>'}).join('')+'</ul></div>';
+h+=tipsHtml;
+
 var undoneT=data.tasks.filter(function(t){return !t.done}).length;
 h+='<div class="tabs wrap"><div class="tabs-row2">'
 +'<button class="tab '+(tab==='courses'?'active':'')+'" onclick="switchTab(\''+key+'\',\'courses\')">课程进度'+tabN(data.courses.length)+'</button>'
@@ -899,7 +944,7 @@ h+='<div class="tabs wrap"><div class="tabs-row2">'
 if(tab==='courses'){
 h+='<div class="flex-between mb-16"><div class="text-2 text-sm">共 '+data.courses.length+' 个科目'+(data.courses.filter(function(c){return c.passed}).length>0?'（'+data.courses.filter(function(c){return c.passed}).length+' 个已通过）':'')+'</div><button class="btn btn-primary btn-sm" onclick="openCourseAddModal(\''+key+'\')">'+svgIcon('i-plus',16,16)+' 添加科目</button></div>';
 if(data.courses.length===0)h+=emptyState('暂无科目','先把要考的科目建起来，才能记录听课进度','<button class="btn btn-sm btn-primary" onclick="openCourseAddModal(\''+key+'\')">'+svgIcon('i-plus',14,14)+' 添加科目</button>');
-else{var sortedCourses=data.courses.slice().sort(function(a,b){var oa=a.passed?2:a.focus?0:1;var ob=b.passed?2:b.focus?0:1;return oa-ob});var lastStudy={};(data.courseDates||[]).forEach(function(d){if(!lastStudy[d.name]||d.date>lastStudy[d.name])lastStudy[d.name]=d.date});h+='<div class="grid-2">';sortedCourses.forEach(function(c){var pct=c.total>0?Math.round(c.completed/c.total*100):0;var cv={green:'var(--green)',blue:'var(--blue)',yellow:'var(--yellow)',pink:'var(--pink)'}[c.color]||'var(--accent)';if(c.passed){h+='<div class="course-card passed"><div class="cc-header"><div><div class="cc-title">'+esc(c.name)+' <span class="passed-badge">已通过 '+c.passed+'</span></div><div class="text-xs text-2">已完成 '+c.total+'/'+c.total+' 课</div></div><div class="flex gap-8"><button class="btn btn-sm btn-outline" onclick="openCourseEditModal(\''+key+'\',\''+c.id+'\')">编辑</button><button class="btn btn-sm btn-danger" onclick="deleteCourse(\''+key+'\',\''+c.id+'\')">'+svgIcon('i-trash',16,16)+'</button></div></div></div>'}else{var fb=c.focus?' <span class="focus-badge">今年备考</span>':' <span class="dimmed-badge">今年未备考</span>';var dim=c.focus?'':' dimmed';h+='<div class="course-card'+dim+'"><div class="cc-header"><div><div class="cc-title">'+esc(c.name)+fb+'</div><div class="text-xs text-2">'+c.completed+'/'+c.total+' 课</div></div><div class="flex gap-8"><button class="btn btn-sm btn-outline" onclick="openCourseAdjustModal(\''+key+'\',\''+c.id+'\',1)">+1</button><button class="btn btn-sm btn-outline" onclick="openCourseAdjustModal(\''+key+'\',\''+c.id+'\',-1)">-1</button><button class="btn btn-sm btn-outline" onclick="openCourseEditModal(\''+key+'\',\''+c.id+'\')">编辑</button><button class="btn btn-sm btn-danger" onclick="deleteCourse(\''+key+'\',\''+c.id+'\')">'+svgIcon('i-trash',16,16)+'</button></div></div><div class="cc-progress"><div class="progress-bar"><div class="progress-fill" style="width:'+pct+'%;background:'+cv+'"></div></div><div class="cc-meta"><span>'+pct+'%</span><span>'+(c.total-c.completed)+' 课剩余</span></div>'+(lastStudy[c.name]?'<div class="text-xs text-2" style="margin-top:4px;padding-top:8px;border-top:1px solid var(--bg)">'+svgIcon('i-clock',12,12)+' 最近学习：'+fmtDate(new Date(lastStudy[c.name]))+'</div>':'')+'</div></div>'}});h+='</div>'}
+else{var sortedCourses=data.courses.slice().sort(function(a,b){var oa=a.passed?2:a.focus?0:1;var ob=b.passed?2:b.focus?0:1;return oa-ob});var lastStudy={};(data.courseDates||[]).forEach(function(d){if(!lastStudy[d.name]||d.date>lastStudy[d.name])lastStudy[d.name]=d.date});h+='<div class="grid-2">';sortedCourses.forEach(function(c){var pct=c.total>0?Math.round(c.completed/c.total*100):0;var cv={green:'var(--green)',blue:'var(--blue)',yellow:'var(--yellow)',pink:'var(--pink)'}[c.color]||'var(--accent)';if(c.passed){h+='<div class="course-card passed"><div class="cc-header"><div><div class="cc-title">'+esc(c.name)+' <span class="passed-badge">已通过 '+c.passed+'</span></div><div class="text-xs text-2">已完成 '+c.total+'/'+c.total+' 课</div></div><div class="flex gap-8"><button class="btn btn-sm btn-outline" onclick="openCourseEditModal(\''+key+'\',\''+c.id+'\')">编辑</button><button class="btn btn-sm btn-danger" onclick="deleteCourse(\''+key+'\',\''+c.id+'\')">'+svgIcon('i-trash',16,16)+'</button></div></div></div>'}else{var fb=c.focus?' <span class="focus-badge">今年备考</span>':' <span class="dimmed-badge">今年未备考</span>';var dim=c.focus?'':' dimmed';h+='<div class="course-card'+dim+'"><div class="cc-header"><div><div class="cc-title">'+esc(c.name)+fb+'</div><div class="text-xs text-2">'+c.completed+'/'+c.total+' 课</div></div><div class="flex gap-8"><button class="btn btn-sm btn-outline" onclick="openCourseAdjustModal(\''+key+'\',\''+c.id+'\',1)">+1</button><button class="btn btn-sm btn-outline" onclick="openCourseAdjustModal(\''+key+'\',\''+c.id+'\',-1)">-1</button><button class="btn btn-sm btn-outline" onclick="openCourseEditModal(\''+key+'\',\''+c.id+'\')">编辑</button><button class="btn btn-sm btn-danger" onclick="deleteCourse(\''+key+'\',\''+c.id+'\')">'+svgIcon('i-trash',16,16)+'</button></div></div><div class="cc-progress"><div class="progress-bar"><div class="progress-fill" style="width:'+pct+'%;background:'+cv+'"></div></div><div class="cc-meta"><span>'+pct+'%</span><span>'+(c.total-c.completed)+' 课剩余</span>'+(accBySubj[c.name]&&accBySubj[c.name].t?'<span class="cc-acc">练 '+Math.round(accBySubj[c.name].c/accBySubj[c.name].t*100)+'%</span>':'')+'</div>'+(lastStudy[c.name]?'<div class="text-xs text-2" style="margin-top:4px;padding-top:8px;border-top:1px solid var(--bg)">'+svgIcon('i-clock',12,12)+' 最近学习：'+fmtDate(new Date(lastStudy[c.name]))+'</div>':'')+'</div></div>'}});h+='</div>'}
 }
 h+=renderCourseDates(key);
 PRACTICE_KEYS.forEach(function(pk){if(tab===pk){var pc=PRACTICE_TABS[pk];var pd=data[pk]||[];
@@ -1001,22 +1046,51 @@ h+='</div></div>'});
 box.innerHTML=h;
 }
 
+function sbKpiAndTips(data){
+var items=data.items||[];var lyg=data.lyg||[];var tasks=data.tasks||[];
+var all=items.concat(lyg);
+var undone=tasks.filter(function(t){return !t.done});
+var today=new Date();today.setHours(0,0,0,0);
+function db(a,b){return Math.round((b-a)/86400000);}
+var lastUpd=all.length?Math.max.apply(null,all.map(function(x){return new Date(x.date).getTime();})):null;
+var lastDays=lastUpd!=null?db(new Date(lastUpd),today):null;
+var overdue=undone.filter(function(t){return t.dueDate&&new Date(t.dueDate)<today});
+var soon=undone.filter(function(t){return t.dueDate&&new Date(t.dueDate)>=today&&db(today,new Date(t.dueDate))<=30});
+var h='<div class="exam-kpi-strip">';
+h+='<div class="exam-kpi"><div class="exam-kpi-val">'+all.length+'<span class="exam-kpi-unit"> 条</span></div><div class="exam-kpi-label">情报总数</div><div class="exam-kpi-sub">公告+资讯</div></div>';
+h+='<div class="exam-kpi"><div class="exam-kpi-val">'+undone.length+'<span class="exam-kpi-unit"> 个</span></div><div class="exam-kpi-label">待办任务</div><div class="exam-kpi-sub">未完成的</div></div>';
+h+='<div class="exam-kpi'+(overdue.length||soon.length?' urgent':'')+'"><div class="exam-kpi-val">'+(overdue.length+soon.length)+'<span class="exam-kpi-unit"> 个</span></div><div class="exam-kpi-label">时间敏感任务</div><div class="exam-kpi-sub">逾期'+overdue.length+'·30天内'+soon.length+'</div></div>';
+h+='<div class="exam-kpi"><div class="exam-kpi-val">'+(lastDays==null?'—':lastDays+(lastDays===0?' 今天':''))+'<span class="exam-kpi-unit">'+(lastDays==null?'':' 天前')+'</span></div><div class="exam-kpi-label">最近情报更新</div><div class="exam-kpi-sub">保持跟进</div></div>';
+h+='</div>';
+var tips=[];
+if(overdue.length) tips.push('有 <b>'+overdue.length+'</b> 个任务已逾期，建议立即处理避免堆积');
+if(soon.length) tips.push('近 30 天内有 <b>'+soon.length+'</b> 个任务截止，注意时间节点');
+if(all.length===0) tips.push('还没收集情报，建议从「省人事考试网」和「连云港人社局官网」开始');
+else if(lastDays!=null&&lastDays>14) tips.push('情报已 <b>'+lastDays+'</b> 天未更新，本周建议跟进省人事考试网 / 连云港人社局');
+var hasOfficial=lyg.some(function(x){return x.source&&/人社/.test(x.source);});
+if(hasOfficial) tips.push('连云港人社局官网是官方渠道，建议设为每周固定查看');
+if(tips.length===0) tips.push('情报跟进及时、任务无逾期，保持节奏');
+var tipsHtml='<div class="exam-tips"><div class="exam-tips-head">'+svgIcon('i-chart',16,16)+'<span>备考情报洞察</span></div><ul class="exam-tips-list">'+tips.slice(0,4).map(function(t){return '<li>'+t+'</li>'}).join('')+'</ul></div>';
+h+=tipsHtml;
+return h;
+}
+
 function renderShiyebian(){
 var tab=currentTab.shiyebian||'info';var data=DATA.shiyebian;
 var h='<div class="page-header"><h2>事业编备考 '+helpBtn('shiyebian')+'</h2><div class="desc">为明年事业单位考试做信息收集和备考规划</div></div>';
-h+=renderShiyebianTopCalendar();
+h+=sbKpiAndTips(data);h+=renderShiyebianTopCalendar();
 h+='<div class="tabs"><button class="tab '+(tab==='info'?'active':'')+'" onclick="switchTab(\'shiyebian\',\'info\')">信息收集'+tabN(data.items.length)+'</button><button class="tab '+(tab==='lyg'?'active':'')+'" onclick="switchTab(\'shiyebian\',\'lyg\')">连云港'+tabN((data.lyg||[]).length)+'</button><button class="tab '+(tab==='tasks'?'active':'')+'" onclick="switchTab(\'shiyebian\',\'tasks\')">任务'+tabN(data.tasks.filter(function(t){return !t.done}).length)+'</button></div>';
 if(tab==='info'){
 h+='<div class="flex-between mb-16"><div class="text-2 text-sm">共 '+data.items.length+' 条信息</div><button class="btn btn-primary btn-sm" onclick="openShiyebianItemAddModal()">'+svgIcon('i-plus',16,16)+' 添加信息</button></div>';
 if(data.items.length===0)h+=emptyState('暂无信息','点击右上角添加');
-else{h+='<div class="card">';data.items.forEach(function(item){h+='<div class="list-item"><div class="content"><div class="title">'+esc(item.title)+'</div><div class="meta">'+esc(item.content)+'</div><div class="meta text-xs">'+(item.source?'来源：'+esc(item.source)+' · ':'')+fmtDate(new Date(item.date))+'</div></div><div class="actions"><button class="btn btn-sm btn-danger" onclick="deleteShiyebianItem(\''+item.id+'\')">'+svgIcon('i-trash',16,16)+'</button></div></div>'});h+='</div>'}
+else{h+='<div class="card">';data.items.slice().sort(function(a,b){return new Date(b.date)-new Date(a.date)}).forEach(function(item){h+='<div class="list-item"><div class="content"><div class="title">'+esc(item.title)+'</div><div class="meta">'+esc(item.content)+'</div><div class="meta text-xs">'+(item.source?'来源：'+esc(item.source)+' · ':'')+fmtDate(new Date(item.date))+'</div></div><div class="actions"><button class="btn btn-sm btn-danger" onclick="deleteShiyebianItem(\''+item.id+'\')">'+svgIcon('i-trash',16,16)+'</button></div></div>'});h+='</div>'}
 }
 if(tab==='lyg'){
 var lygData=data.lyg||[];
 h+='<div class="card mb-16" style="background:var(--pink-bg);border-color:var(--pink)"><div class="card-title" style="color:#9B4B7A">'+svgIcon('i-info',14,14)+' 连云港事业编信息专区</div><div class="text-sm" style="color:#9B4B7A">持续更新连云港市事业单位招聘公告、考试时间、备考信息</div></div>';
 h+='<div class="flex-between mb-16"><div class="text-2 text-sm">共 '+lygData.length+' 条信息</div><button class="btn btn-primary btn-sm" onclick="openLygAddModal()">'+svgIcon('i-plus',16,16)+' 添加连云港信息</button></div>';
 if(lygData.length===0)h+=emptyState('暂无连云港信息','点击右上角添加');
-else{h+='<div class="card">';lygData.forEach(function(item){h+='<div class="list-item"><div class="content"><div class="title">'+esc(item.title)+'</div><div class="meta">'+esc(item.content)+'</div><div class="meta text-xs">'+(item.source?'来源：'+esc(item.source)+' · ':'')+fmtDate(new Date(item.date))+'</div></div><div class="actions"><button class="btn btn-sm btn-danger" onclick="deleteLygItem(\''+item.id+'\')">'+svgIcon('i-trash',16,16)+'</button></div></div>'});h+='</div>'}
+else{h+='<div class="card">';lygData.slice().sort(function(a,b){return new Date(b.date)-new Date(a.date)}).forEach(function(item){h+='<div class="list-item"><div class="content"><div class="title">'+esc(item.title)+'</div><div class="meta">'+esc(item.content)+'</div><div class="meta text-xs">'+(item.source?'来源：'+esc(item.source)+' · ':'')+fmtDate(new Date(item.date))+'</div></div><div class="actions"><button class="btn btn-sm btn-danger" onclick="deleteLygItem(\''+item.id+'\')">'+svgIcon('i-trash',16,16)+'</button></div></div>'});h+='</div>'}
 }
 if(tab==='tasks'){
 h+='<div class="flex-between mb-16"><div class="text-2 text-sm">共 '+data.tasks.length+' 个任务</div><button class="btn btn-primary btn-sm" onclick="openTaskAddModal(\'shiyebian\')">'+svgIcon('i-plus',16,16)+' 添加任务</button></div>';
@@ -1026,19 +1100,81 @@ else{h+='<div class="card">';var pt={high:'<span class="tag tag-pink">高</span>
 document.getElementById('mainContent').innerHTML=h;
 }
 
+function ibKpiAndTips(data){
+var n=data.length;
+var byType={text:0,link:0,task:0};
+data.forEach(function(x){byType[x.type]=(byType[x.type]||0)+1;});
+var today=new Date();today.setHours(0,0,0,0);
+function startOfWeek(d){var x=new Date(d);var day=(x.getDay()+6)%7;x.setDate(x.getDate()-day);x.setHours(0,0,0,0);return x;}
+var ws=startOfWeek(today);
+var wkNew=data.filter(function(x){return x.date&&new Date(x.date)>=ws;}).length;
+var lastDate=n?Math.max.apply(null,data.map(function(x){return new Date(x.date).getTime();})):null;
+var lastDays=lastDate!=null?Math.round((today-new Date(lastDate))/86400000):null;
+var h='<div class="exam-kpi-strip">';
+h+='<div class="exam-kpi"><div class="exam-kpi-val">'+n+'<span class="exam-kpi-unit"> 条</span></div><div class="exam-kpi-label">收集箱总量</div><div class="exam-kpi-sub">待归类</div></div>';
+h+='<div class="exam-kpi"><div class="exam-kpi-val">'+(byType.task||0)+'<span class="exam-kpi-unit"> 条</span></div><div class="exam-kpi-label">任务类</div><div class="exam-kpi-sub">可移入备考</div></div>';
+h+='<div class="exam-kpi"><div class="exam-kpi-val">'+(byType.link||0)+'<span class="exam-kpi-unit"> 条</span></div><div class="exam-kpi-label">链接类</div><div class="exam-kpi-sub">待打开归档</div></div>';
+h+='<div class="exam-kpi"><div class="exam-kpi-val">'+wkNew+'<span class="exam-kpi-unit"> 条</span></div><div class="exam-kpi-label">本周新增</div><div class="exam-kpi-sub">'+(lastDays==null?'':lastDays+' 天前最后添加')+'</div></div>';
+h+='</div>';
+var tips=[];
+if(n===0) tips.push('收集箱是空的，把临时想法、链接、任务先丢进来，之后再归类');
+else{
+if((byType.task||0)>0) tips.push('有 <b>'+(byType.task||0)+'</b> 条任务类内容，建议移入对应备考模板的「任务」中跟进');
+if((byType.link||0)>0) tips.push('有 <b>'+(byType.link||0)+'</b> 条链接待打开，看完后记得归档或删除');
+if(n>=5) tips.push('收集箱已 <b>'+n+'</b> 条，建议每周固定清理归类，避免堆积');
+if(lastDays!=null&&lastDays>7) tips.push('已 <b>'+lastDays+'</b> 天未添加新内容，保持随手收集的习惯');
+}
+if(tips.length===0) tips.push('收集箱状态轻盈，保持「先收集、后归类」的节奏');
+var tipsHtml='<div class="exam-tips"><div class="exam-tips-head">'+svgIcon('i-chart',16,16)+'<span>收集箱洞察</span></div><ul class="exam-tips-list">'+tips.slice(0,4).map(function(t){return '<li>'+t+'</li>'}).join('')+'</ul></div>';
+h+=tipsHtml;
+return h;
+}
+
 function renderInbox(){
 var data=DATA.inbox;
 var h='<div class="page-header"><h2>收集箱 '+helpBtn('inbox')+'</h2><div class="desc">暂时不知道放哪里的内容先放这里，之后再归类</div></div>';
-h+='<div class="flex-between mb-16"><div class="text-2 text-sm">共 '+data.length+' 条</div><button class="btn btn-primary btn-sm" onclick="openInboxAddModal()">'+svgIcon('i-plus',16,16)+' 添加</button></div>';
+h+=ibKpiAndTips(data);h+='<div class="flex-between mb-16"><div class="text-2 text-sm">共 '+data.length+' 条</div><button class="btn btn-primary btn-sm" onclick="openInboxAddModal()">'+svgIcon('i-plus',16,16)+' 添加</button></div>';
 if(data.length===0)h+=emptyState('收集箱为空','把暂时不知道放哪的想法、链接、临时任务先丢进来','<button class="btn btn-sm btn-primary" onclick="openInboxAddModal()">'+svgIcon('i-plus',14,14)+' 添加第一条</button>');
 else{var tm={text:{i:'i-file',l:'文字',b:'var(--blue-bg)',c:'#3A5A87'},link:{i:'i-link',l:'链接',b:'var(--green-bg)',c:'#4A6B3A'},task:{i:'i-clock',l:'任务',b:'var(--pink-bg)',c:'#9B4B7A'}};var sorted=data.slice().sort(function(a,b){return(b.date||'').localeCompare(a.date||'')});sorted.forEach(function(item){var t=tm[item.type]||tm.text;h+='<div class="inbox-item"><div class="type-icon" style="background:'+t.b+'"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="'+t.c+'" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use href="#'+t.i+'"/></svg></div><div class="content" style="flex:1"><div class="title">'+esc(item.content)+'</div><div class="meta text-xs"><span class="tag tag-gray">'+t.l+'</span>'+fmtDate(new Date(item.date))+'</div></div><div class="actions" style="opacity:1"><button class="btn btn-sm btn-danger" onclick="deleteInboxItem(\''+item.id+'\')">'+svgIcon('i-trash',16,16)+'</button></div></div>'})}
 document.getElementById('mainContent').innerHTML=h;updateBadges();
 }
 
+function rdKpiAndTips(data){
+var books=data.books||[];var pods=data.podcasts||[];
+var rdBooks=books.filter(function(b){return b.status==='reading';});
+var finBooks=books.filter(function(b){return b.status==='finished';});
+var rdPods=pods.filter(function(p){return p.status==='reading';});
+var logs=data.logs||[];
+var today=new Date();today.setHours(0,0,0,0);
+function startOfWeek(d){var x=new Date(d);var day=(x.getDay()+6)%7;x.setDate(x.getDate()-day);x.setHours(0,0,0,0);return x;}
+var ws=startOfWeek(today);
+var wkPages=logs.filter(function(l){return l.type==='book'&&l.date&&new Date(l.date)>=ws;}).reduce(function(a,l){return a+(l.pages||0);},0);
+var wkEps=logs.filter(function(l){return l.type==='podcast'&&l.date&&new Date(l.date)>=ws;}).reduce(function(a,l){return a+(l.episodes||0);},0);
+var bookProg=rdBooks.length?Math.round(rdBooks.reduce(function(a,b){return a+((b.currentPage||0)/(b.totalPages||1));},0)/rdBooks.length*100):null;
+var h='<div class="exam-kpi-strip">';
+h+='<div class="exam-kpi"><div class="exam-kpi-val">'+rdBooks.length+'<span class="exam-kpi-unit"> 本</span></div><div class="exam-kpi-label">在读书籍</div><div class="exam-kpi-sub">共 '+books.length+' 本</div></div>';
+h+='<div class="exam-kpi"><div class="exam-kpi-val">'+rdPods.length+'<span class="exam-kpi-unit"> 档</span></div><div class="exam-kpi-label">在听播客</div><div class="exam-kpi-sub">共 '+pods.length+' 档</div></div>';
+h+='<div class="exam-kpi"><div class="exam-kpi-val">'+(bookProg==null?'—':bookProg+'%')+'</div><div class="exam-kpi-label">书籍平均进度</div><div class="exam-kpi-sub">在读书目</div></div>';
+h+='<div class="exam-kpi"><div class="exam-kpi-val">'+wkPages+'<span class="exam-kpi-unit"> 页</span></div><div class="exam-kpi-label">本周阅读</div><div class="exam-kpi-sub">+'+wkEps+' 期播客</div></div>';
+h+='</div>';
+var tips=[];
+var lowBooks=rdBooks.filter(function(b){return ((b.currentPage||0)/(b.totalPages||1))<0.3;});
+if(lowBooks.length) tips.push('有 <b>'+lowBooks.length+'</b> 本书进度不足 30%，可能是刚起步或搁置，建议本周至少翻开一本');
+var stalled=rdBooks.concat(rdPods).filter(function(x){var ld=x.lastLogDate||x.startDate;return ld&&(today-new Date(ld))/86400000>30;});
+if(stalled.length) tips.push('有 <b>'+stalled.length+'</b> 个在读项目超过 30 天未更新，建议安排固定阅读时间');
+if(finBooks.length) tips.push('已读完 <b>'+finBooks.length+'</b> 本，配合读书笔记输出效果更好');
+if(wkPages+wkEps===0) tips.push('本周还没有阅读记录，今天读几页或听一期？');
+else tips.push('本周已读 <b>'+wkPages+'</b> 页 + <b>'+wkEps+'</b> 期，节奏不错，保持');
+if(tips.length===0) tips.push('阅读状态良好，继续保持');
+var tipsHtml='<div class="exam-tips"><div class="exam-tips-head">'+svgIcon('i-chart',16,16)+'<span>阅读数据洞察</span></div><ul class="exam-tips-list">'+tips.slice(0,4).map(function(t){return '<li>'+t+'</li>'}).join('')+'</ul></div>';
+h+=tipsHtml;
+return h;
+}
+
 function renderReading(){
 var data=DATA.reading;var tab=currentTab.reading||'books';if(tab==='news'||tab==='picks')tab='knowledge';
 var h='<div class="page-header"><h2>每日阅读 '+helpBtn('reading')+'</h2><div class="desc">记录书籍阅读和播客收听进度，让成长看得见</div></div>';
-h+=renderReadingTopCalendar();
+h+=rdKpiAndTips(data);h+=renderReadingTopCalendar();
 var today=new Date().toISOString().slice(0,10);
 var todayLogs=(data.logs||[]).filter(function(l){return l.date===today});
 if(todayLogs.length>0){h+='<div class="card mb-16"><div class="card-title">'+svgIcon('i-today',14,14)+' 今日阅读情况</div>';todayLogs.forEach(function(l){h+='<div class="text-sm" style="padding:4px 0"><span class="tag '+(l.type==='book'?'tag-green':'tag-blue')+'">'+(l.type==='book'?'书籍':'播客')+'</span> '+esc(l.name)+' — '+(l.type==='book'?l.pages+' 页':l.episodes+' 期')+(l.note?' · '+esc(l.note):'')+'</div>'});h+='</div>'}
@@ -1192,7 +1328,7 @@ h+='<div class="settings-section"><h3>更新日志</h3>';
 h+=DATA.changelog.map(function(c){return'<div class="changelog-item"><div class="cl-date">'+c.date+'</div><div class="cl-content">'+esc(c.content)+'</div><div class="cl-scope">影响范围：'+esc(c.scope)+' · '+esc(c.action)+'</div></div>'}).join('');
 h+='</div>';
 h+='<div class="settings-section"><h3>关于</h3>';
-h+='<div class="settings-item"><div class="label">版本<div class="sub">v1.8.0</div></div></div>';
+h+='<div class="settings-item"><div class="label">版本<div class="sub">v1.8.4</div></div></div>';
 h+='<div class="settings-item"><div class="label">数据存储<div class="sub">浏览器 localStorage</div></div></div>';
 h+='<div class="settings-item"><div class="label">适用设备<div class="sub">电脑端 + 手机端（响应式）</div></div></div>';
 h+='</div>';
