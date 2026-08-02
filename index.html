@@ -8,7 +8,7 @@
 <meta http-equiv="Expires" content="0">
 <title>学习工作台</title>
 <style>
-:root{--bg:#FFFFFF;--white:#FFF;--text:#1A1A1A;--text-2:#6B6B6B;--border:#E6E6E3;--accent:#1A1A1A;--accent-light:#ECECEA;--yellow:#C9C9C5;--yellow-bg:#F3F3F1;--pink:#C9C9C5;--pink-bg:#F3F3F1;--blue:#C9C9C5;--blue-bg:#F3F3F1;--green:#C9C9C5;--green-bg:#F3F3F1;--sidebar-bg:#F6F6F4;--sidebar-text:#6B6B6B;--sidebar-active:#1A1A1A;--radius:12px;--radius-sm:9px;--shadow:0 1px 3px rgba(0,0,0,.04);--shadow-lg:0 8px 30px rgba(0,0,0,.10);--shadow-hover:0 4px 14px rgba(0,0,0,.06);--transition:all .2s ease;--bg-2:#F0F0ED;--bg-card:#FFF;--danger:#1A1A1A;--danger-bg:#F3F3F1;--warn:#1A1A1A;--warn-bg:#F3F3F1;--green-mid:#3A3A3A;--blue-mid:#3A3A3A;--accent-2:#1A1A1A;--ink:#1A1A1A}
+:root{--bg:#FFFFFF;--white:#FFF;--text:#1A1A1A;--text-2:#6B6B6B;--border:#E6E6E3;--accent:#1A1A1A;--accent-light:#ECECEA;--yellow:#C9C9C5;--yellow-bg:#F3F3F1;--pink:#C9C9C5;--pink-bg:#F3F3F1;--blue:#C9C9C5;--blue-bg:#F3F3F1;--green:#C9C9C5;--green-bg:#F3F3F1;--sidebar-bg:#F6F6F4;--sidebar-text:#6B6B6B;--sidebar-active:#1A1A1A;--radius:12px;--radius-sm:9px;--shadow:0 1px 3px rgba(0,0,0,.04);--shadow-lg:0 8px 30px rgba(0,0,0,.10);--shadow-hover:0 3px 10px rgba(0,0,0,.05);--transition:all .2s ease;--bg-2:#F0F0ED;--bg-card:#FFF;--danger:#1A1A1A;--danger-bg:#F3F3F1;--warn:#1A1A1A;--warn-bg:#F3F3F1;--green-mid:#3A3A3A;--blue-mid:#3A3A3A;--accent-2:#1A1A1A;--ink:#1A1A1A;--mc-overview:#7E8AA2;--mc-weekly:#8A7FC0;--mc-roadmap:#6E84C4;--mc-cpa:#4C9A78;--mc-tax:#5BA0B0;--mc-shiye:#C9943E;--mc-excel:#3F9C8E;--mc-reading:#B0799E;--mc-inbox:#8A9A6B;--mc-ai:#7E8AA2;--rose:#C25B7C;--rose-bg:#FBE9F0;--amber:#C08A2E;--amber-bg:#F7EEDD;--sky:#3E8FBF;--sky-bg:#E5F1F8;--dg:#2E6B4F;--dg-bg:#E7F0EB;--do:#C9A227;--do-bg:#FBF4D6}
 *{margin:0;padding:0;box-sizing:border-box}
 html,body{height:100%;width:100%}
 body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;font-size:15px;line-height:1.6;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;font-variant-numeric:tabular-nums}
@@ -41,11 +41,14 @@ input,textarea,select{font-family:inherit;font-size:inherit}
 /* ===== 顶栏 ===== */
 .content-wrap{margin-left:250px;min-height:100vh;display:flex;flex-direction:column;flex:1;width:calc(100% - 250px)}
 .topbar{position:sticky;top:0;z-index:80;background:rgba(255,255,255,.92);-webkit-backdrop-filter:saturate(180%) blur(8px);backdrop-filter:saturate(180%) blur(8px);border-bottom:1px solid var(--border);padding:12px 40px;display:flex;align-items:center;gap:14px}
-.tb-search{flex:1;max-width:520px;display:flex;align-items:center;gap:8px;background:var(--bg-2);border:1px solid var(--border);border-radius:10px;padding:7px 12px}
+.tb-search{flex:1;max-width:680px;display:flex;align-items:center;gap:10px;background:linear-gradient(180deg,#FCFCFA,#F2F2EE);border:1px solid var(--border);border-radius:24px;padding:9px 16px;box-shadow:inset 0 1px 2px rgba(0,0,0,.03);transition:border-color .2s,box-shadow .2s,background .2s}
+.tb-search:focus-within{border-color:var(--dg);box-shadow:0 0 0 4px var(--dg-bg);background:#fff}
 .tb-search svg{color:var(--text-2);flex:none}
 .tb-search input{flex:1;border:none;background:none;outline:none;color:var(--text);font-size:14px}
-.tb-search-btn{font-size:12px;color:var(--text-2);padding:4px 10px;border-radius:7px;background:var(--white);border:1px solid var(--border)}
-.tb-search-btn:hover{color:var(--accent)}
+.tb-search input::placeholder{color:#ADADAD}
+.tb-search-btn{font-size:13px;font-weight:600;color:#fff;padding:7px 18px;border-radius:18px;background:var(--dg);border:none;cursor:pointer;transition:background .2s,transform .1s}
+.tb-search-btn:hover{background:#234F3A}
+.tb-search-btn:active{transform:translateY(1px)}
 .tb-actions{display:flex;align-items:center;gap:8px;margin-left:auto}
 .tb-btn{display:inline-flex;align-items:center;gap:6px;font-size:13px;color:var(--text);background:var(--white);border:1px solid var(--border);border-radius:9px;padding:8px 13px;transition:var(--transition)}
 .tb-btn:hover{background:var(--bg-2)}
@@ -59,9 +62,9 @@ input,textarea,select{font-family:inherit;font-size:inherit}
 .ov-welcome{margin-bottom:24px}
 .ov-welcome h1{font-size:26px;font-weight:700;color:var(--text);letter-spacing:-.5px}
 .ov-welcome p{color:var(--text-2);font-size:14px;margin-top:4px}
-.ov-grid-top{display:grid;grid-template-columns:1fr 1.6fr;gap:18px;margin-bottom:18px}
-.ov-grid-bottom{display:grid;grid-template-columns:2fr 1fr;gap:18px}
-.ov-card{background:var(--white);border:1px solid var(--border);border-radius:var(--radius);padding:20px}
+.ov-grid-top{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-bottom:18px}
+.ov-grid-bottom{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.ov-card{background:var(--white);border:1px solid var(--border);border-radius:var(--radius);padding:20px;transition:box-shadow .2s ease,transform .2s ease}.ov-card:hover{box-shadow:var(--shadow-hover);transform:translateY(-1px)}.ov-card-click{cursor:pointer}
 .ov-card-head{display:flex;align-items:center;justify-content:space-between;margin-bottom:16px}
 .ov-card-title{display:flex;align-items:center;gap:7px;font-size:14px;font-weight:600;color:var(--text)}
 .ov-card-title svg{color:var(--text-2)}
@@ -95,14 +98,17 @@ input,textarea,select{font-family:inherit;font-size:inherit}
 .ms-item{display:flex;gap:12px;padding-bottom:16px;position:relative}
 .ms-item:last-child{padding-bottom:0}
 .ms-dot{width:11px;height:11px;border-radius:50%;border:2px solid var(--accent);margin-top:4px;flex:none;z-index:1;background:var(--white)}
-.ms-dot.done,.ms-dot.urgent{background:var(--accent)}
+.ms-dot.done{background:var(--dg)}.ms-dot.urgent{background:var(--do)}
 .ms-item:not(:last-child)::after{content:'';position:absolute;left:5px;top:15px;bottom:2px;width:1px;background:var(--border)}
 .ms-name{font-size:14px;font-weight:600;color:var(--text)}
 .ms-when{font-size:12px;color:var(--text-2);margin-top:2px}
 /* 模块进度 */
 .ov-prog-block{margin-top:18px;border-top:1px solid var(--border);padding-top:16px}
 .ov-prog-title{font-size:13px;font-weight:600;color:var(--text);margin-bottom:12px}
-.ov-prog-row{display:grid;grid-template-columns:96px 1fr 42px 92px;align-items:center;gap:10px;padding:7px 0}
+.ov-prog-row{display:grid;grid-template-columns:96px 1fr 42px 92px;align-items:center;gap:10px;padding:7px 0;cursor:pointer;border-radius:var(--radius-sm);margin:0 -8px;padding-left:8px;padding-right:8px}
+.ov-prog-row:hover{background:var(--bg-2)}
+.ov-focus-item{cursor:pointer;border-radius:var(--radius-sm);margin:0 -8px;padding:8px;transition:var(--transition)}
+.ov-focus-item:hover{background:var(--bg-2)}
 .ov-prog-name{font-size:13px;color:var(--text)}
 .ov-prog-bar{height:8px;background:var(--bg-2);border-radius:5px;overflow:hidden}
 .ov-prog-fill{display:block;height:100%;background:var(--accent);border-radius:5px;transition:width .3s ease}
@@ -115,8 +121,8 @@ input,textarea,select{font-family:inherit;font-size:inherit}
 .ov-focus-tag{font-size:11px;color:var(--text-2);background:var(--bg-2);padding:2px 8px;border-radius:8px;flex:none}
 .ov-focus-name{font-size:13px;color:var(--text);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .ov-focus-urg{font-size:11px;color:var(--text-2);background:var(--bg-2);padding:2px 8px;border-radius:8px;flex:none}
-.ov-focus-urg.over,.ov-focus-urg.today{background:var(--accent);color:#fff}
-.ov-focus-urg.high{border:1px solid var(--accent);color:var(--text)}
+.ov-focus-urg.over,.ov-focus-urg.today{background:var(--do);color:#fff}
+.ov-focus-urg.high{border:1px solid var(--dg);color:var(--dg)}
 /* 我的计划（自主添加） */
 .wk-add{display:flex;gap:8px;margin-bottom:16px}
 .wk-add input{flex:1;border:1px solid var(--border);border-radius:9px;padding:9px 12px;font-size:14px;outline:none;background:var(--white);color:var(--text)}
@@ -154,22 +160,53 @@ input,textarea,select{font-family:inherit;font-size:inherit}
 .rf-exam-stage{background:var(--bg-2);padding:2px 9px;border-radius:8px;color:var(--text)}
 /* 路线图进度条 */
 .ms-bar{height:7px;background:var(--bg-2);border-radius:5px;overflow:hidden;margin-top:8px}
-.ms-bar-fill{display:block;height:100%;background:var(--accent);border-radius:5px}
+.ms-bar-fill{display:block;height:100%;background:var(--dg);border-radius:5px}
 .ms-bar-cap{font-size:11px;color:var(--text-2);margin-top:4px}
 /* 学习路线图：各阶段学习规划 */
 .rf-stage-card{padding:14px 4px;border-bottom:1px solid var(--border)}
 .rf-stage-card:last-child{border-bottom:none}
 .rf-stage-card.cur{background:var(--accent-light);margin:0 -16px;padding:14px 20px;border-radius:var(--radius-sm)}
-.rf-stage-card-head{display:flex;align-items:center;gap:10px;margin-bottom:8px}
+.rf-stage-card-head{display:flex;align-items:center;gap:10px;margin-bottom:8px;flex-wrap:wrap}
+.rf-stage-status{font-size:12px;color:var(--text);border:1px solid var(--border);border-radius:8px;padding:3px 8px;background:var(--white);cursor:pointer}
+.rf-stage-status-row{display:flex;flex-wrap:wrap;gap:6px;margin-top:2px}
+.rf-stage-status-item{display:inline-flex;align-items:center;gap:4px;background:var(--bg-2);border-radius:8px;padding:2px 6px}
+.rf-stage-status-mod{font-size:11px;color:var(--dg);font-weight:600}
+.rf-stage-status-empty{font-size:12px;color:var(--text-2)}
+.rf-ov-list{display:flex;flex-direction:column;gap:2px}
+.rf-ov-row{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:2px 0;padding:7px 0;border-bottom:1px solid var(--border)}
+.rf-ov-row:last-child{border-bottom:none}
+.rf-ov-sub{display:flex;flex-wrap:wrap;align-items:center;gap:6px;flex-basis:100%;margin-top:4px;padding-left:2px}
+.rf-ov-count{font-size:11px;color:var(--text-2)}
+.rf-ov-mod{background:var(--dg-bg);color:var(--dg);border-radius:6px;padding:1px 7px;font-size:11px;font-weight:600}
+.rf-ov-name{font-size:13px;color:var(--text)}
+.rf-ov-status{font-size:12px;padding:2px 10px;border-radius:8px;background:var(--bg-2);color:var(--text-2)}
+.rf-ov-status.doing{background:var(--dg-bg);color:var(--dg)}
+.rf-ov-status.done{background:var(--do-bg);color:var(--do)}
 .rf-stage-card-name{font-size:14px;font-weight:600;color:var(--text)}
 .rf-cur-tag{font-size:11px;color:#fff;background:var(--accent);padding:2px 8px;border-radius:8px}
 .rf-plan-add{border:1px solid var(--border);background:var(--white);color:var(--text);border-radius:8px;padding:4px 10px;font-size:12px;cursor:pointer;margin-left:auto}
 .rf-plan-add:hover{border-color:var(--accent);color:var(--accent)}
 .rf-plan-list{display:flex;flex-direction:column;gap:6px}
+.rf-stage-note-wrap{margin-top:10px;border-top:1px dashed var(--border);padding-top:10px}
+.rf-stage-note-label{display:block;font-size:12px;color:var(--text-2);margin-bottom:5px}
+.rf-stage-note{width:100%;min-height:54px;font-size:12px;background:var(--bg-2)}
+.wr-weekbar{display:flex;align-items:center;gap:8px;margin-bottom:12px;flex-wrap:wrap}
+.wr-navbtn{border:1px solid var(--border);background:var(--white);color:var(--text);border-radius:8px;padding:4px 10px;font-size:12px;cursor:pointer}
+.wr-navbtn:hover:not(:disabled){border-color:var(--accent);color:var(--accent)}
+.wr-navbtn:disabled{opacity:.4;cursor:not-allowed}
+.wr-weeklabel{font-size:13px;font-weight:600;color:var(--text);margin:0 2px}
 .rf-plan{display:flex;align-items:center;gap:8px;background:var(--bg-2);border-radius:8px;padding:7px 10px}
+.rf-plan.done{opacity:.7}
+.rf-plan.done .rf-plan-txt{text-decoration:line-through;color:var(--text-2)}
+.rf-plan-main{display:flex;flex-wrap:wrap;align-items:center;gap:6px;flex:1;cursor:pointer;min-width:0}
+.rf-plan-mod{background:var(--dg-bg);color:var(--dg);border-radius:6px;padding:1px 7px;font-size:11px;font-weight:600;white-space:nowrap}
 .rf-plan-txt{font-size:13px;color:var(--text);flex:1}
 .rf-plan-del{border:none;background:none;color:var(--text-2);font-size:16px;line-height:1;cursor:pointer}
 .rf-plan-del:hover{color:var(--accent)}
+.checkbox{width:18px;height:18px;border:2px solid var(--border);border-radius:4px;cursor:pointer;flex-shrink:0;transition:var(--transition);display:flex;align-items:center;justify-content:center;background:var(--white)}
+.checkbox.checked{background:var(--dg);border-color:var(--dg)}
+.checkbox svg{display:none;width:12px;height:12px;color:#fff}
+.checkbox.checked svg{display:block}
 .rf-plan-empty{font-size:12px;color:var(--text-2);padding:2px 0}
 /* 每周学习规划 */
 .wp-grid{display:grid;grid-template-columns:repeat(7,1fr);gap:10px}
@@ -191,7 +228,7 @@ input,textarea,select{font-family:inherit;font-size:inherit}
 .card{background:var(--white);border-radius:var(--radius);border:1px solid var(--border);padding:24px;box-shadow:var(--shadow);transition:box-shadow .2s ease,border-color .2s ease}
 .card-title{font-size:15px;font-weight:600;margin-bottom:12px;display:flex;align-items:center;gap:6px}
 .tag{display:inline-flex;align-items:center;padding:2px 10px;border-radius:20px;font-size:12px;font-weight:500}
-.tag-yellow{background:var(--yellow-bg);color:#555}.tag-pink{background:var(--pink-bg);color:#555}.tag-blue{background:var(--blue-bg);color:#333}.tag-green{background:var(--green-bg);color:#444}.tag-accent{background:var(--accent-light);color:var(--accent)}.tag-gray{background:#F0F0EE;color:var(--text-2)}
+.tag-yellow{background:var(--yellow-bg);color:#555}.tag-pink{background:var(--pink-bg);color:#555}.tag-blue{background:var(--blue-bg);color:#333}.tag-green{background:var(--green-bg);color:#444}.tag-accent{background:var(--accent-light);color:var(--accent)}.tag-gray{background:#F0F0EE;color:var(--text-2)}.tag-high{background:var(--do-bg);color:var(--do)}.tag-medium{background:var(--dg-bg);color:var(--dg)}.tag-low{background:#F0F0EE;color:var(--text-2)}.wr-block{margin-bottom:14px}.wr-label{display:block;font-size:13px;font-weight:600;color:var(--text);margin-bottom:6px}.wr-block .form-textarea{min-height:64px}
 .btn{display:inline-flex;align-items:center;gap:6px;padding:8px 16px;border-radius:var(--radius-sm);font-size:14px;font-weight:500;transition:var(--transition);border:1px solid transparent}
 .btn:active{transform:translateY(1px)}
 .btn-primary{background:var(--accent);color:#fff;box-shadow:0 1px 2px rgba(0,0,0,.12)}.btn-primary:hover{background:#000;box-shadow:0 2px 8px rgba(0,0,0,.18)}
@@ -293,7 +330,7 @@ details.today-section[open]>summary .collapse-icon{transform:rotate(180deg)}
 .focus-badge{display:inline-block;background:var(--accent);color:#fff;font-size:11px;padding:2px 8px;border-radius:10px;margin-left:6px;font-weight:600;vertical-align:middle}
 .exam-focus-bar{background:var(--accent-light);border-radius:var(--radius);padding:12px 16px;margin-bottom:16px;font-size:13px;color:var(--accent);line-height:1.8}
 .exam-focus-bar b{font-weight:600}
-.fab{position:fixed;bottom:80px;right:24px;width:48px;height:48px;border-radius:50%;background:var(--accent);color:#fff;display:none;align-items:center;justify-content:center;box-shadow:var(--shadow-lg);z-index:80;transition:var(--transition)}.fab:hover{background:#000;transform:scale(1.05)}
+.fab{position:fixed;bottom:24px;right:24px;width:48px;height:48px;border-radius:50%;background:var(--accent);color:#fff;display:flex;align-items:center;justify-content:center;box-shadow:var(--shadow-lg);z-index:80;transition:var(--transition)}.fab:hover{background:#000;transform:scale(1.05)}
 @media(max-width:768px){.sidebar{display:none}.main{margin-left:0;padding:60px 16px 80px}.mobile-header{display:flex}.mobile-nav{display:block}.fab{display:flex}.grid-2{grid-template-columns:1fr}.modal{max-width:100%;padding:20px}.list-item .actions{opacity:1}.page-header h2{font-size:18px}.mobile-nav .nav-tab{padding:6px 0;min-height:52px}.mobile-nav .nav-tab svg{width:20px;height:20px}.mobile-nav .nav-tab span{font-size:10px}.topbar{display:none}.content-wrap{margin-left:0}.ov-grid-top,.ov-grid-bottom{grid-template-columns:1fr}.ov-pipeline{flex-wrap:wrap;gap:8px}.ov-stage{min-width:140px}.ov-stage-arrow{width:100%;padding:2px 0;transform:rotate(90deg)}}
 .func-card{background:var(--white);border-radius:var(--radius);border:1px solid var(--border);padding:14px 16px;margin-bottom:10px;transition:var(--transition)}.func-card:hover{border-color:var(--accent);box-shadow:0 2px 8px rgba(0,0,0,.06)}
 .fc-header{display:flex;justify-content:space-between;align-items:center;margin-bottom:8px}
@@ -315,7 +352,8 @@ details.today-section[open]>summary .collapse-icon{transform:rotate(180deg)}
 .reading-tab{padding:6px 16px;border-radius:20px;font-size:13px;color:var(--text-2);cursor:pointer;transition:var(--transition);border:1px solid var(--border);background:var(--white)}.reading-tab:hover{border-color:var(--accent);color:var(--accent)}.reading-tab.active{background:var(--accent);color:#fff;border-color:var(--accent)}
 .reading-card{background:var(--white);border-radius:var(--radius);border:1px solid var(--border);padding:16px;margin-bottom:10px;transition:var(--transition)}.reading-card:hover{box-shadow:var(--shadow)}
 .rc-cover{width:44px;height:60px;border-radius:6px;flex-shrink:0;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:16px;color:#fff}
-.rc-cover.book{background:linear-gradient(135deg,var(--accent),#333)}.rc-cover.podcast{background:linear-gradient(135deg,#555,#333)}
+.rc-cover.book{background:linear-gradient(135deg,var(--dg),#1f4a38)}.rc-cover.podcast{background:linear-gradient(135deg,var(--do),#7d4312)}
+.cat-ico{display:inline-flex;align-items:center;justify-content:center;width:30px;height:30px;border-radius:8px;flex-shrink:0}
 .rc-header{display:flex;gap:12px;align-items:flex-start}
 .rc-info{flex:1;min-width:0}.rc-info .rc-title{font-size:14px;font-weight:600;line-height:1.4}.rc-info .rc-author{font-size:12px;color:var(--text-2);margin-top:2px}
 .rc-progress{margin-top:10px}.rc-progress .rc-bar{height:6px;background:#F0F0EE;border-radius:3px;overflow:hidden}.rc-progress .rc-fill{height:100%;border-radius:3px;transition:width .3s ease}
@@ -339,6 +377,7 @@ details.today-section[open]>summary .collapse-icon{transform:rotate(180deg)}
 .etc-dots{display:flex;gap:2px;margin-top:3px;justify-content:center;flex-wrap:wrap}
 .etc-dot{width:6px;height:6px;border-radius:50%}
 .etc-dot.green{background:#7CB342}.etc-dot.blue{background:#555}.etc-dot.yellow{background:#E6A817}.etc-dot.pink{background:#D4819E}.etc-dot.orange{background:#E87A5A}.etc-dot.purple{background:#8E6FBF}
+.etc-dot.weekly{background:var(--do)}
 .etc-day.cal-selected{background:var(--accent);color:#fff;font-weight:700}
 .etc-day.cal-selected:hover{background:var(--accent)}
 .etc-day.cal-selected .etc-dot.blue{background:#cfe0f5}
@@ -413,24 +452,24 @@ details.today-section[open]>summary .collapse-icon{transform:rotate(180deg)}
 /* ---- v1.7.0 今日页 / 通用组件 ---- */
 .cd-strip{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:12px;margin-bottom:22px}
 .cd-item{position:relative;background:var(--white);border:1px solid var(--border);border-radius:var(--radius);padding:16px 18px 15px;overflow:hidden;box-shadow:var(--shadow);transition:transform .2s ease,box-shadow .2s ease}
-.cd-item::before{content:'';position:absolute;left:0;top:0;bottom:0;width:4px;background:var(--green)}
-.cd-item.tax::before{background:var(--blue)}
-.cd-item.urgent::before{background:var(--warn)}
-.cd-pill{font-size:11px;font-weight:600;padding:1px 9px;border-radius:10px;background:var(--warn-bg);color:var(--warn);white-space:nowrap}
-.cd-item:hover{transform:translateY(-2px);box-shadow:var(--shadow-hover)}
+.cd-item::before{content:'';position:absolute;left:0;top:0;bottom:0;width:4px;background:var(--dg)}
+.cd-item.tax::before{background:var(--do)}
+.cd-item.urgent::before{background:var(--do)}
+.cd-pill{font-size:11px;font-weight:600;padding:1px 9px;border-radius:10px;background:var(--do-bg);color:var(--do);white-space:nowrap}
+.cd-item:hover{transform:translateY(-1px);box-shadow:var(--shadow-hover)}
 .cd-top{display:flex;align-items:baseline;justify-content:space-between;gap:8px;margin-bottom:3px}
 .cd-name{font-size:13px;font-weight:600;color:var(--text)}
 .cd-when{font-size:11px;color:var(--text-2)}
 .cd-num{display:flex;align-items:baseline;gap:6px}
-.cd-n{font-size:32px;font-weight:700;line-height:1.05;color:var(--green-mid);letter-spacing:-.5px}
-.cd-item.tax .cd-n{color:var(--blue-mid)}
+.cd-n{font-size:32px;font-weight:700;line-height:1.05;color:var(--dg);letter-spacing:-.5px}
+.cd-item.tax .cd-n{color:var(--do)}
 .cd-u{font-size:13px;color:var(--text-2)}
 .cd-sub{font-size:12px;color:var(--text-2);margin-top:8px;display:flex;justify-content:space-between;gap:10px;line-height:1.4}
 .cd-sub span:first-child{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .cd-sub span:last-child{flex-shrink:0}
 .cd-track{height:5px;background:var(--bg-2);border-radius:3px;overflow:hidden;margin-top:5px}
-.cd-fill{height:100%;border-radius:3px;background:var(--green);transition:width .4s ease}
-.cd-item.tax .cd-fill{background:var(--blue)}
+.cd-fill{height:100%;border-radius:3px;background:var(--dg);transition:width .4s ease}
+.cd-item.tax .cd-fill{background:var(--do)}
 .day-pulse{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-bottom:20px}
 .dp-cell{background:var(--white);border:1px solid var(--border);border-radius:var(--radius-sm);padding:13px 12px;text-align:center;transition:var(--transition)}
 .dp-cell .dp-n{font-size:22px;font-weight:700;line-height:1.1;color:var(--accent)}
@@ -465,7 +504,7 @@ details.today-section[open]>summary .collapse-icon{transform:rotate(180deg)}
 /* ── v1.7.2 概述页 ── */
 .ov-kpi-strip{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-bottom:22px}
 .ov-kpi{display:flex;flex-direction:row;align-items:center;gap:13px;background:var(--white);border:1px solid var(--border);border-radius:var(--radius);padding:16px 18px;transition:transform .2s ease,box-shadow .2s ease}
-.ov-kpi:hover{transform:translateY(-3px);box-shadow:var(--shadow-lg);border-color:var(--accent)}
+.ov-kpi:hover{transform:translateY(-1px);box-shadow:var(--shadow-lg);border-color:var(--accent)}
 .ov-kpi-icon{width:38px;height:38px;border-radius:10px;display:flex;align-items:center;justify-content:center;flex-shrink:0}
 .ov-kpi-val{font-size:24px;font-weight:800;line-height:1.1;color:var(--text);letter-spacing:-.4px}
 .ov-kpi-label{font-size:12px;color:var(--text-2);font-weight:600;margin-top:1px}
@@ -486,7 +525,7 @@ details.today-section[open]>summary .collapse-icon{transform:rotate(180deg)}
 .kpi-label{font-size:12px;font-weight:500;color:var(--text-2)}
 .kpi-sub{font-size:11px;color:var(--text-2);margin-top:3px}
 .kpi-foot{font-size:11px;color:var(--text-2);margin-top:12px;padding-top:10px;border-top:1px solid var(--border)}
-.kpi-card:hover{transform:translateY(-2px);box-shadow:var(--shadow-hover)}
+.kpi-card:hover{transform:translateY(-1px);box-shadow:var(--shadow-hover)}
 .stats-kpi{gap:14px;margin:18px 0}
 .mbar-track{height:12px;border-radius:6px}
 .mbar-row{margin-bottom:14px}
@@ -525,7 +564,7 @@ details.today-section[open]>summary .collapse-icon{transform:rotate(180deg)}
 .ov-kpi-icon{background:linear-gradient(135deg,var(--accent-light),#DADADA)}
 .kpi-val{color:var(--accent)}
 .ov-kpi-val{color:var(--accent)}
-.card:hover{transform:translateY(-2px);box-shadow:var(--shadow-hover);border-color:#E2ECE6}
+.card:hover{transform:translateY(-1px);box-shadow:var(--shadow-hover);border-color:#E2ECE6}
 .form-input:focus,.form-textarea:focus,.form-select:focus{box-shadow:0 0 0 3px rgba(47,107,87,.16)}
 .tag{border-radius:999px}
 .empty-icon{background:linear-gradient(135deg,#F0F3EF,#E6EAE4)}
@@ -543,7 +582,7 @@ details.today-section[open]>summary .collapse-icon{transform:rotate(180deg)}
 /* ── v1.8.1 CPA 备考增强 ── */
 .exam-kpi-strip{display:grid;grid-template-columns:repeat(auto-fit,minmax(148px,1fr));gap:12px;margin-bottom:22px}
 .exam-kpi{background:var(--white);border:1px solid var(--border);border-radius:var(--radius);padding:16px 16px;box-shadow:var(--shadow);transition:transform .2s ease,box-shadow .2s ease}
-.exam-kpi:hover{transform:translateY(-2px);box-shadow:var(--shadow-hover)}
+.exam-kpi:hover{transform:translateY(-1px);box-shadow:var(--shadow-hover)}
 .exam-kpi-val{font-size:26px;font-weight:700;line-height:1.1;color:var(--accent)}
 .exam-kpi-unit{font-size:13px;font-weight:600;color:var(--text-2);-webkit-text-fill-color:var(--text-2)}
 .exam-kpi-label{font-size:12px;color:var(--text-2);margin-top:4px;font-weight:500}
@@ -641,6 +680,7 @@ details.today-section[open]>summary .collapse-icon{transform:rotate(180deg)}
 <symbol id="i-command" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 3a3 3 0 0 0-3 3v12a3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3H6a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3V6a3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3h12a3 3 0 0 0 3-3 3 3 0 0 0-3-3z"/></symbol>
 <symbol id="i-copy" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></symbol>
 <symbol id="i-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></symbol>
+<symbol id="i-music" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></symbol>
 </svg>
 
 <div class="app">
@@ -657,12 +697,12 @@ details.today-section[open]>summary .collapse-icon{transform:rotate(180deg)}
     <div class="nav-item" data-view="shiyebian"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use href="#i-briefcase"/></svg><span>事业编备考</span></div>
     <div class="nav-item" data-view="excel"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use href="#i-calc"/></svg><span>Excel 技能</span></div>
     <div class="nav-label">资源区</div>
-    <div class="nav-item" data-view="reading"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use href="#i-book-open"/></svg><span>每日阅读</span></div>
+    <div class="nav-item" data-view="reading"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use href="#i-book-open"/></svg><span>资料库</span></div>
     <div class="nav-label">公共工具</div>
     <div class="nav-item" data-view="inbox"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use href="#i-inbox"/></svg><span>收集箱</span><span class="badge" data-badge="inbox"></span></div>
     <div class="nav-item" data-view="ai"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use href="#i-ai"/></svg><span>AI 帮手</span></div>
   </nav>
-  <div class="sidebar-footer"><a class="sf-link" data-view="settings">设置与数据</a><div class="sf-ver">v2.1.1</div></div>
+  <div class="sidebar-footer"><a class="sf-link" data-view="settings">设置与数据</a><div class="sf-ver">v2.2.0</div></div>
 </aside>
 <header class="mobile-header"><div class="mh-logo">学</div><div class="mh-title" id="mobileTitle">首页总览</div><div style="width:32px"></div></header>
 <div class="content-wrap">
@@ -671,7 +711,6 @@ details.today-section[open]>summary .collapse-icon{transform:rotate(180deg)}
   <div class="tb-actions">
     <button class="tb-btn" onclick="topbarSync()" title="同步 / 数据"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use href="#i-sync"/></svg>同步</button>
     <button class="tb-btn" onclick="topbarRefresh()" title="刷新当前页"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a9 9 0 1 1-2.64-6.36"/><path d="M21 3v6h-6"/></svg>刷新</button>
-    <button class="tb-btn tb-today" onclick="navigate('today')"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use href="#i-today"/></svg>今日任务</button>
   </div>
 </header>
 <main class="main" id="mainContent"></main>
@@ -679,8 +718,8 @@ details.today-section[open]>summary .collapse-icon{transform:rotate(180deg)}
 </div>
 <nav class="mobile-nav"><div class="nav-items">
   <div class="nav-tab active" data-view="overview"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use href="#i-chart"/></svg><span>首页</span></div>
-  <div class="nav-tab" data-view="today"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use href="#i-today"/></svg><span>今日</span></div>
-  <div class="nav-tab" data-view="stats"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use href="#i-target"/></svg><span>看板</span></div>
+  <div class="nav-tab" data-view="weekly"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use href="#i-calendar"/></svg><span>周规划</span></div>
+  <div class="nav-tab" data-view="roadmap"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use href="#i-target"/></svg><span>路线图</span></div>
   <div class="nav-tab" data-view="more"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use href="#i-grid"/></svg><span>更多</span></div>
 </div></nav>
 <div class="drawer-overlay" id="drawerOverlay"></div>
@@ -697,13 +736,12 @@ details.today-section[open]>summary .collapse-icon{transform:rotate(180deg)}
     <div class="nav-item" data-view="shiyebian"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use href="#i-briefcase"/></svg><span>事业编备考</span></div>
     <div class="nav-item" data-view="excel"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use href="#i-calc"/></svg><span>Excel 技能</span></div>
     <div class="nav-section-label">资源区</div>
-    <div class="nav-item" data-view="reading"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use href="#i-book-open"/></svg><span>每日阅读</span></div>
+    <div class="nav-item" data-view="reading"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use href="#i-book-open"/></svg><span>资料库</span></div>
     <div class="nav-section-label">公共工具</div>
     <div class="nav-item" data-view="inbox"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use href="#i-inbox"/></svg><span>收集箱</span><span class="badge" data-badge="inbox"></span></div>
     <div class="nav-item" data-view="search"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use href="#i-search"/></svg><span>搜索</span></div>
     <div class="nav-item" data-view="ai"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use href="#i-ai"/></svg><span>AI 帮手</span></div>
     <div class="nav-item" data-view="settings"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use href="#i-settings"/></svg><span>设置与数据</span></div>
-    <div class="nav-item" data-view="stats"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use href="#i-target"/></svg><span>数据看板</span></div>
     <div class="nav-section-label">说明</div>
     <div class="nav-item" data-view="usage"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use href="#i-info"/></svg><span>使用说明</span></div>
     <div class="nav-item" data-view="changelog"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use href="#i-list"/></svg><span>更新日志</span></div>
@@ -717,14 +755,14 @@ function uid(){return Date.now().toString(36)+Math.random().toString(36).slice(2
 function getDefaultData(){
 var u=uid;
 return{
-cpa:{examDate:'2026-08-28',courses:[{id:u(),name:'会计',total:30,completed:12,color:'green',focus:true},{id:u(),name:'审计',total:25,completed:0,color:'blue'},{id:u(),name:'财务成本管理',total:28,completed:0,color:'yellow'},{id:u(),name:'税法',total:22,completed:22,color:'pink',passed:'2024'},{id:u(),name:'经济法',total:20,completed:0,color:'green'},{id:u(),name:'公司战略与风险管理',total:18,completed:0,color:'blue'}],chapter1:[{id:u(),subject:'会计',date:'2026-07-28',total:50,correct:38,note:'长期股权投资章节'},{id:u(),subject:'会计',date:'2026-07-25',total:40,correct:30,note:'固定资产减值测试'}],chapter2:[],pastpapers:[],mocks:[],mistakes:[{subject:'会计',objectiveWrong:12,subjectiveWrong:5,reviewCount:2,proficiency:'medium'},{subject:'审计',objectiveWrong:0,subjectiveWrong:0,reviewCount:0,proficiency:'low'}],tasks:[{id:u(),title:'完成会计第13章听课',priority:'high',dueDate:'2026-08-02',done:false,note:'今年主攻会计'},{id:u(),title:'复习会计长期股权投资错题',priority:'medium',dueDate:'2026-08-01',done:false,note:''},{id:u(),title:'做一套会计综合题',priority:'high',dueDate:'2026-08-05',done:false,note:''}]},
+cpa:{examDate:'2026-08-28',courses:[{id:u(),name:'会计',total:30,completed:12,color:'green',focus:true},{id:u(),name:'审计',total:25,completed:0,color:'blue'},{id:u(),name:'财务成本管理',total:28,completed:0,color:'yellow'},{id:u(),name:'税法',total:22,completed:22,color:'pink',passed:'2024'},{id:u(),name:'经济法',total:20,completed:0,color:'green'},{id:u(),name:'公司战略与风险管理',total:18,completed:0,color:'blue'}],chapter1:[],chapter2:[],pastpapers:[],mocks:[],mistakes:[],tasks:[]},
 tax:{examDate:'2026-11-14',courses:[{id:u(),name:'税法一',total:20,completed:20,color:'green',passed:'2024'},{id:u(),name:'税法二',total:22,completed:0,color:'blue'},{id:u(),name:'涉税服务实务',total:25,completed:0,color:'yellow'},{id:u(),name:'涉税服务相关法律',total:20,completed:0,color:'pink'},{id:u(),name:'财务与会计',total:28,completed:0,color:'green'}],chapter1:[],chapter2:[],pastpapers:[],mocks:[],mistakes:[],tasks:[]},
 excel:{funcDates:[],functions:[{id:u(),name:'VLOOKUP',category:'查找引用',syntax:'=VLOOKUP(查找值, 表格区域, 列序号, [匹配方式])',desc:'在表格首列查找指定值，返回该行指定列的内容。匹配方式0为精确匹配，1为近似匹配。',progress:40},{id:u(),name:'HLOOKUP',category:'查找引用',syntax:'=HLOOKUP(查找值, 表格区域, 行序号, [匹配方式])',desc:'在表格首行查找指定值，返回该列指定行的内容。与VLOOKUP类似但方向为水平。',progress:0},{id:u(),name:'XLOOKUP',category:'查找引用',syntax:'=XLOOKUP(查找值, 查找区域, 返回区域, [未找到值], [匹配方式])',desc:'新一代查找函数，可左右查找，支持精确/模糊匹配，默认精确匹配无需指定参数。',progress:0},{id:u(),name:'INDEX',category:'查找引用',syntax:'=INDEX(区域, 行号, [列号])',desc:'根据行号和列号返回区域中对应单元格的值。常与MATCH组合使用。',progress:10},{id:u(),name:'MATCH',category:'查找引用',syntax:'=MATCH(查找值, 查找区域, [匹配方式])',desc:'返回查找值在区域中的相对位置（第几个）。匹配方式0精确，1升序近似，-1降序近似。',progress:10},{id:u(),name:'INDEX+MATCH',category:'查找引用',syntax:'=INDEX(返回区域, MATCH(查找值, 查找列, 0))',desc:'INDEX+MATCH组合替代VLOOKUP，可实现双向查找，不受列顺序限制。',progress:0},{id:u(),name:'INDIRECT',category:'查找引用',syntax:'=INDIRECT(引用文本, [引用样式])',desc:'将文本字符串转换为单元格引用，可实现动态区域引用和跨表引用。',progress:0},{id:u(),name:'OFFSET',category:'查找引用',syntax:'=OFFSET(基准单元格, 行偏移, 列偏移, [高度], [宽度])',desc:'以指定单元格为基准，偏移指定行列后返回新区域。常用于动态图表和滚动区域。',progress:0},{id:u(),name:'SUM',category:'数学统计',syntax:'=SUM(数值1, 数值2, ...)',desc:'计算所有参数的和。支持单元格、区域、数值混合输入，忽略文本和空值。',progress:100},{id:u(),name:'SUMIF',category:'数学统计',syntax:'=SUMIF(条件区域, 条件, [求和区域])',desc:'对满足单个条件的单元格求和。条件是数字或表达式可用">10"格式。',progress:50},{id:u(),name:'SUMIFS',category:'数学统计',syntax:'=SUMIFS(求和区域, 条件区域1, 条件1, 条件区域2, 条件2, ...)',desc:'对满足多个条件的单元格求和，所有条件必须同时满足。支持最多127个条件。',progress:30},{id:u(),name:'SUMPRODUCT',category:'数学统计',syntax:'=SUMPRODUCT(数组1, 数组2, ...)',desc:'将多个数组中对应元素相乘再求和。可实现多条件计数、加权求和等高级功能。',progress:0},{id:u(),name:'AVERAGE',category:'数学统计',syntax:'=AVERAGE(数值1, 数值2, ...)',desc:'计算所有参数的算术平均值。自动忽略文本和空单元格。',progress:100},{id:u(),name:'AVERAGEIF',category:'数学统计',syntax:'=AVERAGEIF(条件区域, 条件, [求平均区域])',desc:'对满足条件的单元格求平均值。如计算某个部门的平均工资。',progress:0},{id:u(),name:'COUNT',category:'数学统计',syntax:'=COUNT(值1, 值2, ...)',desc:'统计区域中包含数字的单元格个数。忽略文本、逻辑值、空单元格。',progress:100},{id:u(),name:'COUNTA',category:'数学统计',syntax:'=COUNTA(值1, 值2, ...)',desc:'统计区域中非空单元格的个数。包含数字、文本、逻辑值、错误值。',progress:100},{id:u(),name:'COUNTIF',category:'数学统计',syntax:'=COUNTIF(区域, 条件)',desc:'统计区域中满足单个条件的单元格个数。如统计及格人数">=60"。',progress:60},{id:u(),name:'COUNTIFS',category:'数学统计',syntax:'=COUNTIFS(区域1, 条件1, 区域2, 条件2, ...)',desc:'统计满足多个条件的单元格个数。所有条件必须同时满足。',progress:20},{id:u(),name:'MAX',category:'数学统计',syntax:'=MAX(数值1, 数值2, ...)',desc:'返回参数中的最大值。忽略文本和空值。适用于成绩统计、业绩分析等。',progress:100},{id:u(),name:'MIN',category:'数学统计',syntax:'=MIN(数值1, 数值2, ...)',desc:'返回参数中的最小值。忽略文本和空值。常与MAX配合使用。',progress:100},{id:u(),name:'RANK',category:'数学统计',syntax:'=RANK(数值, 区域, [排序方式])',desc:'返回数值在区域中的排名。排序方式0为降序（默认），1为升序。',progress:10},{id:u(),name:'SUBTOTAL',category:'数学统计',syntax:'=SUBTOTAL(功能代码, 区域1, [区域2], ...)',desc:'对筛选后的可见单元格执行求和/计数/平均等计算。代码1-11含隐藏值，101-111忽略隐藏值。',progress:0},{id:u(),name:'ROUND',category:'数学统计',syntax:'=ROUND(数值, 小数位数)',desc:'按指定小数位数四舍五入。ROUNDUP向上取，ROUNDDOWN向下取。',progress:100},{id:u(),name:'IF',category:'逻辑判断',syntax:'=IF(条件, 真时返回值, 假时返回值)',desc:'根据条件判断返回不同结果，最基础最常用的逻辑函数。可嵌套多层。',progress:60},{id:u(),name:'IFS',category:'逻辑判断',syntax:'=IFS(条件1, 值1, 条件2, 值2, ...)',desc:'多条件判断，按顺序检查条件，返回第一个为真的对应值。比多层IF嵌套更清晰。',progress:0},{id:u(),name:'AND',category:'逻辑判断',syntax:'=AND(条件1, 条件2, ...)',desc:'所有条件都为TRUE时返回TRUE，否则返回FALSE。常与IF配合使用。',progress:30},{id:u(),name:'OR',category:'逻辑判断',syntax:'=OR(条件1, 条件2, ...)',desc:'任一条件为TRUE时返回TRUE，所有条件为假才返回FALSE。',progress:20},{id:u(),name:'NOT',category:'逻辑判断',syntax:'=NOT(条件)',desc:'对条件取反。TRUE变FALSE，FALSE变TRUE。常用于排除特定条件。',progress:0},{id:u(),name:'IFERROR',category:'逻辑判断',syntax:'=IFERROR(公式, 出错时返回值)',desc:'如果公式计算结果为错误值(#N/A等)，则返回指定值。避免公式错误影响表格美观。',progress:10},{id:u(),name:'SWITCH',category:'逻辑判断',syntax:'=SWITCH(表达式, 值1, 结果1, 值2, 结果2, ..., [默认值])',desc:'根据表达式匹配多个值返回对应结果，比IFS更适合精确值匹配场景。',progress:0},{id:u(),name:'LEFT',category:'文本处理',syntax:'=LEFT(文本, [字符数])',desc:'从文本左侧截取指定数量的字符。默认1个字符。常用于提取编号前缀。',progress:100},{id:u(),name:'RIGHT',category:'文本处理',syntax:'=RIGHT(文本, [字符数])',desc:'从文本右侧截取指定数量的字符。默认1个字符。常用于提取编号后缀。',progress:100},{id:u(),name:'MID',category:'文本处理',syntax:'=MID(文本, 起始位置, 字符数)',desc:'从文本指定位置开始截取指定长度的字符。比LEFT/RIGHT更灵活。',progress:90},{id:u(),name:'LEN',category:'文本处理',syntax:'=LEN(文本)',desc:'返回文本字符串的字符个数（含空格和标点）。LENB返回字节数。',progress:100},{id:u(),name:'FIND',category:'文本处理',syntax:'=FIND(查找文本, 源文本, [起始位置])',desc:'返回查找文本在源文本中的起始位置，区分大小写。常用于定位分隔符。',progress:20},{id:u(),name:'SEARCH',category:'文本处理',syntax:'=SEARCH(查找文本, 源文本, [起始位置])',desc:'返回查找文本位置，不区分大小写，支持通配符?和*。比FIND更宽松。',progress:10},{id:u(),name:'TEXTJOIN',category:'文本处理',syntax:'=TEXTJOIN(分隔符, 忽略空值, 文本1, 文本2, ...)',desc:'将多个文本用指定分隔符连接。可忽略空值，比CONCAT更强大。',progress:0},{id:u(),name:'CONCAT',category:'文本处理',syntax:'=CONCAT(文本1, 文本2, ...)',desc:'将多个文本合并为一个字符串。可用"&"运算符替代简单场景。',progress:0},{id:u(),name:'TEXT',category:'文本处理',syntax:'=TEXT(数值, 格式代码)',desc:'将数值按指定格式转换为文本。如"yyyy-mm-dd"格式化日期，"#,##0.00"格式化金额。',progress:10},{id:u(),name:'TRIM',category:'文本处理',syntax:'=TRIM(文本)',desc:'删除文本中多余的空格，只保留单词之间单个空格。清理数据必备。',progress:30},{id:u(),name:'UPPER/LOWER',category:'文本处理',syntax:'=UPPER(文本) / =LOWER(文本)',desc:'UPPER将文本转换为大写，LOWER转换为小写。PROPER将首字母大写。',progress:0},{id:u(),name:'TODAY',category:'日期时间',syntax:'=TODAY()',desc:'返回当前日期（不含时间），每次打开或刷新工作表时自动更新。',progress:100},{id:u(),name:'NOW',category:'日期时间',syntax:'=NOW()',desc:'返回当前日期和时间，每次打开或刷新工作表时自动更新。',progress:100},{id:u(),name:'DATE',category:'日期时间',syntax:'=DATE(年, 月, 日)',desc:'根据指定的年、月、日生成日期值。可自动处理"13月"等跨月跨年的情况。',progress:60},{id:u(),name:'YEAR/MONTH/DAY',category:'日期时间',syntax:'=YEAR(日期) / =MONTH(日期) / =DAY(日期)',desc:'分别提取日期中的年份、月份（1-12）、日期（1-31）。常用于按年月汇总。',progress:100},{id:u(),name:'WEEKDAY',category:'日期时间',syntax:'=WEEKDAY(日期, [返回类型])',desc:'返回日期是星期几（数字1-7）。类型2表示星期一=1，适合中国习惯。',progress:30},{id:u(),name:'DATEDIF',category:'日期时间',syntax:'=DATEDIF(开始日期, 结束日期, 单位)',desc:'计算两个日期之间的差值。单位Y/M/D分别表示年/月/日差。是隐藏函数但非常实用。',progress:20},{id:u(),name:'EOMONTH',category:'日期时间',syntax:'=EOMONTH(日期, 月数)',desc:'返回指定日期之前或之后N个月的最后一天。常用于计算到期日和月末结算。',progress:0},{id:u(),name:'NETWORKDAYS',category:'日期时间',syntax:'=NETWORKDAYS(开始日期, 结束日期, [节假日])',desc:'计算两个日期之间的工作日天数（不含周末和指定节假日）。项目管理必备。',progress:0},{id:u(),name:'数据透视表',category:'数据分析',syntax:'插入 → 数据透视表',desc:'核心数据分析工具。对大量数据进行分类汇总、交叉分析、动态筛选。',progress:0},{id:u(),name:'条件格式',category:'数据分析',syntax:'开始 → 条件格式 → 新建规则',desc:'根据单元格值自动应用格式（颜色、图标、数据条）。快速发现数据趋势和异常。',progress:0},{id:u(),name:'数据验证',category:'数据分析',syntax:'数据 → 数据验证',desc:'限制单元格输入内容（下拉列表、数值范围、日期范围等），防止录入错误。',progress:0},{id:u(),name:'图表制作',category:'数据分析',syntax:'插入 → 图表',desc:'创建柱状图、折线图、饼图、散点图等。数据可视化核心技能。',progress:0},{id:u(),name:'Power Query',category:'数据分析',syntax:'数据 → 获取数据 → 启动Power Query编辑器',desc:'数据清洗和转换工具。可合并多个数据源、去除重复、拆分列、逆透视等。',progress:0}],tasks:[{id:u(),title:'练习VLOOKUP实例10道',priority:'medium',dueDate:'2026-08-04',done:false,note:''},{id:u(),title:'掌握SUMIFS多条件求和',priority:'medium',dueDate:'2026-08-08',done:false,note:''},{id:u(),title:'学习IF嵌套逻辑判断',priority:'low',dueDate:'2026-08-15',done:false,note:''}]},
-shiyebian:{items:[{id:u(),title:'省属事业单位招聘信息',content:'关注省人事考试网，预计明年3月发布公告',source:'省人事考试网',date:'2026-07-20'},{id:u(),title:'公共基础知识备考范围',content:'政治、经济、法律、管理、公文写作等',source:'备考论坛',date:'2026-07-15'}],lyg:[{id:u(),title:'连云港市事业单位招聘公告发布渠道',content:'连云港市人力资源和社会保障局官网(http://rsj.lyg.gov.cn)是发布事业单位招聘公告的官方渠道，建议每周关注。',source:'连云港市人社局',date:'2026-07-30'},{id:u(),title:'连云港2026年事业单位统考时间预测',content:'参考往年时间安排，连云港事业单位统考通常在上半年3-5月发布公告，5-6月笔试。建议提前3个月开始备考。',source:'备考分析',date:'2026-07-30'},{id:u(),title:'连云港事业编考试内容',content:'连云港事业单位考试一般包括：公共基础知识（政治、经济、法律、管理、公文写作）+ 职业能力测验 + 专业知识（根据岗位不同）',source:'考试大纲',date:'2026-07-30'}],tasks:[{id:u(),title:'收集历年真题',priority:'low',dueDate:'2026-12-31',done:false,note:'明年考试'}]},
+shiyebian:{items:[{id:u(),title:'省属事业单位招聘信息',content:'关注省人事考试网，预计明年3月发布公告',source:'省人事考试网',date:'2026-07-20'},{id:u(),title:'公共基础知识备考范围',content:'政治、经济、法律、管理、公文写作等',source:'备考论坛',date:'2026-07-15'}],lyg:[{id:u(),title:'连云港市事业单位招聘公告发布渠道',content:'连云港市人力资源和社会保障局官网(http://rsj.lyg.gov.cn)是发布事业单位招聘公告的官方渠道，建议每周关注。',source:'连云港市人社局',date:'2026-07-30'},{id:u(),title:'连云港2026年事业单位统考时间预测',content:'参考往年时间安排，连云港事业单位统考通常在上半年3-5月发布公告，5-6月笔试。建议提前3个月开始备考。',source:'备考分析',date:'2026-07-30'},{id:u(),title:'连云港事业编考试内容',content:'连云港事业单位考试一般包括：公共基础知识（政治、经济、法律、管理、公文写作）+ 职业能力测验 + 专业知识（根据岗位不同）',source:'考试大纲',date:'2026-07-30'}],tasks:[]},
 reading:{logs:[],books:[{id:u(),title:'认知觉醒',author:'周岭',totalPages:280,currentPage:156,status:'reading',startDate:'2026-06-15',source:''},{id:u(),title:'小岛经济学',author:'彼得·希夫',totalPages:320,currentPage:0,status:'planned',startDate:'',source:''}],podcasts:[{id:u(),title:'纵横四海',host:'携隐',totalEpisodes:120,listenedEpisodes:45,status:'reading',startDate:'2026-05-01',note:'商业类播客，很有启发',source:''},{id:u(),title:'知行小酒馆',host:'有知有行',totalEpisodes:80,listenedEpisodes:80,status:'done',startDate:'2025-11-01',note:'投资理财播客',source:''}],news:[{id:u(),date:'2026-07-30',title:'增值税留抵退税政策延续优化',summary:'财政部、税务总局联合发布通知，进一步完善增值税留抵退税政策，扩大适用范围。',category:'税务',reason:'直接关系企业税负，CPA税法和税务师考试高频考点',attention:'注意退税条件的变化和计算方法，考试可能出计算题',source:'国家税务总局'},{id:u(),date:'2026-07-30',title:'个人所得税专项附加扣除标准提高',summary:'3岁以下婴幼儿照护、子女教育、赡养老人三项专项附加扣除标准提高。',category:'税务',reason:'个税改革是近年热点，CPA经济法和税务师涉税法律常考内容',attention:'关注扣除标准和适用条件的变化，注意综合所得汇算清缴的影响',source:'国家税务总局'},{id:u(),date:'2026-07-30',title:'央行宣布降准0.5个百分点',summary:'中国人民银行决定下调金融机构存款准备金率0.5个百分点，释放长期资金。',category:'财经',reason:'货币政策影响企业融资成本和投资决策，审计和财管涉及宏观分析',attention:'理解降准对流动性、利率、资本市场的影响链条',source:'中国人民银行'},{id:u(),date:'2026-07-30',title:'国务院研究优化营商环境条例',summary:'国务院常务会议审议通过优化营商环境条例修订草案，进一步简化审批流程。',category:'时政',reason:'营商环境改革涉及企业注册、税务办理等，与CPA经济法相关',attention:'关注行政审批简化和税务服务优化的具体措施',source:'新华社'}],dailyPicks:[{id:u(),date:'2026-07-30',type:'book',title:'纳税筹划实务与案例',author:'蔡昌',reason:'结合当前税务政策变化，系统讲解纳税筹划思路，对CPA税法和税务师实务考试有直接帮助',attention:'重点关注增值税和企业所得税的筹划案例，与最新政策对照学习',source:''},{id:u(),date:'2026-07-30',type:'podcast',title:'纵横四海 · EP45：如何构建个人知识体系',author:'携隐',reason:'个人知识管理方法论，帮助你更高效地整合备考知识，建立系统化学习框架',attention:'尝试将播客中的知识管理方法应用到CPA和税务师备考中',source:''}]},
 inbox:[{id:u(),type:'text',content:'CPA报名时间是4月，记得提前准备照片和学历认证',date:'2026-07-29',target:''},{id:u(),type:'link',content:'https://www.cicpa.org.cn — 中注协官网',date:'2026-07-28',target:''},{id:u(),type:'task',content:'整理一份各科目考试时间表',date:'2026-07-26',target:''}],
-changelog:[{date:'2026-08-02',content:'v2.1.1 修复：阅读模块「阅读数据洞察」中“已读完”统计误用 status===\'finished\'（应为 done），导致已读完成书籍无法计入提示；现已正确统计已完成书籍数',scope:'每日阅读',action:'刷新页面即可看到更新'},{date:'2026-08-02',content:'v2.1.0 学习规划体系：首页总览新增「今日重点」（紧急导向：逾期/今天到期/高优先级任务带标签）与「学习概览看板」（CPA/税务师/事业编/Excel/每日阅读 模块进度条）；新增「每周学习规划」页（自主添加本周任务/短期目标，可关联模块一键跳转）；「学习路线图」页（备考整体规划框架）——全局阶段框架（基础学习→强化提升→冲刺模考→临考调整→考后复盘）当前阶段高亮，各阶段可添加学习规划，各考试长期规划进度条',scope:'全站',action:'刷新页面即可看到更新'},{date:'2026-08-01',content:'Study Hub 风格焕新：欢迎横幅改为大标题卡片（左侧彩条+大号问候语），概述 KPI 驾驶舱改为竖向指标卡（顶部渐变装饰条+超大数字+分类图标色），快速入口卡片加宽圆角升级，今日完成四格增强视觉权重；整体更接近 Study Hub 的简洁大气感',scope:'全站',action:'刷新页面即可看到更新'},{date:'2026-08-01',content:'收件箱打磨：新增收集箱驾驶舱（总量/任务类/链接类/本周新增）+ 洞察卡（归类与清理提醒）'},{date:'2026-08-01',content:'阅读打磨：新增阅读驾驶舱（在读书籍/在听播客/书籍平均进度/本周阅读量）+ 数据洞察卡（停滞与低频提醒）'},{date:'2026-08-01',content:'事业编备考增强：新增情报驾驶舱（情报总数/待办任务/时间敏感任务/最近更新）+ 数据洞察卡；信息按日期倒序'},{date:'2026-08-01',content:'CPA 备考增强：新增 KPI 驾驶舱（距考试/听课进度/练习正确率/待复习错题/待办任务）、智能备考建议卡（数据驱动洞察）、课程卡显示练习正确率。'},{date:'2026-08-01',content:'视觉全面焕新：升级设计令牌与柔和分层阴影，侧边栏 logo、主按钮、倒计时进度条改为同系渐变；卡片与列表新增悬停微抬升与聚焦态；概述/看板 KPI 数字改用渐变强调色；新增「今日」个性化问候横幅与 Excel 语法一键复制，整体更通透、现代、好用',scope:'全站',action:'刷新页面即可看到'},{date:'2026-08-01',content:'倒计时彻底去红：临近考试（≤30天）的紧急态不再整卡翻红，改为卡片 body 保持各自模块柔色（CPA 绿 / 税务师蓝），仅以一枚柔琥珀色「冲刺 N 天」小徽章提示；同步移除所有倒计时相关红色样式，色彩彻底统一到工作台浅色调',scope:'今日',action:'刷新页面即可看到'},{date:'2026-08-01',content:'倒计时数字配色再柔化：CPA 倒计时大数字由深橄榄绿 #444 改为更柔和的中绿 #5E8C6E，税务师由深藏蓝 #333 改为与日历 / 播客同系的柔和蓝 #555，整体更轻盈通透、与工作台浅色调统一；主内容区最大宽度 1060→1140 更充分利用桌面空间，数据看板 KPI 卡补齐悬停微抬升，侧边栏加极淡渐变与描边更显精致',scope:'今日 / 全站',action:'刷新页面即可看到'},{date:'2026-08-01',content:'倒计时配色融入整体：CPA 倒计时改为与课程卡片一致的柔绿、税务师改为柔蓝（沿用标签深绿/深蓝文字色），30 天内预警由刺眼纯红改为柔红底色，色彩与全站调性统一；概述 KPI 卡与倒计时卡新增悬停微抬升，交互更一致',scope:'今日 / 全站',action:'刷新页面即可看到'},{date:'2026-08-01',content:'概述页重构为仪表盘首页（3 大 KPI + 课程进度 + 6 模块快捷入口），与数据看板明确分工；全局视觉打磨（柔和边框/更大圆角/更宽松间距/更克制配色）',scope:'全模块',action:'进入概述与数据看板对比查看'},{date:'2026-08-01',content:'Excel 函数库打磨：新增搜索框（按函数名 / 语法 / 分类实时筛选）、筛选标签（全部 / 已掌握 / 学习中 / 未开始）、按分类折叠展开（可一键全部收起），长列表查找与聚焦更高效',scope:'Excel技能',action:'进入 Excel 模块即可看到'},{date:'2026-08-01',content:'考试倒计时不再重复：原本「概述」「备考页」「数据看板」三处各显示一遍，现统一收敛到「今日」页顶部一处，并升级为信息条——显示考试日期与星期、今年备考科目、课程完成度进度条、剩余课时与日均需完成量，考试 30 天内自动转为红色预警',scope:'今日 / 概述 / CPA备考 / 税务师备考 / 数据看板',action:'刷新页面即可看到更新'},{date:'2026-08-01',content:'「今日」页重构：新增今日已完成四格速览（完成任务 / 学习课程 / 练函数 / 阅读收听）、四个快捷入口，待办任务按「已过期 / 今天到期 / 稍后到期 / 未设截止」分组，并显示逾期或剩余天数',scope:'今日',action:'刷新页面即可看到更新'},{date:'2026-08-01',content:'各模块标签页加数量徽标：备考页七个标签、Excel、事业编标签均显示条目数（任务显示未完成数），不点开也知道里面有没有内容；空状态改为带一键操作按钮',scope:'CPA备考 / 税务师备考 / Excel技能 / 事业编备考 / 收集箱',action:'刷新页面即可看到更新'},{date:'2026-08-01',content:'排版视觉打磨：卡片阴影分层与悬停反馈、侧边栏当前项加绿色标识条、列表项悬停底色高亮且操作按钮常显（不再需要摸索）、页面切换淡入动画、数字统一等宽对齐、手机端底部导航新增「看板」入口；同时修复抽屉菜单角标不更新、部分背景色变量缺失导致的显示异常',scope:'全站',action:'刷新页面即可看到更新'},{date:'2026-08-01',content:'每日阅读页面精简：原「新闻」「推荐」两个标签与「知识库」内容完全重复，现已合并——统一在「知识库」中按类别分组查看与添加，标签栏由 5 个减为 3 个（书籍 / 播客 / 知识库）；「今日新闻推荐」「今日推荐」的"推荐原因/关注理由"改为默认收起、点击展开，页面高度大幅缩短，手机端滚动更快到达内容',scope:'每日阅读',action:'刷新页面即可看到更新'},{date:'2026-08-01',content:'代码瘦身与快捷键补全：清理历史遗留的无用样式与死代码（快捷键卡片残留样式、错题手动添加入口、统计卡片旧样式等）；新增 Alt+8 快捷键直达收集箱',scope:'全站',action:'按 Alt+8 试试'},{date:'2026-08-01',content:'事业编备考模块新增顶部日历：标记已完成的待办事项（绿点）和待办截止日期（橙点），点击任意日期即可展开当天完成的待办与截止任务详情；与 CPA/税务师/Excel/每日阅读模块的日历功能统一',scope:'事业编备考',action:'进入事业编模块，点击顶部月历任意日期查看'},{date:'2026-08-01',content:'各模块顶部日历支持点击查看当天记录：在 CPA 备考、税务师备考、Excel 技能、每日阅读的月历上点击任意日期，下方即展开当天的完成待办、练习记录、课程学习、函数学习、阅读记录与当日新闻推荐；勾选完成待办时会自动记录完成日期。每日阅读「知识库」改为按类别分组（税务/财经/AI科技/时政/书籍推荐/播客推荐），便于分类沉淀与回顾',scope:'CPA备考、税务师备考、Excel技能、每日阅读',action:'在模块顶部月历点击任意日期，再点一次收起'},{date:'2026-08-01',content:'每日阅读"今日新闻推荐"和"今日推荐"改为按日期种子每日轮换：内容库内置16条新闻（税务/财经/AI科技/时政）+12条书籍播客推荐，每天自动选出4条新闻（必含税务、财经、AI科技）和3条书籍/播客推荐，旧内容自动沉淀进"知识库"；新闻分类新增AI科技',scope:'每日阅读',action:'刷新页面即可看到每日更新'},{date:'2026-07-31',content:'手机端底部导航栏简化：仅保留「概述」「今日」「更多」三个主入口；CPA备考、税务师备考、Excel技能、事业编备考、每日阅读等学习模块统一收入「更多」抽屉；抽屉内新增"学习模块"分区，优先展示各学习入口',scope:'手机端',action:'刷新页面即可看到更新'},{date:'2026-07-31',content:'每日阅读新增「知识库」标签页：聚合所有历史新闻推荐和书籍/播客推荐，按日期倒序展示，形成持续积累的知识仓库；知识库概览卡片显示新闻、书籍推荐、播客推荐、总条目四项统计',scope:'每日阅读',action:'刷新页面即可看到更新'},{date:'2026-07-31',content:'事业编模块新增「连云港」专区：独立管理连云港市事业单位招聘信息、考试时间、备考资料等；概述页及搜索均支持连云港信息',scope:'事业编备考',action:'刷新页面即可看到更新'},{date:'2026-07-30',content:'Excel函数新增完成日期记录：拖动进度条时自动记录学习日期到顶部日历（紫色圆点），每个函数卡片显示最近学习时间，图例新增"函数学习"',scope:'Excel技能',action:'刷新页面即可看到更新'},{date:'2026-07-30',content:'每日阅读重磅升级：新增顶部阅读日历（书籍绿色圆点/播客蓝色圆点）、今日阅读情况板块、"记录阅读/收听"按钮可记录每日阅读页数或收听期数并自动更新进度',scope:'每日阅读',action:'刷新页面即可看到更新'},{date:'2026-07-30',content:'课程学习记录整合到顶部综合日历：课程+1/-1的学习日期以紫色圆点显示在顶部日历中，课程进度子栏目中的独立小日历已移除',scope:'CPA备考/税务师备考',action:'刷新页面即可看到更新'},{date:'2026-07-30',content:'精简小日历：顶部已有综合日历，各栏目内的小日历已移除，页面更简洁',scope:'CPA备考/税务师备考',action:'刷新页面即可看到更新'},{date:'2026-07-30',content:'备考模块课程进度新增学习日历：根据+1/-1课时调整记录自动标记有学习记录的日期（绿点），可按月翻页查看',scope:'CPA备考/税务师备考',action:'刷新页面即可看到更新'},{date:'2026-07-30',content:'今日页面统计卡片合并为一张"今日数据"卡片：待办任务、错题总量、收集箱、已开始科目、阅读中五项数据以紧凑的图标+数值形式展示，手机端自动两列排列',scope:'今日',action:'刷新页面即可看到更新'},{date:'2026-07-30',content:'Excel技能模块顶部新增日历：根据任务日期标记待完成（蓝点）、已过期（橙点）、已完成（绿点）的任务',scope:'Excel技能',action:'刷新页面即可看到更新'},{date:'2026-07-30',content:'备考模块课程进度新增"最近课程学习记录"：点击+1/-1按钮调整课时后自动记录学习日期和科目',scope:'CPA备考/税务师备考',action:'刷新页面即可看到更新'},{date:'2026-07-30',content:'备考模块顶部日历新增任务截止日期标记（橙色圆点），方便追踪各科目的任务截止时间',scope:'CPA备考/税务师备考',action:'刷新页面即可看到更新'},{date:'2026-07-30',content:'备考模块倒计时卡片手机端改为一排两个，节省空间',scope:'CPA备考/税务师备考',action:'刷新页面即可看到更新'},{date:'2026-07-30',content:'手机端底部导航栏调整为：今日、CPA、税务师、Excel、阅读；收集箱移至"更多"抽屉',scope:'全站',action:'刷新页面即可看到更新'},{date:'2026-07-30',content:'备考模板新增顶部综合日历：显示所有练习类型（客观一轮/主客观二轮/真题/模拟）的完成日期，用不同颜色标记',scope:'全站',action:'刷新页面即可看到更新'},{date:'2026-07-30',content:'错题总量自动同步：根据章节练习记录自动计算错题数，无需手动输入；仍可手动调整复习遍数和熟练程度',scope:'CPA备考/税务师备考',action:'刷新页面即可看到更新'},{date:'2026-07-30',content:'备考模板标签页改为两排显示：第一排（课程进度/章节题一轮/章节题二轮/错题本），第二排（历年真题/模拟题/任务）',scope:'CPA备考/税务师备考',action:'刷新页面即可看到更新'},{date:'2026-07-30',content:'今日页面手机端统计卡片改为一排两个方块，缩短页面长度',scope:'今日',action:'刷新页面即可看到更新'},{date:'2026-07-30',content:'新增每日阅读模块：管理书籍和播客的阅读/收听进度，支持从链接导入，同步到今日页面',scope:'全站',action:'刷新页面即可看到更新'},{date:'2026-07-30',content:'错题本改造：不再逐条记录，改为按科目汇总客观错题数、主观错题数、复习遍数和熟练程度',scope:'CPA备考/税务师备考',action:'刷新页面即可看到更新'},{date:'2026-07-30',content:'章节题标签页更名为"章节题一轮（客观）"和"章节题二轮（主观+客观）"，练习记录支持编辑修改',scope:'CPA备考/税务师备考',action:'刷新页面即可看到更新'},{date:'2026-07-30',content:'课程卡片新增编辑按钮，可直接修改科目名称、总课时、已完成课时和备考标记',scope:'CPA备考/税务师备考',action:'刷新页面即可看到更新'}]
-,weeklyTasks:[],roadmapPlans:{},_updated:''}}
+changelog:[{date:'2026-08-02',content:'v2.2.0 学习规划体系大版本：① 新增「每周学习规划」页（任务支持日期区间、关联项目、可编辑，周复盘按周留存历史）；② 新增「学习路线图」页（五阶段框架，各阶段可添加规划并勾选完成，阶段状态改为按项目分别标记，如「CPA·已完成 / 税务师·进行中」）；③ 每周规划任务自动投射到各学习模块日历（浅黄圆点 + 日详情「每周规划」分组）；④ 首页总览重构：新增今日重点（紧急导向）、学习概览看板、各项目阶段状态卡；⑤ 移除「数据看板」与「今日」独立页，功能并入首页总览；⑥ 全站配色收敛为黑白 + 墨绿 + 浅黄两色体系，顶部搜索框改柔和药丸形（墨绿聚焦光环），卡片悬停浮动减小；⑦ 清空各模块日历的演示数据，设置页新增「清空演示数据」一键清理',scope:'全站',action:'刷新页面即可看到更新'},{date:'2026-08-02',content:'v2.1.1 修复：阅读模块「阅读数据洞察」中“已读完”统计误用 status===\'finished\'（应为 done），导致已读完成书籍无法计入提示；现已正确统计已完成书籍数',scope:'资料库',action:'刷新页面即可看到更新'},{date:'2026-08-02',content:'v2.1.0 学习规划体系：首页总览新增「今日重点」（紧急导向：逾期/今天到期/高优先级任务带标签）与「学习概览看板」（CPA/税务师/事业编/Excel/资料库 模块进度条）；新增「每周学习规划」页（自主添加本周任务/短期目标，可关联模块一键跳转）；「学习路线图」页（备考整体规划框架）——全局阶段框架（基础学习→强化提升→冲刺模考→临考调整→考后复盘）当前阶段高亮，各阶段可添加学习规划，各考试长期规划进度条',scope:'全站',action:'刷新页面即可看到更新'},{date:'2026-08-01',content:'Study Hub 风格焕新：欢迎横幅改为大标题卡片（左侧彩条+大号问候语），概述 KPI 驾驶舱改为竖向指标卡（顶部渐变装饰条+超大数字+分类图标色），快速入口卡片加宽圆角升级，今日完成四格增强视觉权重；整体更接近 Study Hub 的简洁大气感',scope:'全站',action:'刷新页面即可看到更新'},{date:'2026-08-01',content:'收件箱打磨：新增收集箱驾驶舱（总量/任务类/链接类/本周新增）+ 洞察卡（归类与清理提醒）'},{date:'2026-08-01',content:'阅读打磨：新增阅读驾驶舱（在读书籍/在听播客/书籍平均进度/本周阅读量）+ 数据洞察卡（停滞与低频提醒）'},{date:'2026-08-01',content:'事业编备考增强：新增情报驾驶舱（情报总数/待办任务/时间敏感任务/最近更新）+ 数据洞察卡；信息按日期倒序'},{date:'2026-08-01',content:'CPA 备考增强：新增 KPI 驾驶舱（距考试/听课进度/练习正确率/待复习错题/待办任务）、智能备考建议卡（数据驱动洞察）、课程卡显示练习正确率。'},{date:'2026-08-01',content:'视觉全面焕新：升级设计令牌与柔和分层阴影，侧边栏 logo、主按钮、倒计时进度条改为同系渐变；卡片与列表新增悬停微抬升与聚焦态；概述/看板 KPI 数字改用渐变强调色；新增「今日」个性化问候横幅与 Excel 语法一键复制，整体更通透、现代、好用',scope:'全站',action:'刷新页面即可看到'},{date:'2026-08-01',content:'倒计时彻底去红：临近考试（≤30天）的紧急态不再整卡翻红，改为卡片 body 保持各自模块柔色（CPA 绿 / 税务师蓝），仅以一枚柔琥珀色「冲刺 N 天」小徽章提示；同步移除所有倒计时相关红色样式，色彩彻底统一到工作台浅色调',scope:'今日',action:'刷新页面即可看到'},{date:'2026-08-01',content:'倒计时数字配色再柔化：CPA 倒计时大数字由深橄榄绿 #444 改为更柔和的中绿 #5E8C6E，税务师由深藏蓝 #333 改为与日历 / 播客同系的柔和蓝 #555，整体更轻盈通透、与工作台浅色调统一；主内容区最大宽度 1060→1140 更充分利用桌面空间，数据看板 KPI 卡补齐悬停微抬升，侧边栏加极淡渐变与描边更显精致',scope:'今日 / 全站',action:'刷新页面即可看到'},{date:'2026-08-01',content:'倒计时配色融入整体：CPA 倒计时改为与课程卡片一致的柔绿、税务师改为柔蓝（沿用标签深绿/深蓝文字色），30 天内预警由刺眼纯红改为柔红底色，色彩与全站调性统一；概述 KPI 卡与倒计时卡新增悬停微抬升，交互更一致',scope:'今日 / 全站',action:'刷新页面即可看到'},{date:'2026-08-01',content:'概述页重构为仪表盘首页（3 大 KPI + 课程进度 + 6 模块快捷入口），与数据看板明确分工；全局视觉打磨（柔和边框/更大圆角/更宽松间距/更克制配色）',scope:'全模块',action:'进入概述与数据看板对比查看'},{date:'2026-08-01',content:'Excel 函数库打磨：新增搜索框（按函数名 / 语法 / 分类实时筛选）、筛选标签（全部 / 已掌握 / 学习中 / 未开始）、按分类折叠展开（可一键全部收起），长列表查找与聚焦更高效',scope:'Excel技能',action:'进入 Excel 模块即可看到'},{date:'2026-08-01',content:'考试倒计时不再重复：原本「概述」「备考页」「数据看板」三处各显示一遍，现统一收敛到「今日」页顶部一处，并升级为信息条——显示考试日期与星期、今年备考科目、课程完成度进度条、剩余课时与日均需完成量，考试 30 天内自动转为红色预警',scope:'今日 / 概述 / CPA备考 / 税务师备考 / 数据看板',action:'刷新页面即可看到更新'},{date:'2026-08-01',content:'「今日」页重构：新增今日已完成四格速览（完成任务 / 学习课程 / 练函数 / 阅读收听）、四个快捷入口，待办任务按「已过期 / 今天到期 / 稍后到期 / 未设截止」分组，并显示逾期或剩余天数',scope:'今日',action:'刷新页面即可看到更新'},{date:'2026-08-01',content:'各模块标签页加数量徽标：备考页七个标签、Excel、事业编标签均显示条目数（任务显示未完成数），不点开也知道里面有没有内容；空状态改为带一键操作按钮',scope:'CPA备考 / 税务师备考 / Excel技能 / 事业编备考 / 收集箱',action:'刷新页面即可看到更新'},{date:'2026-08-01',content:'排版视觉打磨：卡片阴影分层与悬停反馈、侧边栏当前项加绿色标识条、列表项悬停底色高亮且操作按钮常显（不再需要摸索）、页面切换淡入动画、数字统一等宽对齐、手机端底部导航新增「看板」入口；同时修复抽屉菜单角标不更新、部分背景色变量缺失导致的显示异常',scope:'全站',action:'刷新页面即可看到更新'},{date:'2026-08-01',content:'资料库页面精简：原「新闻」「推荐」两个标签与「知识库」内容完全重复，现已合并——统一在「知识库」中按类别分组查看与添加，标签栏由 5 个减为 3 个（书籍 / 播客 / 知识库）；「今日新闻推荐」「今日推荐」的"推荐原因/关注理由"改为默认收起、点击展开，页面高度大幅缩短，手机端滚动更快到达内容',scope:'资料库',action:'刷新页面即可看到更新'},{date:'2026-08-01',content:'代码瘦身与快捷键补全：清理历史遗留的无用样式与死代码（快捷键卡片残留样式、错题手动添加入口、统计卡片旧样式等）；新增 Alt+8 快捷键直达收集箱',scope:'全站',action:'按 Alt+8 试试'},{date:'2026-08-01',content:'事业编备考模块新增顶部日历：标记已完成的待办事项（绿点）和待办截止日期（橙点），点击任意日期即可展开当天完成的待办与截止任务详情；与 CPA/税务师/Excel/资料库模块的日历功能统一',scope:'事业编备考',action:'进入事业编模块，点击顶部月历任意日期查看'},{date:'2026-08-01',content:'各模块顶部日历支持点击查看当天记录：在 CPA 备考、税务师备考、Excel 技能、资料库的月历上点击任意日期，下方即展开当天的完成待办、练习记录、课程学习、函数学习、阅读记录与当日新闻推荐；勾选完成待办时会自动记录完成日期。资料库「知识库」改为按类别分组（税务/财经/AI科技/时政/书籍推荐/播客推荐），便于分类沉淀与回顾',scope:'CPA备考、税务师备考、Excel技能、资料库',action:'在模块顶部月历点击任意日期，再点一次收起'},{date:'2026-08-01',content:'资料库"今日新闻推荐"和"今日推荐"改为按日期种子每日轮换：内容库内置16条新闻（税务/财经/AI科技/时政）+12条书籍播客推荐，每天自动选出4条新闻（必含税务、财经、AI科技）和3条书籍/播客推荐，旧内容自动沉淀进"知识库"；新闻分类新增AI科技',scope:'资料库',action:'刷新页面即可看到每日更新'},{date:'2026-07-31',content:'手机端底部导航栏简化：仅保留「概述」「今日」「更多」三个主入口；CPA备考、税务师备考、Excel技能、事业编备考、资料库等学习模块统一收入「更多」抽屉；抽屉内新增"学习模块"分区，优先展示各学习入口',scope:'手机端',action:'刷新页面即可看到更新'},{date:'2026-07-31',content:'资料库新增「知识库」标签页：聚合所有历史新闻推荐和书籍/播客推荐，按日期倒序展示，形成持续积累的知识仓库；知识库概览卡片显示新闻、书籍推荐、播客推荐、总条目四项统计',scope:'资料库',action:'刷新页面即可看到更新'},{date:'2026-07-31',content:'事业编模块新增「连云港」专区：独立管理连云港市事业单位招聘信息、考试时间、备考资料等；概述页及搜索均支持连云港信息',scope:'事业编备考',action:'刷新页面即可看到更新'},{date:'2026-07-30',content:'Excel函数新增完成日期记录：拖动进度条时自动记录学习日期到顶部日历（紫色圆点），每个函数卡片显示最近学习时间，图例新增"函数学习"',scope:'Excel技能',action:'刷新页面即可看到更新'},{date:'2026-07-30',content:'资料库重磅升级：新增顶部阅读日历（书籍绿色圆点/播客蓝色圆点）、今日阅读情况板块、"记录阅读/收听"按钮可记录资料库页数或收听期数并自动更新进度',scope:'资料库',action:'刷新页面即可看到更新'},{date:'2026-07-30',content:'课程学习记录整合到顶部综合日历：课程+1/-1的学习日期以紫色圆点显示在顶部日历中，课程进度子栏目中的独立小日历已移除',scope:'CPA备考/税务师备考',action:'刷新页面即可看到更新'},{date:'2026-07-30',content:'精简小日历：顶部已有综合日历，各栏目内的小日历已移除，页面更简洁',scope:'CPA备考/税务师备考',action:'刷新页面即可看到更新'},{date:'2026-07-30',content:'备考模块课程进度新增学习日历：根据+1/-1课时调整记录自动标记有学习记录的日期（绿点），可按月翻页查看',scope:'CPA备考/税务师备考',action:'刷新页面即可看到更新'},{date:'2026-07-30',content:'今日页面统计卡片合并为一张"今日数据"卡片：待办任务、错题总量、收集箱、已开始科目、阅读中五项数据以紧凑的图标+数值形式展示，手机端自动两列排列',scope:'今日',action:'刷新页面即可看到更新'},{date:'2026-07-30',content:'Excel技能模块顶部新增日历：根据任务日期标记待完成（蓝点）、已过期（橙点）、已完成（绿点）的任务',scope:'Excel技能',action:'刷新页面即可看到更新'},{date:'2026-07-30',content:'备考模块课程进度新增"最近课程学习记录"：点击+1/-1按钮调整课时后自动记录学习日期和科目',scope:'CPA备考/税务师备考',action:'刷新页面即可看到更新'},{date:'2026-07-30',content:'备考模块顶部日历新增任务截止日期标记（橙色圆点），方便追踪各科目的任务截止时间',scope:'CPA备考/税务师备考',action:'刷新页面即可看到更新'},{date:'2026-07-30',content:'备考模块倒计时卡片手机端改为一排两个，节省空间',scope:'CPA备考/税务师备考',action:'刷新页面即可看到更新'},{date:'2026-07-30',content:'手机端底部导航栏调整为：今日、CPA、税务师、Excel、阅读；收集箱移至"更多"抽屉',scope:'全站',action:'刷新页面即可看到更新'},{date:'2026-07-30',content:'备考模板新增顶部综合日历：显示所有练习类型（客观一轮/主客观二轮/真题/模拟）的完成日期，用不同颜色标记',scope:'全站',action:'刷新页面即可看到更新'},{date:'2026-07-30',content:'错题总量自动同步：根据章节练习记录自动计算错题数，无需手动输入；仍可手动调整复习遍数和熟练程度',scope:'CPA备考/税务师备考',action:'刷新页面即可看到更新'},{date:'2026-07-30',content:'备考模板标签页改为两排显示：第一排（课程进度/章节题一轮/章节题二轮/错题本），第二排（历年真题/模拟题/任务）',scope:'CPA备考/税务师备考',action:'刷新页面即可看到更新'},{date:'2026-07-30',content:'今日页面手机端统计卡片改为一排两个方块，缩短页面长度',scope:'今日',action:'刷新页面即可看到更新'},{date:'2026-07-30',content:'新增资料库模块：管理书籍和播客的阅读/收听进度，支持从链接导入，同步到今日页面',scope:'全站',action:'刷新页面即可看到更新'},{date:'2026-07-30',content:'错题本改造：不再逐条记录，改为按科目汇总客观错题数、主观错题数、复习遍数和熟练程度',scope:'CPA备考/税务师备考',action:'刷新页面即可看到更新'},{date:'2026-07-30',content:'章节题标签页更名为"章节题一轮（客观）"和"章节题二轮（主观+客观）"，练习记录支持编辑修改',scope:'CPA备考/税务师备考',action:'刷新页面即可看到更新'},{date:'2026-07-30',content:'课程卡片新增编辑按钮，可直接修改科目名称、总课时、已完成课时和备考标记',scope:'CPA备考/税务师备考',action:'刷新页面即可看到更新'}]
+,weeklyTasks:[],roadmapPlans:{},weeklyReview:{facts:'',obstacles:'',trends:''},_updated:''}}
 /* 每日推荐内容库：按日期种子轮换，实现“每日更新” */
 var NEWS_LIBRARY=[
 {id:'libn-1',title:'增值税留抵退税政策延续优化',summary:'财政部、税务总局完善增值税留抵退税政策，扩大适用范围并简化流程。',category:'税务',reason:'直接关系企业税负，是CPA税法与税务师考试的高频考点',attention:'注意退税条件变化与计算方法，考试易出计算题',source:'国家税务总局'},
@@ -764,7 +802,7 @@ function todayLocal(){var d=new Date();var m=('0'+(d.getMonth()+1)).slice(-2);va
 function getDailyNews(ds){var n=dayNumber(ds);var byCat={};NEWS_LIBRARY.forEach(function(x){if(!byCat[x.category])byCat[x.category]=[];byCat[x.category].push(x)});var sel=[];['税务','财经','AI科技'].forEach(function(c){var a=byCat[c]||[];if(a.length)sel.push(a[((n%a.length)+a.length)%a.length])});var others=NEWS_LIBRARY.filter(function(x){return ['税务','财经','AI科技'].indexOf(x.category)<0});if(others.length)sel.push(others[((n>>1)%others.length+others.length)%others.length]);return sel}
 function getDailyPicks(ds){var n=dayNumber(ds);var books=PICKS_LIBRARY.filter(function(x){return x.type==='book'});var pods=PICKS_LIBRARY.filter(function(x){return x.type==='podcast'});var sel=[books[((n%books.length)+books.length)%books.length],pods[((n%pods.length)+pods.length)%pods.length]];if(n%2===0)sel.push(books[(((n+1)%books.length)+books.length)%books.length]);else sel.push(pods[(((n+1)%pods.length)+pods.length)%pods.length]);return sel}
 function seedDailyReading(){var today=todayLocal();if(!DATA.reading.dismissed)DATA.reading.dismissed=[];var dn=getDailyNews(today),dp=getDailyPicks(today),changed=false;dn.forEach(function(x){if(DATA.reading.dismissed.indexOf(x.id)>=0)return;var ex=DATA.reading.news.find(function(m){return m.id===x.id});if(ex){if(ex.date!==today){ex.date=today;changed=true}}else{DATA.reading.news.push({id:x.id,date:today,title:x.title,summary:x.summary,category:x.category,reason:x.reason,attention:x.attention,source:x.source});changed=true}});dp.forEach(function(x){if(DATA.reading.dismissed.indexOf(x.id)>=0)return;var ex=DATA.reading.dailyPicks.find(function(m){return m.id===x.id});if(ex){if(ex.date!==today){ex.date=today;changed=true}}else{DATA.reading.dailyPicks.push({id:x.id,date:today,type:x.type,title:x.title,author:x.author,reason:x.reason,attention:x.attention,source:x.source});changed=true}});if(changed)saveData();return changed}
-function loadData(){try{var r=localStorage.getItem(STORE_KEY);if(r){var d=JSON.parse(r);if(!d.reading)d.reading=getDefaultData().reading;if(!d.reading.news)d.reading.news=getDefaultData().reading.news;if(!d.reading.dailyPicks)d.reading.dailyPicks=getDefaultData().reading.dailyPicks;if(!d.reading.dismissed)d.reading.dismissed=[];if(!d.shiyebian.lyg)d.shiyebian.lyg=getDefaultData().shiyebian.lyg;['cpa','tax'].forEach(function(k){if(!d[k].courseDates)d[k].courseDates=[]});if(d.excel&&d.excel.functions){d.excel.functions.forEach(function(f){if(f.status&&f.progress===undefined){f.progress=f.status==='learned'?100:f.status==='learning'?30:0;delete f.status}if(f.note&&f.desc===undefined){f.desc=f.note;delete f.note}})}return d}}catch(e){}var d=getDefaultData();saveData(d);return d}
+function loadData(){try{var r=localStorage.getItem(STORE_KEY);if(r){var d=JSON.parse(r);if(d.roadmapStageStatus){var _flat=false;Object.keys(d.roadmapStageStatus).forEach(function(k){if(typeof d.roadmapStageStatus[k]==='string')_flat=true;});if(_flat){var _ns={};Object.keys(d.roadmapStageStatus).forEach(function(stage){var _v=d.roadmapStageStatus[stage];if(typeof _v!=='string'){_ns[stage]=_v;return;}var _mods={};((d.roadmapPlans||{})[stage]||[]).forEach(function(p){if(p&&p.mod)_mods[p.mod]=1});Object.keys(_mods).forEach(function(_m){_ns[_m]=_ns[_m]||{};_ns[_m][stage]=_v;});});d.roadmapStageStatus=_ns;}}if(!d.reading)d.reading=getDefaultData().reading;if(!d.reading.news)d.reading.news=getDefaultData().reading.news;if(!d.reading.dailyPicks)d.reading.dailyPicks=getDefaultData().reading.dailyPicks;if(!d.reading.dismissed)d.reading.dismissed=[];if(!d.shiyebian.lyg)d.shiyebian.lyg=getDefaultData().shiyebian.lyg;['cpa','tax'].forEach(function(k){if(!d[k].courseDates)d[k].courseDates=[]});if(d.excel&&d.excel.functions){d.excel.functions.forEach(function(f){if(f.status&&f.progress===undefined){f.progress=f.status==='learned'?100:f.status==='learning'?30:0;delete f.status}if(f.note&&f.desc===undefined){f.desc=f.note;delete f.note}})}return d}}catch(e){}var d=getDefaultData();saveData(d);return d}
 function saveData(d){var o=d||DATA;o._updated=new Date().toISOString();localStorage.setItem(STORE_KEY,JSON.stringify(o))}
 var CLOUD_DATA_URL='data.json';var CLOUD_SYNC_KEY='shanshan_sync_state';
 function getSyncState(){var s=localStorage.getItem(CLOUD_SYNC_KEY);return s?JSON.parse(s):{}}
@@ -808,21 +846,23 @@ var DATA=loadData();var currentView='overview';var pendingSearch='';var currentT
 setTimeout(function(){checkCloudSync()},2000);
 document.addEventListener('visibilitychange',function(){if(!document.hidden){if(seedDailyReading()&&currentView==='reading')renderView('reading')}});
 var aiMessages=[{role:'bot',text:'你好珊珊！我是你的AI备考助手。我可以帮你整理资料、了解备考信息差、安排学习任务。有什么需要帮忙的吗？'}];
-var VIEW_TITLES={today:'今日',overview:'首页总览',weekly:'每周学习规划',roadmap:'学习路线图',cpa:'CPA 备考',tax:'税务师备考',excel:'Excel 技能',shiyebian:'事业编备考',reading:'每日阅读',inbox:'收集箱',search:'搜索',ai:'AI 帮手',settings:'设置与数据',stats:'数据看板',more:'更多',usage:'使用说明',changelog:'更新日志'};
-var HELP={today:{t:'今日',d:'汇总你所有模块中需要今天处理的事项，包括待办任务、待确认的错题、最近的学习记录。任务来源于各备考模块，不重复维护。',h:'查看今日任务列表，点击勾选框完成任务。任务按优先级和截止日期排序。',a:'完成的任务会标记为已完成，未完成的任务会持续显示直到完成。',u:'已完成的任务可以在对应模块中重新编辑。',e:'如果今日列表为空，说明所有任务已完成或尚未创建任务。'},cpa:{t:'CPA 备考',d:'管理注册会计师考试的六个科目。税法已于2024年通过，今年主攻会计。顶部显示CPA和税务师考试倒计时。',h:'通过七个标签页管理：课程进度记录每科听课进度（已通过科目以虚线卡片显示，今年备考科目有标记）；章节题一轮（客观）和章节题二轮（主观+客观）分阶段记录章节练习成绩，可编辑已有记录；错题本按科目汇总客观/主观错题数量、复习遍数和熟练程度；历年真题记录真题练习；模拟题记录模拟考试；任务管理待办事项。',a:'添加的数据会自动保存到浏览器本地存储，并同步到今日视图。',u:'所有记录都可以编辑或删除。',e:'如果数据丢失，可能是浏览器清理了本地存储，请定期导出备份。'},tax:{t:'税务师备考',d:'管理税务师考试的五个科目。税法一已于2024年通过，备考将于9月正式开始。顶部显示考试倒计时。',h:'操作方式与CPA备考模块一致，包含七个标签页。所有科目显示为"今年未备考"暗色状态，9月开始后再设置备考标记。',a:'数据自动保存并同步到今日视图。',u:'所有记录可编辑或删除。',e:'请定期导出备份以防数据丢失。'},excel:{t:'Excel 技能',d:'系统化学习Excel函数公式，包含6大类54个函数。每个函数展示语法格式、功能说明和掌握进度百分比。',h:'函数学习标签按分类展示每个函数的语法、说明和进度条；拖动滑块或点击进度条调整掌握程度（0-100%）；任务标签管理练习任务。',a:'进度数据自动保存，搜索框中可搜索语法和函数名。',u:'可编辑或删除函数记录。',e:'如数据丢失请从备份恢复。'},shiyebian:{t:'事业编备考',d:'为明年事业单位考试做信息收集和备考规划。顶部日历可点击查看每天的完成事项。',h:'信息收集标签记录招聘信息和备考资料；连云港标签持续更新连云港事业单位招聘信息；任务标签管理备考计划。顶部月历标记已完成的待办（绿点）和待办截止（橙点），点击任意日期查看当天详情。',a:'信息自动保存，完成待办自动记录日期。',u:'可编辑或删除条目。',e:'如数据丢失请从备份恢复。'},reading:{t:'每日阅读',d:'管理你的阅读和收听进度，包括书籍和播客。支持从链接导入书籍或播客信息，自动填充标题和作者。',h:'通过书籍和播客两个标签页管理。点击添加按钮创建新条目，编辑时可调整进度和状态。支持从链接导入，粘贴页面URL即可自动提取标题和作者。',a:'数据自动保存并同步到今日页面的"每日阅读"板块。',u:'可编辑或删除任何条目。',e:'如数据丢失请从备份恢复。'},inbox:{t:'收集箱',d:'暂时不知道放哪里的文字、链接、文件和临时任务都先放在这里，之后再归类到对应模块。',h:'点击添加按钮创建新条目，选择类型（文字/链接/任务），输入内容。之后可以编辑或删除。',a:'条目保存在收集箱中，直到你手动删除或归类。',u:'可以编辑或删除任何条目。',e:'如果收集箱为空，说明所有条目已处理。'},search:{t:'搜索',d:'跨所有模块搜索内容，包括任务、课程、错题、收集箱条目等。',h:'在搜索框中输入关键词，结果会按模块分类显示。点击结果可以跳转到对应模块。',a:'搜索结果实时更新。',u:'搜索不影响任何数据。',e:'如果没有结果，尝试更换关键词。'},ai:{t:'AI 帮手',d:'帮你整理资料、了解备考信息差、安排学习任务的智能助手。',h:'在输入框中输入问题，或点击下方的快捷建议。AI会根据你的备考情况给出建议。',a:'AI的回复仅供参考，重要决策请自行确认。',u:'可以清除聊天记录重新开始。',e:'AI功能为本地模拟，不连接外部服务器，回复基于预设的备考知识库。'},settings:{t:'设置与数据',d:'管理工作台的数据、查看使用说明和更新日志。',h:'可以导出数据为JSON文件备份、导入备份恢复数据、清空所有数据重新开始。',a:'导出的文件请妥善保管。导入数据会覆盖当前数据。',u:'清空数据后无法恢复，请先导出备份。',e:'导入数据前请确保文件格式正确。'}};
+var VIEW_TITLES={today:'今日',overview:'首页总览',weekly:'每周学习规划',roadmap:'学习路线图',cpa:'CPA 备考',tax:'税务师备考',excel:'Excel 技能',shiyebian:'事业编备考',reading:'资料库',inbox:'收集箱',search:'搜索',ai:'AI 帮手',settings:'设置与数据',more:'更多',usage:'使用说明',changelog:'更新日志'};
+var HELP={today:{t:'今日',d:'汇总你所有模块中需要今天处理的事项，包括待办任务、待确认的错题、最近的学习记录。任务来源于各备考模块，不重复维护。',h:'查看今日任务列表，点击勾选框完成任务。任务按优先级和截止日期排序。',a:'完成的任务会标记为已完成，未完成的任务会持续显示直到完成。',u:'已完成的任务可以在对应模块中重新编辑。',e:'如果今日列表为空，说明所有任务已完成或尚未创建任务。'},cpa:{t:'CPA 备考',d:'管理注册会计师考试的六个科目。税法已于2024年通过，今年主攻会计。顶部显示CPA和税务师考试倒计时。',h:'通过七个标签页管理：课程进度记录每科听课进度（已通过科目以虚线卡片显示，今年备考科目有标记）；章节题一轮（客观）和章节题二轮（主观+客观）分阶段记录章节练习成绩，可编辑已有记录；错题本按科目汇总客观/主观错题数量、复习遍数和熟练程度；历年真题记录真题练习；模拟题记录模拟考试；任务管理待办事项。',a:'添加的数据会自动保存到浏览器本地存储，并同步到今日视图。',u:'所有记录都可以编辑或删除。',e:'如果数据丢失，可能是浏览器清理了本地存储，请定期导出备份。'},tax:{t:'税务师备考',d:'管理税务师考试的五个科目。税法一已于2024年通过，备考将于9月正式开始。顶部显示考试倒计时。',h:'操作方式与CPA备考模块一致，包含七个标签页。所有科目显示为"今年未备考"暗色状态，9月开始后再设置备考标记。',a:'数据自动保存并同步到今日视图。',u:'所有记录可编辑或删除。',e:'请定期导出备份以防数据丢失。'},excel:{t:'Excel 技能',d:'系统化学习Excel函数公式，包含6大类54个函数。每个函数展示语法格式、功能说明和掌握进度百分比。',h:'函数学习标签按分类展示每个函数的语法、说明和进度条；拖动滑块或点击进度条调整掌握程度（0-100%）；任务标签管理练习任务。',a:'进度数据自动保存，搜索框中可搜索语法和函数名。',u:'可编辑或删除函数记录。',e:'如数据丢失请从备份恢复。'},shiyebian:{t:'事业编备考',d:'为明年事业单位考试做信息收集和备考规划。顶部日历可点击查看每天的完成事项。',h:'信息收集标签记录招聘信息和备考资料；连云港标签持续更新连云港事业单位招聘信息；任务标签管理备考计划。顶部月历标记已完成的待办（绿点）和待办截止（橙点），点击任意日期查看当天详情。',a:'信息自动保存，完成待办自动记录日期。',u:'可编辑或删除条目。',e:'如数据丢失请从备份恢复。'},reading:{t:'资料库',d:'管理你的阅读和收听进度，包括书籍和播客。支持从链接导入书籍或播客信息，自动填充标题和作者。',h:'通过书籍和播客两个标签页管理。点击添加按钮创建新条目，编辑时可调整进度和状态。支持从链接导入，粘贴页面URL即可自动提取标题和作者。',a:'数据自动保存并同步到今日页面的"资料库"板块。',u:'可编辑或删除任何条目。',e:'如数据丢失请从备份恢复。'},inbox:{t:'收集箱',d:'暂时不知道放哪里的文字、链接、文件和临时任务都先放在这里，之后再归类到对应模块。',h:'点击添加按钮创建新条目，选择类型（文字/链接/任务），输入内容。之后可以编辑或删除。',a:'条目保存在收集箱中，直到你手动删除或归类。',u:'可以编辑或删除任何条目。',e:'如果收集箱为空，说明所有条目已处理。'},search:{t:'搜索',d:'跨所有模块搜索内容，包括任务、课程、错题、收集箱条目等。',h:'在搜索框中输入关键词，结果会按模块分类显示。点击结果可以跳转到对应模块。',a:'搜索结果实时更新。',u:'搜索不影响任何数据。',e:'如果没有结果，尝试更换关键词。'},ai:{t:'AI 帮手',d:'帮你整理资料、了解备考信息差、安排学习任务的智能助手。',h:'在输入框中输入问题，或点击下方的快捷建议。AI会根据你的备考情况给出建议。',a:'AI的回复仅供参考，重要决策请自行确认。',u:'可以清除聊天记录重新开始。',e:'AI功能为本地模拟，不连接外部服务器，回复基于预设的备考知识库。'},settings:{t:'设置与数据',d:'管理工作台的数据、查看使用说明和更新日志。',h:'可以导出数据为JSON文件备份、导入备份恢复数据、清空所有数据重新开始。',a:'导出的文件请妥善保管。导入数据会覆盖当前数据。',u:'清空数据后无法恢复，请先导出备份。',e:'导入数据前请确保文件格式正确。'}};
 function esc(s){return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;')}
 function fmtDate(d){var m=['一','二','三','四','五','六','七','八','九','十','十一','十二'];return d.getFullYear()+'年'+m[d.getMonth()]+'月'+d.getDate()+'日'}
 function cdDays(d){var now=new Date();var today=new Date(now.getFullYear(),now.getMonth(),now.getDate());var ex=new Date(d);return Math.ceil((ex-today)/(1000*60*60*24))}
 var PRACTICE_TABS={'chapter1':{label:'章节题一轮（客观）',btn:'记录章节题',empty:'暂无章节题一轮记录',emptyHint:'点击右上角记录一次客观题练习'},'chapter2':{label:'章节题二轮（主观+客观）',btn:'记录章节题',empty:'暂无章节题二轮记录',emptyHint:'点击右上角记录一次主客观题练习'},'pastpapers':{label:'历年真题',btn:'记录真题',empty:'暂无真题记录',emptyHint:'点击右上角记录一次历年真题练习'},'mocks':{label:'模拟题',btn:'记录模拟题',empty:'暂无模拟题记录',emptyHint:'点击右上角记录一次模拟题练习'}};
 var PRACTICE_KEYS=Object.keys(PRACTICE_TABS);
 var examCalMonthOff={};var excelCalMonthOff={};var readingCalMonthOff={};
+function weeklyRangesForMod(mod){return (DATA.weeklyTasks||[]).filter(function(t){return t.mod===mod&&(t.startDate||t.endDate||t.dueDate)}).map(function(t){return{sd:t.startDate||'',ed:t.endDate||t.dueDate||''}})}
+function inWeeklyRange(ranges,ds){for(var i=0;i<ranges.length;i++){var r=ranges[i];if(r.sd&&r.ed){if(ds>=r.sd&&ds<=r.ed)return true}else if(r.sd){if(ds===r.sd)return true}else if(r.ed){if(ds===r.ed)return true}}return false}
 function renderExcelTopCalendar(){
 var off=excelCalMonthOff._||0;var now=new Date();now.setMonth(now.getMonth()+off);var y=now.getFullYear();var mn=now.getMonth();
 var fd=new Date(y,mn,1).getDay();var ld=new Date(y,mn+1,0).getDate();
 var dateMap={};var today=todayLocal();
 (DATA.excel.tasks||[]).forEach(function(t){var d=t.dueDate;if(!d)return;if(!dateMap[d])dateMap[d]={up:0,ov:0,dn:0};if(t.done)dateMap[d].dn++;else if(d<today)dateMap[d].ov++;else dateMap[d].up++});
 (DATA.excel.funcDates||[]).forEach(function(fd){var d=fd.date;if(!d)return;if(!dateMap[d])dateMap[d]={up:0,ov:0,dn:0,fn:0};dateMap[d].fn=(dateMap[d].fn||0)+1});
-var ts=today;
+var ts=today;var wr=weeklyRangesForMod('excel');
 var h='<div class="exam-top-cal"><div class="etc-header">';
 h+='<button class="etc-nav" onclick="changeExcelCalMonth(-1)">'+svgIcon('i-chevron-left',16,16)+'</button>';
 h+='<span class="etc-month">'+y+'年'+(mn+1)+'月</span>';
@@ -834,9 +874,10 @@ for(var i=0;i<fd;i++)h+='<div class="etc-day empty"></div>';
 for(var d=1;d<=ld;d++){var ds=y+'-'+String(mn+1).padStart(2,'0')+'-'+String(d).padStart(2,'0');
 var cls='etc-day';var calKey='excel';if(ds===ts)cls+=' today';if(ds===dateSel.excel)cls+=' cal-selected';
 var dots='';if(dateMap[ds]){if(dateMap[ds].up>0)dots+='<span class="etc-dot blue"></span>';if(dateMap[ds].ov>0)dots+='<span class="etc-dot orange"></span>';if(dateMap[ds].dn>0)dots+='<span class="etc-dot green"></span>';if(dateMap[ds].fn>0)dots+='<span class="etc-dot purple"></span>'}
+if(inWeeklyRange(wr,ds))dots+='<span class="etc-dot weekly"></span>';
 h+='<div class="'+cls+'" onclick="selectModuleDate(\''+calKey+'\',\''+ds+'\')"><span>'+d+'</span>'+(dots?'<div class="etc-dots">'+dots+'</div>':'')+'</div>'}
 h+='</div>';
-h+='<div class="etc-legend"><span class="etc-legend-item"><span class="etc-legend-dot" style="background:#555"></span>待完成任务</span><span class="etc-legend-item"><span class="etc-legend-dot" style="background:#E87A5A"></span>已过期</span><span class="etc-legend-item"><span class="etc-legend-dot" style="background:#7CB342"></span>已完成</span><span class="etc-legend-item"><span class="etc-legend-dot" style="background:#8E6FBF"></span>函数学习</span></div>';
+h+='<div class="etc-legend"><span class="etc-legend-item"><span class="etc-legend-dot" style="background:#555"></span>待完成任务</span><span class="etc-legend-item"><span class="etc-legend-dot" style="background:#E87A5A"></span>已过期</span><span class="etc-legend-item"><span class="etc-legend-dot" style="background:#7CB342"></span>已完成</span><span class="etc-legend-item"><span class="etc-legend-dot" style="background:#8E6FBF"></span>函数学习</span><span class="etc-legend-item"><span class="etc-legend-dot" style="background:var(--do)"></span>每周规划</span></div>';
 h+=renderDayDetail('excel',dateSel.excel||'');
 h+='</div>';return h}
 function changeExcelCalMonth(delta){excelCalMonthOff._=(excelCalMonthOff._||0)+delta;renderView(currentView)}
@@ -845,7 +886,7 @@ var off=readingCalMonthOff._||0;var now=new Date();now.setMonth(now.getMonth()+o
 var fd=new Date(y,mn,1).getDay();var ld=new Date(y,mn+1,0).getDate();
 var dateMap={};
 (DATA.reading.logs||[]).forEach(function(l){if(!dateMap[l.date])dateMap[l.date]={books:0,podcasts:0};if(l.type==='book')dateMap[l.date].books++;else dateMap[l.date].podcasts++});
-var today=todayLocal();
+var today=todayLocal();var wr=weeklyRangesForMod('reading');
 var h='<div class="exam-top-cal"><div class="etc-header">';
 h+='<button class="etc-nav" onclick="changeReadingCalMonth(-1)">'+svgIcon('i-chevron-left',16,16)+'</button>';
 h+='<span class="etc-month">'+y+'年'+(mn+1)+'月 · 阅读记录</span>';
@@ -858,9 +899,10 @@ for(var d=1;d<=ld;d++){var ds=y+'-'+String(mn+1).padStart(2,'0')+'-'+String(d).p
 var cls='etc-day';var calKey='reading';if(ds===today)cls+=' today';if(ds===dateSel.reading)cls+=' cal-selected';
 var dots='';
 if(dateMap[ds]){if(dateMap[ds].books>0)dots+='<span class="etc-dot green"></span>';if(dateMap[ds].podcasts>0)dots+='<span class="etc-dot blue"></span>'}
+if(inWeeklyRange(wr,ds))dots+='<span class="etc-dot weekly"></span>';
 h+='<div class="'+cls+'" onclick="selectModuleDate(\''+calKey+'\',\''+ds+'\')"><span>'+d+'</span>'+(dots?'<div class="etc-dots">'+dots+'</div>':'')+'</div>'}
 h+='</div>';
-h+='<div class="etc-legend"><span class="etc-legend-item"><span class="etc-legend-dot" style="background:#7CB342"></span>书籍阅读</span><span class="etc-legend-item"><span class="etc-legend-dot" style="background:#555"></span>播客收听</span></div>';
+h+='<div class="etc-legend"><span class="etc-legend-item"><span class="etc-legend-dot" style="background:#7CB342"></span>书籍阅读</span><span class="etc-legend-item"><span class="etc-legend-dot" style="background:#555"></span>播客收听</span><span class="etc-legend-item"><span class="etc-legend-dot" style="background:var(--do)"></span>每周规划</span></div>';
 h+=renderDayDetail('reading',dateSel.reading||'');
 h+='</div>';return h}
 function changeReadingCalMonth(delta){readingCalMonthOff._=(readingCalMonthOff._||0)+delta;renderView(currentView)}
@@ -881,12 +923,14 @@ h+='</div><div class="etc-week">';
 h+='</div><div class="etc-days">';
 for(var i=0;i<fd;i++)h+='<div class="etc-day empty"></div>';
 var typeColors={chapter1:'green',chapter2:'blue',pastpapers:'yellow',mocks:'pink',_tasks:'orange',_courses:'purple'};
+var wr=weeklyRangesForMod(key);
 for(var d=1;d<=ld;d++){var ds=y+'-'+String(mn+1).padStart(2,'0')+'-'+String(d).padStart(2,'0');
 var cls='etc-day';if(ds===ts)cls+=' today';if(ds===dateSel[key])cls+=' cal-selected';
 var dots='';if(dateMap[ds]){Object.keys(dateMap[ds]).forEach(function(tk){if(typeColors[tk])dots+='<span class="etc-dot '+typeColors[tk]+'"></span>'})}
+if(inWeeklyRange(wr,ds))dots+='<span class="etc-dot weekly"></span>';
 h+='<div class="'+cls+'" onclick="selectModuleDate(\''+key+'\',\''+ds+'\')"><span>'+d+'</span>'+(dots?'<div class="etc-dots">'+dots+'</div>':'')+'</div>'}
 h+='</div>';
-h+='<div class="etc-legend"><span class="etc-legend-item"><span class="etc-legend-dot" style="background:#7CB342"></span>客观一轮</span><span class="etc-legend-item"><span class="etc-legend-dot" style="background:#555"></span>主客观二轮</span><span class="etc-legend-item"><span class="etc-legend-dot" style="background:#E6A817"></span>历年真题</span><span class="etc-legend-item"><span class="etc-legend-dot" style="background:#D4819E"></span>模拟题</span><span class="etc-legend-item"><span class="etc-legend-dot" style="background:#E87A5A"></span>任务截止</span><span class="etc-legend-item"><span class="etc-legend-dot" style="background:#8E6FBF"></span>课程学习</span></div>';
+h+='<div class="etc-legend"><span class="etc-legend-item"><span class="etc-legend-dot" style="background:#7CB342"></span>客观一轮</span><span class="etc-legend-item"><span class="etc-legend-dot" style="background:#555"></span>主客观二轮</span><span class="etc-legend-item"><span class="etc-legend-dot" style="background:#E6A817"></span>历年真题</span><span class="etc-legend-item"><span class="etc-legend-dot" style="background:#D4819E"></span>模拟题</span><span class="etc-legend-item"><span class="etc-legend-dot" style="background:#E87A5A"></span>任务截止</span><span class="etc-legend-item"><span class="etc-legend-dot" style="background:#8E6FBF"></span>课程学习</span><span class="etc-legend-item"><span class="etc-legend-dot" style="background:var(--do)"></span>每周规划</span></div>';
 h+=renderDayDetail(key,dateSel[key]||'');
 h+='</div>';return h}
 function changeExamCalMonth(key,delta){examCalMonthOff[key]=(examCalMonthOff[key]||0)+delta;renderView(currentView)}
@@ -895,7 +939,7 @@ var off=examCalMonthOff.shiyebian||0;var now=new Date();now.setMonth(now.getMont
 var fd=new Date(y,mn,1).getDay();var ld=new Date(y,mn+1,0).getDate();
 var dateMap={};
 (DATA.shiyebian.tasks||[]).forEach(function(t){if(t.dueDate){if(!dateMap[t.dueDate])dateMap[t.dueDate]={_tasks:true};dateMap[t.dueDate]._tasks=true}if(t.completedDate){if(!dateMap[t.completedDate])dateMap[t.completedDate]={_done:true};dateMap[t.completedDate]._done=true}});
-var ts=todayLocal();
+var ts=todayLocal();var wr=weeklyRangesForMod('shiyebian');
 var h='<div class="exam-top-cal"><div class="etc-header">';
 h+='<button class="etc-nav" onclick="changeShiyebianCalMonth(-1)">'+svgIcon('i-chevron-left',16,16)+'</button>';
 h+='<span class="etc-month">'+y+'年'+(mn+1)+'月</span>';
@@ -907,9 +951,10 @@ for(var i=0;i<fd;i++)h+='<div class="etc-day empty"></div>';
 for(var d=1;d<=ld;d++){var ds=y+'-'+String(mn+1).padStart(2,'0')+'-'+String(d).padStart(2,'0');
 var cls='etc-day';if(ds===ts)cls+=' today';if(ds===dateSel.shiyebian)cls+=' cal-selected';
 var dots='';if(dateMap[ds]){if(dateMap[ds]._done)dots+='<span class="etc-dot green"></span>';if(dateMap[ds]._tasks)dots+='<span class="etc-dot orange"></span>'}
+if(inWeeklyRange(wr,ds))dots+='<span class="etc-dot weekly"></span>';
 h+='<div class="'+cls+'" onclick="selectModuleDate(\'shiyebian\',\''+ds+'\')"><span>'+d+'</span>'+(dots?'<div class="etc-dots">'+dots+'</div>':'')+'</div>'}
 h+='</div>';
-h+='<div class="etc-legend"><span class="etc-legend-item"><span class="etc-legend-dot" style="background:#7CB342"></span>已完成事项</span><span class="etc-legend-item"><span class="etc-legend-dot" style="background:#E87A5A"></span>待办截止</span></div>';
+h+='<div class="etc-legend"><span class="etc-legend-item"><span class="etc-legend-dot" style="background:#7CB342"></span>已完成事项</span><span class="etc-legend-item"><span class="etc-legend-dot" style="background:#E87A5A"></span>待办截止</span><span class="etc-legend-item"><span class="etc-legend-dot" style="background:var(--do)"></span>每周规划</span></div>';
 h+=renderDayDetail('shiyebian',dateSel.shiyebian||'');
 h+='</div>';return h}
 function changeShiyebianCalMonth(delta){examCalMonthOff.shiyebian=(examCalMonthOff.shiyebian||0)+delta;renderView(currentView)}
@@ -925,6 +970,8 @@ var nw=(DATA.reading.news||[]).filter(function(n){return n.date===ds});
 if(nw.length)groups.push({t:'当日新闻',c:'#555',items:nw.map(function(n){return{title:n.title,meta:(n.category||'')+(n.source?' · '+n.source:'')}})});
 var pks=(DATA.reading.dailyPicks||[]).filter(function(x){return x.date===ds});
 if(pks.length)groups.push({t:'当日推荐',c:'#8E6FBF',items:pks.map(function(x){return{title:x.title,meta:(x.type==='podcast'?'播客推荐':'书籍推荐')+(x.author?' · '+x.author:'')}})});
+var _wk=(DATA.weeklyTasks||[]).filter(function(t){if(t.mod!=='reading')return false;var s0=t.startDate||'',e0=t.endDate||t.dueDate||'';if(s0&&e0)return ds>=s0&&ds<=e0;if(s0)return ds===s0;if(e0)return ds===e0;return false});
+if(_wk.length)groups.push({t:'每周规划',c:'var(--do)',items:_wk.map(function(t){return{title:t.title,meta:(t.priority?('优先级 '+({high:'高',medium:'中',low:'低'}[t.priority])+' · '):'')+(t.startDate||t.endDate?((t.startDate||'')+' ~ '+(t.endDate||t.dueDate||'')):'')+(t.done?' · 已完成':'')}})});
 }else{
 var tasks=DATA[key].tasks||[];
 var doneT=tasks.filter(function(t){return t.completedDate===ds});
@@ -941,6 +988,8 @@ if(cds.length)groups.push({t:'课程学习',c:'#8E6FBF',items:cds.map(function(c
 }
 var dueT=tasks.filter(function(t){return t.dueDate===ds&&!t.done});
 if(dueT.length)groups.push({t:'当天截止（未完成）',c:'#E87A5A',items:dueT.map(function(t){return{title:t.title,meta:'尚未完成'}})});
+var _wk=(DATA.weeklyTasks||[]).filter(function(t){if(t.mod!==key)return false;var s0=t.startDate||'',e0=t.endDate||t.dueDate||'';if(s0&&e0)return ds>=s0&&ds<=e0;if(s0)return ds===s0;if(e0)return ds===e0;return false});
+if(_wk.length)groups.push({t:'每周规划',c:'var(--do)',items:_wk.map(function(t){return{title:t.title,meta:(t.priority?('优先级 '+({high:'高',medium:'中',low:'低'}[t.priority])+' · '):'')+(t.startDate||t.endDate?((t.startDate||'')+' ~ '+(t.endDate||t.dueDate||'')):'')+(t.done?' · 已完成':'')}})});
 }
 var total=groups.reduce(function(a,g){return a+g.items.length},0);
 var h='<div class="day-detail"><div class="dd-head"><div class="dd-title">'+svgIcon('i-today',15,15)+' '+fmtDate(new Date(ds))+' · 完成事项 <span class="dd-count">共 '+total+' 项</span></div><button class="dd-close" onclick="selectModuleDate(\''+key+'\',\''+ds+'\')">收起</button></div>';
@@ -995,9 +1044,13 @@ function flashToast(msg){
 function tabN(n){return n>0?'<span class="tab-n">'+n+'</span>':''}
 function helpBtn(k){return'<button class="help-btn" onclick="showHelp(event,\''+k+'\')">?</button>'}
 function svgIcon(name,w,h){return'<svg width="'+(w||20)+'" height="'+(h||20)+'" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use href="#'+name+'"/></svg>'}
+function readingCatColor(item){if(item.type!=='news'){return item.pickType==='podcast'?'#6BA3D0':'#5BB78F'}var m={'税务':'#C77FA0','财经':'#4F93C4','AI科技':'#5AA9A0','科技':'#5AA9A0','音乐':'#B589C4','时政':'#7BA86B','其他':'#9A9A9A'};return m[item.category||'其他']||m['其他']}
+function readingGlyph(item){if(item.type!=='news'){return item.pickType==='podcast'?'i-headphones':'i-book-open'}var m={'税务':'i-briefcase','财经':'i-chart','AI科技':'i-ai','科技':'i-ai','音乐':'i-music','时政':'i-target','其他':'i-info'};return m[item.category||'其他']||m['其他']}
+function catIco(color,glyph){return '<span class="cat-ico" style="background:'+color+'1A;color:'+color+'">'+svgIcon(glyph,15,15)+'</span>'}
+function readingItemIcon(item){return catIco(readingCatColor(item),readingGlyph(item))}
 function ovKpiCard(val,label,sub,icon){return'<div class="ov-kpi"><div class="ov-kpi-icon">'+icon+'</div><div><div class="ov-kpi-val">'+val+'</div><div class="ov-kpi-label">'+label+'</div><div class="ov-kpi-sub">'+sub+'</div></div></div>'}
 function ovModuleCard(view,name,detail,icon,bg){return'<div class="ov-mod" onclick="navigate(\''+view+'\')"><div class="ov-mod-icon" style="background:'+bg+'">'+icon+'</div><div class="ov-mod-info"><div class="ov-mod-name">'+name+'</div><div class="ov-mod-detail">'+detail+'</div></div><div class="ov-mod-arrow">'+svgIcon('i-chevron-right',16,16)+'</div></div>'}
-function navigate(v){if(v==='more'){openDrawer();return}currentView=v;document.querySelectorAll('.sidebar-nav .nav-item,.drawer-nav .nav-item').forEach(function(el){el.classList.toggle('active',el.dataset.view===v)});var bottomTabs=['overview','today','stats'];document.querySelectorAll('.mobile-nav .nav-tab').forEach(function(el){el.classList.toggle('active',el.dataset.view===(bottomTabs.indexOf(v)>=0?v:'more'))});document.getElementById('mobileTitle').textContent=VIEW_TITLES[v]||v;closeDrawer();renderView(v);window.scrollTo(0,0)}
+function navigate(v){if(v==='more'){openDrawer();return}currentView=v;document.querySelectorAll('.sidebar-nav .nav-item,.drawer-nav .nav-item').forEach(function(el){el.classList.toggle('active',el.dataset.view===v)});var bottomTabs=['overview','weekly','roadmap'];document.querySelectorAll('.mobile-nav .nav-tab').forEach(function(el){el.classList.toggle('active',el.dataset.view===(bottomTabs.indexOf(v)>=0?v:'more'))});document.getElementById('mobileTitle').textContent=VIEW_TITLES[v]||v;closeDrawer();renderView(v);window.scrollTo(0,0)}
 function openDrawer(){document.getElementById('drawerOverlay').classList.add('show');document.getElementById('moreDrawer').classList.add('show')}
 function closeDrawer(){document.getElementById('drawerOverlay').classList.remove('show');document.getElementById('moreDrawer').classList.remove('show')}
 function topbarSearch(){var v=(document.getElementById('tbSearch').value||'').trim();if(!v)return;pendingSearch=v;navigate('search')}
@@ -1008,10 +1061,10 @@ document.addEventListener('click',function(){document.getElementById('helpPopove
 function openModal(h){document.getElementById('modalContent').innerHTML=h;document.getElementById('modalOverlay').classList.add('show')}
 function closeModal(){document.getElementById('modalOverlay').classList.remove('show')}
 document.getElementById('modalOverlay').addEventListener('click',function(e){if(e.target.id==='modalOverlay')closeModal()});
-function handleFab(){if(currentView==='inbox'||currentView==='today')openInboxAddModal();else if(currentView==='cpa'||currentView==='tax')openTaskAddModal(currentView);else if(currentView==='excel')openExcelFuncAddModal();else if(currentView==='shiyebian')openShiyebianItemAddModal();else if(currentView==='reading'){(currentTab.reading==='podcasts'?openPodcastAddModal:openBookAddModal)()}else openInboxAddModal()}
+function handleFab(){if(currentView==='inbox')openInboxAddModal();else if(currentView==='cpa'||currentView==='tax')openTaskAddModal(currentView);else if(currentView==='excel')openExcelFuncAddModal();else if(currentView==='shiyebian')openShiyebianItemAddModal();else if(currentView==='reading'){(currentTab.reading==='podcasts'?openPodcastAddModal:openBookAddModal)()}else openInboxAddModal()}
 function updateBadges(){var ct=DATA.cpa.tasks.filter(function(t){return!t.done}).length;var tt=DATA.tax.tasks.filter(function(t){return!t.done}).length;var ic=DATA.inbox.length;function setB(sel,v){document.querySelectorAll(sel).forEach(function(el){el.textContent=v||'';el.style.display=v?'':'none'})}setB('[data-badge="cpa"]',ct);setB('[data-badge="tax"]',tt);setB('[data-badge="inbox"]',ic)}
 function switchTab(m,t){currentTab[m]=t;renderView(m)}
-function renderView(v){var fn={today:renderToday,overview:renderOverview,weekly:renderWeeklyPlan,roadmap:renderRoadmap,cpa:function(){renderExam('cpa')},tax:function(){renderExam('tax')},excel:renderExcel,shiyebian:renderShiyebian,reading:renderReading,inbox:renderInbox,search:renderSearch,ai:renderAI,settings:renderSettings,usage:renderUsage,changelog:renderChangelog,stats:renderStats};try{(fn[v]||renderToday)()}catch(e){document.getElementById('mainContent').innerHTML='<div class="page-header"><h2>渲染出错</h2><div class="desc">请刷新页面重试。如问题持续，请在"设置与数据"中清空数据后重新导入备份。</div><p style="font-size:12px;color:var(--text-2);margin-top:16px">错误：'+esc(e.message)+'</p></div>';console.error(e)}}
+function renderView(v){var fn={overview:renderOverview,weekly:renderWeeklyPlan,roadmap:renderRoadmap,cpa:function(){renderExam('cpa')},tax:function(){renderExam('tax')},excel:renderExcel,shiyebian:renderShiyebian,reading:renderReading,inbox:renderInbox,search:renderSearch,ai:renderAI,settings:renderSettings,usage:renderUsage,changelog:renderChangelog};try{(fn[v]||renderOverview)()}catch(e){document.getElementById('mainContent').innerHTML='<div class="page-header"><h2>渲染出错</h2><div class="desc">请刷新页面重试。如问题持续，请在"设置与数据"中清空数据后重新导入备份。</div><p style="font-size:12px;color:var(--text-2);margin-top:16px">错误：'+esc(e.message)+'</p></div>';console.error(e)}}
 document.querySelectorAll('.sidebar-nav .nav-item').forEach(function(el){el.addEventListener('click',function(){navigate(el.dataset.view)})});
 document.querySelectorAll('.sidebar-footer .sf-link').forEach(function(el){el.addEventListener('click',function(){navigate(el.dataset.view)})});
 document.querySelectorAll('.mobile-nav .nav-tab').forEach(function(el){el.addEventListener('click',function(){navigate(el.dataset.view)})});
@@ -1021,7 +1074,7 @@ document.getElementById('drawerOverlay').addEventListener('click',closeDrawer);
 document.addEventListener('keydown',function(e){
 if(e.target.tagName==='INPUT'||e.target.tagName==='TEXTAREA'||e.target.tagName==='SELECT')return;
 if(e.altKey&&!e.ctrlKey&&!e.metaKey){
-var map={'1':'today','2':'overview','3':'cpa','4':'tax','5':'excel','6':'shiyebian','7':'reading','8':'inbox','9':'stats'};
+var map={'1':'overview','2':'overview','3':'cpa','4':'tax','5':'excel','6':'shiyebian','7':'reading','8':'inbox'};
 if(map[e.key]){e.preventDefault();navigate(map[e.key])}
 }
 if(e.ctrlKey&&e.key==='s'){e.preventDefault();forceCheckSync()}
@@ -1044,20 +1097,20 @@ var wkDone=['cpa','tax','excel','shiyebian'].reduce(function(s,k){return s+DATA[
 var WEEKLY_GOAL=20;var wkPct=Math.min(100,Math.round(wkDone/WEEKLY_GOAL*100));
 // 本月归档
 var now=new Date();var ms=new Date(now.getFullYear(),now.getMonth(),1);
-var MN={cpa:'CPA 备考',tax:'税务师备考',shiyebian:'事业编备考',excel:'Excel 技能',reading:'每日阅读',inbox:'收集箱'};
+var MN={cpa:'CPA 备考',tax:'税务师备考',shiyebian:'事业编备考',excel:'Excel 技能',reading:'资料库',inbox:'收集箱'};
 function inMonth(ds){if(!ds)return false;var d=new Date(ds+'T00:00:00');return d>=ms&&d<=now}
 var monthItems=[];
 ['cpa','tax','shiyebian'].forEach(function(k){(DATA[k].tasks||[]).forEach(function(t){if(t.done&&t.completedDate&&inMonth(t.completedDate))monthItems.push({d:t.completedDate,m:MN[k],n:t.title})})});
 ['cpa','tax'].forEach(function(k){(DATA[k].courseDates||[]).forEach(function(c){if(c.date&&inMonth(c.date))monthItems.push({d:c.date,m:MN[k],n:c.name||'课程学习'})})});
 (DATA.excel.funcDates||[]).forEach(function(f){if(f.date&&inMonth(f.date))monthItems.push({d:f.date,m:'Excel 技能',n:f.name||'函数练习'})});
-(DATA.reading.logs||[]).forEach(function(l){if(l.date&&inMonth(l.date))monthItems.push({d:l.date,m:'每日阅读',n:l.title||'阅读记录'})});
+(DATA.reading.logs||[]).forEach(function(l){if(l.date&&inMonth(l.date))monthItems.push({d:l.date,m:'资料库',n:l.title||'阅读记录'})});
 monthItems.sort(function(a,b){return a.d<b.d?1:(a.d>b.d?-1:0)});
 // 里程碑
 var msList=[{n:'CPA 考试',d:DATA.cpa.examDate||'2026-08-28'},{n:'税务师考试',d:DATA.tax.examDate||'2026-11-14'}];
 if(DATA.shiyebian.examDate)msList.push({n:'事业编考试',d:DATA.shiyebian.examDate});
 // 卡片1：本周进度环形
 var C=2*Math.PI*42;var off=C*(1-wkPct/100);
-var donut='<div class="ov-donut"><svg width="150" height="150" viewBox="0 0 150 150"><circle cx="75" cy="75" r="42" fill="none" stroke="var(--border)" stroke-width="12"/><circle cx="75" cy="75" r="42" fill="none" stroke="var(--accent)" stroke-width="12" stroke-linecap="round" stroke-dasharray="'+C.toFixed(1)+'" stroke-dashoffset="'+off.toFixed(1)+'" transform="rotate(-90 75 75)"/></svg><div class="ov-donut-center"><div class="ov-donut-pct">'+wkPct+'%</div><div class="ov-donut-cap">本周进度</div></div></div>';
+var donut='<div class="ov-donut"><svg width="150" height="150" viewBox="0 0 150 150"><circle cx="75" cy="75" r="42" fill="none" stroke="var(--border)" stroke-width="12"/><circle cx="75" cy="75" r="42" fill="none" stroke="var(--dg)" stroke-width="12" stroke-linecap="round" stroke-dasharray="'+C.toFixed(1)+'" stroke-dashoffset="'+off.toFixed(1)+'" transform="rotate(-90 75 75)"/></svg><div class="ov-donut-center"><div class="ov-donut-pct">'+wkPct+'%</div><div class="ov-donut-cap">本周进度</div></div></div>';
 var cardWeek='<div class="ov-card"><div class="ov-card-head"><span class="ov-card-title">'+svgIcon('i-target',16,16)+' 本周学习进度</span></div>'+donut+'<div class="ov-donut-legend">本周已完成 <b>'+wkDone+'</b> 项学习动作 · 目标 '+WEEKLY_GOAL+' 项/周</div></div>';
 // 卡片2：本月归档
 var cardMonth;
@@ -1075,9 +1128,10 @@ function _modProg(kind){
   if(kind==='reading'){var items=DATA.reading.books.concat(DATA.reading.podcasts);var tot=items.length;var p=items.reduce(function(s,it){if(it.status==='done')return s+100;if(it.status==='reading')return s+Math.round((it.currentPage||0)/(it.totalPages||1)*100);return s;},0);var pct=tot?Math.round(p/tot):0;var done=items.filter(function(it){return it.status==='done'}).length;return{pct:pct,label:done+'/'+tot,sub:'已读'}}
   return{pct:0,label:'0/0',sub:''}
 }
-var _mods=[['cpa','CPA 备考'],['tax','税务师备考'],['excel','Excel 技能'],['shiyebian','事业编备考'],['reading','每日阅读']];
-var progRows=_mods.map(function(m){var p=_modProg(m[0]);return '<div class="ov-prog-row"><span class="ov-prog-name">'+m[1]+'</span><span class="ov-prog-bar"><span class="ov-prog-fill" style="width:'+p.pct+'%"></span></span><span class="ov-prog-val">'+p.pct+'%</span><span class="ov-prog-sub">'+p.label+' '+p.sub+'</span></div>';}).join('');
-var dash='<div class="ov-card ov-card-wide"><div class="ov-card-head"><span class="ov-card-title">'+svgIcon('i-grid',16,16)+' 学习概览看板</span><a class="ov-card-link" onclick="navigate(\'stats\')">数据看板 &rarr;</a></div><div class="ov-prog-block"><div class="ov-prog-title">模块进度</div>'+progRows+'</div></div>';
+var _mods=[['cpa','CPA 备考'],['tax','税务师备考'],['excel','Excel 技能'],['shiyebian','事业编备考'],['reading','资料库']];
+var MC={cpa:'var(--mc-cpa)',tax:'var(--mc-tax)',excel:'var(--mc-excel)',shiyebian:'var(--mc-shiye)',reading:'var(--mc-reading)'};
+var progRows=_mods.map(function(m){var p=_modProg(m[0]);return '<div class="ov-prog-row" onclick="navigate(\''+m[0]+'\')"><span class="ov-prog-name">'+m[1]+'</span><span class="ov-prog-bar"><span class="ov-prog-fill" style="width:'+p.pct+'%;background:var(--dg)"></span></span><span class="ov-prog-val">'+p.pct+'%</span><span class="ov-prog-sub">'+p.label+' '+p.sub+'</span></div>';}).join('');
+var dash='<div class="ov-card ov-card-wide"><div class="ov-card-head"><span class="ov-card-title">'+svgIcon('i-grid',16,16)+' 学习概览看板</span></div><div class="ov-prog-block"><div class="ov-prog-title">模块进度</div>'+progRows+'</div></div>';
 // 卡片4：里程碑
 var msRows=msList.map(function(m){
  var n=cdDays(m.d);var passed=n<0;var urgent=n>=0&&n<=30;
@@ -1087,43 +1141,67 @@ var msRows=msList.map(function(m){
 }).join('');
 var cardMs='<div class="ov-card"><div class="ov-card-head"><span class="ov-card-title">'+svgIcon('i-target',16,16)+' 里程碑</span></div><div class="ms-list">'+msRows+'</div></div>';
 // 今日重点（这一天特别紧急的事：逾期 / 今天到期 / 高优先级）
-var _MN={cpa:'CPA',tax:'税务师',excel:'Excel',shiyebian:'事业编'};
+var _MN={cpa:'CPA',tax:'税务师',excel:'Excel',shiyebian:'事业编',reading:'资料库'};
 var focus=[];
-['cpa','tax','excel','shiyebian'].forEach(function(k){DATA[k].tasks.forEach(function(t){if(t.done)return;var urgent=(t.dueDate&&t.dueDate<today)||(t.dueDate===today)||(t.priority==='high');if(urgent)focus.push({m:_MN[k],n:t.title,pri:t.priority,due:t.dueDate})})});
+['cpa','tax','excel','shiyebian'].forEach(function(k){DATA[k].tasks.forEach(function(t){if(t.done)return;var urgent=(t.dueDate&&t.dueDate<today)||(t.dueDate===today)||(t.priority==='high');if(urgent)focus.push({m:_MN[k],n:t.title,pri:t.priority,due:t.dueDate,mk:k})})});
+(DATA.weeklyTasks||[]).forEach(function(t){if(t.done)return;var wd=t.endDate||t.dueDate;var urgent=(wd&&wd<today)||(wd===today)||(t.priority==='high');if(urgent){var mod=t.mod?_MN[t.mod]:'每周规划';focus.push({m:mod,n:t.title,pri:t.priority,due:wd,mk:t.mod||'weekly'})}});
 focus.sort(function(a,b){var rk=function(x){if(x.due&&x.due<today)return 0;if(x.due===today)return 1;if(x.pri==='high')return 2;return 3};var ra=rk(a),rb=rk(b);if(ra!==rb)return ra-rb;return (a.due||'9999').localeCompare(b.due||'9999')});
 function urgTag(t){if(t.due&&t.due<today)return '<span class="ov-focus-urg over">逾期</span>';if(t.due===today)return '<span class="ov-focus-urg today">今天</span>';if(t.pri==='high')return '<span class="ov-focus-urg high">高优</span>';return ''}
-var focusRows=focus.length?focus.map(function(it){return '<div class="ov-focus-item"><span class="ov-focus-dot"></span><span class="ov-focus-tag">'+it.m+'</span>'+urgTag(it)+'<span class="ov-focus-name">'+esc(it.n)+'</span></div>';}).join(''):'<div class="ov-empty"><div class="ov-empty-icon">'+svgIcon('i-today',28,28)+'</div><div class="ov-empty-title">今日暂无特别紧急事项</div><div class="ov-empty-desc">没有逾期或今天到期的高优先任务，按计划推进即可 👍</div></div>';
-var cardFocus='<div class="ov-card ov-card-wide"><div class="ov-card-head"><span class="ov-card-title">'+svgIcon('i-today',16,16)+' 今日重点</span><span style="display:flex;gap:10px;align-items:center"><span class="ov-card-count">'+focus.length+' 项紧急</span><a class="ov-card-link" onclick="navigate(\'today\')">全部今日任务 &rarr;</a></span></div>'+focusRows+'</div>';
+var focusRows=focus.length?focus.map(function(it){return '<div class="ov-focus-item" onclick="navigate(\''+it.mk+'\')"><span class="ov-focus-dot"></span><span class="ov-focus-tag">'+it.m+'</span>'+urgTag(it)+'<span class="ov-focus-name">'+esc(it.n)+'</span></div>';}).join(''):'<div class="ov-empty"><div class="ov-empty-icon">'+svgIcon('i-today',28,28)+'</div><div class="ov-empty-title">今日暂无特别紧急事项</div><div class="ov-empty-desc">没有逾期或今天到期的高优先任务，按计划推进即可 👍</div></div>';
+var cardFocus='<div class="ov-card ov-card-wide"><div class="ov-card-head"><span class="ov-card-title">'+svgIcon('i-today',16,16)+' 今日重点</span><span class="ov-card-count">'+focus.length+' 项紧急</span></div>'+focusRows+'</div>';
 h+='<div class="ov-grid-top">'+cardWeek+cardMonth+'</div>';
 h+='<div style="margin:18px 0">'+cardFocus+'</div>';
-h+='<div class="ov-grid-bottom">'+dash+cardMs+'</div>';
+var ss=DATA.roadmapStageStatus||{};var rpAll=DATA.roadmapPlans||{};var MODNAME={cpa:'CPA',tax:'税务师',excel:'Excel',shiyebian:'事业编',reading:'资料库'};var STG=['基础学习','强化提升','冲刺模考','临考调整','考后复盘'];var stageRows=STG.map(function(s){var pls=rpAll[s]||[];var total=pls.length;var done=pls.filter(function(p){return p&&p.done}).length;var modSet={};pls.forEach(function(p){if(p&&p.mod)modSet[p.mod]=1});var mods=Object.keys(modSet);var statusPills=mods.map(function(m){var st=((ss[m]||{})[s])||'未开始';return '<span class="rf-ov-status '+(st==='已完成'?'done':st==='进行中'?'doing':'')+'">'+MODNAME[m]+'·'+st+'</span>';}).join('');var sub=total?('<div class="rf-ov-sub"><span class="rf-ov-count">规划 '+total+' · 完成 '+done+'</span>'+statusPills+'</div>'):'';return '<div class="rf-ov-row"><span class="rf-ov-name">'+s+'</span></div>'+sub;}).join('');var cardRoad='<div class="ov-card ov-card-click" onclick="navigate(\'roadmap\')"><div class="ov-card-head"><span class="ov-card-title">'+svgIcon('i-target',16,16)+' 学习路线总览</span><span class="ov-card-count">各项目阶段状态 · 点击查看 ›</span></div><div class="rf-ov-list">'+stageRows+'</div></div>';
+h+='<div class="ov-grid-bottom">'+dash+cardMs+cardRoad+'</div>';
 document.getElementById('mainContent').innerHTML=h;updateBadges();
 }
 
 function ymd(d){return d.getFullYear()+'-'+('0'+(d.getMonth()+1)).slice(-2)+'-'+('0'+d.getDate()).slice(-2)}
+var reviewWeekOffset=0;
+function weekRange(d){var x=d?new Date(d):new Date();var day=(x.getDay()+6)%7;var mon=new Date(x);mon.setDate(x.getDate()-day);mon.setHours(0,0,0,0);var sun=new Date(mon);sun.setDate(mon.getDate()+6);return{start:mon,end:sun,key:ymd(mon)+'_'+ymd(sun),label:ymd(mon).slice(5)+' ~ '+ymd(sun).slice(5)}}
+function reviewWeek(){if(reviewWeekOffset===0)return weekRange();var x=new Date(weekRange().start);x.setDate(x.getDate()+reviewWeekOffset*7);return weekRange(x)}
+function shiftReviewWeek(d){if(d===0)reviewWeekOffset=0;else reviewWeekOffset+=d;renderView('weekly')}
 
 function renderWeeklyPlan(){
 var wk=DATA.weeklyTasks||[];
 var wkWeek=wk.filter(function(t){return t.type==='week'});
 var wkShort=wk.filter(function(t){return t.type==='short'});
-var MODNAME={cpa:'CPA',tax:'税务师',excel:'Excel',shiyebian:'事业编',reading:'每日阅读'};
-function jumpView(t){return t.mod?t.mod:'today'}
-function wkList(arr){if(!arr.length)return '<div class="wk-empty">暂无</div>';return arr.map(function(t){return '<div class="wk-item'+(t.done?' done':'')+'">'
+var MODNAME={cpa:'CPA',tax:'税务师',excel:'Excel',shiyebian:'事业编',reading:'资料库'};
+var MC={cpa:'#4C9A78',tax:'#5BA0B0',excel:'#3F9C8E',shiyebian:'#C9943E',reading:'#B0799E'};
+var wkPri={high:'tag-high',medium:'tag-medium',low:'tag-low'};var priLabel={high:'高',medium:'中',low:'低'};
+function jumpView(t){return t.mod?t.mod:'weekly'}
+function wkList(arr){if(!arr.length)return '<div class="wk-empty">暂无</div>';return arr.map(function(t){var mc='var(--dg)';var pr=wkPri[t.priority]||'';return '<div class="wk-item'+(t.done?' done':'')+'" style="border-left:3px solid var(--dg)">'
  +'<div class="checkbox" onclick="toggleWeeklyTask(\''+t.id+'\')">'+svgIcon('i-check',12,12)+'</div>'
- +'<div class="wk-name">'+esc(t.title)+'</div>'
- +(t.mod?'<span class="wk-mod">'+MODNAME[t.mod]+'</span>':'')
+ +'<div class="wk-name" onclick="openWeeklyTaskModal(\''+t.id+'\')" style="cursor:pointer">'+esc(t.title)+'</div>'
+ +(pr?'<span class="tag '+pr+'">'+priLabel[t.priority]+'</span>':'')
+ +(t.mod?'<span class="wk-mod" style="background:var(--dg-bg);color:var(--dg)">'+MODNAME[t.mod]+'</span>':'')
+ +(function(){var sd=t.startDate,ed=t.endDate,d=t.dueDate;var rng=sd&&ed?(sd+' ~ '+ed):(sd||ed||d||'');return rng?'<span class="wk-due" style="font-size:11px;color:var(--text-2);display:inline-flex;align-items:center;gap:2px">'+svgIcon('i-clock',11,11)+rng+'</span>':''})()
  +'<button class="wk-jump" onclick="navigate(\''+jumpView(t)+'\')" title="跳转到对应模块">'+svgIcon('i-arrow-right',14,14)+'</button>'
  +'<button class="wk-del" onclick="delWeeklyTask(\''+t.id+'\')" title="删除">×</button></div>';}).join('')}
 var myPlan='<div class="ov-card"><div class="ov-card-head"><span class="ov-card-title">'+svgIcon('i-plus',16,16)+' 我的计划（自主添加）</span></div>'
-+'<div class="wk-add"><input id="wkTitle" placeholder="添加一项本周具体任务 / 短期目标…" onkeydown="if(event.key===\'Enter\')addWeeklyTask()"/><select id="wkType"><option value="week">本周任务</option><option value="short">短期目标</option></select><select id="wkMod"><option value="">不关联模块</option><option value="cpa">CPA</option><option value="tax">税务师</option><option value="excel">Excel</option><option value="shiyebian">事业编</option><option value="reading">每日阅读</option></select><button class="wk-add-btn" onclick="addWeeklyTask()">添加</button></div>'
++'<div class="wk-add"><input id="wkTitle" placeholder="添加一项本周具体任务…" onkeydown="if(event.key===\'Enter\')addWeeklyTask()"/><select id="wkMod"><option value="">不关联模块</option><option value="cpa">CPA</option><option value="tax">税务师</option><option value="excel">Excel</option><option value="shiyebian">事业编</option><option value="reading">资料库</option></select><select id="wkPri"><option value="">紧急程度</option><option value="high">高</option><option value="medium">中</option><option value="low">低</option></select><input id="wkStart" type="date" style="min-width:115px" placeholder="开始"/><input id="wkEnd" type="date" style="min-width:115px" placeholder="截止"/><button class="wk-add-btn" onclick="addWeeklyTask()">添加</button></div>'
 +'<div class="wk-sec-title">本周具体任务 <span class="ov-card-count">'+wkWeek.length+'</span></div>'+wkList(wkWeek)
-+'<div class="wk-sec-title">短期目标 <span class="ov-card-count">'+wkShort.length+'</span></div>'+wkList(wkShort)
 +'</div>';
-var h='<div class="page-header"><h2>每周学习规划</h2><div class="desc">直接添加本周具体任务与短期目标 · '+fmtDate(new Date())+'</div></div>';
+var h='<div class="page-header"><h2>每周学习规划</h2><div class="desc">直接添加本周具体任务 · '+fmtDate(new Date())+'</div></div>';
 h+=myPlan;
+if(DATA.weeklyReview&&!DATA.weeklyReviews){DATA.weeklyReviews={};DATA.weeklyReviews[weekRange().key]=DATA.weeklyReview;delete DATA.weeklyReview;saveData()}
+DATA.weeklyReviews=DATA.weeklyReviews||{};
+var rw=reviewWeek();
+var wr=DATA.weeklyReviews[rw.key]||{facts:'',obstacles:'',trends:''};
+var isCur=reviewWeekOffset===0;
+var reviewCard='<div class="ov-card" style="margin-top:18px"><div class="ov-card-head"><span class="ov-card-title">'+svgIcon('i-edit',16,16)+' 周复盘</span><span class="ov-card-count">事实 · 阻碍 · 趋势</span></div>'
++'<div class="wr-weekbar"><button class="wr-navbtn" onclick="shiftReviewWeek(-1)">‹ 上周</button><span class="wr-weeklabel">'+rw.label+(isCur?' · 本周':' · 历史')+'</span>'+(isCur?'':'<button class="wr-navbtn" onclick="shiftReviewWeek(0)">回到本周</button>')+'<button class="wr-navbtn" '+(isCur?'disabled':'')+' onclick="shiftReviewWeek(1)">下周 ›</button></div>'
++'<div class="wr-block"><label class="wr-label">事实（这周真实发生了什么）</label><textarea class="form-textarea" id="wr_facts" onblur="saveWeeklyReview(\'facts\')" placeholder="记录本周实际推进的事…">'+esc(wr.facts||'')+'</textarea></div>'
++'<div class="wr-block"><label class="wr-label">阻碍（卡住我的地方）</label><textarea class="form-textarea" id="wr_obstacles" onblur="saveWeeklyReview(\'obstacles\')" placeholder="记录遇到的困难、干扰、卡点…">'+esc(wr.obstacles||'')+'</textarea></div>'
++'<div class="wr-block"><label class="wr-label">趋势（下周怎么调）</label><textarea class="form-textarea" id="wr_trends" onblur="saveWeeklyReview(\'trends\')" placeholder="记录规律与下周调整方向…">'+esc(wr.trends||'')+'</textarea></div>'
++'</div>';
+h+=reviewCard;
 document.getElementById('mainContent').innerHTML=h;updateBadges();
 }
-function addWeeklyTask(){var ti=document.getElementById('wkTitle');if(!ti)return;var title=ti.value.trim();if(!title)return;var type=(document.getElementById('wkType')||{value:'week'}).value;var mod=(document.getElementById('wkMod')||{value:''}).value;DATA.weeklyTasks=DATA.weeklyTasks||[];DATA.weeklyTasks.unshift({id:uid(),type:type,title:title,mod:mod,done:false,created:todayLocal()});saveData();renderView('weekly')}
+function addWeeklyTask(){var ti=document.getElementById('wkTitle');if(!ti)return;var title=ti.value.trim();if(!title)return;var type='week';var mod=(document.getElementById('wkMod')||{value:''}).value;var pri=(document.getElementById('wkPri')||{value:''}).value;var sd=(document.getElementById('wkStart')||{value:''}).value;var ed=(document.getElementById('wkEnd')||{value:''}).value;DATA.weeklyTasks=DATA.weeklyTasks||[];DATA.weeklyTasks.unshift({id:uid(),type:type,title:title,mod:mod,priority:pri,startDate:sd,endDate:ed,dueDate:ed,done:false,created:todayLocal()});saveData();renderView('weekly')}
+function openWeeklyTaskModal(id){var t=(DATA.weeklyTasks||[]).find(function(x){return x.id===id});if(!t)return;var modOpt=['','cpa','tax','excel','shiyebian','reading'];var modTxt={'':'不关联模块',cpa:'CPA',tax:'税务师',excel:'Excel',shiyebian:'事业编',reading:'资料库'};var modSel=modOpt.map(function(m){return '<option value="'+m+'"'+(t.mod===m?' selected':'')+'>'+modTxt[m]+'</option>'}).join('');var priOpt=['','high','medium','low'];var priTxt={'':'紧急程度',high:'高',medium:'中',low:'低'};var priSel=priOpt.map(function(p){return '<option value="'+p+'"'+(t.priority===p?' selected':'')+'>'+priTxt[p]+'</option>'}).join('');openModal('<h3>编辑本周任务</h3><div class="form-group"><label class="form-label">任务内容</label><input class="form-input" id="wkETitle" value="'+esc(t.title)+'"/></div><div class="form-group"><label class="form-label">关联模块</label><select class="form-select" id="wkEMod">'+modSel+'</select></div><div class="form-group"><label class="form-label">紧急程度</label><select class="form-select" id="wkEPri">'+priSel+'</select></div><div class="form-group"><label class="form-label">开始日期</label><input class="form-input" type="date" id="wkEStart" value="'+t.startDate+'"/></div><div class="form-group"><label class="form-label">截止日期</label><input class="form-input" type="date" id="wkEEnd" value="'+(t.endDate||t.dueDate)+'"/></div><div class="modal-actions"><button class="btn btn-outline" onclick="closeModal()">取消</button><button class="btn btn-primary" onclick="updateWeeklyTask(\''+id+'\')">保存</button></div>')}
+function updateWeeklyTask(id){var t=(DATA.weeklyTasks||[]).find(function(x){return x.id===id});if(!t)return;var ti=document.getElementById('wkETitle');if(!ti||!ti.value.trim())return;t.title=ti.value.trim();t.mod=document.getElementById('wkEMod').value;t.priority=document.getElementById('wkEPri').value;t.startDate=document.getElementById('wkEStart').value;t.endDate=document.getElementById('wkEEnd').value;t.dueDate=t.endDate;saveData();closeModal();renderView('weekly')}
+function saveWeeklyReview(field){var v=document.getElementById('wr_'+field);if(!v)return;var rw=reviewWeek();DATA.weeklyReviews=DATA.weeklyReviews||{};DATA.weeklyReviews[rw.key]=DATA.weeklyReviews[rw.key]||{facts:'',obstacles:'',trends:''};DATA.weeklyReviews[rw.key][field]=v.value;saveData()}
 function toggleWeeklyTask(id){DATA.weeklyTasks=DATA.weeklyTasks||[];var t=DATA.weeklyTasks.find(function(x){return x.id===id});if(t)t.done=!t.done;saveData();renderView('weekly')}
 function delWeeklyTask(id){DATA.weeklyTasks=DATA.weeklyTasks||[];DATA.weeklyTasks=DATA.weeklyTasks.filter(function(x){return x.id!==id});saveData();renderView('weekly')}
 
@@ -1139,21 +1217,45 @@ var curStage=stageOf(earliest.d);
 var idx=STAGES.indexOf(curStage);
 var stageBar=STAGES.map(function(s,i){return '<div class="rf-stage '+(s===curStage?'cur':(i<idx?'done':'todo'))+'"><div class="rf-stage-dot"></div><div class="rf-stage-name">'+s+'</div></div>'+(i<STAGES.length-1?'<div class="rf-stage-line '+(i<idx?'done':'')+'"></div>':'');}).join('');
 var plans=DATA.roadmapPlans||{};
-function stageCards(){return STAGES.map(function(s){var notes=plans[s]||[];var body=notes.length?notes.map(function(n,ni){return '<div class="rf-plan"><span class="rf-plan-txt">'+esc(n)+'</span><button class="rf-plan-del" onclick="delRoadmapPlan(\''+s+'\','+ni+')" title="删除">×</button></div>';}).join(''):'<div class="rf-plan-empty">点击「＋ 添加规划」补充本阶段安排</div>';return '<div class="rf-stage-card'+(s===curStage?' cur':'')+'"><div class="rf-stage-card-head"><span class="rf-stage-card-name">'+s+'</span>'+(s===curStage?'<span class="rf-cur-tag">当前阶段</span>':'')+'<button class="rf-plan-add" onclick="addRoadmapPlan(\''+s+'\')">＋ 添加规划</button></div><div class="rf-plan-list">'+body+'</div></div>';}).join('')}
+var MC={cpa:'var(--mc-cpa)',tax:'var(--mc-tax)',shiyebian:'var(--mc-shiye)'};
+var STAGE_COLOR={'基础学习':'#2E6B4F','强化提升':'#4F8061','冲刺模考':'#8A7536','临考调整':'#A89A5C','考后复盘':'#9AA0A6'};
+var STAGE_STATUS=['未开始','进行中','调整中','已完成'];
+function stageStatusSel(s){
+  var plansForStage=(DATA.roadmapPlans||{})[s]||[];
+  var modSet={};plansForStage.forEach(function(p){if(p&&p.mod)modSet[p.mod]=1});
+  var mods=Object.keys(modSet);
+  if(!mods.length)return '<span class="rf-stage-status-empty">本阶段暂无关联项目</span>';
+  var ss=DATA.roadmapStageStatus||{};
+  var MNAME={cpa:'CPA',tax:'税务师',excel:'Excel',shiyebian:'事业编',reading:'资料库'};
+  return '<div class="rf-stage-status-row">'+mods.map(function(m){
+    var cur=((ss[m]||{})[s])||'未开始';
+    return '<span class="rf-stage-status-item"><span class="rf-stage-status-mod">'+MNAME[m]+'</span><select class="rf-stage-status" onchange="saveStageStatus(\''+m+'\',\''+s+'\',this.value)">'+STAGE_STATUS.map(function(o){return '<option value="'+o+'"'+(o===cur?' selected':'')+'>'+o+'</option>'}).join('')+'</select></span>';
+  }).join('')+'</div>';
+}
+function saveStageStatus(m,s,v){DATA.roadmapStageStatus=DATA.roadmapStageStatus||{};DATA.roadmapStageStatus[m]=DATA.roadmapStageStatus[m]||{};DATA.roadmapStageStatus[m][s]=v;saveData()}
+function saveStageNote(s,v){DATA.roadmapStageNotes=DATA.roadmapStageNotes||{};DATA.roadmapStageNotes[s]=v;saveData()}
+function stageCards(){return STAGES.map(function(s){var notes=plans[s]||[];var col=STAGE_COLOR[s]||'#9AA0A6';var MODNAME={cpa:'CPA',tax:'税务师',excel:'Excel',shiyebian:'事业编',reading:'资料库'};
+var body=notes.length?notes.map(function(n,ni){var txt=typeof n==='string'?n:n.text;var pr=n.priority;var done=n.done?true:false;var sd=n.startDate,ed=n.endDate;if(!sd&&!ed&&n.dueDate){ed=n.dueDate}var rng=sd&&ed?sd+' ~ '+ed:(sd?'从 '+sd:(ed?'至 '+ed:''));var chip=pr?('<span class="tag '+(pr==='high'?'tag-high':pr==='medium'?'tag-medium':'tag-low')+'">'+(pr==='high'?'高':pr==='medium'?'中':'低')+'</span>'):'';var modChip=n.mod?'<span class="rf-plan-mod">'+MODNAME[n.mod]+'</span>':'';return '<div class="rf-plan'+(done?' done':'')+'" style="border-left:3px solid '+col+'">'
++'<div class="checkbox'+(done?' checked':'')+'" onclick="event.stopPropagation();toggleRoadmapPlan(\''+s+'\','+ni+')">'+svgIcon('i-check',12,12)+'</div>'
++'<div class="rf-plan-main" onclick="openRoadmapPlanModal(\''+s+'\','+ni+')"><span class="rf-plan-txt">'+esc(txt)+'</span>'+chip+modChip+(rng?'<span class="wk-due" style="font-size:11px;color:var(--text-2)">'+rng+'</span>':'')+'</div>'
++'<button class="rf-plan-del" onclick="event.stopPropagation();delRoadmapPlan(\''+s+'\','+ni+')" title="删除">×</button></div>';}).join(''):'<div class="rf-plan-empty">点击「＋ 添加规划」补充本阶段安排</div>';var note=(DATA.roadmapStageNotes||{})[s]||'';var noteBlock='<div class="rf-stage-note-wrap"><label class="rf-stage-note-label">本阶段还没吃透的知识点</label><textarea class="form-textarea rf-stage-note" placeholder="总结这里需要回看、容易错的知识点…" onblur="saveStageNote(\''+s+'\',this.value)">'+esc(note)+'</textarea></div>';
+return '<div class="rf-stage-card'+(s===curStage?' cur':'')+'"><div class="rf-stage-card-head"><span class="rf-stage-card-name">'+s+'</span>'+(s===curStage?'<span class="rf-cur-tag">当前阶段</span>':'')+stageStatusSel(s)+'<button class="rf-plan-add" onclick="openRoadmapPlanModal(\''+s+'\')">＋ 添加规划</button></div>'+noteBlock+'<div class="rf-plan-list">'+body+'</div></div>';}).join('')}
 var examRows=exams.map(function(e){
   var ts=DATA[e.m].tasks;var tot=ts.length;var done=ts.filter(function(t){return t.done}).length;var pct=tot?Math.round(done/tot*100):0;
   var st=stageOf(e.d);
   var when=e.n_days<0?'已结束':(e.n_days===0?'今天':'还有 '+e.n_days+' 天');
-  return '<div class="rf-exam"><div class="rf-exam-head"><span class="rf-exam-name">'+e.n+'</span><span class="rf-exam-sub">'+e.sub+'</span></div><div class="rf-exam-meta"><span class="rf-exam-date">'+e.d+'</span><span class="rf-exam-when">'+when+'</span><span class="rf-exam-stage">'+st+'</span></div><div class="ms-bar"><span class="ms-bar-fill" style="width:'+pct+'%"></span></div><div class="ms-bar-cap">备考进度 '+pct+'% · '+done+'/'+tot+' 任务</div></div>';
+  return '<div class="rf-exam"><div class="rf-exam-head"><span class="rf-exam-name">'+e.n+'</span><span class="rf-exam-sub">'+e.sub+'</span></div><div class="rf-exam-meta"><span class="rf-exam-date">'+e.d+'</span><span class="rf-exam-when">'+when+'</span><span class="rf-exam-stage">'+st+'</span></div><div class="ms-bar"><span class="ms-bar-fill" style="width:'+pct+'%;background:var(--dg)"></span></div><div class="ms-bar-cap">备考进度 '+pct+'% · '+done+'/'+tot+' 任务</div></div>';
 }).join('');
 var h='<div class="page-header"><h2>学习路线图</h2><div class="desc">长期 · 全局宏观备考总图 · 当前阶段：'+curStage+'</div></div>';
 h+='<div class="ov-card"><div class="ov-card-head"><span class="ov-card-title">'+svgIcon('i-target',16,16)+' 全局备考阶段框架</span><span class="ov-card-count">当前：'+curStage+'</span></div><div class="rf-bar">'+stageBar+'</div></div>';
 h+='<div class="ov-card" style="margin-top:18px"><div class="ov-card-head"><span class="ov-card-title">'+svgIcon('i-list',16,16)+' 各阶段学习规划</span><span class="ov-card-count">点击「＋ 添加规划」</span></div>'+stageCards()+'</div>';
-h+='<div class="ov-card" style="margin-top:18px"><div class="ov-card-head"><span class="ov-card-title">'+svgIcon('i-grid',16,16)+' 各考试长期规划</span></div>'+examRows+'</div>';
+/* 各考试长期规划卡片已按需求移除 */
 document.getElementById('mainContent').innerHTML=h;updateBadges();
 }
-function addRoadmapPlan(stage){var v=prompt('为「'+stage+'」阶段添加一条学习规划：');if(v==null)return;v=v.trim();if(!v)return;DATA.roadmapPlans=DATA.roadmapPlans||{};DATA.roadmapPlans[stage]=DATA.roadmapPlans[stage]||[];DATA.roadmapPlans[stage].push(v);saveData();renderView('roadmap')}
+function openRoadmapPlanModal(stage,i){var ed=(i!=null)?((DATA.roadmapPlans[stage]||[])[i]||null):null;var v=ed?ed.text:'';var p=ed?ed.priority:'';var s0=ed?ed.startDate:'';var e0=ed?ed.endDate:'';var m0=ed?ed.mod:'';function msel(x){return '<option value="'+x+'"'+(m0===x?' selected':'')+'>'+({cpa:'CPA',tax:'税务师',excel:'Excel',shiyebian:'事业编',reading:'资料库'}[x]||x)+'</option>'}openModal('<h3>'+(ed?'编辑学习规划':'为「'+stage+'」阶段添加学习规划')+'</h3><div class="form-group"><label class="form-label">规划内容</label><input class="form-input" id="rpText" value="'+esc(v)+'" placeholder="本阶段要做的具体安排…" /></div><div class="form-group"><label class="form-label">关联项目</label><select class="form-select" id="rpMod"><option value="">不关联项目</option>'+msel('cpa')+msel('tax')+msel('excel')+msel('shiyebian')+msel('reading')+'</select></div><div class="form-group"><label class="form-label">紧急程度</label><select class="form-select" id="rpPri"><option value="">不紧急</option><option value="high"'+(p==='high'?' selected':'')+'>高</option><option value="medium"'+(p==='medium'?' selected':'')+'>中</option><option value="low"'+(p==='low'?' selected':'')+'>低</option></select></div><div class="form-group"><label class="form-label">开始日期</label><input class="form-input" type="date" id="rpStart" value="'+s0+'" /></div><div class="form-group"><label class="form-label">截止日期</label><input class="form-input" type="date" id="rpEnd" value="'+e0+'" /></div><div class="modal-actions"><button class="btn btn-outline" onclick="closeModal()">取消</button><button class="btn btn-primary" onclick="addRoadmapPlanFromModal(\''+stage+'\','+(ed?i:'-1')+')">保存</button></div>')}
+function addRoadmapPlanFromModal(stage,i){var v=document.getElementById('rpText');if(!v)return;var txt=v.value.trim();if(!txt)return;var pri=document.getElementById('rpPri').value;var start=document.getElementById('rpStart').value;var end=document.getElementById('rpEnd').value;var mod=document.getElementById('rpMod').value;DATA.roadmapPlans=DATA.roadmapPlans||{};DATA.roadmapPlans[stage]=DATA.roadmapPlans[stage]||[];if(i!=null&&i>=0){var ex=DATA.roadmapPlans[stage][i];DATA.roadmapPlans[stage][i]={text:txt,priority:pri,startDate:start,endDate:end,mod:mod,done:ex?!!ex.done:false}}else{DATA.roadmapPlans[stage].push({text:txt,priority:pri,startDate:start,endDate:end,mod:mod,done:false})};saveData();closeModal();renderView('roadmap')}
 function delRoadmapPlan(stage,i){DATA.roadmapPlans=DATA.roadmapPlans||{};var a=DATA.roadmapPlans[stage]||[];a.splice(i,1);saveData();renderView('roadmap')}
+function toggleRoadmapPlan(stage,i){var a=(DATA.roadmapPlans||{})[stage]||[];var p=a[i];if(!p)return;if(typeof p==='string'){p={text:p};a[i]=p}if(p.done===undefined)p.done=false;p.done=!p.done;saveData();renderView('roadmap')}
 
 function renderToday(){
 var today=todayLocal();var tasks=[];
@@ -1162,7 +1264,7 @@ DATA.tax.tasks.forEach(function(t){if(!t.done)tasks.push(Object.assign({},t,{mod
 DATA.excel.tasks.forEach(function(t){if(!t.done)tasks.push(Object.assign({},t,{module:'Excel技能',mk:'excel'}))});
 DATA.shiyebian.tasks.forEach(function(t){if(!t.done)tasks.push(Object.assign({},t,{module:'事业编备考',mk:'shiyebian'}))});
 var po={high:0,medium:1,low:2};tasks.sort(function(a,b){if(po[a.priority]!==po[b.priority])return po[a.priority]-po[b.priority];return(a.dueDate||'9999').localeCompare(b.dueDate||'9999')});
-var pt={high:'<span class="tag tag-pink">高</span>',medium:'<span class="tag tag-blue">中</span>',low:'<span class="tag tag-gray">低</span>'};
+var pt={high:'<span class="tag tag-high">高</span>',medium:'<span class="tag tag-medium">中</span>',low:'<span class="tag tag-low">低</span>'};
 var WDN=['日','一','二','三','四','五','六'];
 var h='<div class="page-header"><h2>今日 · '+fmtDate(new Date())+' '+helpBtn('today')+'</h2><div class="desc">星期'+WDN[new Date().getDay()]+' · 只看今天该做什么</div></div>';
 h+=renderGreet();
@@ -1173,7 +1275,7 @@ var dt={task:0,course:0,func:0,read:0};
 (DATA.excel.funcDates||[]).forEach(function(f){if(f.date===today)dt.func++});
 (DATA.reading.logs||[]).forEach(function(l){if(l.date===today)dt.read++});
 var dtTotal=dt.task+dt.course+dt.func+dt.read;
-h+='<div class="section-head-2"><h3>'+svgIcon('i-check',16,16)+' 今日已完成 <span class="tag '+(dtTotal>0?'tag-accent':'tag-gray')+'">'+dtTotal+' 项</span></h3><button class="btn btn-sm btn-outline" onclick="navigate(\'stats\')">看 30 天趋势 '+svgIcon('i-arrow-right',14,14)+'</button></div>';
+h+='<div class="section-head-2"><h3>'+svgIcon('i-check',16,16)+' 今日已完成 <span class="tag '+(dtTotal>0?'tag-accent':'tag-gray')+'">'+dtTotal+' 项</span></h3></div>';
 h+='<div class="day-pulse">'+pulseCell(dt.task,'完成任务')+pulseCell(dt.course,'学习课程')+pulseCell(dt.func,'练 Excel 函数')+pulseCell(dt.read,'阅读 / 收听')+'</div>';
 h+='<div class="quick-row">';
 h+='<button class="qa-btn" onclick="navigate(\'reading\')">'+svgIcon('i-book-open',15,15)+' 记一笔阅读</button>';
@@ -1196,7 +1298,7 @@ arr.forEach(function(t){
 var tc=t.mk==='cpa'?'green':t.mk==='tax'?'blue':t.mk==='excel'?'yellow':'gray';
 var dd='';
 if(t.dueDate){var od=t.dueDate<today;var dnum=Math.round((new Date(t.dueDate+'T00:00:00')-new Date(today+'T00:00:00'))/86400000);var dtxt=od?('逾期 '+Math.abs(dnum)+' 天'):(dnum===0?'今天到期':(dnum+' 天后到期'));dd='<span style="color:'+(od?'var(--danger)':'var(--text-2)')+'">'+dtxt+' · '+fmtDate(new Date(t.dueDate+'T00:00:00'))+'</span>'}
-h+='<div class="list-item"><div class="checkbox" onclick="toggleTask(\''+t.mk+'\',\''+t.id+'\')">'+svgIcon('i-check',12,12)+'</div><div class="content"><div class="title">'+esc(t.title)+'</div><div class="meta"><span class="tag tag-'+tc+'">'+t.module+'</span>'+(pt[t.priority]||'')+dd+(t.note?'<span>'+esc(t.note)+'</span>':'')+'</div></div><div class="actions"><button class="btn btn-sm btn-outline" onclick="navigate(\''+t.mk+'\')" title="去所属模块">'+svgIcon('i-arrow-right',16,16)+'</button></div></div>'});
+h+='<div class="list-item"><div class="checkbox" onclick="toggleTask(\''+t.mk+'\',\''+t.id+'\')">'+svgIcon('i-check',12,12)+'</div><div class="content" onclick="openTaskEditModal(\''+t.mk+'\',\''+t.id+'\')" style="cursor:pointer"><div class="title">'+esc(t.title)+'</div><div class="meta"><span class="tag tag-'+tc+'">'+t.module+'</span>'+(pt[t.priority]||'')+dd+(t.note?'<span>'+esc(t.note)+'</span>':'')+'</div></div><div class="actions"><button class="btn btn-sm btn-outline" onclick="openTaskEditModal(\''+t.mk+'\',\''+t.id+'\')" title="查看 / 编辑">'+svgIcon('i-arrow-right',16,16)+'</button></div></div>'});
 h+='</div></div>';
 return h}
 function renderCountdownStrip(){
@@ -1267,7 +1369,7 @@ h+='<div class="tabs wrap"><div class="tabs-row2">'
 +'<div class="tabs-row2">'
 +'<button class="tab '+(tab==='pastpapers'?'active':'')+'" onclick="switchTab(\''+key+'\',\'pastpapers\')">历年真题'+tabN((data.pastpapers||[]).length)+'</button>'
 +'<button class="tab '+(tab==='mocks'?'active':'')+'" onclick="switchTab(\''+key+'\',\'mocks\')">模拟题'+tabN((data.mocks||[]).length)+'</button>'
-+'<button class="tab '+(tab==='tasks'?'active':'')+'" onclick="switchTab(\''+key+'\',\'tasks\')">任务'+tabN(undoneT)+'</button></div></div>';
++'</div></div>';
 if(tab==='courses'){
 h+='<div class="flex-between mb-16"><div class="text-2 text-sm">共 '+data.courses.length+' 个科目'+(data.courses.filter(function(c){return c.passed}).length>0?'（'+data.courses.filter(function(c){return c.passed}).length+' 个已通过）':'')+'</div><button class="btn btn-primary btn-sm" onclick="openCourseAddModal(\''+key+'\')">'+svgIcon('i-plus',16,16)+' 添加科目</button></div>';
 if(data.courses.length===0)h+=emptyState('暂无科目','先把要考的科目建起来，才能记录听课进度','<button class="btn btn-sm btn-primary" onclick="openCourseAddModal(\''+key+'\')">'+svgIcon('i-plus',14,14)+' 添加科目</button>');
@@ -1307,7 +1409,7 @@ h+='</div>'}
 if(tab==='tasks'){
 h+='<div class="flex-between mb-16"><div class="text-2 text-sm">共 '+data.tasks.length+' 个任务</div><button class="btn btn-primary btn-sm" onclick="openTaskAddModal(\''+key+'\')">'+svgIcon('i-plus',16,16)+' 添加任务</button></div>';
 if(data.tasks.length===0)h+=emptyState('暂无任务','点击右上角添加任务');
-else{h+='<div class="card">';var po={high:0,medium:1,low:2};var sorted=data.tasks.slice().sort(function(a,b){return po[a.priority]-po[b.priority]});var pt={high:'<span class="tag tag-pink">高</span>',medium:'<span class="tag tag-blue">中</span>',low:'<span class="tag tag-gray">低</span>'};sorted.forEach(function(t){h+='<div class="list-item"><div class="checkbox '+(t.done?'checked':'')+'" onclick="toggleTask(\''+key+'\',\''+t.id+'\')">'+svgIcon('i-check',12,12)+'</div><div class="content"><div class="title '+(t.done?'done':'')+'">'+esc(t.title)+'</div><div class="meta">'+(pt[t.priority]||'')+(t.dueDate?'截止 '+fmtDate(new Date(t.dueDate)):'')+(t.note?'· '+esc(t.note):'')+'</div></div><div class="actions"><button class="btn btn-sm btn-danger" onclick="deleteTask(\''+key+'\',\''+t.id+'\')">'+svgIcon('i-trash',16,16)+'</button></div></div>'});h+='</div>'}
+else{h+='<div class="card">';var po={high:0,medium:1,low:2};var sorted=data.tasks.slice().sort(function(a,b){return po[a.priority]-po[b.priority]});var pt={high:'<span class="tag tag-high">高</span>',medium:'<span class="tag tag-medium">中</span>',low:'<span class="tag tag-low">低</span>'};sorted.forEach(function(t){h+='<div class="list-item"><div class="checkbox '+(t.done?'checked':'')+'" onclick="toggleTask(\''+key+'\',\''+t.id+'\')">'+svgIcon('i-check',12,12)+'</div><div class="content"><div class="title '+(t.done?'done':'')+'">'+esc(t.title)+'</div><div class="meta">'+(pt[t.priority]||'')+(t.dueDate?'截止 '+fmtDate(new Date(t.dueDate)):'')+(t.note?'· '+esc(t.note):'')+'</div></div><div class="actions"><button class="btn btn-sm btn-danger" onclick="deleteTask(\''+key+'\',\''+t.id+'\')">'+svgIcon('i-trash',16,16)+'</button></div></div>'});h+='</div>'}
 }
 document.getElementById('mainContent').innerHTML=h;updateBadges();
 }
@@ -1316,7 +1418,7 @@ function renderExcel(){
 var tab=currentTab.excel||'functions';var data=DATA.excel;
 var h='<div class="page-header"><h2>Excel 技能 '+helpBtn('excel')+'</h2><div class="desc">系统化学习 Excel 函数公式，掌握每个函数的语法和用法</div></div>';
 h+=renderExcelTopCalendar();
-h+='<div class="tabs"><button class="tab '+(tab==='functions'?'active':'')+'" onclick="switchTab(\'excel\',\'functions\')">函数学习'+tabN(data.functions.length)+'</button><button class="tab '+(tab==='tasks'?'active':'')+'" onclick="switchTab(\'excel\',\'tasks\')">任务'+tabN(data.tasks.filter(function(t){return !t.done}).length)+'</button></div>';
+h+='<div class="tabs"><button class="tab '+(tab==='functions'?'active':'')+'" onclick="switchTab(\'excel\',\'functions\')">函数学习'+tabN(data.functions.length)+'</button></div>';
 if(tab==='functions'){
 var totalF=data.functions.length;
 var learnedF=data.functions.filter(function(f){return f.progress>=100}).length;
@@ -1334,7 +1436,7 @@ h+='<div id="excelFuncList"></div>';
 if(tab==='tasks'){
 h+='<div class="flex-between mb-16"><div class="text-2 text-sm">共 '+data.tasks.length+' 个任务</div><button class="btn btn-primary btn-sm" onclick="openTaskAddModal(\'excel\')">'+svgIcon('i-plus',16,16)+' 添加任务</button></div>';
 if(data.tasks.length===0)h+=emptyState('暂无任务','点击右上角添加任务');
-else{h+='<div class="card">';var pt={high:'<span class="tag tag-pink">高</span>',medium:'<span class="tag tag-blue">中</span>',low:'<span class="tag tag-gray">低</span>'};data.tasks.forEach(function(t){h+='<div class="list-item"><div class="checkbox '+(t.done?'checked':'')+'" onclick="toggleTask(\'excel\',\''+t.id+'\')">'+svgIcon('i-check',12,12)+'</div><div class="content"><div class="title '+(t.done?'done':'')+'">'+esc(t.title)+'</div><div class="meta">'+(pt[t.priority]||'')+(t.dueDate?'截止 '+fmtDate(new Date(t.dueDate)):'')+'</div></div><div class="actions"><button class="btn btn-sm btn-danger" onclick="deleteTask(\'excel\',\''+t.id+'\')">'+svgIcon('i-trash',16,16)+'</button></div></div>'});h+='</div>'}
+else{h+='<div class="card">';var pt={high:'<span class="tag tag-high">高</span>',medium:'<span class="tag tag-medium">中</span>',low:'<span class="tag tag-low">低</span>'};data.tasks.forEach(function(t){h+='<div class="list-item"><div class="checkbox '+(t.done?'checked':'')+'" onclick="toggleTask(\'excel\',\''+t.id+'\')">'+svgIcon('i-check',12,12)+'</div><div class="content"><div class="title '+(t.done?'done':'')+'">'+esc(t.title)+'</div><div class="meta">'+(pt[t.priority]||'')+(t.dueDate?'截止 '+fmtDate(new Date(t.dueDate)):'')+'</div></div><div class="actions"><button class="btn btn-sm btn-danger" onclick="deleteTask(\'excel\',\''+t.id+'\')">'+svgIcon('i-trash',16,16)+'</button></div></div>'});h+='</div>'}
 }
 document.getElementById('mainContent').innerHTML=h;updateBadges();renderExcelFuncList();
 }
@@ -1406,7 +1508,7 @@ function renderShiyebian(){
 var tab=currentTab.shiyebian||'info';var data=DATA.shiyebian;
 var h='<div class="page-header"><h2>事业编备考 '+helpBtn('shiyebian')+'</h2><div class="desc">为明年事业单位考试做信息收集和备考规划</div></div>';
 h+=renderShiyebianTopCalendar();h+=sbKpiAndTips(data);
-h+='<div class="tabs"><button class="tab '+(tab==='info'?'active':'')+'" onclick="switchTab(\'shiyebian\',\'info\')">信息收集'+tabN(data.items.length)+'</button><button class="tab '+(tab==='lyg'?'active':'')+'" onclick="switchTab(\'shiyebian\',\'lyg\')">连云港'+tabN((data.lyg||[]).length)+'</button><button class="tab '+(tab==='tasks'?'active':'')+'" onclick="switchTab(\'shiyebian\',\'tasks\')">任务'+tabN(data.tasks.filter(function(t){return !t.done}).length)+'</button></div>';
+h+='<div class="tabs"><button class="tab '+(tab==='info'?'active':'')+'" onclick="switchTab(\'shiyebian\',\'info\')">信息收集'+tabN(data.items.length)+'</button><button class="tab '+(tab==='lyg'?'active':'')+'" onclick="switchTab(\'shiyebian\',\'lyg\')">连云港'+tabN((data.lyg||[]).length)+'</button></div>';
 if(tab==='info'){
 h+='<div class="flex-between mb-16"><div class="text-2 text-sm">共 '+data.items.length+' 条信息</div><button class="btn btn-primary btn-sm" onclick="openShiyebianItemAddModal()">'+svgIcon('i-plus',16,16)+' 添加信息</button></div>';
 if(data.items.length===0)h+=emptyState('暂无信息','点击右上角添加');
@@ -1420,9 +1522,6 @@ if(lygData.length===0)h+=emptyState('暂无连云港信息','点击右上角添�
 else{h+='<div class="card">';lygData.slice().sort(function(a,b){return new Date(b.date)-new Date(a.date)}).forEach(function(item){h+='<div class="list-item"><div class="content"><div class="title">'+esc(item.title)+'</div><div class="meta">'+esc(item.content)+'</div><div class="meta text-xs">'+(item.source?'来源：'+esc(item.source)+' · ':'')+fmtDate(new Date(item.date))+'</div></div><div class="actions"><button class="btn btn-sm btn-danger" onclick="deleteLygItem(\''+item.id+'\')">'+svgIcon('i-trash',16,16)+'</button></div></div>'});h+='</div>'}
 }
 if(tab==='tasks'){
-h+='<div class="flex-between mb-16"><div class="text-2 text-sm">共 '+data.tasks.length+' 个任务</div><button class="btn btn-primary btn-sm" onclick="openTaskAddModal(\'shiyebian\')">'+svgIcon('i-plus',16,16)+' 添加任务</button></div>';
-if(data.tasks.length===0)h+=emptyState('暂无任务','点击右上角添加任务');
-else{h+='<div class="card">';var pt={high:'<span class="tag tag-pink">高</span>',medium:'<span class="tag tag-blue">中</span>',low:'<span class="tag tag-gray">低</span>'};data.tasks.forEach(function(t){h+='<div class="list-item"><div class="checkbox '+(t.done?'checked':'')+'" onclick="toggleTask(\'shiyebian\',\''+t.id+'\')">'+svgIcon('i-check',12,12)+'</div><div class="content"><div class="title '+(t.done?'done':'')+'">'+esc(t.title)+'</div><div class="meta">'+(pt[t.priority]||'')+(t.dueDate?'截止 '+fmtDate(new Date(t.dueDate)):'')+'</div></div><div class="actions"><button class="btn btn-sm btn-danger" onclick="deleteTask(\'shiyebian\',\''+t.id+'\')">'+svgIcon('i-trash',16,16)+'</button></div></div>'});h+='</div>'}
 }
 document.getElementById('mainContent').innerHTML=h;
 }
@@ -1501,17 +1600,17 @@ return h;
 function renderReading(){
 seedDailyReading();
 var data=DATA.reading;var tab=currentTab.reading||'books';if(tab==='news'||tab==='picks')tab='knowledge';
-var h='<div class="page-header"><h2>每日阅读 '+helpBtn('reading')+'</h2><div class="desc">记录书籍阅读和播客收听进度，让成长看得见</div></div>';
+var h='<div class="page-header"><h2>资料库 '+helpBtn('reading')+'</h2><div class="desc">记录书籍阅读和播客收听进度，让成长看得见</div></div>';
 h+=renderReadingTopCalendar();h+=rdKpiAndTips(data);
 var today=todayLocal();
 var todayLogs=(data.logs||[]).filter(function(l){return l.date===today});
 if(todayLogs.length>0){h+='<div class="card mb-16"><div class="card-title">'+svgIcon('i-today',14,14)+' 今日阅读情况</div>';todayLogs.forEach(function(l){h+='<div class="text-sm" style="padding:4px 0"><span class="tag '+(l.type==='book'?'tag-green':'tag-blue')+'">'+(l.type==='book'?'书籍':'播客')+'</span> '+esc(l.name)+' — '+(l.type==='book'?l.pages+' 页':l.episodes+' 期')+(l.note?' · '+esc(l.note):'')+'</div>'});h+='</div>'}
 var allNews=data.news||[];var todayNews=allNews.filter(function(n){return n.date===today});
 if(todayNews.length===0&&allNews.length>0)todayNews=allNews.slice(0,4);
-if(todayNews.length>0){h+='<div class="card mb-16"><div class="card-title" style="display:flex;justify-content:space-between;align-items:center">'+svgIcon('i-info',14,14)+' 今日新闻推荐 <span style="font-size:11px;color:var(--text-2);font-weight:400">· 每日更新</span><button class="btn btn-sm btn-outline" style="font-size:11px;padding:2px 8px" onclick="openNewsAddModal()">'+svgIcon('i-plus',12,12)+' 添加</button></div>';todayNews.forEach(function(n){var cm=newsCatStyle(n.category);h+='<div style="padding:10px 0;border-bottom:1px solid var(--border)"><div style="display:flex;align-items:center;gap:6px;margin-bottom:4px"><span style="background:'+cm.bg+';color:'+cm.tx+';font-size:11px;padding:1px 6px;border-radius:4px;font-weight:600">'+esc(n.category||'其他')+'</span><span style="font-weight:600;font-size:14px">'+esc(n.title)+'</span></div><div class="text-sm text-2" style="margin-bottom:6px">'+esc(n.summary||'')+'</div><details class="mini-detail"><summary>推荐原因 · 关注理由</summary><div style="background:var(--bg-2);border-radius:6px;padding:6px 10px;margin-bottom:4px"><div class="text-xs" style="color:var(--accent);font-weight:600;margin-bottom:2px">推荐原因</div><div class="text-xs">'+esc(n.reason||'')+'</div></div><div style="background:var(--bg-2);border-radius:6px;padding:6px 10px;margin-bottom:4px"><div class="text-xs" style="color:var(--text-2);font-weight:600;margin-bottom:2px">关注理由</div><div class="text-xs">'+esc(n.attention||'')+'</div></div></details>'+(n.source?'<div class="text-xs text-2" style="margin-top:4px">来源：'+esc(n.source)+'</div>':'')+'<div style="margin-top:6px;display:flex;gap:6px"><button class="btn btn-sm btn-outline" style="font-size:11px;padding:2px 8px" onclick="openNewsEditModal(\''+n.id+'\')">编辑</button><button class="btn btn-sm btn-danger" style="font-size:11px;padding:2px 8px" onclick="deleteNews(\''+n.id+'\')">'+svgIcon('i-trash',12,12)+'</button></div></div>'});h+='</div>'}
+if(todayNews.length>0){h+='<div class="card mb-16"><div class="card-title" style="display:flex;justify-content:space-between;align-items:center">'+svgIcon('i-info',14,14)+' 今日新闻推荐 <span style="font-size:11px;color:var(--text-2);font-weight:400">· 每日更新</span><button class="btn btn-sm btn-outline" style="font-size:11px;padding:2px 8px" onclick="openNewsAddModal()">'+svgIcon('i-plus',12,12)+' 添加</button></div>';todayNews.forEach(function(n){var cm=newsCatStyle(n.category);h+='<div style="padding:10px 0;border-bottom:1px solid var(--border)"><div style="display:flex;align-items:center;gap:6px;margin-bottom:4px">'+readingItemIcon({type:'news',category:n.category})+'<span style="background:'+cm.bg+';color:'+cm.tx+';font-size:11px;padding:1px 6px;border-radius:4px;font-weight:600">'+esc(n.category||'其他')+'</span><span style="font-weight:600;font-size:14px">'+esc(n.title)+'</span></div><div class="text-sm text-2" style="margin-bottom:6px">'+esc(n.summary||'')+'</div><details class="mini-detail"><summary>推荐原因 · 关注理由</summary><div style="background:var(--bg-2);border-radius:6px;padding:6px 10px;margin-bottom:4px"><div class="text-xs" style="color:var(--accent);font-weight:600;margin-bottom:2px">推荐原因</div><div class="text-xs">'+esc(n.reason||'')+'</div></div><div style="background:var(--bg-2);border-radius:6px;padding:6px 10px;margin-bottom:4px"><div class="text-xs" style="color:var(--text-2);font-weight:600;margin-bottom:2px">关注理由</div><div class="text-xs">'+esc(n.attention||'')+'</div></div></details>'+(n.source?'<div class="text-xs text-2" style="margin-top:4px">来源：'+esc(n.source)+'</div>':'')+'<div style="margin-top:6px;display:flex;gap:6px"><button class="btn btn-sm btn-outline" style="font-size:11px;padding:2px 8px" onclick="openNewsEditModal(\''+n.id+'\')">编辑</button><button class="btn btn-sm btn-danger" style="font-size:11px;padding:2px 8px" onclick="deleteNews(\''+n.id+'\')">'+svgIcon('i-trash',12,12)+'</button></div></div>'});h+='</div>'}
 var allPicks=data.dailyPicks||[];var todayPicks=allPicks.filter(function(p){return p.date===today});
 if(todayPicks.length===0&&allPicks.length>0)todayPicks=allPicks.slice(0,2);
-if(todayPicks.length>0){h+='<div class="card mb-16"><div class="card-title" style="display:flex;justify-content:space-between;align-items:center">'+svgIcon('i-target',14,14)+' 今日推荐 <span style="font-size:11px;color:var(--text-2);font-weight:400">· 每日更新</span><button class="btn btn-sm btn-outline" style="font-size:11px;padding:2px 8px" onclick="openDailyPickAddModal()">'+svgIcon('i-plus',12,12)+' 添加</button></div>';todayPicks.forEach(function(p){var isBook=p.type==='book';h+='<div style="padding:10px 0;border-bottom:1px solid var(--border)"><div style="display:flex;align-items:center;gap:6px;margin-bottom:4px">'+svgIcon(isBook?'i-book-open':'i-headphones',16,16)+'<span style="font-weight:600;font-size:14px">'+esc(p.title)+'</span><span class="tag '+(isBook?'tag-accent':'tag-blue')+'">'+(isBook?'书籍推荐':'播客推荐')+'</span></div>'+(p.author?'<div class="text-sm text-2" style="margin-bottom:6px">'+esc(p.author)+'</div>':'')+'<details class="mini-detail"><summary>推荐原因 · 关注理由</summary><div style="background:var(--bg-2);border-radius:6px;padding:6px 10px;margin-bottom:4px"><div class="text-xs" style="color:var(--accent);font-weight:600;margin-bottom:2px">推荐原因</div><div class="text-xs">'+esc(p.reason||'')+'</div></div><div style="background:var(--bg-2);border-radius:6px;padding:6px 10px;margin-bottom:4px"><div class="text-xs" style="color:var(--text-2);font-weight:600;margin-bottom:2px">关注理由</div><div class="text-xs">'+esc(p.attention||'')+'</div></div></details>'+(p.source?'<div class="text-xs text-2" style="margin-top:4px">'+svgIcon('i-link',10,10)+' <a href="'+esc(p.source)+'" target="_blank" rel="noopener">来源链接</a></div>':'')+'<div style="margin-top:6px;display:flex;gap:6px"><button class="btn btn-sm btn-outline" style="font-size:11px;padding:2px 8px" onclick="openDailyPickEditModal(\''+p.id+'\')">编辑</button><button class="btn btn-sm btn-danger" style="font-size:11px;padding:2px 8px" onclick="deleteDailyPick(\''+p.id+'\')">'+svgIcon('i-trash',12,12)+'</button></div></div>'});h+='</div>'}
+if(todayPicks.length>0){h+='<div class="card mb-16"><div class="card-title" style="display:flex;justify-content:space-between;align-items:center">'+svgIcon('i-target',14,14)+' 今日推荐 <span style="font-size:11px;color:var(--text-2);font-weight:400">· 每日更新</span><button class="btn btn-sm btn-outline" style="font-size:11px;padding:2px 8px" onclick="openDailyPickAddModal()">'+svgIcon('i-plus',12,12)+' 添加</button></div>';todayPicks.forEach(function(p){var isBook=p.type==='book';h+='<div style="padding:10px 0;border-bottom:1px solid var(--border)"><div style="display:flex;align-items:center;gap:6px;margin-bottom:4px">'+readingItemIcon({type:'pick',pickType:isBook?'book':'podcast'})+'<span style="font-weight:600;font-size:14px">'+esc(p.title)+'</span><span class="tag '+(isBook?'tag-accent':'tag-blue')+'">'+(isBook?'书籍推荐':'播客推荐')+'</span></div>'+(p.author?'<div class="text-sm text-2" style="margin-bottom:6px">'+esc(p.author)+'</div>':'')+'<details class="mini-detail"><summary>推荐原因 · 关注理由</summary><div style="background:var(--bg-2);border-radius:6px;padding:6px 10px;margin-bottom:4px"><div class="text-xs" style="color:var(--accent);font-weight:600;margin-bottom:2px">推荐原因</div><div class="text-xs">'+esc(p.reason||'')+'</div></div><div style="background:var(--bg-2);border-radius:6px;padding:6px 10px;margin-bottom:4px"><div class="text-xs" style="color:var(--text-2);font-weight:600;margin-bottom:2px">关注理由</div><div class="text-xs">'+esc(p.attention||'')+'</div></div></details>'+(p.source?'<div class="text-xs text-2" style="margin-top:4px">'+svgIcon('i-link',10,10)+' <a href="'+esc(p.source)+'" target="_blank" rel="noopener">来源链接</a></div>':'')+'<div style="margin-top:6px;display:flex;gap:6px"><button class="btn btn-sm btn-outline" style="font-size:11px;padding:2px 8px" onclick="openDailyPickEditModal(\''+p.id+'\')">编辑</button><button class="btn btn-sm btn-danger" style="font-size:11px;padding:2px 8px" onclick="deleteDailyPick(\''+p.id+'\')">'+svgIcon('i-trash',12,12)+'</button></div></div>'});h+='</div>'}
 var kbCount=allNews.length+allPicks.length;
 h+='<div class="reading-tabs"><button class="reading-tab '+(tab==='books'?'active':'')+'" onclick="switchTab(\'reading\',\'books\')">'+svgIcon('i-book-open',14,14)+' 书籍 ('+data.books.length+')</button><button class="reading-tab '+(tab==='podcasts'?'active':'')+'" onclick="switchTab(\'reading\',\'podcasts\')">'+svgIcon('i-headphones',14,14)+' 播客 ('+data.podcasts.length+')</button><button class="reading-tab '+(tab==='knowledge'?'active':'')+'" onclick="switchTab(\'reading\',\'knowledge\')">'+svgIcon('i-command',14,14)+' 知识库 ('+kbCount+')</button></div>';
 if(tab==='knowledge'){
@@ -1543,8 +1642,8 @@ kbGroups.forEach(function(g){
  g.items.sort(function(a,b){return(b.date||'').localeCompare(a.date||'')});
  h+='<details class="kb-group" open><summary class="kb-group-head"><span class="kb-tag" style="background:'+g.bg+';color:'+g.color+'">'+g.label+'</span><span class="kb-count">'+g.items.length+' 条</span><span class="collapse-icon">'+svgIcon('i-chevron-down',16,16)+'</span></summary><div class="kb-group-body">';
  g.items.forEach(function(k){
- var isNews=k.type==='news';var icon=isNews?svgIcon('i-info',16,16):svgIcon(k.pickType==='book'?'i-book-open':'i-headphones',16,16);
- h+='<div class="reading-card"><div class="rc-header"><div class="rc-cover '+(isNews?'':'book')+'">'+icon+'</div><div class="rc-info"><div class="rc-title">'+esc(k.title)+'</div><div class="rc-author">'+(k.date?fmtDate(new Date(k.date)):'')+(k.source?' · '+esc(k.source):'')+(k.summary?' · '+esc(k.summary):'')+'</div></div></div><div style="padding:8px 0"><div style="background:var(--bg-2);border-radius:6px;padding:8px 12px;margin-bottom:6px"><div class="text-xs" style="color:var(--accent);font-weight:600;margin-bottom:4px">推荐原因</div><div class="text-sm">'+esc(k.reason||'')+'</div></div><div style="background:var(--bg-2);border-radius:6px;padding:8px 12px"><div class="text-xs" style="color:var(--text-2);font-weight:600;margin-bottom:4px">关注理由</div><div class="text-sm">'+esc(k.attention||'')+'</div></div></div><div class="rc-actions">';
+ var isNews=k.type==='news';var _rc=readingCatColor(k);var _gl=readingGlyph(k);
+ h+='<div class="reading-card"><div class="rc-header"><div class="rc-cover" style="background:'+_rc+'1A;color:'+_rc+'">'+svgIcon(_gl,22,22)+'</div><div class="rc-info"><div class="rc-title">'+esc(k.title)+'</div><div class="rc-author">'+(k.date?fmtDate(new Date(k.date)):'')+(k.source?' · '+esc(k.source):'')+(k.summary?' · '+esc(k.summary):'')+'</div></div></div><div style="padding:8px 0"><div style="background:var(--bg-2);border-radius:6px;padding:8px 12px;margin-bottom:6px"><div class="text-xs" style="color:var(--accent);font-weight:600;margin-bottom:4px">推荐原因</div><div class="text-sm">'+esc(k.reason||'')+'</div></div><div style="background:var(--bg-2);border-radius:6px;padding:8px 12px"><div class="text-xs" style="color:var(--text-2);font-weight:600;margin-bottom:4px">关注理由</div><div class="text-sm">'+esc(k.attention||'')+'</div></div></div><div class="rc-actions">';
  if(isNews){h+='<button class="btn btn-sm btn-outline" onclick="openNewsEditModal(\''+k.id+'\')">编辑</button><button class="btn btn-sm btn-danger" onclick="deleteNews(\''+k.id+'\')">'+svgIcon('i-trash',14,14)+'</button>'}
  else{h+='<button class="btn btn-sm btn-outline" onclick="openDailyPickEditModal(\''+k.id+'\')">编辑</button><button class="btn btn-sm btn-danger" onclick="deleteDailyPick(\''+k.id+'\')">'+svgIcon('i-trash',14,14)+'</button>'}
  h+='</div></div>'
@@ -1555,11 +1654,11 @@ kbGroups.forEach(function(g){
 }else if(tab==='books'){
 h+='<div class="flex-between mb-16"><div class="text-2 text-sm">共 '+data.books.length+' 本书</div><button class="btn btn-primary btn-sm" onclick="openBookAddModal()">'+svgIcon('i-plus',16,16)+' 添加书籍</button></div>';
 if(data.books.length===0)h+=emptyState('暂无书籍','点击右上角添加');
-else{var stLabels={reading:'在读',done:'已读完',planned:'计划中'};data.books.forEach(function(b){var pct=b.totalPages>0?Math.round(b.currentPage/b.totalPages*100):0;var st=stLabels[b.status]||'计划中';h+='<div class="reading-card"><div class="rc-header"><div class="rc-cover book">'+svgIcon('i-book-open',22,22)+'</div><div class="rc-info"><div class="rc-title">'+esc(b.title)+'</div><div class="rc-author">'+esc(b.author||'')+'</div><div class="rc-meta" style="margin-top:4px"><span>'+b.currentPage+'/'+b.totalPages+' 页</span><span class="rc-status '+b.status+'">'+st+'</span></div></div></div><div class="rc-progress"><div class="rc-bar"><div class="rc-fill" style="width:'+pct+'%;background:var(--accent)"></div></div><div class="rc-meta"><span>进度 '+pct+'%</span><span>'+(b.startDate?'从 '+fmtDate(new Date(b.startDate))+' 开始':'')+'</span></div></div>'+(b.source?'<div class="rc-source"><a href="'+esc(b.source)+'" target="_blank" rel="noopener">'+svgIcon('i-link',12,12)+' 来源链接</a></div>':'')+'<div class="rc-actions"><button class="btn btn-sm btn-outline" onclick="openReadingLogModal(\'book\',\''+b.id+'\')">'+svgIcon('i-clock',12,12)+' 记录阅读</button><button class="btn btn-sm btn-outline" onclick="openBookEditModal(\''+b.id+'\')">编辑</button><button class="btn btn-sm btn-danger" onclick="deleteBook(\''+b.id+'\')">'+svgIcon('i-trash',14,14)+'</button></div></div>'})}
+else{var stLabels={reading:'在读',done:'已读完',planned:'计划中'};data.books.forEach(function(b){var pct=b.totalPages>0?Math.round(b.currentPage/b.totalPages*100):0;var st=stLabels[b.status]||'计划中';h+='<div class="reading-card"><div class="rc-header"><div class="rc-cover book">'+svgIcon('i-book-open',22,22)+'</div><div class="rc-info"><div class="rc-title">'+esc(b.title)+'</div><div class="rc-author">'+esc(b.author||'')+'</div><div class="rc-meta" style="margin-top:4px"><span>'+b.currentPage+'/'+b.totalPages+' 页</span><span class="rc-status '+b.status+'">'+st+'</span></div></div></div><div class="rc-progress"><div class="rc-bar"><div class="rc-fill" style="width:'+pct+'%;background:var(--dg)"></div></div><div class="rc-meta"><span>进度 '+pct+'%</span><span>'+(b.startDate?'从 '+fmtDate(new Date(b.startDate))+' 开始':'')+'</span></div></div>'+(b.source?'<div class="rc-source"><a href="'+esc(b.source)+'" target="_blank" rel="noopener">'+svgIcon('i-link',12,12)+' 来源链接</a></div>':'')+'<div class="rc-actions"><button class="btn btn-sm btn-outline" onclick="openReadingLogModal(\'book\',\''+b.id+'\')">'+svgIcon('i-clock',12,12)+' 记录阅读</button><button class="btn btn-sm btn-outline" onclick="openBookEditModal(\''+b.id+'\')">编辑</button><button class="btn btn-sm btn-danger" onclick="deleteBook(\''+b.id+'\')">'+svgIcon('i-trash',14,14)+'</button></div></div>'})}
 }else{
 h+='<div class="flex-between mb-16"><div class="text-2 text-sm">共 '+data.podcasts.length+' 个播客</div><button class="btn btn-primary btn-sm" onclick="openPodcastAddModal()">'+svgIcon('i-plus',16,16)+' 添加播客</button></div>';
 if(data.podcasts.length===0)h+=emptyState('暂无播客','点击右上角添加');
-else{var stLabels={reading:'在听',done:'已听完',planned:'计划中'};data.podcasts.forEach(function(p){var pct=p.totalEpisodes>0?Math.round(p.listenedEpisodes/p.totalEpisodes*100):0;var st=stLabels[p.status]||'计划中';h+='<div class="reading-card"><div class="rc-header"><div class="rc-cover podcast">'+svgIcon('i-headphones',22,22)+'</div><div class="rc-info"><div class="rc-title">'+esc(p.title)+'</div><div class="rc-author">'+esc(p.host||'')+'</div><div class="rc-meta" style="margin-top:4px"><span>'+p.listenedEpisodes+'/'+p.totalEpisodes+' 期</span><span class="rc-status '+p.status+'">'+st+'</span></div></div></div><div class="rc-progress"><div class="rc-bar"><div class="rc-fill" style="width:'+pct+'%;background:#555"></div></div><div class="rc-meta"><span>进度 '+pct+'%</span><span>'+(p.startDate?'从 '+fmtDate(new Date(p.startDate))+' 开始':'')+'</span></div></div>'+(p.note?'<div class="rc-meta">'+esc(p.note)+'</div>':'')+(p.source?'<div class="rc-source"><a href="'+esc(p.source)+'" target="_blank" rel="noopener">'+svgIcon('i-link',12,12)+' 来源链接</a></div>':'')+'<div class="rc-actions"><button class="btn btn-sm btn-outline" onclick="openReadingLogModal(\'podcast\',\''+p.id+'\')">'+svgIcon('i-clock',12,12)+' 记录收听</button><button class="btn btn-sm btn-outline" onclick="openPodcastEditModal(\''+p.id+'\')">编辑</button><button class="btn btn-sm btn-danger" onclick="deletePodcast(\''+p.id+'\')">'+svgIcon('i-trash',14,14)+'</button></div></div>'})}
+else{var stLabels={reading:'在听',done:'已听完',planned:'计划中'};data.podcasts.forEach(function(p){var pct=p.totalEpisodes>0?Math.round(p.listenedEpisodes/p.totalEpisodes*100):0;var st=stLabels[p.status]||'计划中';h+='<div class="reading-card"><div class="rc-header"><div class="rc-cover podcast">'+svgIcon('i-headphones',22,22)+'</div><div class="rc-info"><div class="rc-title">'+esc(p.title)+'</div><div class="rc-author">'+esc(p.host||'')+'</div><div class="rc-meta" style="margin-top:4px"><span>'+p.listenedEpisodes+'/'+p.totalEpisodes+' 期</span><span class="rc-status '+p.status+'">'+st+'</span></div></div></div><div class="rc-progress"><div class="rc-bar"><div class="rc-fill" style="width:'+pct+'%;background:var(--do)"></div></div><div class="rc-meta"><span>进度 '+pct+'%</span><span>'+(p.startDate?'从 '+fmtDate(new Date(p.startDate))+' 开始':'')+'</span></div></div>'+(p.note?'<div class="rc-meta">'+esc(p.note)+'</div>':'')+(p.source?'<div class="rc-source"><a href="'+esc(p.source)+'" target="_blank" rel="noopener">'+svgIcon('i-link',12,12)+' 来源链接</a></div>':'')+'<div class="rc-actions"><button class="btn btn-sm btn-outline" onclick="openReadingLogModal(\'podcast\',\''+p.id+'\')">'+svgIcon('i-clock',12,12)+' 记录收听</button><button class="btn btn-sm btn-outline" onclick="openPodcastEditModal(\''+p.id+'\')">编辑</button><button class="btn btn-sm btn-danger" onclick="deletePodcast(\''+p.id+'\')">'+svgIcon('i-trash',14,14)+'</button></div></div>'})}
 }
 document.getElementById('mainContent').innerHTML=h;
 }
@@ -1587,8 +1686,8 @@ DATA.excel.functions.forEach(function(f){if(f.name.toLowerCase().includes(q)||(f
 DATA.shiyebian.items.forEach(function(i){if(i.title.toLowerCase().includes(q)||(i.content||'').toLowerCase().includes(q)||(i.source||'').toLowerCase().includes(q))found.push({title:i.title,meta:'事业编备考 · 信息',snippet:i.content,view:'shiyebian'})});
 (DATA.shiyebian.lyg||[]).forEach(function(i){if(i.title.toLowerCase().includes(q)||(i.content||'').toLowerCase().includes(q)||(i.source||'').toLowerCase().includes(q))found.push({title:i.title,meta:'事业编备考 · 连云港',snippet:i.content,view:'shiyebian'})});
 DATA.inbox.forEach(function(i){if(i.content.toLowerCase().includes(q))found.push({title:i.content,meta:'收集箱',snippet:'',view:'inbox'})});
-DATA.reading.books.forEach(function(b){if(b.title.toLowerCase().includes(q)||(b.author||'').toLowerCase().includes(q))found.push({title:b.title,meta:'每日阅读 · 书籍',snippet:b.author+' · '+b.currentPage+'/'+b.totalPages+'页',view:'reading'})});
-DATA.reading.podcasts.forEach(function(p){if(p.title.toLowerCase().includes(q)||(p.host||'').toLowerCase().includes(q)||(p.note||'').toLowerCase().includes(q))found.push({title:p.title,meta:'每日阅读 · 播客',snippet:p.host+' · '+p.listenedEpisodes+'/'+p.totalEpisodes+'期',view:'reading'})});
+DATA.reading.books.forEach(function(b){if(b.title.toLowerCase().includes(q)||(b.author||'').toLowerCase().includes(q))found.push({title:b.title,meta:'资料库 · 书籍',snippet:b.author+' · '+b.currentPage+'/'+b.totalPages+'页',view:'reading'})});
+DATA.reading.podcasts.forEach(function(p){if(p.title.toLowerCase().includes(q)||(p.host||'').toLowerCase().includes(q)||(p.note||'').toLowerCase().includes(q))found.push({title:p.title,meta:'资料库 · 播客',snippet:p.host+' · '+p.listenedEpisodes+'/'+p.totalEpisodes+'期',view:'reading'})});
 if(found.length===0){results.innerHTML='<div class="empty-state"><div class="empty-icon">'+svgIcon('i-search',24,24)+'</div><div class="empty-title">未找到结果</div><div class="empty-desc">尝试更换关键词</div></div>'}
 else{results.innerHTML=found.map(function(r){return'<div class="result-item" onclick="navigate(\''+r.view+'\')"><div class="ri-title">'+esc(r.title)+'</div><div class="ri-meta">'+esc(r.meta)+'</div>'+(r.snippet?'<div class="ri-snippet">'+esc(r.snippet)+'</div>':'')+'</div>'}).join('')}
 }
@@ -1629,12 +1728,22 @@ if(q.includes('事业编')){return'事业编备考时间规划建议：\n\n你�
 return'我理解你的问题。作为备考助手，我可以帮你：\n\n1. 制定学习计划\n2. 分析备考信息差\n3. 整理错题重点\n4. 提供Excel学习建议\n5. 规划事业编备考时间\n\n你可以点击上方的快捷建议，或者直接输入你的问题。';
 }
 
+function clearDemoData(){
+  if(!confirm('确定清空各模块日历中的演示 / 历史数据吗？\n\n将清空：CPA / 税务师的练习与任务、Excel 任务、事业编任务、资料库阅读记录。\n你的每周学习规划、学习路线图、课程进度、函数库、书籍与播客不会受影响。'))return;
+  ['cpa','tax'].forEach(function(k){if(!DATA[k])return;['chapter1','chapter2','pastpapers','mocks','tasks'].forEach(function(a){DATA[k][a]=[]});if(DATA[k].courseDates)DATA[k].courseDates=[]});
+  if(DATA.excel){DATA.excel.tasks=[];DATA.excel.funcDates=[]}
+  if(DATA.shiyebian)DATA.shiyebian.tasks=[];
+  if(DATA.reading)DATA.reading.logs=[];
+  saveData();renderView(currentView);
+  alert('已清空各模块日历的演示数据。');
+}
 function renderSettings(){
 var h='<div class="page-header"><h2>设置与数据 '+helpBtn('settings')+'</h2><div class="desc">数据管理 · 使用说明 · 更新日志</div></div>';
 h+='<div class="settings-section"><h3>数据管理</h3>';
 h+='<div class="settings-item"><div class="label">导出数据<div class="sub">将所有数据导出为JSON文件备份</div></div><button class="btn btn-outline btn-sm" onclick="exportData()">'+svgIcon('i-download',16,16)+' 导出</button></div>';
 h+='<div class="settings-item"><div class="label">导入数据<div class="sub">从JSON备份文件恢复数据（会覆盖当前数据）</div></div><button class="btn btn-outline btn-sm" onclick="document.getElementById(\'importFile\').click()">'+svgIcon('i-upload',16,16)+' 导入</button><input type="file" id="importFile" accept=".json" style="display:none" onchange="importData(event)" /></div>';
 h+='<div class="settings-item"><div class="label">清空所有数据<div class="sub">删除所有数据并恢复初始示例（不可恢复，请先导出备份）</div></div><button class="btn btn-danger btn-sm" onclick="confirmClearData()">'+svgIcon('i-trash',16,16)+' 清空</button></div>';
+h+='<div class="settings-item"><div class="label">清空各模块日历演示数据<div class="sub">仅清空日历中的练习 / 任务 / 阅读记录等历史演示数据，不影响课程、函数库、书籍与你的规划</div></div><button class="btn btn-outline btn-sm" onclick="clearDemoData()">'+svgIcon('i-trash',16,16)+' 清空演示数据</button></div>';
 h+='</div>';
 h+='<div class="settings-section"><h3>使用说明</h3><div style="font-size:14px;line-height:1.8">';
 h+='<p><b>工作台概述</b></p><p>珊珊工作台是一个个人备考管理工具，帮助你管理CPA、税务师、Excel技能和事业编备考的学习进度、刷题记录、错题本和任务。</p><p>&nbsp;</p>';
@@ -1642,7 +1751,7 @@ h+='<p><b>模块说明</b></p><p>- <b>今日</b>：自动汇总所有模块的�
 h+='<p>- <b>CPA备考/税务师备考</b>：每个科目包含课程进度、刷题记录、错题本和任务四个标签页。点击科目的+1/-1按钮可以快速更新听课进度。</p>';
 h+='<p>- <b>Excel技能</b>：按分类管理函数学习进度，状态分为"计划中"、"学习中"、"已掌握"。</p>';
 h+='<p>- <b>事业编备考</b>：收集招聘信息和备考资料，管理备考任务。</p>';
-h+='<p>- <b>每日阅读</b>：管理书籍阅读和播客收听进度，支持从链接导入自动填写标题和作者信息，进度同步到今日页面。</p>';
+h+='<p>- <b>资料库</b>：管理书籍阅读和播客收听进度，支持从链接导入自动填写标题和作者信息，进度同步到今日页面。</p>';
 h+='<p>- <b>收集箱</b>：临时存放不知道放哪里的文字、链接和任务。</p>';
 h+='<p>- <b>搜索</b>：跨所有模块搜索内容。</p>';
 h+='<p>- <b>AI帮手</b>：基于你的备考数据提供学习建议（本地模拟，不连接外部服务器）。</p><p>&nbsp;</p>';
@@ -1657,7 +1766,7 @@ h+='<div class="settings-section"><h3>更新日志</h3>';
 h+=DATA.changelog.map(function(c){return'<div class="changelog-item"><div class="cl-date">'+c.date+'</div><div class="cl-content">'+esc(c.content)+'</div><div class="cl-scope">影响范围：'+esc(c.scope)+' · '+esc(c.action)+'</div></div>'}).join('');
 h+='</div>';
 h+='<div class="settings-section"><h3>关于</h3>';
-h+='<div class="settings-item"><div class="label">版本<div class="sub">v2.1.1</div></div></div>';
+h+='<div class="settings-item"><div class="label">版本<div class="sub">v2.2.0</div></div></div>';
 h+='<div class="settings-item"><div class="label">数据存储<div class="sub">浏览器 localStorage</div></div></div>';
 h+='<div class="settings-item"><div class="label">适用设备<div class="sub">电脑端 + 手机端（响应式）</div></div></div>';
 h+='</div>';
@@ -1670,89 +1779,6 @@ h+=DATA.changelog.map(function(c){return'<div class="changelog-item"><div class=
 h+='</div>';
 document.getElementById('mainContent').innerHTML=h;
 }
-function renderStats(){
-var h='<div class="page-header"><h2>数据看板</h2><div class="desc">学习行为分析 · 数据更新于 '+fmtDate(new Date())+'</div></div>';
-function ymd(d){return d.getFullYear()+'-'+('0'+(d.getMonth()+1)).slice(-2)+'-'+('0'+d.getDate()).slice(-2)}
-var days=[];var today=new Date();today.setHours(0,0,0,0);
-for(var i=29;i>=0;i--){var d=new Date(today);d.setDate(today.getDate()-i);days.push(ymd(d))}
-var cnt={};days.forEach(function(d){cnt[d]=0});
-function bump(ds,n){if(cnt[ds]!==undefined)cnt[ds]+=(n||1)}
-['cpa','tax','shiyebian'].forEach(function(k){(DATA[k].tasks||[]).forEach(function(t){if(t.done&&t.completedDate)bump(t.completedDate,1)})});
-['cpa','tax'].forEach(function(k){(DATA[k].courseDates||[]).forEach(function(c){if(c.date)bump(c.date,1)})});
-(DATA.excel.funcDates||[]).forEach(function(f){if(f.date)bump(f.date,1)});
-(DATA.reading.logs||[]).forEach(function(l){if(l.date)bump(l.date,1)});
-var counts=days.map(function(d){return cnt[d]});
-var maxC=Math.max.apply(null,counts.concat([1]));
-var activeDays=counts.filter(function(c){return c>0}).length;
-var streak=0;for(var s=counts.length-1;s>=0;s--){if(counts[s]>0)streak++;else break}
-var excelTotal=DATA.excel.functions.length;
-var excelPct=excelTotal>0?Math.round(DATA.excel.functions.reduce(function(a,f){return a+(f.progress||0)},0)/excelTotal):0;
-var excelDone=DATA.excel.functions.filter(function(f){return f.progress>=100}).length;
-var bookDen=DATA.reading.books.reduce(function(a,b){return a+(b.totalPages||1)},0);
-var bookNum=DATA.reading.books.reduce(function(a,b){return a+(b.currentPage||0)},0);
-var bookProg=bookDen>0?Math.round(bookNum/bookDen*100):0;
-var podDen=DATA.reading.podcasts.reduce(function(a,p){return a+(p.totalEpisodes||1)},0);
-var podNum=DATA.reading.podcasts.reduce(function(a,p){return a+(p.listenedEpisodes||0)},0);
-var podProg=podDen>0?Math.round(podNum/podDen*100):0;
-h+='<div class="card stats-card"><div class="stats-card-head"><div><div class="stats-card-title">近 30 天学习活跃度</div><div class="stats-card-sub">每根柱子 = 当天完成的学习行为数（任务完成 / 课程学习 / 函数练习 / 阅读记录）</div></div><button class="btn btn-outline" style="padding:4px 10px;font-size:12px" onclick="renderView(\'stats\')">刷新</button></div>';
-h+='<div class="activity-chart">';
-var wd=['日','一','二','三','四','五','六'];
-days.forEach(function(d,i){var v=counts[i];var pct=Math.round(v/maxC*100);var dt=new Date(d+'T00:00:00');var x=(i%5===0)||i===days.length-1;h+='<div class="ac-col" title="'+d+'（周'+wd[dt.getDay()]+'）：'+v+' 项"><div class="ac-bar'+(v===maxC&&v>0?' peak':'')+'" style="height:'+Math.max(pct,2)+'%"></div>'+(x?'<div class="ac-xl">'+d.slice(5)+'</div>':'')+'</div>'});
-h+='</div></div>';
-// ===== 各模块完成数据 + 后续调整建议 =====
-function weakCount(k){return (DATA[k].mistakes||[]).filter(function(m){(m.reviewCount||0)===0||m.proficiency==='low'}).length}
-function examLeft(k){var d=DATA[k].examDate;return d?cdDays(d):null}
-var modMeta=[
- {key:'cpa',name:'CPA 备考',ic:'i-book',bg:'var(--green-bg)',col:'var(--green)'},
- {key:'tax',name:'税务师备考',ic:'i-book',bg:'var(--blue-bg)',col:'var(--blue)'},
- {key:'excel',name:'Excel 技能',ic:'i-calc',bg:'var(--accent-light)',col:'var(--accent)'},
- {key:'reading',name:'每日阅读',ic:'i-book-open',bg:'var(--yellow-bg)',col:'var(--yellow)'},
- {key:'shiyebian',name:'事业编备考',ic:'i-briefcase',bg:'var(--pink-bg)',col:'var(--pink)'},
- {key:'inbox',name:'收集箱',ic:'i-inbox',bg:'var(--bg-2)',col:'var(--text-2)'}
-];
-var modRows='';
-modMeta.forEach(function(a){
- var metric='',pct=0,rec='';
- if(a.key==='cpa'||a.key==='tax'){
-  var cs=DATA[a.key].courses||[];var done=cs.filter(function(c){return c.completed>=c.total}).length;
-  pct=cs.length?Math.round(cs.reduce(function(s,c){return s+(c.total>0?c.completed/c.total:0)},0)/cs.length*100):0;
-  metric=done+'/'+cs.length+' 科完成 · '+pct+'%';
-  var w=weakCount(a.key);var el=examLeft(a.key);
-  if(el!==null&&el>=0&&el<=30)rec='距考试仅 '+el+' 天，优先刷错题复盘，把握冲刺窗口';
-  else if(w>0)rec='有 '+w+' 个薄弱科目（复习少/熟练度低），建议每周固定复盘';
-  else if(cs.length&&done>=cs.length)rec='课程已全部完成，保持每周错题复盘节奏';
-  else rec='课程稳步推进，本周目标再完成 1–2 个科目';
- } else if(a.key==='excel'){
-  pct=excelPct;metric=excelDone+'/'+excelTotal+' 函数掌握 · '+pct+'%';
-  if(pct>=100)rec='函数已全部掌握，定期练手防生疏';
-  else if(pct<50)rec='掌握度偏低，建议每天精练 1–2 个高频函数';
-  else rec='还差 '+(excelTotal-excelDone)+' 个函数，集中力量突破查找/统计类';
- } else if(a.key==='reading'){
-  var rb=DATA.reading.books.filter(function(b){return b.status==='reading'});var fb=DATA.reading.books.filter(function(b){return b.status==='done'});
-  var rp=rb.length?Math.round(rb.reduce(function(s,b){return s+((b.currentPage||0)/(b.totalPages||1))},0)/rb.length*100):0;
-  pct=rp;metric=rb.length+' 本在读 · '+fb.length+' 本已读';
-  if(rb.length===0)rec='暂无在读书籍，挑一本开始，培养每天阅读习惯';
-  else if(rp<30)rec='当前在读进度偏慢，每天固定 20–30 分钟更轻松';
-  else rec='阅读节奏稳定，保持每周读完 1 本的节奏';
- } else if(a.key==='shiyebian'){
-  var st=DATA.shiyebian.tasks||[];var sd=st.filter(function(t){return t.done}).length;
-  pct=st.length?Math.round(sd/st.length*100):0;metric=sd+'/'+st.length+' 任务完成 · '+pct+'%';
-  var pend=st.length-sd;
-  if(pend===0)rec='待办已全部清空，留意省属/连云港最新招考公告';
-  else if(pend>=3)rec='有 '+pend+' 个任务待处理，优先推进临近截止项';
-  else rec='稳步推进中，关注招聘信息更新';
- } else if(a.key==='inbox'){
-  var n=DATA.inbox.length;pct=n>0?Math.min(100,n*10):100;metric=n+' 条待归类';
-  if(n===0)rec='收集箱已清空，随时记录灵感与临时任务';
-  else rec=n+' 条待归类，建议每周整理一次分流到对应模块';
- }
- modRows+='<div class="mod-row"><div class="mod-row-top"><span class="mod-ic" style="background:'+a.bg+';color:'+a.col+'">'+svgIcon(a.ic,18,18)+'</span><span class="mod-name">'+a.name+'</span><span class="mod-metric">'+metric+'</span></div><div class="mbar-track"><div class="mbar-fill" style="width:'+pct+'%;background:'+a.col+'"></div></div><div class="mod-rec"><span class="mod-rec-tag">建议</span><span class="mod-rec-text">'+rec+'</span></div></div>';
-});
-h+='<div class="card mod-analysis"><div class="mod-analysis-head">'+svgIcon('i-chart',16,16)+' 各模块完成分析与建议</div>'+modRows+'</div>';
-document.getElementById('mainContent').innerHTML=h;
-}
-function kpiCard(val,label,sub,foot){return '<div class="kpi-card"><div class="kpi-val">'+val+'</div><div class="kpi-label">'+label+'</div><div class="kpi-sub">'+sub+'</div><div class="kpi-foot">'+foot+'</div></div>'}
-function toggleTask(m,id){var t=DATA[m].tasks.find(function(t){return t.id===id});if(t){var was=t.done;t.done=!t.done;if(t.done&&!was){t.completedDate=todayLocal()}else if(!t.done){t.completedDate=''}saveData();renderView(currentView)}}
 function deleteTask(m,id){openModal('<h3>确认删除</h3><p>确定要删除这个任务吗？此操作不可撤销。</p><div class="modal-actions"><button class="btn btn-outline" onclick="closeModal()">取消</button><button class="btn btn-primary" style="background:#1A1A1A" onclick="doDeleteTask(\''+m+'\',\''+id+'\')">删除</button></div>')}
 function doDeleteTask(m,id){DATA[m].tasks=DATA[m].tasks.filter(function(t){return t.id!==id});saveData();closeModal();renderView(currentView)}
 function openTaskAddModal(m){var lb={cpa:'CPA备考',tax:'税务师备考',excel:'Excel技能',shiyebian:'事业编备考'}[m]||'';openModal('<h3>添加任务 - '+lb+'</h3><div class="form-group"><label class="form-label">任务标题</label><input class="form-input" id="taskTitle" placeholder="如：完成会计第14章听课" /></div><div class="form-group"><label class="form-label">优先级</label><select class="form-select" id="taskPriority"><option value="high">高</option><option value="medium" selected>中</option><option value="low">低</option></select></div><div class="form-group"><label class="form-label">截止日期</label><input class="form-input" type="date" id="taskDue" /></div><div class="form-group"><label class="form-label">备注</label><textarea class="form-textarea" id="taskNote" placeholder="可选"></textarea></div><div class="modal-actions"><button class="btn btn-outline" onclick="closeModal()">取消</button><button class="btn btn-primary" onclick="addTask(\''+m+'\')">添加</button></div>')}
@@ -1920,7 +1946,7 @@ cb({title:title,author:author,desc:desc})
 }
 
 document.getElementById('sidebarFooterDate').textContent=fmtDate(new Date());
-try{renderToday()}catch(e){document.getElementById('mainContent').innerHTML='<div class="page-header"><h2>页面加载出错</h2><div class="desc">请尝试：<br>1. 长按刷新按钮 → 清空缓存并重新加载<br>2. 或在浏览器中打开 <a href="'+window.location.origin+window.location.pathname+'?v='+Date.now()+'" style="color:var(--accent)">这个链接</a></div><p style="font-size:12px;color:var(--text-2);margin-top:16px">错误：'+e.message+'</p></div>';console.error(e)}
+try{renderView('overview')}catch(e){document.getElementById('mainContent').innerHTML='<div class="page-header"><h2>页面加载出错</h2><div class="desc">请尝试：<br>1. 长按刷新按钮 → 清空缓存并重新加载<br>2. 或在浏览器中打开 <a href="'+window.location.origin+window.location.pathname+'?v='+Date.now()+'" style="color:var(--accent)">这个链接</a></div><p style="font-size:12px;color:var(--text-2);margin-top:16px">错误：'+e.message+'</p></div>';console.error(e)}
 </script>
 </body>
 </html>
