@@ -10,12 +10,12 @@
 <style>
 :root{--bg:#FFFFFF;--white:#FFF;--text:#1A1A1A;--text-2:#6B6B6B;--border:#E6E6E3;--accent:#1A1A1A;--accent-light:#ECECEA;--yellow:#C9C9C5;--yellow-bg:#F3F3F1;--pink:#C9C9C5;--pink-bg:#F3F3F1;--blue:#C9C9C5;--blue-bg:#F3F3F1;--green:#C9C9C5;--green-bg:#F3F3F1;--sidebar-bg:#F6F6F4;--sidebar-text:#6B6B6B;--sidebar-active:#1A1A1A;--radius:12px;--radius-sm:9px;--shadow:0 1px 3px rgba(0,0,0,.04);--shadow-lg:0 8px 30px rgba(0,0,0,.10);--shadow-hover:0 4px 14px rgba(0,0,0,.06);--transition:all .2s ease;--bg-2:#F0F0ED;--bg-card:#FFF;--danger:#1A1A1A;--danger-bg:#F3F3F1;--warn:#1A1A1A;--warn-bg:#F3F3F1;--green-mid:#3A3A3A;--blue-mid:#3A3A3A;--accent-2:#1A1A1A;--ink:#1A1A1A}
 *{margin:0;padding:0;box-sizing:border-box}
-html,body{height:100%}
+html,body{height:100%;width:100%}
 body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;font-size:15px;line-height:1.6;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;font-variant-numeric:tabular-nums}
 button{font-family:inherit;cursor:pointer;border:none;background:none}
 input,textarea,select{font-family:inherit;font-size:inherit}
 ::-webkit-scrollbar{width:6px;height:6px}::-webkit-scrollbar-thumb{background:#D0D0CE;border-radius:3px}::-webkit-scrollbar-track{background:transparent}
-.app{display:flex;min-height:100vh}
+.app{display:flex;min-height:100vh;width:100%}
 .sidebar{width:250px;background:linear-gradient(180deg,#F6F6F4,#F0F0EE);color:var(--sidebar-text);display:flex;flex-direction:column;position:fixed;top:0;left:0;bottom:0;z-index:100;overflow-y:auto;border-right:1px solid rgba(0,0,0,.06)}
 .sidebar-brand{padding:24px 20px 16px;display:flex;align-items:center;gap:10px}
 .sidebar-brand .logo{width:36px;height:36px;background:var(--accent);border-radius:10px;display:flex;align-items:center;justify-content:center;color:#fff;font-weight:700;font-size:18px}
@@ -30,7 +30,7 @@ input,textarea,select{font-family:inherit;font-size:inherit}
 .sidebar-nav .nav-item.active::before{content:'';position:absolute;left:-12px;top:7px;bottom:7px;width:3px;border-radius:0 3px 3px 0;background:var(--accent)}
 .nav-item .badge{margin-left:auto;background:var(--accent);color:#fff;font-size:11px;padding:1px 7px;border-radius:10px;min-width:20px;text-align:center}
 .sidebar-footer{padding:12px 16px;border-top:1px solid rgba(0,0,0,.04);font-size:12px;color:#9A9A9A}
-.main{flex:1;margin-left:0;padding:32px 48px;max-width:1240px;animation:viewIn .28s ease}
+.main{flex:1;padding:32px 40px;width:100%;box-sizing:border-box;animation:viewIn .28s ease;display:block;max-width:none}
 @keyframes viewIn{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
 .page-header{margin-bottom:28px;padding-bottom:0;border-bottom:none}
 .page-header h2{font-size:20px;font-weight:700;display:flex;align-items:center;gap:8px;color:var(--text)}
@@ -39,8 +39,8 @@ input,textarea,select{font-family:inherit;font-size:inherit}
 .help-btn:hover{border-color:var(--accent);color:var(--accent)}
 .help-popover{position:fixed;background:var(--text);color:#fff;padding:12px 16px;border-radius:var(--radius-sm);font-size:13px;line-height:1.5;max-width:300px;z-index:1000;box-shadow:var(--shadow-lg);display:none}
 /* ===== 顶栏 ===== */
-.content-wrap{margin-left:250px;min-height:100vh;display:flex;flex-direction:column}
-.topbar{position:sticky;top:0;z-index:80;background:rgba(255,255,255,.92);-webkit-backdrop-filter:saturate(180%) blur(8px);backdrop-filter:saturate(180%) blur(8px);border-bottom:1px solid var(--border);padding:12px 48px;display:flex;align-items:center;gap:14px}
+.content-wrap{margin-left:250px;min-height:100vh;display:flex;flex-direction:column;flex:1;width:calc(100% - 250px)}
+.topbar{position:sticky;top:0;z-index:80;background:rgba(255,255,255,.92);-webkit-backdrop-filter:saturate(180%) blur(8px);backdrop-filter:saturate(180%) blur(8px);border-bottom:1px solid var(--border);padding:12px 40px;display:flex;align-items:center;gap:14px}
 .tb-search{flex:1;max-width:520px;display:flex;align-items:center;gap:8px;background:var(--bg-2);border:1px solid var(--border);border-radius:10px;padding:7px 12px}
 .tb-search svg{color:var(--text-2);flex:none}
 .tb-search input{flex:1;border:none;background:none;outline:none;color:var(--text);font-size:14px}
@@ -647,21 +647,19 @@ details.today-section[open]>summary .collapse-icon{transform:rotate(180deg)}
 <aside class="sidebar">
   <div class="sidebar-brand"><div class="logo">学</div><div><h1>学习工作台</h1></div></div>
   <nav class="sidebar-nav" id="sidebarNav">
-    <div class="nav-label">核心总览</div>
+    <div class="nav-label">规划区</div>
     <div class="nav-item active" data-view="overview"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use href="#i-chart"/></svg><span>首页总览</span></div>
-    <div class="nav-label">学习计划</div>
     <div class="nav-item" data-view="weekly"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use href="#i-grid"/></svg><span>每周学习规划</span></div>
     <div class="nav-item" data-view="roadmap"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use href="#i-target"/></svg><span>学习路线图</span></div>
-    <div class="nav-label">备考模块</div>
+    <div class="nav-label">学习区</div>
     <div class="nav-item" data-view="cpa"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use href="#i-book"/></svg><span>CPA 备考</span><span class="badge" data-badge="cpa"></span></div>
     <div class="nav-item" data-view="tax"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use href="#i-book"/></svg><span>税务师备考</span><span class="badge" data-badge="tax"></span></div>
-    <div class="nav-item" data-view="excel"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use href="#i-calc"/></svg><span>Excel 技能</span></div>
     <div class="nav-item" data-view="shiyebian"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use href="#i-briefcase"/></svg><span>事业编备考</span></div>
+    <div class="nav-item" data-view="excel"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use href="#i-calc"/></svg><span>Excel 技能</span></div>
+    <div class="nav-label">资源区</div>
     <div class="nav-item" data-view="reading"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use href="#i-book-open"/></svg><span>每日阅读</span></div>
     <div class="nav-label">公共工具</div>
     <div class="nav-item" data-view="inbox"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use href="#i-inbox"/></svg><span>收集箱</span><span class="badge" data-badge="inbox"></span></div>
-    <div class="nav-label">底部功能</div>
-    <div class="nav-item" data-view="search"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use href="#i-search"/></svg><span>搜索</span></div>
     <div class="nav-item" data-view="ai"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use href="#i-ai"/></svg><span>AI 帮手</span></div>
   </nav>
   <div class="sidebar-footer"><a class="sf-link" data-view="settings">设置与数据</a><div class="sf-ver">v2.1.1</div></div>
@@ -689,13 +687,18 @@ details.today-section[open]>summary .collapse-icon{transform:rotate(180deg)}
 <aside class="drawer" id="moreDrawer">
   <div class="drawer-header"><h3>全部功能</h3><button class="drawer-close" onclick="closeDrawer()"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use href="#i-close"/></svg></button></div>
   <nav class="drawer-nav" id="drawerNav">
-    <div class="nav-section-label">学习模块</div>
+    <div class="nav-section-label">规划区</div>
+    <div class="nav-item" data-view="overview"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use href="#i-chart"/></svg><span>首页总览</span></div>
+    <div class="nav-item" data-view="weekly"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use href="#i-grid"/></svg><span>每周学习规划</span></div>
+    <div class="nav-item" data-view="roadmap"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use href="#i-target"/></svg><span>学习路线图</span></div>
+    <div class="nav-section-label">学习区</div>
     <div class="nav-item" data-view="cpa"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use href="#i-book"/></svg><span>CPA 备考</span><span class="badge" data-badge="cpa"></span></div>
     <div class="nav-item" data-view="tax"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use href="#i-book"/></svg><span>税务师备考</span><span class="badge" data-badge="tax"></span></div>
-    <div class="nav-item" data-view="excel"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use href="#i-calc"/></svg><span>Excel 技能</span></div>
     <div class="nav-item" data-view="shiyebian"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use href="#i-briefcase"/></svg><span>事业编备考</span></div>
+    <div class="nav-item" data-view="excel"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use href="#i-calc"/></svg><span>Excel 技能</span></div>
+    <div class="nav-section-label">资源区</div>
     <div class="nav-item" data-view="reading"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use href="#i-book-open"/></svg><span>每日阅读</span></div>
-    <div class="nav-section-label">公共能力</div>
+    <div class="nav-section-label">公共工具</div>
     <div class="nav-item" data-view="inbox"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use href="#i-inbox"/></svg><span>收集箱</span><span class="badge" data-badge="inbox"></span></div>
     <div class="nav-item" data-view="search"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use href="#i-search"/></svg><span>搜索</span></div>
     <div class="nav-item" data-view="ai"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use href="#i-ai"/></svg><span>AI 帮手</span></div>
