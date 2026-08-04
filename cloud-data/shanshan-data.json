@@ -1669,7 +1669,7 @@
     {
       "id": "msets8djhror5e",
       "level": "week",
-      "title": "逐章做主观题（计算分析 / 综合题）第二轮",
+      "title": "逐章做主观题（计算分析 / 综合题）第一轮",
       "mod": "cpa",
       "priority": "high",
       "startDate": "2026-08-10",
@@ -1783,7 +1783,7 @@
       "urgent": true
     }
   },
-  "_updated": "2026-08-04T15:41:21.595Z",
+  "_updated": "2026-08-04T15:43:05.798Z",
   "checkins": [],
   "_mig": {
     "cpaTasksCleared": true,
