@@ -1578,7 +1578,7 @@
     {
       "id": "msets8djjrxl8t",
       "level": "week",
-      "title": "错题本二刷至能独立写全分录",
+      "title": "错题本二刷",
       "mod": "cpa",
       "priority": "high",
       "startDate": "2026-08-24",
@@ -1783,7 +1783,7 @@
       "urgent": true
     }
   },
-  "_updated": "2026-08-04T15:45:01.022Z",
+  "_updated": "2026-08-04T15:45:19.950Z",
   "checkins": [],
   "_mig": {
     "cpaTasksCleared": true,
