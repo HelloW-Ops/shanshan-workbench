@@ -1643,7 +1643,7 @@
       "level": "week",
       "title": "做模拟题 3套左右",
       "mod": "cpa",
-      "priority": "high",
+      "priority": "low",
       "startDate": "2026-08-17",
       "endDate": "2026-08-23",
       "dueDate": "2026-08-23",
@@ -1656,7 +1656,7 @@
       "level": "week",
       "title": "做历年真题（2021–2025 近5年，严格计时 3h/套， 5套）",
       "mod": "cpa",
-      "priority": "high",
+      "priority": "low",
       "startDate": "2026-08-17",
       "endDate": "2026-08-23",
       "dueDate": "2026-08-23",
@@ -1807,7 +1807,7 @@
       "urgent": true
     }
   },
-  "_updated": "2026-08-04T15:59:08.750Z",
+  "_updated": "2026-08-04T15:59:14.525Z",
   "checkins": [],
   "_mig": {
     "cpaTasksCleared": true,
