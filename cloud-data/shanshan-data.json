@@ -1381,23 +1381,23 @@
   ],
   "weeklyTasks": [],
   "roadmapPlans": {},
-  "_updated": "2026-08-04T05:22:54.356Z",
-  "checkins": [
-    "2026-08-04"
-  ],
-  "_mig": {
-    "cpaTasksCleared": true,
-    "excelUsageBackfill": true
-  },
-  "profile": {
-    "nickname": "小王同学"
-  },
+  "_updated": "2026-08-04T12:07:19.540Z",
   "weeklyReviews": {
     "2026-08-03_2026-08-09": {
       "facts": "",
       "obstacles": "",
       "trends": ""
     }
+  },
+  "_mig": {
+    "cpaTasksCleared": true,
+    "excelUsageBackfill": true
+  },
+  "checkins": [
+    "2026-08-04"
+  ],
+  "profile": {
+    "nickname": "小王同学"
   },
   "settings": {
     "dailyBrief": true,
