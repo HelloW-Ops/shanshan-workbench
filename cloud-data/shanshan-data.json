@@ -1617,7 +1617,7 @@
     {
       "id": "msets8djjaujij",
       "level": "week",
-      "title": "做模拟题 2 套",
+      "title": "做模拟题 3套左右",
       "mod": "cpa",
       "priority": "high",
       "startDate": "2026-08-17",
@@ -1783,7 +1783,7 @@
       "urgent": true
     }
   },
-  "_updated": "2026-08-04T15:44:31.992Z",
+  "_updated": "2026-08-04T15:45:01.022Z",
   "checkins": [],
   "_mig": {
     "cpaTasksCleared": true,
