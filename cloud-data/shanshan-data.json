@@ -1630,7 +1630,7 @@
     {
       "id": "msets8djvbcjp0",
       "level": "week",
-      "title": "做历年真题（2021–2025 近5年，严格计时 3h/套，至少 3 套）",
+      "title": "做历年真题（2021–2025 近5年，严格计时 3h/套， 5套）",
       "mod": "cpa",
       "priority": "high",
       "startDate": "2026-08-17",
@@ -1783,7 +1783,7 @@
       "urgent": true
     }
   },
-  "_updated": "2026-08-04T15:43:05.798Z",
+  "_updated": "2026-08-04T15:44:31.992Z",
   "checkins": [],
   "_mig": {
     "cpaTasksCleared": true,
