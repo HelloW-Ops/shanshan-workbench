@@ -3,288 +3,96 @@
     "examDate": "2026-08-28",
     "courses": [
       {
-        "id": "ms7glflu6yucyu",
+        "id": "mse0ra6kvd77rb",
         "name": "会计",
-        "total": 130,
-        "completed": 97,
-        "color": "blue",
+        "total": 30,
+        "completed": 12,
+        "color": "green",
         "focus": true
       },
       {
-        "id": "ms7glflu46yzl4",
+        "id": "mse0ra6kaqdqfw",
         "name": "审计",
         "total": 25,
         "completed": 0,
         "color": "blue"
       },
       {
-        "id": "ms7glfluftij56",
+        "id": "mse0ra6kiw5ixx",
         "name": "财务成本管理",
         "total": 28,
         "completed": 0,
         "color": "yellow"
       },
       {
-        "id": "ms7glfluwyjg14",
+        "id": "mse0ra6k0d2i0j",
         "name": "税法",
-        "total": 1,
-        "completed": 0,
-        "color": "blue",
-        "passed": "2024",
-        "focus": false
+        "total": 22,
+        "completed": 22,
+        "color": "pink",
+        "passed": "2024"
       },
       {
-        "id": "ms7glflutdo18m",
+        "id": "mse0ra6kpi7wzy",
         "name": "经济法",
         "total": 20,
         "completed": 0,
         "color": "green"
       },
       {
-        "id": "ms7glflu4dqbo8",
+        "id": "mse0ra6kmsqur1",
         "name": "公司战略与风险管理",
         "total": 18,
         "completed": 0,
         "color": "blue"
       }
     ],
-    "chapter1": [
-      {
-        "id": "ms7gv48h1hwm8l",
-        "subject": "会计",
-        "date": "2026-04-01",
-        "total": 57,
-        "correct": 43,
-        "note": "第一章总论"
-      },
-      {
-        "id": "ms7gvpyd7vy4j7",
-        "subject": "会计",
-        "date": "2026-04-01",
-        "total": 67,
-        "correct": 61,
-        "note": "第二章存货"
-      },
-      {
-        "id": "ms7gx15au7vi7u",
-        "subject": "会计",
-        "date": "2026-04-02",
-        "total": 67,
-        "correct": 56,
-        "note": "第三章固定资产"
-      },
-      {
-        "id": "ms7gxqg3821nf2",
-        "subject": "会计",
-        "date": "2026-04-03",
-        "total": 46,
-        "correct": 40,
-        "note": "第四章无形资产"
-      },
-      {
-        "id": "ms7gyb9aph5rk2",
-        "subject": "会计",
-        "date": "2026-04-04",
-        "total": 68,
-        "correct": 59,
-        "note": "第五章投资性房地产"
-      },
-      {
-        "id": "ms7gzbu2qgv32v",
-        "subject": "会计",
-        "date": "2026-04-05",
-        "total": 53,
-        "correct": 45,
-        "note": "第九章职工薪酬"
-      },
-      {
-        "id": "ms7h63hzuf1rte",
-        "subject": "会计",
-        "date": "2026-04-06",
-        "total": 58,
-        "correct": 47,
-        "note": "第十一章借款费用"
-      },
-      {
-        "id": "ms7h8jkycqctba",
-        "subject": "会计",
-        "date": "2026-04-09",
-        "total": 63,
-        "correct": 49,
-        "note": "第十章股份支付"
-      },
-      {
-        "id": "ms7haccm9knlzx",
-        "subject": "会计",
-        "date": "2026-04-10",
-        "total": 64,
-        "correct": 51,
-        "note": "第七章资产减值"
-      },
-      {
-        "id": "ms7hc9hkrtmbup",
-        "subject": "会计",
-        "date": "2026-04-12",
-        "total": 35,
-        "correct": 22,
-        "note": "第八章负债"
-      },
-      {
-        "id": "ms7hdqlnj77ah7",
-        "subject": "会计",
-        "date": "2026-04-13",
-        "total": 47,
-        "correct": 43,
-        "note": "第十六章所有者权益"
-      },
-      {
-        "id": "ms7hivws1azhz0",
-        "subject": "会计",
-        "date": "2026-04-15",
-        "total": 52,
-        "correct": 42,
-        "note": "第十二章或有事项"
-      },
-      {
-        "id": "ms7hlruww0wavp",
-        "subject": "会计",
-        "date": "2026-04-17",
-        "total": 43,
-        "correct": 28,
-        "note": "第十五章持有待售的非流动资产、处置组和终止经营"
-      },
-      {
-        "id": "ms7hobkbfg6px9",
-        "subject": "会计",
-        "date": "2026-04-23",
-        "total": 96,
-        "correct": 65,
-        "note": "第十七章收入、费用和利润"
-      },
-      {
-        "id": "ms7hqutztq8oz9",
-        "subject": "会计",
-        "date": "2026-05-02",
-        "total": 63,
-        "correct": 45,
-        "note": "第十八章政府补助"
-      },
-      {
-        "id": "ms7hs6a39224br",
-        "subject": "会计",
-        "date": "2026-05-02",
-        "total": 49,
-        "correct": 36,
-        "note": "第二十章非货币性资产交换"
-      },
-      {
-        "id": "ms7hts5wjevp3o",
-        "subject": "会计",
-        "date": "2026-05-02",
-        "total": 65,
-        "correct": 50,
-        "note": "第二十二章外币折算"
-      },
-      {
-        "id": "ms7hwez14a8vqv",
-        "subject": "会计",
-        "date": "2026-05-09",
-        "total": 56,
-        "correct": 43,
-        "note": "第十四章租赁"
-      },
-      {
-        "id": "ms7hz6ywves2gf",
-        "subject": "会计",
-        "date": "2026-05-19",
-        "total": 104,
-        "correct": 75,
-        "note": "第十三章金融工具与保险合同"
-      },
-      {
-        "id": "ms7i0w9g3yabij",
-        "subject": "会计",
-        "date": "2026-05-22",
-        "total": 53,
-        "correct": 49,
-        "note": "第二十一章债务重组"
-      },
-      {
-        "id": "ms7i3dcrp8xwia",
-        "subject": "会计",
-        "date": "2026-06-03",
-        "total": 87,
-        "correct": 68,
-        "note": "第六章长期股权投资与合营安排"
-      }
-    ],
+    "chapter1": [],
     "chapter2": [],
     "pastpapers": [],
     "mocks": [],
-    "mistakes": [
-      {
-        "subject": "会计",
-        "objectiveWrong": 12,
-        "subjectiveWrong": 0,
-        "reviewCount": 0,
-        "proficiency": "medium"
-      }
-    ],
+    "mistakes": [],
     "tasks": [],
-    "courseDates": [
-      {
-        "date": "2026-07-30",
-        "name": "会计",
-        "action": "+1"
-      },
-      {
-        "date": "2026-07-30",
-        "name": "会计",
-        "action": "-1"
-      }
-    ]
+    "courseDates": []
   },
   "tax": {
     "examDate": "2026-11-14",
     "courses": [
       {
-        "id": "ms7glfluxqqxcc",
+        "id": "mse0ra6kluwjlc",
         "name": "税法一",
-        "total": 1,
-        "completed": 0,
-        "color": "yellow",
-        "passed": "2024",
-        "focus": false
+        "total": 20,
+        "completed": 20,
+        "color": "green",
+        "passed": "2024"
       },
       {
-        "id": "ms7glfluch2kvv",
+        "id": "mse0ra6kp2isug",
         "name": "税法二",
         "total": 22,
         "completed": 0,
         "color": "blue"
       },
       {
-        "id": "ms7glfluymww19",
+        "id": "mse0ra6kuo4wrn",
         "name": "涉税服务实务",
         "total": 25,
         "completed": 0,
         "color": "yellow"
       },
       {
-        "id": "ms7glflux7wgdo",
+        "id": "mse0ra6k61l0ql",
         "name": "涉税服务相关法律",
-        "total": 1,
+        "total": 20,
         "completed": 0,
-        "color": "blue",
-        "focus": true
+        "color": "pink"
       },
       {
-        "id": "ms7glfluxoh2kp",
+        "id": "mse0ra6k5gnn8z",
         "name": "财务与会计",
-        "total": 1,
+        "total": 28,
         "completed": 0,
-        "color": "blue",
-        "focus": true
+        "color": "green"
       }
     ],
     "chapter1": [],
@@ -296,914 +104,785 @@
     "courseDates": []
   },
   "excel": {
+    "funcDates": [],
     "functions": [
       {
-        "id": "msc2559wj2l2sa",
+        "id": "ef56",
+        "name": "数据透视表",
+        "category": "数据透视与整理",
+        "syntax": "插入 → 数据透视表 → 选数据源 → 拖字段到 行/列/值",
+        "desc": "Excel 最强大的汇总分析工具，拖拽字段即可秒出交叉报表，无需写公式。",
+        "usage": "按 部门+月份 拖拽即出销售/费用汇总表，比公式快得多",
+        "progress": 0
+      },
+      {
+        "id": "ef57",
+        "name": "分列",
+        "category": "数据透视与整理",
+        "syntax": "数据 → 分列 → 选分隔符/固定宽度",
+        "desc": "把一列拆成多列，处理系统导出的粘连数据（如“张三-销售部”）。",
+        "usage": "把 姓名-工号 一列拆成姓名、工号两列，方便后续匹配",
+        "progress": 0
+      },
+      {
+        "id": "ef58",
+        "name": "条件格式",
+        "category": "数据透视与整理",
+        "syntax": "开始 → 条件格式 → 数据条/色阶/突出显示规则",
+        "desc": "按规则自动给单元格上色，异常与重点一眼可见。",
+        "usage": "给逾期天数>30 的单元格标红，给 Top10 销售额高亮",
+        "progress": 0
+      },
+      {
+        "id": "ef59",
+        "name": "快速填充",
+        "category": "数据透视与整理",
+        "syntax": "输入示例后 Ctrl+E（或 数据 → 快速填充）",
+        "desc": "识别你给的范例，自动批量提取或规整同类内容，比公式更省事。",
+        "usage": "从 2026/8/1 批量提取 8月，或从全称中拆出姓名",
+        "progress": 0
+      },
+      {
+        "id": "ef01",
+        "name": "PMT",
+        "category": "财务专用函数",
+        "syntax": "=PMT(利率, 期数, 现值, [终值], [类型])",
+        "desc": "计算贷款或分期每期固定付款额（年金函数）。",
+        "usage": "房贷月供：=PMT(年利率/12, 年限*12, 贷款总额)",
+        "progress": 0
+      },
+      {
+        "id": "ef02",
+        "name": "FV",
+        "category": "财务专用函数",
+        "syntax": "=FV(利率, 期数, 每期投入, [现值])",
+        "desc": "计算一笔投资在未来某时点的本利和（复利终值）。",
+        "usage": "每月定投3年后的本息：=FV(月利率,36,-月投额)",
+        "progress": 0
+      },
+      {
+        "id": "ef03",
+        "name": "PV",
+        "category": "财务专用函数",
+        "syntax": "=PV(利率, 期数, 每期投入, [终值])",
+        "desc": "计算未来一系列现金流的当前价值。",
+        "usage": "评估一笔年金现在值多少钱",
+        "progress": 0
+      },
+      {
+        "id": "ef04",
+        "name": "NPV",
+        "category": "财务专用函数",
+        "syntax": "=NPV(折现率, 现金流1, 现金流2, ...)",
+        "desc": "按折现率将各期现金流折算为净现值，用于投资可行性判断。",
+        "usage": "项目各年净现金流折现后求和，大于0通常值得投",
+        "progress": 0
+      },
+      {
+        "id": "ef05",
+        "name": "IRR",
+        "category": "财务专用函数",
+        "syntax": "=IRR(现金流区域, [预估])",
+        "desc": "计算使净现值为0的内部收益率，对比方案真实回报率。",
+        "usage": "对比两个投资方案的真实年化回报",
+        "progress": 0
+      },
+      {
+        "id": "ef06",
+        "name": "SLN",
+        "category": "财务专用函数",
+        "syntax": "=SLN(原值, 残值, 使用年限)",
+        "desc": "直线法折旧，每年折旧额相等。",
+        "usage": "设备年折旧：=(原值-残值)/年限",
+        "progress": 0
+      },
+      {
+        "id": "ef07",
+        "name": "SYD",
+        "category": "财务专用函数",
+        "syntax": "=SYD(原值, 残值, 使用年限, 第几期)",
+        "desc": "年数总和法折旧，前期多提后期少提。",
+        "usage": "加速折旧表里第N年折旧额",
+        "progress": 0
+      },
+      {
+        "id": "ef08",
+        "name": "IPMT",
+        "category": "财务专用函数",
+        "syntax": "=IPMT(利率, 第几期, 期数, 现值)",
+        "desc": "返回某期还款中的利息部分。",
+        "usage": "还款计划表拆分每期利息",
+        "progress": 0
+      },
+      {
+        "id": "ef09",
+        "name": "PPMT",
+        "category": "财务专用函数",
+        "syntax": "=PPMT(利率, 第几期, 期数, 现值)",
+        "desc": "返回某期还款中的本金部分。",
+        "usage": "还款计划表拆分每期本金",
+        "progress": 0
+      },
+      {
+        "id": "ef10",
+        "name": "RATE",
+        "category": "财务专用函数",
+        "syntax": "=RATE(期数, 每期付款, 现值, [终值])",
+        "desc": "反算实际利率，已知月供和本金求真实年化。",
+        "usage": "已知月供与本金算真实年化利率",
+        "progress": 0
+      },
+      {
+        "id": "ef11",
+        "name": "EFFECT",
+        "category": "财务专用函数",
+        "syntax": "=EFFECT(名义年利率, 复利次数)",
+        "desc": "将名义利率换算为有效年利率，比较计息方式真实成本。",
+        "usage": "对比按月或按日计息的真实成本",
+        "progress": 0
+      },
+      {
+        "id": "ef12",
+        "name": "CUMIPMT",
+        "category": "财务专用函数",
+        "syntax": "=CUMIPMT(利率, 期数, 现值, 起始期, 结束期, 类型)",
+        "desc": "计算某段区间内累计偿还的利息。",
+        "usage": "一年内累计还了多少利息",
+        "progress": 0
+      },
+      {
+        "id": "ef13",
         "name": "VLOOKUP",
-        "category": "查找引用",
-        "syntax": "=VLOOKUP(查找值, 表格区域, 列序号, [匹配方式])",
-        "desc": "在表格首列查找指定值，返回该行指定列的内容。匹配方式0为精确匹配，1为近似匹配。",
-        "progress": 0
+        "category": "工资与报销",
+        "syntax": "=VLOOKUP(查找值, 表格区域, 列序号, 0)",
+        "desc": "在表格首列查找关键字，返回同行指定列内容，0为精确匹配。",
+        "usage": "用工号在工资表里查对应姓名或部门",
+        "progress": 40
       },
       {
-        "id": "ms7glflu6h11m1",
-        "name": "HLOOKUP",
-        "category": "查找引用",
-        "syntax": "=HLOOKUP(查找值, 表格区域, 行序号, [匹配方式])",
-        "desc": "在表格首行查找指定值，返回该列指定行的内容。",
-        "progress": 0
-      },
-      {
-        "id": "ms7glflurdlfxw",
+        "id": "ef14",
         "name": "XLOOKUP",
-        "category": "查找引用",
-        "syntax": "=XLOOKUP(查找值, 查找区域, 返回区域, [未找到值], [匹配方式])",
-        "desc": "新一代查找函数，可左右查找。",
+        "category": "工资与报销",
+        "syntax": "=XLOOKUP(查找值, 查找列, 返回列, [未找到], [匹配])",
+        "desc": "新一代查找函数，可左右查找、默认精确匹配。",
+        "usage": "报销单按单据号查审批状态，查不到给“待审”",
         "progress": 0
       },
       {
-        "id": "ms7glflu4h6ns2",
-        "name": "INDEX",
-        "category": "查找引用",
-        "syntax": "=INDEX(区域, 行号, [列号])",
-        "desc": "根据行号和列号返回区域中对应单元格的值。",
-        "progress": 0
-      },
-      {
-        "id": "ms7glfluirf7ls",
-        "name": "MATCH",
-        "category": "查找引用",
-        "syntax": "=MATCH(查找值, 查找区域, [匹配方式])",
-        "desc": "返回查找值在区域中的相对位置。",
-        "progress": 0
-      },
-      {
-        "id": "ms7glflu8qzgux",
+        "id": "ef15",
         "name": "INDEX+MATCH",
-        "category": "查找引用",
-        "syntax": "=INDEX(返回区域, MATCH(查找值, 查找列, 0))",
-        "desc": "INDEX+MATCH组合替代VLOOKUP。",
-        "progress": 0
+        "category": "工资与报销",
+        "syntax": "=INDEX(返回列, MATCH(查找值, 查找列, 0))",
+        "desc": "INDEX配合MATCH实现双向查找，不受列顺序限制。",
+        "usage": "工资表列顺序变动也不出错",
+        "progress": 10
       },
       {
-        "id": "ms7glflu4i9jjd",
-        "name": "INDIRECT",
-        "category": "查找引用",
-        "syntax": "=INDIRECT(引用文本, [引用样式])",
-        "desc": "将文本字符串转换为单元格引用。",
-        "progress": 0
-      },
-      {
-        "id": "ms7glfluga4ops",
-        "name": "OFFSET",
-        "category": "查找引用",
-        "syntax": "=OFFSET(基准单元格, 行偏移, 列偏移, [高度], [宽度])",
-        "desc": "以指定单元格为基准偏移后返回新区域。",
-        "progress": 0
-      },
-      {
-        "id": "ms7glflukumjb3",
-        "name": "SUM",
-        "category": "数学统计",
-        "syntax": "=SUM(数值1, 数值2, ...)",
-        "desc": "计算所有参数的和。",
-        "progress": 0
-      },
-      {
-        "id": "ms7glfluw5sfaa",
+        "id": "ef16",
         "name": "SUMIF",
-        "category": "数学统计",
+        "category": "工资与报销",
         "syntax": "=SUMIF(条件区域, 条件, [求和区域])",
         "desc": "对满足单个条件的单元格求和。",
-        "progress": 0
-      },
-      {
-        "id": "ms7glfluuyqr2c",
-        "name": "SUMIFS",
-        "category": "数学统计",
-        "syntax": "=SUMIFS(求和区域, 条件区域1, 条件1, ...)",
-        "desc": "对满足多个条件的单元格求和。",
-        "progress": 0
-      },
-      {
-        "id": "ms7glflua2ha09",
-        "name": "SUMPRODUCT",
-        "category": "数学统计",
-        "syntax": "=SUMPRODUCT(数组1, 数组2, ...)",
-        "desc": "将多个数组中对应元素相乘再求和。",
-        "progress": 0
-      },
-      {
-        "id": "ms7glflud1ob2x",
-        "name": "AVERAGE",
-        "category": "数学统计",
-        "syntax": "=AVERAGE(数值1, 数值2, ...)",
-        "desc": "计算所有参数的算术平均值。",
-        "progress": 0
-      },
-      {
-        "id": "ms7glflukkoahy",
-        "name": "AVERAGEIF",
-        "category": "数学统计",
-        "syntax": "=AVERAGEIF(条件区域, 条件, [求平均区域])",
-        "desc": "对满足条件的单元格求平均值。",
-        "progress": 0
-      },
-      {
-        "id": "ms7glfluhqayem",
-        "name": "COUNT",
-        "category": "数学统计",
-        "syntax": "=COUNT(值1, 值2, ...)",
-        "desc": "统计区域中包含数字的单元格个数。",
-        "progress": 0
-      },
-      {
-        "id": "ms7glflu3h31f1",
-        "name": "COUNTA",
-        "category": "数学统计",
-        "syntax": "=COUNTA(值1, 值2, ...)",
-        "desc": "统计区域中非空单元格的个数。",
-        "progress": 0
-      },
-      {
-        "id": "ms7glflurjj433",
-        "name": "COUNTIF",
-        "category": "数学统计",
-        "syntax": "=COUNTIF(区域, 条件)",
-        "desc": "统计区域中满足单个条件的单元格个数。",
-        "progress": 0
-      },
-      {
-        "id": "ms7glflut3z4c2",
-        "name": "COUNTIFS",
-        "category": "数学统计",
-        "syntax": "=COUNTIFS(区域1, 条件1, ...)",
-        "desc": "统计满足多个条件的单元格个数。",
-        "progress": 0
-      },
-      {
-        "id": "ms7glfluqbgs3u",
-        "name": "MAX",
-        "category": "数学统计",
-        "syntax": "=MAX(数值1, 数值2, ...)",
-        "desc": "返回参数中的最大值。",
-        "progress": 0
-      },
-      {
-        "id": "ms7glfluku87t9",
-        "name": "MIN",
-        "category": "数学统计",
-        "syntax": "=MIN(数值1, 数值2, ...)",
-        "desc": "返回参数中的最小值。",
-        "progress": 0
-      },
-      {
-        "id": "ms7glfluvmfzgr",
-        "name": "RANK",
-        "category": "数学统计",
-        "syntax": "=RANK(数值, 区域, [排序方式])",
-        "desc": "返回数值在区域中的排名。",
-        "progress": 0
-      },
-      {
-        "id": "ms7glflu5felek",
-        "name": "SUBTOTAL",
-        "category": "数学统计",
-        "syntax": "=SUBTOTAL(功能代码, 区域1, ...)",
-        "desc": "对筛选后的可见单元格执行计算。",
-        "progress": 0
-      },
-      {
-        "id": "ms7glflu40zqjv",
-        "name": "ROUND",
-        "category": "数学统计",
-        "syntax": "=ROUND(数值, 小数位数)",
-        "desc": "按指定小数位数四舍五入。",
-        "progress": 0
-      },
-      {
-        "id": "ms7glfluu5hz2y",
-        "name": "IF",
-        "category": "逻辑判断",
-        "syntax": "=IF(条件, 真时返回值, 假时返回值)",
-        "desc": "根据条件判断返回不同结果。",
-        "progress": 0
-      },
-      {
-        "id": "ms7glflujllrua",
-        "name": "IFS",
-        "category": "逻辑判断",
-        "syntax": "=IFS(条件1, 值1, 条件2, 值2, ...)",
-        "desc": "多条件判断，返回第一个为真的对应值。",
-        "progress": 0
-      },
-      {
-        "id": "ms7glfluuc9nx1",
-        "name": "AND",
-        "category": "逻辑判断",
-        "syntax": "=AND(条件1, 条件2, ...)",
-        "desc": "所有条件都为TRUE时返回TRUE。",
-        "progress": 0
-      },
-      {
-        "id": "ms7glfluhnm0td",
-        "name": "OR",
-        "category": "逻辑判断",
-        "syntax": "=OR(条件1, 条件2, ...)",
-        "desc": "任一条件为TRUE时返回TRUE。",
-        "progress": 0
-      },
-      {
-        "id": "ms7glflu3js4wi",
-        "name": "NOT",
-        "category": "逻辑判断",
-        "syntax": "=NOT(条件)",
-        "desc": "对条件取反。",
-        "progress": 0
-      },
-      {
-        "id": "ms7glflu1ziz0j",
-        "name": "IFERROR",
-        "category": "逻辑判断",
-        "syntax": "=IFERROR(公式, 出错时返回值)",
-        "desc": "如果公式计算结果为错误值则返回指定值。",
-        "progress": 0
-      },
-      {
-        "id": "ms7glfluh8bxk0",
-        "name": "SWITCH",
-        "category": "逻辑判断",
-        "syntax": "=SWITCH(表达式, 值1, 结果1, ...)",
-        "desc": "根据表达式匹配多个值返回对应结果。",
-        "progress": 0
-      },
-      {
-        "id": "ms7glflu45rkj9",
-        "name": "LEFT",
-        "category": "文本处理",
-        "syntax": "=LEFT(文本, [字符数])",
-        "desc": "从文本左侧截取指定数量的字符。",
-        "progress": 0
-      },
-      {
-        "id": "ms7glflumx27qt",
-        "name": "RIGHT",
-        "category": "文本处理",
-        "syntax": "=RIGHT(文本, [字符数])",
-        "desc": "从文本右侧截取指定数量的字符。",
-        "progress": 0
-      },
-      {
-        "id": "ms7glfluo8w0uo",
-        "name": "MID",
-        "category": "文本处理",
-        "syntax": "=MID(文本, 起始位置, 字符数)",
-        "desc": "从文本指定位置开始截取指定长度的字符。",
-        "progress": 0
-      },
-      {
-        "id": "ms7glfluokhmi2",
-        "name": "LEN",
-        "category": "文本处理",
-        "syntax": "=LEN(文本)",
-        "desc": "返回文本字符串的字符个数。",
-        "progress": 0
-      },
-      {
-        "id": "ms7glflumveg31",
-        "name": "FIND",
-        "category": "文本处理",
-        "syntax": "=FIND(查找文本, 源文本, [起始位置])",
-        "desc": "返回查找文本在源文本中的起始位置。",
-        "progress": 0
-      },
-      {
-        "id": "ms7glflu1k9t7w",
-        "name": "SEARCH",
-        "category": "文本处理",
-        "syntax": "=SEARCH(查找文本, 源文本, [起始位置])",
-        "desc": "返回查找文本位置，不区分大小写。",
-        "progress": 0
-      },
-      {
-        "id": "ms7glfluxko58z",
-        "name": "TEXTJOIN",
-        "category": "文本处理",
-        "syntax": "=TEXTJOIN(分隔符, 忽略空值, ...)",
-        "desc": "将多个文本用指定分隔符连接。",
-        "progress": 0
-      },
-      {
-        "id": "ms7glfluy0pzff",
-        "name": "CONCAT",
-        "category": "文本处理",
-        "syntax": "=CONCAT(文本1, 文本2, ...)",
-        "desc": "将多个文本合并为一个字符串。",
-        "progress": 0
-      },
-      {
-        "id": "ms7glfluiaelb1",
-        "name": "TEXT",
-        "category": "文本处理",
-        "syntax": "=TEXT(数值, 格式代码)",
-        "desc": "将数值按指定格式转换为文本。",
-        "progress": 0
-      },
-      {
-        "id": "ms7glflugyo89n",
-        "name": "TRIM",
-        "category": "文本处理",
-        "syntax": "=TRIM(文本)",
-        "desc": "删除文本中多余的空格。",
-        "progress": 0
-      },
-      {
-        "id": "ms7glfluh8un3e",
-        "name": "UPPER/LOWER",
-        "category": "文本处理",
-        "syntax": "=UPPER(文本) / =LOWER(文本)",
-        "desc": "UPPER转大写，LOWER转小写。",
-        "progress": 0
-      },
-      {
-        "id": "ms7glflu5nll9f",
-        "name": "TODAY",
-        "category": "日期时间",
-        "syntax": "=TODAY()",
-        "desc": "返回当前日期。",
-        "progress": 0
-      },
-      {
-        "id": "ms7glflu3gaitu",
-        "name": "NOW",
-        "category": "日期时间",
-        "syntax": "=NOW()",
-        "desc": "返回当前日期和时间。",
-        "progress": 0
-      },
-      {
-        "id": "ms7glfluq7p9ax",
-        "name": "DATE",
-        "category": "日期时间",
-        "syntax": "=DATE(年, 月, 日)",
-        "desc": "根据指定的年、月、日生成日期值。",
-        "progress": 0
-      },
-      {
-        "id": "ms7glfluc90g1e",
-        "name": "YEAR/MONTH/DAY",
-        "category": "日期时间",
-        "syntax": "=YEAR(日期) / =MONTH(日期)",
-        "desc": "分别提取日期中的年、月、日。",
-        "progress": 0
-      },
-      {
-        "id": "ms7glflug7aun1",
-        "name": "WEEKDAY",
-        "category": "日期时间",
-        "syntax": "=WEEKDAY(日期, [返回类型])",
-        "desc": "返回日期是星期几。",
-        "progress": 0
-      },
-      {
-        "id": "ms7glflu4szp49",
-        "name": "DATEDIF",
-        "category": "日期时间",
-        "syntax": "=DATEDIF(开始日期, 结束日期, 单位)",
-        "desc": "计算两个日期之间的差值。",
-        "progress": 0
-      },
-      {
-        "id": "ms7glflumh8vg5",
-        "name": "EOMONTH",
-        "category": "日期时间",
-        "syntax": "=EOMONTH(日期, 月数)",
-        "desc": "返回指定日期之前或之后N个月的最后一天。",
-        "progress": 0
-      },
-      {
-        "id": "ms7glflu8chdv6",
-        "name": "NETWORKDAYS",
-        "category": "日期时间",
-        "syntax": "=NETWORKDAYS(开始日期, 结束日期, [节假日])",
-        "desc": "计算两个日期之间的工作日天数。",
-        "progress": 0
-      },
-      {
-        "id": "ms7glflucwhcdj",
-        "name": "数据透视表",
-        "category": "数据分析",
-        "syntax": "插入 → 数据透视表",
-        "desc": "核心数据分析工具。",
-        "progress": 0
-      },
-      {
-        "id": "ms7glflu75waf9",
-        "name": "条件格式",
-        "category": "数据分析",
-        "syntax": "开始 → 条件格式 → 新建规则",
-        "desc": "根据单元格值自动应用格式。",
-        "progress": 0
-      },
-      {
-        "id": "ms7glfluqkz493",
-        "name": "数据验证",
-        "category": "数据分析",
-        "syntax": "数据 → 数据验证",
-        "desc": "限制单元格输入内容。",
-        "progress": 0
-      },
-      {
-        "id": "ms7glflurla1ax",
-        "name": "图表制作",
-        "category": "数据分析",
-        "syntax": "插入 → 图表",
-        "desc": "创建柱状图、折线图、饼图等。",
-        "progress": 0
-      },
-      {
-        "id": "ms7glfluyhq0ud",
-        "name": "Power Query",
-        "category": "数据分析",
-        "syntax": "数据 → 获取数据 → 启动Power Query编辑器",
-        "desc": "数据清洗和转换工具。",
-        "progress": 0
-      }
-    ],
-    "tasks": [],
-    "funcDates": [
-      {
-        "date": "2026-07-30",
-        "name": "VLOOKUP",
-        "progress": 93
-      },
-      {
-        "date": "2026-07-30",
-        "name": "VLOOKUP",
-        "progress": 36
-      },
-      {
-        "date": "2026-07-30",
-        "name": "VLOOKUP",
-        "progress": 10
-      },
-      {
-        "date": "2026-07-30",
-        "name": "VLOOKUP",
-        "progress": 8
-      },
-      {
-        "date": "2026-07-30",
-        "name": "VLOOKUP",
-        "progress": 7
-      },
-      {
-        "date": "2026-07-30",
-        "name": "VLOOKUP",
-        "progress": 3
-      },
-      {
-        "date": "2026-07-30",
-        "name": "VLOOKUP",
-        "progress": 0
-      },
-      {
-        "date": "2026-07-30",
-        "name": "VLOOKUP",
-        "progress": 5
-      },
-      {
-        "date": "2026-07-30",
-        "name": "VLOOKUP",
-        "progress": 8
-      },
-      {
-        "date": "2026-07-30",
-        "name": "VLOOKUP",
-        "progress": 10
-      },
-      {
-        "date": "2026-07-30",
-        "name": "VLOOKUP",
-        "progress": 12
-      },
-      {
-        "date": "2026-07-30",
-        "name": "VLOOKUP",
-        "progress": 14
-      },
-      {
-        "date": "2026-07-30",
-        "name": "VLOOKUP",
-        "progress": 17
-      },
-      {
-        "date": "2026-07-30",
-        "name": "VLOOKUP",
-        "progress": 19
-      },
-      {
-        "date": "2026-07-30",
-        "name": "VLOOKUP",
-        "progress": 21
-      },
-      {
-        "date": "2026-07-30",
-        "name": "VLOOKUP",
-        "progress": 22
-      },
-      {
-        "date": "2026-07-30",
-        "name": "VLOOKUP",
-        "progress": 19
-      },
-      {
-        "date": "2026-07-30",
-        "name": "VLOOKUP",
-        "progress": 15
-      },
-      {
-        "date": "2026-07-30",
-        "name": "VLOOKUP",
-        "progress": 0
-      },
-      {
-        "date": "2026-07-30",
-        "name": "HLOOKUP",
-        "progress": 15
-      },
-      {
-        "date": "2026-07-30",
-        "name": "HLOOKUP",
-        "progress": 29
-      },
-      {
-        "date": "2026-07-30",
-        "name": "HLOOKUP",
-        "progress": 36
-      },
-      {
-        "date": "2026-07-30",
-        "name": "HLOOKUP",
-        "progress": 38
-      },
-      {
-        "date": "2026-07-30",
-        "name": "HLOOKUP",
-        "progress": 40
-      },
-      {
-        "date": "2026-07-30",
-        "name": "HLOOKUP",
-        "progress": 41
-      },
-      {
-        "date": "2026-07-30",
-        "name": "HLOOKUP",
-        "progress": 48
-      },
-      {
-        "date": "2026-07-30",
-        "name": "HLOOKUP",
-        "progress": 55
-      },
-      {
-        "date": "2026-07-30",
-        "name": "HLOOKUP",
-        "progress": 66
-      },
-      {
-        "date": "2026-07-30",
-        "name": "HLOOKUP",
-        "progress": 73
-      },
-      {
-        "date": "2026-07-30",
-        "name": "HLOOKUP",
-        "progress": 74
-      },
-      {
-        "date": "2026-07-30",
-        "name": "HLOOKUP",
-        "progress": 76
-      },
-      {
-        "date": "2026-07-30",
-        "name": "HLOOKUP",
-        "progress": 67
-      },
-      {
-        "date": "2026-07-30",
-        "name": "HLOOKUP",
-        "progress": 60
-      },
-      {
-        "date": "2026-07-30",
-        "name": "HLOOKUP",
-        "progress": 41
-      },
-      {
-        "date": "2026-07-30",
-        "name": "HLOOKUP",
-        "progress": 21
-      },
-      {
-        "date": "2026-07-30",
-        "name": "HLOOKUP",
-        "progress": 0
-      },
-      {
-        "date": "2026-08-03",
-        "name": "VLOOKUP",
-        "progress": 1
-      },
-      {
-        "date": "2026-08-03",
-        "name": "VLOOKUP",
-        "progress": 5
-      },
-      {
-        "date": "2026-08-03",
-        "name": "VLOOKUP",
-        "progress": 8
-      },
-      {
-        "date": "2026-08-03",
-        "name": "VLOOKUP",
-        "progress": 12
-      },
-      {
-        "date": "2026-08-03",
-        "name": "VLOOKUP",
-        "progress": 14
-      },
-      {
-        "date": "2026-08-03",
-        "name": "VLOOKUP",
-        "progress": 19
-      },
-      {
-        "date": "2026-08-03",
-        "name": "VLOOKUP",
-        "progress": 20
-      },
-      {
-        "date": "2026-08-03",
-        "name": "VLOOKUP",
-        "progress": 22
-      },
-      {
-        "date": "2026-08-03",
-        "name": "VLOOKUP",
-        "progress": 24
-      },
-      {
-        "date": "2026-08-03",
-        "name": "VLOOKUP",
-        "progress": 26
-      },
-      {
-        "date": "2026-08-03",
-        "name": "VLOOKUP",
-        "progress": 27
-      },
-      {
-        "date": "2026-08-03",
-        "name": "VLOOKUP",
-        "progress": 29
-      },
-      {
-        "date": "2026-08-03",
-        "name": "VLOOKUP",
-        "progress": 31
-      },
-      {
-        "date": "2026-08-03",
-        "name": "VLOOKUP",
-        "progress": 33
-      },
-      {
-        "date": "2026-08-03",
-        "name": "VLOOKUP",
-        "progress": 34
-      },
-      {
-        "date": "2026-08-03",
-        "name": "VLOOKUP",
-        "progress": 36
-      },
-      {
-        "date": "2026-08-03",
-        "name": "VLOOKUP",
-        "progress": 38
-      },
-      {
-        "date": "2026-08-03",
-        "name": "VLOOKUP",
-        "progress": 40
-      },
-      {
-        "date": "2026-08-03",
-        "name": "VLOOKUP",
-        "progress": 41
-      },
-      {
-        "date": "2026-08-03",
-        "name": "VLOOKUP",
-        "progress": 45
-      },
-      {
-        "date": "2026-08-03",
-        "name": "VLOOKUP",
-        "progress": 48
-      },
-      {
-        "date": "2026-08-03",
-        "name": "VLOOKUP",
+        "usage": "汇总某个部门的工资总额",
         "progress": 50
       },
       {
-        "date": "2026-08-03",
-        "name": "VLOOKUP",
-        "progress": 52
+        "id": "ef17",
+        "name": "SUMIFS",
+        "category": "工资与报销",
+        "syntax": "=SUMIFS(求和区域, 条件区1, 条件1, 条件区2, 条件2)",
+        "desc": "多条件同时满足才求和，财务统计主力。",
+        "usage": "按“部门+月份”汇总报销金额",
+        "progress": 30
       },
       {
-        "date": "2026-08-03",
-        "name": "VLOOKUP",
-        "progress": 53
+        "id": "ef18",
+        "name": "ROUND",
+        "category": "工资与报销",
+        "syntax": "=ROUND(数值, 小数位数)",
+        "desc": "按指定小数位四舍五入，金额处理必备。",
+        "usage": "金额保留2位避免分毫误差",
+        "progress": 100
       },
       {
-        "date": "2026-08-03",
-        "name": "VLOOKUP",
-        "progress": 52
-      },
-      {
-        "date": "2026-08-03",
-        "name": "VLOOKUP",
-        "progress": 41
-      },
-      {
-        "date": "2026-08-03",
-        "name": "VLOOKUP",
-        "progress": 22
-      },
-      {
-        "date": "2026-08-03",
-        "name": "VLOOKUP",
+        "id": "ef19",
+        "name": "TEXT",
+        "category": "工资与报销",
+        "syntax": "=TEXT(数值, \"格式\")",
+        "desc": "把数值转成指定格式的文本，常用于金额或日期显示。",
+        "usage": "把金额转成“¥1,234.50”或日期转“2026年8月”",
         "progress": 0
       },
       {
-        "date": "2026-08-03",
-        "name": "VLOOKUP",
-        "progress": 43
+        "id": "ef20",
+        "name": "SUM",
+        "category": "数据核对汇总",
+        "syntax": "=SUM(数值1, 数值2, ...)",
+        "desc": "计算所有参数之和，最基础的求和。",
+        "usage": "各类金额合计",
+        "progress": 100
       },
       {
-        "date": "2026-08-03",
-        "name": "VLOOKUP",
-        "progress": 42
+        "id": "ef21",
+        "name": "AVERAGE",
+        "category": "数据核对汇总",
+        "syntax": "=AVERAGE(数值区域)",
+        "desc": "返回参数的算术平均值。",
+        "usage": "计算部门平均工资",
+        "progress": 100
       },
       {
-        "date": "2026-08-03",
-        "name": "VLOOKUP",
-        "progress": 40
+        "id": "ef22",
+        "name": "COUNT",
+        "category": "数据核对汇总",
+        "syntax": "=COUNT(值区域)",
+        "desc": "统计区域中数字单元格的个数。",
+        "usage": "统计有效单据数量",
+        "progress": 100
       },
       {
-        "date": "2026-08-03",
-        "name": "VLOOKUP",
-        "progress": 35
+        "id": "ef23",
+        "name": "COUNTA",
+        "category": "数据核对汇总",
+        "syntax": "=COUNTA(值区域)",
+        "desc": "统计区域中非空单元格的个数。",
+        "usage": "统计已填写字段数",
+        "progress": 100
       },
       {
-        "date": "2026-08-03",
-        "name": "VLOOKUP",
-        "progress": 26
+        "id": "ef24",
+        "name": "COUNTIF",
+        "category": "数据核对汇总",
+        "syntax": "=COUNTIF(区域, 条件)",
+        "desc": "统计满足单个条件的单元格个数。",
+        "usage": "统计某部门人数或迟到次数",
+        "progress": 60
       },
       {
-        "date": "2026-08-03",
-        "name": "VLOOKUP",
-        "progress": 19
+        "id": "ef25",
+        "name": "COUNTIFS",
+        "category": "数据核对汇总",
+        "syntax": "=COUNTIFS(区1,条件1, 区2,条件2)",
+        "desc": "多条件同时满足才计数。",
+        "usage": "统计“销售部且绩效A”的人数",
+        "progress": 20
       },
       {
-        "date": "2026-08-03",
-        "name": "VLOOKUP",
+        "id": "ef26",
+        "name": "SUMPRODUCT",
+        "category": "数据核对汇总",
+        "syntax": "=SUMPRODUCT((条件1)*(条件2), 求和列)",
+        "desc": "数组相乘再求和，可实现多条件求和计数。",
+        "usage": "按部门+月份算奖金总额",
+        "progress": 0
+      },
+      {
+        "id": "ef27",
+        "name": "SUBTOTAL",
+        "category": "数据核对汇总",
+        "syntax": "=SUBTOTAL(9, 区域)",
+        "desc": "对筛选后的可见单元格汇总，9代表求和。",
+        "usage": "筛选某月数据自动只算可见行",
+        "progress": 0
+      },
+      {
+        "id": "ef28",
+        "name": "RANK",
+        "category": "数据核对汇总",
+        "syntax": "=RANK(数值, 区域, 0)",
+        "desc": "返回数值在区域中的排名，0为降序。",
+        "usage": "销售业绩名次排序",
         "progress": 10
       },
       {
-        "date": "2026-08-03",
-        "name": "VLOOKUP",
-        "progress": 7
+        "id": "ef29",
+        "name": "MAX",
+        "category": "数据核对汇总",
+        "syntax": "=MAX(数值区域)",
+        "desc": "返回参数中的最大值。",
+        "usage": "最高工资或最大单笔支出",
+        "progress": 100
       },
       {
-        "date": "2026-08-03",
-        "name": "VLOOKUP",
-        "progress": 2
+        "id": "ef30",
+        "name": "MIN",
+        "category": "数据核对汇总",
+        "syntax": "=MIN(数值区域)",
+        "desc": "返回参数中的最小值。",
+        "usage": "最低支出或最低工资",
+        "progress": 100
       },
       {
-        "date": "2026-08-03",
-        "name": "VLOOKUP",
+        "id": "ef31",
+        "name": "LEFT",
+        "category": "文本与编号",
+        "syntax": "=LEFT(文本, 位数)",
+        "desc": "从文本左侧截取指定数量的字符。",
+        "usage": "从身份证取前6位地区码",
+        "progress": 100
+      },
+      {
+        "id": "ef32",
+        "name": "RIGHT",
+        "category": "文本与编号",
+        "syntax": "=RIGHT(文本, 位数)",
+        "desc": "从文本右侧截取指定数量的字符。",
+        "usage": "从订单号取后4位序号",
+        "progress": 100
+      },
+      {
+        "id": "ef33",
+        "name": "MID",
+        "category": "文本与编号",
+        "syntax": "=MID(文本, 起始位, 位数)",
+        "desc": "从指定位置开始截取指定长度文本。",
+        "usage": "从身份证第7位取8位出生日期",
+        "progress": 100
+      },
+      {
+        "id": "ef34",
+        "name": "CONCAT",
+        "category": "文本与编号",
+        "syntax": "=CONCAT(文本1, 文本2, ...)",
+        "desc": "将多个文本或区域合并成一个文本。",
+        "usage": "姓+名拼成全名",
         "progress": 0
+      },
+      {
+        "id": "ef35",
+        "name": "TEXTJOIN",
+        "category": "文本与编号",
+        "syntax": "=TEXTJOIN(\"分隔符\", 是否忽略空, 区域)",
+        "desc": "用指定分隔符合并文本，可忽略空格。",
+        "usage": "把多列地址拼成“省-市-区”",
+        "progress": 0
+      },
+      {
+        "id": "ef36",
+        "name": "TRIM",
+        "category": "文本与编号",
+        "syntax": "=TRIM(文本)",
+        "desc": "去除文本首尾及中间多余空格。",
+        "usage": "清洗系统导出的多余空格",
+        "progress": 0
+      },
+      {
+        "id": "ef37",
+        "name": "LEN",
+        "category": "文本与编号",
+        "syntax": "=LEN(文本)",
+        "desc": "返回文本字符个数。",
+        "usage": "校验身份证是否为18位",
+        "progress": 0
+      },
+      {
+        "id": "ef38",
+        "name": "FIND",
+        "category": "文本与编号",
+        "syntax": "=FIND(要找, 文本, [起始])",
+        "desc": "返回某字符在文本中的位置（区分大小写）。",
+        "usage": "找到“-”位置以拆分规格",
+        "progress": 0
+      },
+      {
+        "id": "ef39",
+        "name": "TODAY",
+        "category": "日期与考勤",
+        "syntax": "=TODAY()",
+        "desc": "返回当前日期，随系统自动更新。",
+        "usage": "考勤表自动填当天日期",
+        "progress": 100
+      },
+      {
+        "id": "ef40",
+        "name": "DATE",
+        "category": "日期与考勤",
+        "syntax": "=DATE(年, 月, 日)",
+        "desc": "用年/月/日三个数字组合成标准日期。",
+        "usage": "用拆分的三列合成标准日期",
+        "progress": 0
+      },
+      {
+        "id": "ef41",
+        "name": "DATEDIF",
+        "category": "日期与考勤",
+        "syntax": "=DATEDIF(开始, 结束, \"y\")",
+        "desc": "计算两个日期的间隔，y年/m月/d天。",
+        "usage": "算员工工龄或年龄（年/月）",
+        "progress": 0
+      },
+      {
+        "id": "ef42",
+        "name": "NETWORKDAYS",
+        "category": "日期与考勤",
+        "syntax": "=NETWORKDAYS(开始, 结束, [节假日])",
+        "desc": "计算两个日期之间的工作日天数，排除周末和节假日。",
+        "usage": "算应出勤天数（排除周末节假日）",
+        "progress": 0
+      },
+      {
+        "id": "ef43",
+        "name": "WEEKDAY",
+        "category": "日期与考勤",
+        "syntax": "=WEEKDAY(日期, 2)",
+        "desc": "返回日期是星期几，2代表周一为1。",
+        "usage": "判断是否周末（=6或7）",
+        "progress": 0
+      },
+      {
+        "id": "ef44",
+        "name": "EOMONTH",
+        "category": "日期与考勤",
+        "syntax": "=EOMONTH(日期, 月数)",
+        "desc": "返回指定月份之前或之后某月的最后一天。",
+        "usage": "算本月最后一天或工资截止日",
+        "progress": 0
+      },
+      {
+        "id": "ef45",
+        "name": "EDATE",
+        "category": "日期与考勤",
+        "syntax": "=EDATE(日期, 月数)",
+        "desc": "返回指定月数之前或之后同一天的日期。",
+        "usage": "合同到期日=入职日期+12月",
+        "progress": 0
+      },
+      {
+        "id": "ef46",
+        "name": "YEAR",
+        "category": "日期与考勤",
+        "syntax": "=YEAR(日期)",
+        "desc": "从日期中提取年份。",
+        "usage": "按年份分组统计",
+        "progress": 0
+      },
+      {
+        "id": "ef47",
+        "name": "MONTH",
+        "category": "日期与考勤",
+        "syntax": "=MONTH(日期)",
+        "desc": "从日期中提取月份。",
+        "usage": "按月份分组汇总",
+        "progress": 0
+      },
+      {
+        "id": "ef48",
+        "name": "DAY",
+        "category": "日期与考勤",
+        "syntax": "=DAY(日期)",
+        "desc": "从日期中提取日。",
+        "usage": "按日期维度分析",
+        "progress": 0
+      },
+      {
+        "id": "ef49",
+        "name": "IF",
+        "category": "条件逻辑判断",
+        "syntax": "=IF(条件, 真时结果, 假时结果)",
+        "desc": "根据条件判断返回不同结果，最常用逻辑函数。",
+        "usage": "工资是否超起征点，超了才计税",
+        "progress": 60
+      },
+      {
+        "id": "ef50",
+        "name": "IFS",
+        "category": "条件逻辑判断",
+        "syntax": "=IFS(条件1,值1, 条件2,值2, ...)",
+        "desc": "多条件依次判断，返回第一个成立的结果。",
+        "usage": "按分数段评 优/良/中/差",
+        "progress": 0
+      },
+      {
+        "id": "ef51",
+        "name": "AND",
+        "category": "条件逻辑判断",
+        "syntax": "=AND(条件1, 条件2)",
+        "desc": "所有条件都为真时返回真，常与IF配合。",
+        "usage": "判断工资既在范围又属某部门",
+        "progress": 30
+      },
+      {
+        "id": "ef52",
+        "name": "OR",
+        "category": "条件逻辑判断",
+        "syntax": "=OR(条件1, 条件2)",
+        "desc": "任一条件为真即返回真。",
+        "usage": "迟到或请假都算缺勤",
+        "progress": 20
+      },
+      {
+        "id": "ef53",
+        "name": "NOT",
+        "category": "条件逻辑判断",
+        "syntax": "=NOT(条件)",
+        "desc": "对条件取反，真变假、假变真。",
+        "usage": "排除已离职人员",
+        "progress": 0
+      },
+      {
+        "id": "ef54",
+        "name": "SWITCH",
+        "category": "条件逻辑判断",
+        "syntax": "=SWITCH(表达式, 值1,结果1, ..., [默认])",
+        "desc": "按表达式精确匹配多个值返回对应结果。",
+        "usage": "按部门代码转部门全称",
+        "progress": 0
+      },
+      {
+        "id": "ef55",
+        "name": "IFERROR",
+        "category": "条件逻辑判断",
+        "syntax": "=IFERROR(公式, 出错返回值)",
+        "desc": "公式出错时返回指定值，避免表格出现错误值。",
+        "usage": "VLOOKUP查不到时显示“无记录”",
+        "progress": 10
       }
-    ]
+    ],
+    "templates": [
+      {
+        "id": "tp01",
+        "name": "工资核算表",
+        "tag": "财务",
+        "desc": "按月核算员工应发/实发工资，自动按部门汇总",
+        "formulas": [
+          {
+            "f": "应发合计 = 基本工资 + 绩效 + 津贴",
+            "n": "用 SUM 加总各项收入"
+          },
+          {
+            "f": "实发工资 = 应发合计 - 社保 - 个税",
+            "n": "个税用 IF 判断是否超起征点再算"
+          },
+          {
+            "f": "=VLOOKUP(工号, 员工表, 2, 0)",
+            "n": "按工号查姓名或部门，避免手工填"
+          },
+          {
+            "f": "=SUMIFS(实发列, 部门列, \"销售部\")",
+            "n": "各部门工资总额自动汇总"
+          },
+          {
+            "f": "=IF(应发>5000, (应发-5000)*0.1, 0)",
+            "n": "个税速算示意（实际按税率表）"
+          }
+        ]
+      },
+      {
+        "id": "tp02",
+        "name": "报销费用统计",
+        "tag": "财务",
+        "desc": "收集各部门报销单据，按部门与类别汇总、超标提醒",
+        "formulas": [
+          {
+            "f": "=SUMIFS(金额列, 部门列, 部门, 类别列, 类别)",
+            "n": "按部门+类别汇总报销金额"
+          },
+          {
+            "f": "=IF(金额>标准, \"超标\", \"正常\")",
+            "n": "单笔超标自动标红提醒"
+          },
+          {
+            "f": "=XLOOKUP(单据号, 单据表, 状态列, \"待审\")",
+            "n": "按单据号查审批状态"
+          },
+          {
+            "f": "=COUNTIFS(部门列, 部门, 月份列, 当月)",
+            "n": "统计某部门当月报销笔数"
+          }
+        ]
+      },
+      {
+        "id": "tp03",
+        "name": "员工考勤表",
+        "tag": "文员",
+        "desc": "记录每日上下班，自动算应出勤、迟到与工龄",
+        "formulas": [
+          {
+            "f": "=NETWORKDAYS(月初, 月末, 节假日表)",
+            "n": "算应出勤天数（排除周末节假日）"
+          },
+          {
+            "f": "=IF(上班时间>TIME(9,0,0), \"迟到\", \"\")",
+            "n": "判断是否迟到"
+          },
+          {
+            "f": "=COUNTIF(状态列, \"迟到\")",
+            "n": "统计某人当月迟到次数"
+          },
+          {
+            "f": "=DATEDIF(入职日期, TODAY(), \"y\")&\"年\"",
+            "n": "算员工工龄"
+          },
+          {
+            "f": "=IF(WEEKDAY(日期,2)>=6, \"休\", \"班\")",
+            "n": "判断是否周末"
+          }
+        ]
+      },
+      {
+        "id": "tp04",
+        "name": "销售月报",
+        "tag": "文员",
+        "desc": "按产品与月份统计销售额，排名与占比一目了然",
+        "formulas": [
+          {
+            "f": "=SUMIFS(金额列, 月份列, 当月, 产品列, 产品)",
+            "n": "某产品当月销售额"
+          },
+          {
+            "f": "=RANK(该产品销售额, 全部销售额区域, 0)",
+            "n": "产品销售排名"
+          },
+          {
+            "f": "=该产品销售额 / SUM(全部销售额)",
+            "n": "计算销售占比"
+          },
+          {
+            "f": "插入 → 数据透视表",
+            "n": "按产品或月份拖拽汇总，无需写公式"
+          }
+        ]
+      },
+      {
+        "id": "tp05",
+        "name": "固定资产折旧表",
+        "tag": "财务",
+        "desc": "设备按直线法或年数总和法计提每月折旧",
+        "formulas": [
+          {
+            "f": "=SLN(原值, 残值, 使用年限)",
+            "n": "直线法年折旧额"
+          },
+          {
+            "f": "=SYD(原值, 残值, 使用年限, 第N年)",
+            "n": "年数总和法第N年折旧"
+          },
+          {
+            "f": "月折旧 = 年折旧 / 12",
+            "n": "月折旧额平摊"
+          }
+        ]
+      },
+      {
+        "id": "tp06",
+        "name": "贷款月供测算",
+        "tag": "财务",
+        "desc": "测算房贷或车贷月供与每期本息构成",
+        "formulas": [
+          {
+            "f": "=PMT(年利率/12, 年限*12, 贷款额)",
+            "n": "每月固定还款额"
+          },
+          {
+            "f": "=IPMT(年利率/12, N, 年限*12, 贷款额)",
+            "n": "第N期利息"
+          },
+          {
+            "f": "=PPMT(年利率/12, N, 年限*12, 贷款额)",
+            "n": "第N期本金"
+          },
+          {
+            "f": "=RATE(期数, -月供, 贷款额)*12",
+            "n": "反算真实年化利率"
+          }
+        ]
+      }
+    ],
+    "tasks": []
   },
   "shiyebian": {
     "items": [
       {
-        "id": "ms7glflueu52wo",
+        "id": "mse0ra6kgrv0cm",
         "title": "省属事业单位招聘信息",
         "content": "关注省人事考试网，预计明年3月发布公告",
         "source": "省人事考试网",
         "date": "2026-07-20"
       },
       {
-        "id": "ms7glfluro0yh8",
+        "id": "mse0ra6karl8w7",
         "title": "公共基础知识备考范围",
         "content": "政治、经济、法律、管理、公文写作等",
         "source": "备考论坛",
         "date": "2026-07-15"
       }
     ],
-    "tasks": [
-      {
-        "id": "ms7glflu4l12r4",
-        "title": "收集历年真题",
-        "priority": "low",
-        "dueDate": "2026-12-31",
-        "done": false,
-        "note": "明年考试"
-      }
-    ],
     "lyg": [
       {
-        "id": "ms8kz0qx0lrmj3",
+        "id": "mse0ra6kx8egfp",
         "title": "连云港市事业单位招聘公告发布渠道",
         "content": "连云港市人力资源和社会保障局官网(http://rsj.lyg.gov.cn)是发布事业单位招聘公告的官方渠道，建议每周关注。",
         "source": "连云港市人社局",
         "date": "2026-07-30"
       },
       {
-        "id": "ms8kz0qx8ekgzr",
+        "id": "mse0ra6kuh78xn",
         "title": "连云港2026年事业单位统考时间预测",
         "content": "参考往年时间安排，连云港事业单位统考通常在上半年3-5月发布公告，5-6月笔试。建议提前3个月开始备考。",
         "source": "备考分析",
         "date": "2026-07-30"
       },
       {
-        "id": "ms8kz0qxng5omb",
+        "id": "mse0ra6kkbye5t",
         "title": "连云港事业编考试内容",
         "content": "连云港事业单位考试一般包括：公共基础知识（政治、经济、法律、管理、公文写作）+ 职业能力测验 + 专业知识（根据岗位不同）",
         "source": "考试大纲",
         "date": "2026-07-30"
       }
-    ]
+    ],
+    "tasks": []
   },
   "reading": {
+    "logs": [],
     "books": [
       {
-        "id": "ms8lc83khp23mv",
-        "title": "不便利的便利店",
-        "author": "金浩然",
-        "totalPages": 181,
-        "currentPage": 12,
+        "id": "mse0ra6kcaex99",
+        "title": "认知觉醒",
+        "author": "周岭",
+        "totalPages": 280,
+        "currentPage": 156,
         "status": "reading",
-        "startDate": "2026-08-01",
+        "startDate": "2026-06-15",
         "source": ""
       },
       {
-        "id": "ms8ldhz1taqfms",
-        "title": "不便利的便利店2",
-        "author": "金浩然",
-        "totalPages": 292,
+        "id": "mse0ra6khw4fki",
+        "title": "小岛经济学",
+        "author": "彼得·希夫",
+        "totalPages": 320,
         "currentPage": 0,
         "status": "planned",
-        "startDate": "2026-09-01",
+        "startDate": "",
         "source": ""
       }
     ],
     "podcasts": [
       {
-        "id": "ms8lij87fer0hz",
-        "title": "自我进化论",
-        "host": "颜晓静",
-        "totalEpisodes": 81,
-        "listenedEpisodes": 0,
-        "status": "planned",
-        "startDate": "",
-        "note": "自我探索、自我养育",
+        "id": "mse0ra6kbk2bcb",
+        "title": "纵横四海",
+        "host": "携隐",
+        "totalEpisodes": 120,
+        "listenedEpisodes": 45,
+        "status": "reading",
+        "startDate": "2026-05-01",
+        "note": "商业类播客，很有启发",
         "source": ""
-      }
-    ],
-    "logs": [
+      },
       {
-        "date": "2026-07-30",
-        "type": "podcast",
-        "name": "知行小酒馆",
-        "pages": 0,
-        "episodes": 2,
-        "note": ""
+        "id": "mse0ra6k021ul5",
+        "title": "知行小酒馆",
+        "host": "有知有行",
+        "totalEpisodes": 80,
+        "listenedEpisodes": 80,
+        "status": "done",
+        "startDate": "2025-11-01",
+        "note": "投资理财播客",
+        "source": ""
       }
     ],
     "news": [
       {
-        "id": "ms8kz0qx5nzek4",
+        "id": "mse0ra6ku1yt97",
         "date": "2026-07-30",
         "title": "增值税留抵退税政策延续优化",
         "summary": "财政部、税务总局联合发布通知，进一步完善增值税留抵退税政策，扩大适用范围。",
@@ -1213,7 +892,7 @@
         "source": "国家税务总局"
       },
       {
-        "id": "ms8kz0qx74vpx4",
+        "id": "mse0ra6kwjmfih",
         "date": "2026-07-30",
         "title": "个人所得税专项附加扣除标准提高",
         "summary": "3岁以下婴幼儿照护、子女教育、赡养老人三项专项附加扣除标准提高。",
@@ -1223,7 +902,7 @@
         "source": "国家税务总局"
       },
       {
-        "id": "ms8kz0qxqkttjg",
+        "id": "mse0ra6kmbaln0",
         "date": "2026-07-30",
         "title": "央行宣布降准0.5个百分点",
         "summary": "中国人民银行决定下调金融机构存款准备金率0.5个百分点，释放长期资金。",
@@ -1233,123 +912,13 @@
         "source": "中国人民银行"
       },
       {
-        "id": "ms8kz0qxfisl39",
+        "id": "mse0ra6kdgjfqa",
         "date": "2026-07-30",
         "title": "国务院研究优化营商环境条例",
         "summary": "国务院常务会议审议通过优化营商环境条例修订草案，进一步简化审批流程。",
         "category": "时政",
         "reason": "营商环境改革涉及企业注册、税务办理等，与CPA经济法相关",
         "attention": "关注行政审批简化和税务服务优化的具体措施",
-        "source": "新华社"
-      },
-      {
-        "id": "libn-3",
-        "date": "2026-08-01",
-        "title": "研发费用加计扣除比例与申报要点",
-        "summary": "制造业及科技型企业研发费用加计扣除政策持续执行，申报口径有细化。",
-        "category": "税务",
-        "reason": "税务师涉税服务实务重点，企业税务筹划常用工具",
-        "attention": "掌握加计扣除基数确定与资料留存要求",
-        "source": "税务总局"
-      },
-      {
-        "id": "libn-7",
-        "date": "2026-08-01",
-        "title": "财政政策靠前发力稳增长",
-        "summary": "积极的财政政策加力提效，专项债发行使用节奏靠前。",
-        "category": "财经",
-        "reason": "宏观财政逻辑是CPA财管与战略科目的背景知识",
-        "attention": "关注专项债投向与基建、消费刺激的联动",
-        "source": "财政部"
-      },
-      {
-        "id": "libn-9",
-        "date": "2026-08-01",
-        "title": "大模型推理成本快速下降",
-        "summary": "新一代大模型在推理效率上显著提升，单位token成本持续走低。",
-        "category": "AI科技",
-        "reason": "AI效率提升正在重塑知识工作，值得持续跟踪",
-        "attention": "思考AI如何用于备考资料整理与差错分析",
-        "source": "行业观察"
-      },
-      {
-        "id": "libn-13",
-        "date": "2026-08-02",
-        "title": "优化营商环境条例修订",
-        "summary": "国务院常务会议审议通过优化营商环境条例修订草案。",
-        "category": "时政",
-        "reason": "营商环境改革涉及企业注册与税务办理，关联CPA经济法",
-        "attention": "关注审批简化与税务服务优化的具体措施",
-        "source": "新华社"
-      },
-      {
-        "id": "libn-4",
-        "date": "2026-08-02",
-        "title": "金税四期与全电发票推进",
-        "summary": "全面数字化电子发票试点扩围，以数治税能力持续提升。",
-        "category": "税务",
-        "reason": "理解税收征管数字化趋势，对审计与税务实务均有帮助",
-        "attention": "关注发票流转变化对企业财务流程的影响",
-        "source": "国家税务总局"
-      },
-      {
-        "id": "libn-8",
-        "date": "2026-08-02",
-        "title": "资本市场注册制改革深化",
-        "summary": "全面注册制下新股发行与再融资规则持续优化。",
-        "category": "财经",
-        "reason": "理解资本市场结构，对投资与财务分析有帮助",
-        "attention": "关注信息披露与退市机制变化",
-        "source": "证监会"
-      },
-      {
-        "id": "libn-10",
-        "date": "2026-08-02",
-        "title": "AI Agent与企业自动化落地",
-        "summary": "以大模型为底座的自主智能体在办公、客服、数据分析场景加速落地。",
-        "category": "AI科技",
-        "reason": "理解自动化趋势，可提升个人与团队效率",
-        "attention": "关注RPA+大模型在财务/审计场景的应用",
-        "source": "行业观察"
-      },
-      {
-        "id": "libn-16",
-        "date": "2026-08-03",
-        "title": "数字经济税收政策研讨",
-        "summary": "针对平台经济与数字服务的税收规则持续完善。",
-        "category": "税务",
-        "reason": "数字税是税务师与CPA税法的前沿议题",
-        "attention": "关注跨境数字服务增值税征管动态",
-        "source": "税务总局"
-      },
-      {
-        "id": "libn-15",
-        "date": "2026-08-03",
-        "title": "个人养老金制度扩围",
-        "summary": "个人养老金参与范围扩大，税优政策进一步完善。",
-        "category": "财经",
-        "reason": "关联个税递延与长期财务规划",
-        "attention": "理解个人养老金的税收优惠与投资策略",
-        "source": "人社部"
-      },
-      {
-        "id": "libn-11",
-        "date": "2026-08-03",
-        "title": "端侧AI与终端算力升级",
-        "summary": "手机与PC端侧大模型推理能力增强，隐私与离线体验改善。",
-        "category": "AI科技",
-        "reason": "端侧AI降低使用门槛，日常工具更易智能化",
-        "attention": "关注其对个人信息处理与数据安全的影响",
-        "source": "行业观察"
-      },
-      {
-        "id": "libn-14",
-        "date": "2026-08-04",
-        "title": "职业教育与技能人才政策",
-        "summary": "国家持续推进职业教育体系建设，技能人才培养力度加大。",
-        "category": "时政",
-        "reason": "与事业编/职业发展相关，可关注政策导向",
-        "attention": "关注职业资格与技能认证的政策变化",
         "source": "新华社"
       },
       {
@@ -1381,11 +950,21 @@
         "reason": "数据资产化是财务与会计领域的新课题",
         "attention": "关注数据资源确认为资产的相关准则动态",
         "source": "发改委"
+      },
+      {
+        "id": "libn-14",
+        "date": "2026-08-04",
+        "title": "职业教育与技能人才政策",
+        "summary": "国家持续推进职业教育体系建设，技能人才培养力度加大。",
+        "category": "时政",
+        "reason": "与事业编/职业发展相关，可关注政策导向",
+        "attention": "关注职业资格与技能认证的政策变化",
+        "source": "新华社"
       }
     ],
     "dailyPicks": [
       {
-        "id": "ms8kz0qxlb8wwv",
+        "id": "mse0ra6k1tuol2",
         "date": "2026-07-30",
         "type": "book",
         "title": "纳税筹划实务与案例",
@@ -1395,73 +974,13 @@
         "source": ""
       },
       {
-        "id": "ms8kz0qxf94ae2",
+        "id": "mse0ra6k8a7q86",
         "date": "2026-07-30",
         "type": "podcast",
         "title": "纵横四海 · EP45：如何构建个人知识体系",
         "author": "携隐",
         "reason": "个人知识管理方法论，帮助你更高效地整合备考知识，建立系统化学习框架",
         "attention": "尝试将播客中的知识管理方法应用到CPA和税务师备考中",
-        "source": ""
-      },
-      {
-        "id": "libp-3",
-        "date": "2026-08-01",
-        "type": "book",
-        "title": "小岛经济学",
-        "author": "彼得·希夫",
-        "reason": "用故事讲透货币、通胀与经济周期，建立财经直觉",
-        "attention": "结合当前货币政策（如降准）对照阅读",
-        "source": ""
-      },
-      {
-        "id": "libp-9",
-        "date": "2026-08-01",
-        "type": "podcast",
-        "title": "AI 内参",
-        "author": "科技播客",
-        "reason": "追踪AI前沿与应用落地，保持科技敏感度",
-        "attention": "关注大模型在办公与数据分析中的实际应用",
-        "source": ""
-      },
-      {
-        "id": "libp-4",
-        "date": "2026-08-02",
-        "type": "book",
-        "title": "财务自由之路",
-        "author": "博多·舍费尔",
-        "reason": "系统讲解储蓄、投资与资产配置，建立财商基础",
-        "attention": "关注其“养鹅账户”与风险控制思路",
-        "source": ""
-      },
-      {
-        "id": "libp-10",
-        "date": "2026-08-02",
-        "type": "podcast",
-        "title": "商业就是这样",
-        "author": "肖文杰",
-        "reason": "用通俗语言拆解商业事件，建立财经分析框架",
-        "attention": "结合“财经”新闻对照收听",
-        "source": ""
-      },
-      {
-        "id": "libp-12",
-        "date": "2026-08-03",
-        "type": "podcast",
-        "title": "声动活泼·商业radio",
-        "author": "声动活泼",
-        "reason": "科技与商业交叉话题，拓展AI与产业视野",
-        "attention": "关注AI与产业结合的案例",
-        "source": ""
-      },
-      {
-        "id": "libp-5",
-        "date": "2026-08-03",
-        "type": "book",
-        "title": "纳瓦尔宝典",
-        "author": "埃里克·乔根森",
-        "reason": "关于财富与幸福的原则性思考，适合拓展认知边界",
-        "attention": "关注“杠杆”与“专长”的论述，迁移到职业成长",
         "source": ""
       },
       {
@@ -1499,21 +1018,21 @@
   },
   "inbox": [
     {
-      "id": "ms7glflu13wa1g",
+      "id": "mse0ra6k2dv4rr",
       "type": "text",
       "content": "CPA报名时间是4月，记得提前准备照片和学历认证",
       "date": "2026-07-29",
       "target": ""
     },
     {
-      "id": "ms7glfluq28j35",
+      "id": "mse0ra6kd92s3t",
       "type": "link",
       "content": "https://www.cicpa.org.cn — 中注协官网",
       "date": "2026-07-28",
       "target": ""
     },
     {
-      "id": "ms7glflu0dupvv",
+      "id": "mse0ra6khdrapx",
       "type": "task",
       "content": "整理一份各科目考试时间表",
       "date": "2026-07-26",
@@ -1522,33 +1041,342 @@
   ],
   "changelog": [
     {
-      "date": "2026-07-30",
-      "content": "新增每日阅读模块：管理书籍和播客的阅读/收听进度",
+      "date": "2026-08-04",
+      "content": "v2.2.14 新增云端同步（GitHub 仓库为持久存储后端）：设置页填入 PAT 后自动拉取/推送，解决沙箱过期数据丢失；改动约 1.5 秒自动上传，打开时自动拉取最新。",
+      "scope": "全站"
+    },
+    {
+      "date": "2026-08-04",
+      "content": "v2.2.13 移除 Excel 技能模块预设的 3 个默认任务（et01-et03，练习VLOOKUP/SUMIFS/IF），任务列表改由用户自行添加，不再预置示例任务。",
+      "scope": "Excel"
+    },
+    {
+      "date": "2026-08-04",
+      "content": "v2.2.12 Excel 技能模块新增「数据透视与整理」分类（数据透视表/分列/条件格式/快速填充），补齐财务文员高频的非公式实操技能。",
+      "scope": "全站"
+    },
+    {
+      "date": "2026-08-03",
+      "content": "v2.2.11 Excel技能模块重构为财务与文员方向：函数按财务专用/工资报销/数据核对/文本编号/日期考勤/条件逻辑6类重分组，补全财务函数(PMT/FV/NPV/IRR/折旧等)与文员函数(NETWORKDAYS/DATEDIF/TEXTJOIN等)，每个函数配真实办公案例；新增场景模板页(工资核算/报销统计/考勤/销售月报/折旧/贷款月供)，可按财务或文员筛选。"
+    },
+    {
+      "date": "2026-08-03",
+      "content": "v2.2.10 修复底部加载异常误报：删除启动时的孤儿赋值 document.getElementById('sidebarFooterDate').textContent=fmtDate(new Date()) —— HTML 模板里没有 id=sidebarFooterDate 元素（侧栏底部只有 <div class=\"sf-ver\">），这行死代码会在启动时抛 null，被全局 error 监听捕获，底部误弹加载异常提示框。现已删除该行，启动干净。",
+      "scope": "全站"
+    },
+    {
+      "date": "2026-08-03",
+      "content": "v2.2.9 根治“打开仍是旧版/空白”的缓存问题：① 启动即在 <main id=\"mainContent\"> 预渲染真实首页总览静态 HTML（含学习概览看板/今日重点/模块进度），首帧即首页、无需等待脚本；② 新增版本化自动清缓存——打开时若 URL 未带 ?v=2.2.9 则自动追加并重载，强制浏览器拉取最新文件，从此不再被旧缓存坑（桌面 Ctrl+F5、手机重开链接即可）；③ 同时保留存储容错与全局错误兜底。打开即首页总览，不再点“首页”才出来",
+      "scope": "全站"
+    },
+    {
+      "date": "2026-08-03",
+      "content": "v2.2.8 消除首屏空白闪烁（桌面/手机通用）：在 <main id=\"mainContent\"> 内预置「首屏骨架」静态占位（柔色微光卡片块，模拟首页形态），随 HTML 首帧即绘制，内联脚本执行完 renderView 会整体替换之；从此第一帧不再是空白/白屏，脚本再大也不会出现空窗",
+      "scope": "全站"
+    },
+    {
+      "date": "2026-08-03",
+      "content": "v2.2.7 修复手机端首屏空白：① saveData/setSyncState/getSyncState 全面容错，手机无痕模式/存储受限导致 localStorage.setItem 抛错时不再中断脚本（这是手机白屏主因）；② 启动阶段 seedDailyReading 与 checkCloudSync 加 try/catch 兜底；③ 新增全局 error 监听 + 首屏看门狗，万一空白会显示错误提示与「带版本号刷新」入口而非纯白屏；④ 追加防缓存 meta，避免手机浏览器缓存旧版壳",
       "scope": "全站",
-      "action": "刷新页面"
+      "action": "刷新页面即可看到更新"
+    },
+    {
+      "date": "2026-08-03",
+      "content": "v2.2.6 CPA冲刺任务仅入周规划并按周分组到具体任务：移除 CPA 备考「任务」标签页，导入按钮移至「每周学习规划」页；导入按 4 周分组，每周列出具体任务（第1周拆到各章、第2-4周拆到真题/模拟/错题等动作，共 16 条，逐条可打卡/上日历）；带日期任务按「所在周」自动拆成 第1-4周 四张独立卡片（本周高亮，未来周淡化）；学习路线图删除「临考调整」「考后复盘」两阶段",
+      "scope": "CPA"
+    },
+    {
+      "date": "2026-08-03",
+      "content": "v2.2.5 修复 CPA 导入按钮位置：CPA 备考走 renderExam（无 tasks 标签页），原先导入按钮误置于无入口触发的 tasks 分支导致不显示；现已为 CPA 补建「任务」标签页承载导入按钮与任务列表",
+      "scope": "CPA"
+    },
+    {
+      "date": "2026-08-03",
+      "content": "v2.2.4 CPA会计冲刺计划一键导入：CPA 备考「任务」页新增「导入 CPA 会计冲刺计划（8.3-8.28）」按钮，点击同时写入周规划 4 条阶段任务（可打卡/上日历）与 CPA 模块任务列表 4 条，含防重复导入标记",
+      "scope": "CPA"
+    },
+    {
+      "date": "2026-08-03",
+      "content": "v2.2.3 首页概览进度升级为真实成就率：CPA/税务师按已通过科目数（科通过）、Excel 按已掌握函数数、资料库按已读完条目数、事业编按已完成任务数计算进度，进度条配色（模块标识色）保持不变"
+    },
+    {
+      "date": "2026-08-03",
+      "content": "v2.2.2 视觉打磨收口：① 概览模块进度条按模块标识色上色（CPA绿/税务师蓝/Excel青/事业编琥珀/资料库粉），进度条轨道色·圆角·高度统一；② 日详情与日历事件配色统一——消除离谱紫（课程·函数学习改青、完成改墨绿、逾期·截止改柔红），全站残留的紫/灰绿/橙红配色已彻底归零；③ 柔红收为 --bad 令牌；④ 品牌/焦点元素（logo、导航激活条、KPI数字、帮助按钮、badge）保持纯黑白，墨绿仅用于模块色与语义色",
+      "scope": "全站",
+      "action": "刷新页面即可看到更新"
+    },
+    {
+      "date": "2026-08-03",
+      "content": "v2.2.1 细节打磨：① 清空 CPA 学习任务（一次性迁移，仅清理已存历史，不误删后续新增）；② 错题本/练习正确率改为交通灯配色（≥80 墨绿 / 60–79 浅黄 / <60 柔红），熟练度徽章（生疏/一般/熟练）同步上色；③ 智能备考建议、情报洞察、收集箱洞察等卡片按「好/注意/紧急」三类加彩色左边条；④ Excel 函数库补回 VLOOKUP（查找引用，进度40%）",
+      "scope": "全站",
+      "action": "刷新页面即可看到更新"
+    },
+    {
+      "date": "2026-08-02",
+      "content": "v2.2.0 学习规划体系大版本：① 新增「每周学习规划」页（任务支持日期区间、关联项目、可编辑，周复盘按周留存历史）；② 新增「学习路线图」页（五阶段框架，各阶段可添加规划并勾选完成，阶段状态改为按项目分别标记，如「CPA·已完成 / 税务师·进行中」）；③ 每周规划任务自动投射到各学习模块日历（浅黄圆点 + 日详情「每周规划」分组）；④ 首页总览重构：新增今日重点（紧急导向）、学习概览看板、各项目阶段状态卡；⑤ 移除「数据看板」与「今日」独立页，功能并入首页总览；⑥ 全站配色收敛为黑白 + 墨绿 + 浅黄两色体系，顶部搜索框改柔和药丸形（墨绿聚焦光环），卡片悬停浮动减小；⑦ 清空各模块日历的演示数据，设置页新增「清空演示数据」一键清理",
+      "scope": "全站",
+      "action": "刷新页面即可看到更新"
+    },
+    {
+      "date": "2026-08-02",
+      "content": "v2.1.1 修复：阅读模块「阅读数据洞察」中“已读完”统计误用 status==='finished'（应为 done），导致已读完成书籍无法计入提示；现已正确统计已完成书籍数",
+      "scope": "资料库",
+      "action": "刷新页面即可看到更新"
+    },
+    {
+      "date": "2026-08-02",
+      "content": "v2.1.0 学习规划体系：首页总览新增「今日重点」（紧急导向：逾期/今天到期/高优先级任务带标签）与「学习概览看板」（CPA/税务师/事业编/Excel/资料库 模块进度条）；新增「每周学习规划」页（自主添加本周任务/短期目标，可关联模块一键跳转）；「学习路线图」页（备考整体规划框架）——全局阶段框架（基础学习→强化提升→冲刺模考→临考调整→考后复盘）当前阶段高亮，各阶段可添加学习规划，各考试长期规划进度条",
+      "scope": "全站",
+      "action": "刷新页面即可看到更新"
+    },
+    {
+      "date": "2026-08-01",
+      "content": "Study Hub 风格焕新：欢迎横幅改为大标题卡片（左侧彩条+大号问候语），概述 KPI 驾驶舱改为竖向指标卡（顶部渐变装饰条+超大数字+分类图标色），快速入口卡片加宽圆角升级，今日完成四格增强视觉权重；整体更接近 Study Hub 的简洁大气感",
+      "scope": "全站",
+      "action": "刷新页面即可看到更新"
+    },
+    {
+      "date": "2026-08-01",
+      "content": "收件箱打磨：新增收集箱驾驶舱（总量/任务类/链接类/本周新增）+ 洞察卡（归类与清理提醒）"
+    },
+    {
+      "date": "2026-08-01",
+      "content": "阅读打磨：新增阅读驾驶舱（在读书籍/在听播客/书籍平均进度/本周阅读量）+ 数据洞察卡（停滞与低频提醒）"
+    },
+    {
+      "date": "2026-08-01",
+      "content": "事业编备考增强：新增情报驾驶舱（情报总数/待办任务/时间敏感任务/最近更新）+ 数据洞察卡；信息按日期倒序"
+    },
+    {
+      "date": "2026-08-01",
+      "content": "CPA 备考增强：新增 KPI 驾驶舱（距考试/听课进度/练习正确率/待复习错题/待办任务）、智能备考建议卡（数据驱动洞察）、课程卡显示练习正确率。"
+    },
+    {
+      "date": "2026-08-01",
+      "content": "视觉全面焕新：升级设计令牌与柔和分层阴影，侧边栏 logo、主按钮、倒计时进度条改为同系渐变；卡片与列表新增悬停微抬升与聚焦态；概述/看板 KPI 数字改用渐变强调色；新增「今日」个性化问候横幅与 Excel 语法一键复制，整体更通透、现代、好用",
+      "scope": "全站",
+      "action": "刷新页面即可看到"
+    },
+    {
+      "date": "2026-08-01",
+      "content": "倒计时彻底去红：临近考试（≤30天）的紧急态不再整卡翻红，改为卡片 body 保持各自模块柔色（CPA 绿 / 税务师蓝），仅以一枚柔琥珀色「冲刺 N 天」小徽章提示；同步移除所有倒计时相关红色样式，色彩彻底统一到工作台浅色调",
+      "scope": "今日",
+      "action": "刷新页面即可看到"
+    },
+    {
+      "date": "2026-08-01",
+      "content": "倒计时数字配色再柔化：CPA 倒计时大数字由深橄榄绿 #444 改为更柔和的中绿 #5E8C6E，税务师由深藏蓝 #333 改为与日历 / 播客同系的柔和蓝 #555，整体更轻盈通透、与工作台浅色调统一；主内容区最大宽度 1060→1140 更充分利用桌面空间，数据看板 KPI 卡补齐悬停微抬升，侧边栏加极淡渐变与描边更显精致",
+      "scope": "今日 / 全站",
+      "action": "刷新页面即可看到"
+    },
+    {
+      "date": "2026-08-01",
+      "content": "倒计时配色融入整体：CPA 倒计时改为与课程卡片一致的柔绿、税务师改为柔蓝（沿用标签深绿/深蓝文字色），30 天内预警由刺眼纯红改为柔红底色，色彩与全站调性统一；概述 KPI 卡与倒计时卡新增悬停微抬升，交互更一致",
+      "scope": "今日 / 全站",
+      "action": "刷新页面即可看到"
+    },
+    {
+      "date": "2026-08-01",
+      "content": "概述页重构为仪表盘首页（3 大 KPI + 课程进度 + 6 模块快捷入口），与数据看板明确分工；全局视觉打磨（柔和边框/更大圆角/更宽松间距/更克制配色）",
+      "scope": "全模块",
+      "action": "进入概述与数据看板对比查看"
+    },
+    {
+      "date": "2026-08-01",
+      "content": "Excel 函数库打磨：新增搜索框（按函数名 / 语法 / 分类实时筛选）、筛选标签（全部 / 已掌握 / 学习中 / 未开始）、按分类折叠展开（可一键全部收起），长列表查找与聚焦更高效",
+      "scope": "Excel技能",
+      "action": "进入 Excel 模块即可看到"
+    },
+    {
+      "date": "2026-08-01",
+      "content": "考试倒计时不再重复：原本「概述」「备考页」「数据看板」三处各显示一遍，现统一收敛到「今日」页顶部一处，并升级为信息条——显示考试日期与星期、今年备考科目、课程完成度进度条、剩余课时与日均需完成量，考试 30 天内自动转为红色预警",
+      "scope": "今日 / 概述 / CPA备考 / 税务师备考 / 数据看板",
+      "action": "刷新页面即可看到更新"
+    },
+    {
+      "date": "2026-08-01",
+      "content": "「今日」页重构：新增今日已完成四格速览（完成任务 / 学习课程 / 练函数 / 阅读收听）、四个快捷入口，待办任务按「已过期 / 今天到期 / 稍后到期 / 未设截止」分组，并显示逾期或剩余天数",
+      "scope": "今日",
+      "action": "刷新页面即可看到更新"
+    },
+    {
+      "date": "2026-08-01",
+      "content": "各模块标签页加数量徽标：备考页七个标签、Excel、事业编标签均显示条目数（任务显示未完成数），不点开也知道里面有没有内容；空状态改为带一键操作按钮",
+      "scope": "CPA备考 / 税务师备考 / Excel技能 / 事业编备考 / 收集箱",
+      "action": "刷新页面即可看到更新"
+    },
+    {
+      "date": "2026-08-01",
+      "content": "排版视觉打磨：卡片阴影分层与悬停反馈、侧边栏当前项加绿色标识条、列表项悬停底色高亮且操作按钮常显（不再需要摸索）、页面切换淡入动画、数字统一等宽对齐、手机端底部导航新增「看板」入口；同时修复抽屉菜单角标不更新、部分背景色变量缺失导致的显示异常",
+      "scope": "全站",
+      "action": "刷新页面即可看到更新"
+    },
+    {
+      "date": "2026-08-01",
+      "content": "资料库页面精简：原「新闻」「推荐」两个标签与「知识库」内容完全重复，现已合并——统一在「知识库」中按类别分组查看与添加，标签栏由 5 个减为 3 个（书籍 / 播客 / 知识库）；「今日新闻推荐」「今日推荐」的\"推荐原因/关注理由\"改为默认收起、点击展开，页面高度大幅缩短，手机端滚动更快到达内容",
+      "scope": "资料库",
+      "action": "刷新页面即可看到更新"
+    },
+    {
+      "date": "2026-08-01",
+      "content": "代码瘦身与快捷键补全：清理历史遗留的无用样式与死代码（快捷键卡片残留样式、错题手动添加入口、统计卡片旧样式等）；新增 Alt+8 快捷键直达收集箱",
+      "scope": "全站",
+      "action": "按 Alt+8 试试"
+    },
+    {
+      "date": "2026-08-01",
+      "content": "事业编备考模块新增顶部日历：标记已完成的待办事项（绿点）和待办截止日期（橙点），点击任意日期即可展开当天完成的待办与截止任务详情；与 CPA/税务师/Excel/资料库模块的日历功能统一",
+      "scope": "事业编备考",
+      "action": "进入事业编模块，点击顶部月历任意日期查看"
+    },
+    {
+      "date": "2026-08-01",
+      "content": "各模块顶部日历支持点击查看当天记录：在 CPA 备考、税务师备考、Excel 技能、资料库的月历上点击任意日期，下方即展开当天的完成待办、练习记录、课程学习、函数学习、阅读记录与当日新闻推荐；勾选完成待办时会自动记录完成日期。资料库「知识库」改为按类别分组（税务/财经/AI科技/时政/书籍推荐/播客推荐），便于分类沉淀与回顾",
+      "scope": "CPA备考、税务师备考、Excel技能、资料库",
+      "action": "在模块顶部月历点击任意日期，再点一次收起"
+    },
+    {
+      "date": "2026-08-01",
+      "content": "资料库\"今日新闻推荐\"和\"今日推荐\"改为按日期种子每日轮换：内容库内置16条新闻（税务/财经/AI科技/时政）+12条书籍播客推荐，每天自动选出4条新闻（必含税务、财经、AI科技）和3条书籍/播客推荐，旧内容自动沉淀进\"知识库\"；新闻分类新增AI科技",
+      "scope": "资料库",
+      "action": "刷新页面即可看到每日更新"
+    },
+    {
+      "date": "2026-07-31",
+      "content": "手机端底部导航栏简化：仅保留「概述」「今日」「更多」三个主入口；CPA备考、税务师备考、Excel技能、事业编备考、资料库等学习模块统一收入「更多」抽屉；抽屉内新增\"学习模块\"分区，优先展示各学习入口",
+      "scope": "手机端",
+      "action": "刷新页面即可看到更新"
+    },
+    {
+      "date": "2026-07-31",
+      "content": "资料库新增「知识库」标签页：聚合所有历史新闻推荐和书籍/播客推荐，按日期倒序展示，形成持续积累的知识仓库；知识库概览卡片显示新闻、书籍推荐、播客推荐、总条目四项统计",
+      "scope": "资料库",
+      "action": "刷新页面即可看到更新"
+    },
+    {
+      "date": "2026-07-31",
+      "content": "事业编模块新增「连云港」专区：独立管理连云港市事业单位招聘信息、考试时间、备考资料等；概述页及搜索均支持连云港信息",
+      "scope": "事业编备考",
+      "action": "刷新页面即可看到更新"
     },
     {
       "date": "2026-07-30",
-      "content": "错题本改造：按科目汇总错题数",
-      "scope": "CPA备考/税务师备考",
-      "action": "刷新页面"
+      "content": "Excel函数新增完成日期记录：拖动进度条时自动记录学习日期到顶部日历（紫色圆点），每个函数卡片显示最近学习时间，图例新增\"函数学习\"",
+      "scope": "Excel技能",
+      "action": "刷新页面即可看到更新"
     },
     {
       "date": "2026-07-30",
-      "content": "章节题标签页更名为客观/主观二轮",
-      "scope": "CPA备考/税务师备考",
-      "action": "刷新页面"
+      "content": "资料库重磅升级：新增顶部阅读日历（书籍绿色圆点/播客蓝色圆点）、今日阅读情况板块、\"记录阅读/收听\"按钮可记录资料库页数或收听期数并自动更新进度",
+      "scope": "资料库",
+      "action": "刷新页面即可看到更新"
     },
     {
       "date": "2026-07-30",
-      "content": "课程卡片新增编辑按钮",
+      "content": "课程学习记录整合到顶部综合日历：课程+1/-1的学习日期以紫色圆点显示在顶部日历中，课程进度子栏目中的独立小日历已移除",
       "scope": "CPA备考/税务师备考",
-      "action": "刷新页面"
+      "action": "刷新页面即可看到更新"
+    },
+    {
+      "date": "2026-07-30",
+      "content": "精简小日历：顶部已有综合日历，各栏目内的小日历已移除，页面更简洁",
+      "scope": "CPA备考/税务师备考",
+      "action": "刷新页面即可看到更新"
+    },
+    {
+      "date": "2026-07-30",
+      "content": "备考模块课程进度新增学习日历：根据+1/-1课时调整记录自动标记有学习记录的日期（绿点），可按月翻页查看",
+      "scope": "CPA备考/税务师备考",
+      "action": "刷新页面即可看到更新"
+    },
+    {
+      "date": "2026-07-30",
+      "content": "今日页面统计卡片合并为一张\"今日数据\"卡片：待办任务、错题总量、收集箱、已开始科目、阅读中五项数据以紧凑的图标+数值形式展示，手机端自动两列排列",
+      "scope": "今日",
+      "action": "刷新页面即可看到更新"
+    },
+    {
+      "date": "2026-07-30",
+      "content": "Excel技能模块顶部新增日历：根据任务日期标记待完成（蓝点）、已过期（橙点）、已完成（绿点）的任务",
+      "scope": "Excel技能",
+      "action": "刷新页面即可看到更新"
+    },
+    {
+      "date": "2026-07-30",
+      "content": "备考模块课程进度新增\"最近课程学习记录\"：点击+1/-1按钮调整课时后自动记录学习日期和科目",
+      "scope": "CPA备考/税务师备考",
+      "action": "刷新页面即可看到更新"
+    },
+    {
+      "date": "2026-07-30",
+      "content": "备考模块顶部日历新增任务截止日期标记（橙色圆点），方便追踪各科目的任务截止时间",
+      "scope": "CPA备考/税务师备考",
+      "action": "刷新页面即可看到更新"
+    },
+    {
+      "date": "2026-07-30",
+      "content": "备考模块倒计时卡片手机端改为一排两个，节省空间",
+      "scope": "CPA备考/税务师备考",
+      "action": "刷新页面即可看到更新"
+    },
+    {
+      "date": "2026-07-30",
+      "content": "手机端底部导航栏调整为：今日、CPA、税务师、Excel、阅读；收集箱移至\"更多\"抽屉",
+      "scope": "全站",
+      "action": "刷新页面即可看到更新"
+    },
+    {
+      "date": "2026-07-30",
+      "content": "备考模板新增顶部综合日历：显示所有练习类型（客观一轮/主客观二轮/真题/模拟）的完成日期，用不同颜色标记",
+      "scope": "全站",
+      "action": "刷新页面即可看到更新"
+    },
+    {
+      "date": "2026-07-30",
+      "content": "错题总量自动同步：根据章节练习记录自动计算错题数，无需手动输入；仍可手动调整复习遍数和熟练程度",
+      "scope": "CPA备考/税务师备考",
+      "action": "刷新页面即可看到更新"
+    },
+    {
+      "date": "2026-07-30",
+      "content": "备考模板标签页改为两排显示：第一排（课程进度/章节题一轮/章节题二轮/错题本），第二排（历年真题/模拟题/任务）",
+      "scope": "CPA备考/税务师备考",
+      "action": "刷新页面即可看到更新"
+    },
+    {
+      "date": "2026-07-30",
+      "content": "今日页面手机端统计卡片改为一排两个方块，缩短页面长度",
+      "scope": "今日",
+      "action": "刷新页面即可看到更新"
+    },
+    {
+      "date": "2026-07-30",
+      "content": "新增资料库模块：管理书籍和播客的阅读/收听进度，支持从链接导入，同步到今日页面",
+      "scope": "全站",
+      "action": "刷新页面即可看到更新"
+    },
+    {
+      "date": "2026-07-30",
+      "content": "错题本改造：不再逐条记录，改为按科目汇总客观错题数、主观错题数、复习遍数和熟练程度",
+      "scope": "CPA备考/税务师备考",
+      "action": "刷新页面即可看到更新"
+    },
+    {
+      "date": "2026-07-30",
+      "content": "章节题标签页更名为\"章节题一轮（客观）\"和\"章节题二轮（主观+客观）\"，练习记录支持编辑修改",
+      "scope": "CPA备考/税务师备考",
+      "action": "刷新页面即可看到更新"
+    },
+    {
+      "date": "2026-07-30",
+      "content": "课程卡片新增编辑按钮，可直接修改科目名称、总课时、已完成课时和备考标记",
+      "scope": "CPA备考/税务师备考",
+      "action": "刷新页面即可看到更新"
     }
   ],
   "weeklyTasks": [
     {
-      "id": "msd723n3k6za8i",
+      "id": "mse0rd9hsnhxiy",
       "type": "week",
       "title": "考前 1 天只翻不刷题 · 调状态上考场",
       "mod": "cpa",
@@ -1558,10 +1386,10 @@
       "dueDate": "2026-08-28",
       "phase": "真题模拟 + 错题二刷 + 调状态",
       "done": false,
-      "created": "2026-08-03"
+      "created": "2026-08-04"
     },
     {
-      "id": "msd723n36oxrfe",
+      "id": "mse0rd9hxkxegm",
       "type": "week",
       "title": "错题本二刷至能独立写全分录",
       "mod": "cpa",
@@ -1571,10 +1399,10 @@
       "dueDate": "2026-08-28",
       "phase": "真题模拟 + 错题二刷 + 调状态",
       "done": false,
-      "created": "2026-08-03"
+      "created": "2026-08-04"
     },
     {
-      "id": "msd723n3ulol07",
+      "id": "mse0rd9hdjpxd8",
       "type": "week",
       "title": "再做真题 2 套（累计约 3 套）",
       "mod": "cpa",
@@ -1584,10 +1412,10 @@
       "dueDate": "2026-08-28",
       "phase": "真题模拟 + 错题二刷 + 调状态",
       "done": false,
-      "created": "2026-08-03"
+      "created": "2026-08-04"
     },
     {
-      "id": "msd723n38df5j8",
+      "id": "mse0rd9hxd6ehy",
       "type": "week",
       "title": "每天固定时段重做旧错（错题本）",
       "mod": "cpa",
@@ -1597,10 +1425,10 @@
       "dueDate": "2026-08-23",
       "phase": "历年真题 + 模拟题 + 错题二刷",
       "done": false,
-      "created": "2026-08-03"
+      "created": "2026-08-04"
     },
     {
-      "id": "msd723n3zolltk",
+      "id": "mse0rd9h92luat",
       "type": "week",
       "title": "做模拟题 2 套",
       "mod": "cpa",
@@ -1610,10 +1438,10 @@
       "dueDate": "2026-08-23",
       "phase": "历年真题 + 模拟题 + 错题二刷",
       "done": false,
-      "created": "2026-08-03"
+      "created": "2026-08-04"
     },
     {
-      "id": "msd723n3lr94xo",
+      "id": "mse0rd9hlkaodo",
       "type": "week",
       "title": "做历年真题（2021–2025 近5年，严格计时 3h/套，至少 3 套）",
       "mod": "cpa",
@@ -1623,10 +1451,10 @@
       "dueDate": "2026-08-23",
       "phase": "历年真题 + 模拟题 + 错题二刷",
       "done": false,
-      "created": "2026-08-03"
+      "created": "2026-08-04"
     },
     {
-      "id": "msd723n3nb671q",
+      "id": "mse0rd9hy95o7f",
       "type": "week",
       "title": "整理错题本（标注错因 + 正确分录）",
       "mod": "cpa",
@@ -1636,10 +1464,10 @@
       "dueDate": "2026-08-16",
       "phase": "章节主客观题第二轮 + 整理错题本",
       "done": false,
-      "created": "2026-08-03"
+      "created": "2026-08-04"
     },
     {
-      "id": "msd723n3szgbwd",
+      "id": "mse0rd9hd25mft",
       "type": "week",
       "title": "逐章做客观题第二轮",
       "mod": "cpa",
@@ -1649,10 +1477,10 @@
       "dueDate": "2026-08-16",
       "phase": "章节主客观题第二轮 + 整理错题本",
       "done": false,
-      "created": "2026-08-03"
+      "created": "2026-08-04"
     },
     {
-      "id": "msd723n3yq6tkn",
+      "id": "mse0rd9h8po7qq",
       "type": "week",
       "title": "逐章做主观题（计算分析 / 综合题）第二轮",
       "mod": "cpa",
@@ -1662,10 +1490,10 @@
       "dueDate": "2026-08-16",
       "phase": "章节主客观题第二轮 + 整理错题本",
       "done": false,
-      "created": "2026-08-03"
+      "created": "2026-08-04"
     },
     {
-      "id": "msd723n3dzz11z",
+      "id": "mse0rd9hebsjng",
       "type": "week",
       "title": "8.9 本周回看 · 归集错题",
       "mod": "cpa",
@@ -1675,10 +1503,10 @@
       "dueDate": "2026-08-09",
       "phase": "第一轮收尾 + 章节客观题",
       "done": false,
-      "created": "2026-08-03"
+      "created": "2026-08-04"
     },
     {
-      "id": "msd723n321q138",
+      "id": "mse0rd9htg9weg",
       "type": "week",
       "title": "第29章 公允价值计量 + 第30章 政府及民间非营利组织会计 · 客观题第一轮",
       "mod": "cpa",
@@ -1688,10 +1516,10 @@
       "dueDate": "2026-08-09",
       "phase": "第一轮收尾 + 章节客观题",
       "done": false,
-      "created": "2026-08-03"
+      "created": "2026-08-04"
     },
     {
-      "id": "msd723n3u2nbvs",
+      "id": "mse0rd9h1tq3sm",
       "type": "week",
       "title": "第24章 会计政策变更 + 第25章 资产负债表日后事项 · 客观题第一轮",
       "mod": "cpa",
@@ -1701,10 +1529,10 @@
       "dueDate": "2026-08-09",
       "phase": "第一轮收尾 + 章节客观题",
       "done": false,
-      "created": "2026-08-03"
+      "created": "2026-08-04"
     },
     {
-      "id": "msd723n38sdomo",
+      "id": "mse0rd9hji4y2v",
       "type": "week",
       "title": "第23章 财务报告 + 第28章 每股收益 · 客观题第一轮",
       "mod": "cpa",
@@ -1714,10 +1542,10 @@
       "dueDate": "2026-08-09",
       "phase": "第一轮收尾 + 章节客观题",
       "done": false,
-      "created": "2026-08-03"
+      "created": "2026-08-04"
     },
     {
-      "id": "msd723n3oj2f8x",
+      "id": "mse0rd9h0omcvb",
       "type": "week",
       "title": "第27章 合并财务报表 · 学完即做客观题第一轮",
       "mod": "cpa",
@@ -1727,10 +1555,10 @@
       "dueDate": "2026-08-09",
       "phase": "第一轮收尾 + 章节客观题",
       "done": false,
-      "created": "2026-08-03"
+      "created": "2026-08-04"
     },
     {
-      "id": "msd723n3iih6qk",
+      "id": "mse0rd9hzfld2i",
       "type": "week",
       "title": "第26章 企业合并 · 学完即做客观题第一轮",
       "mod": "cpa",
@@ -1740,10 +1568,10 @@
       "dueDate": "2026-08-09",
       "phase": "第一轮收尾 + 章节客观题",
       "done": false,
-      "created": "2026-08-03"
+      "created": "2026-08-04"
     },
     {
-      "id": "msd723n35kdlgj",
+      "id": "mse0rd9hdh4o23",
       "type": "week",
       "title": "第19章 所得税 · 学完即做客观题第一轮",
       "mod": "cpa",
@@ -1753,14 +1581,20 @@
       "dueDate": "2026-08-09",
       "phase": "第一轮收尾 + 章节客观题",
       "done": false,
-      "created": "2026-08-03"
+      "created": "2026-08-04"
     }
   ],
   "roadmapPlans": {},
-  "_updated": "2026-08-04T02:08:08.549Z",
-  "weeklyReviews": {},
+  "_updated": "2026-08-04T02:09:01.184Z",
+  "weeklyReviews": {
+    "2026-08-03_2026-08-09": {
+      "facts": "",
+      "obstacles": "",
+      "trends": ""
+    }
+  },
   "_mig": {
-    "cpaTasksCleared": true,
-    "cpaSprintImported2": true
+    "cpaSprintImported2": true,
+    "cpaTasksCleared": true
   }
 }
