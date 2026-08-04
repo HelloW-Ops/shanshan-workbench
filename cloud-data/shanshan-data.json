@@ -1617,7 +1617,7 @@
       "level": "week",
       "title": "历年真题二刷",
       "mod": "cpa",
-      "priority": "high",
+      "priority": "low",
       "startDate": "2026-08-24",
       "endDate": "2026-08-28",
       "dueDate": "2026-08-28",
@@ -1807,7 +1807,7 @@
       "urgent": true
     }
   },
-  "_updated": "2026-08-04T15:59:20.612Z",
+  "_updated": "2026-08-04T15:59:23.238Z",
   "checkins": [],
   "_mig": {
     "cpaTasksCleared": true,
