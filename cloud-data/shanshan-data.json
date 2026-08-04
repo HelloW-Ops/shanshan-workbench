@@ -1371,6 +1371,18 @@
   ],
   "weeklyTasks": [
     {
+      "id": "msdznbi0a3c252",
+      "type": "week",
+      "title": "11111",
+      "mod": "cpa",
+      "priority": "low",
+      "startDate": "2026-08-04",
+      "endDate": "2026-08-04",
+      "dueDate": "2026-08-04",
+      "done": false,
+      "created": "2026-08-04"
+    },
+    {
       "id": "msdi4znqjr8ezu",
       "type": "week",
       "title": "考前 1 天只翻不刷题 · 调状态上考场",
@@ -1580,7 +1592,7 @@
     }
   ],
   "roadmapPlans": {},
-  "_updated": "2026-08-03T17:27:55.219Z",
+  "_updated": "2026-08-04T01:37:30.360Z",
   "weeklyReviews": {
     "2026-08-03_2026-08-09": {
       "facts": "",
