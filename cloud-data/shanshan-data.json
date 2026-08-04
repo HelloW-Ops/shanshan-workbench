@@ -1563,6 +1563,18 @@
   ],
   "weeklyTasks": [
     {
+      "id": "mseu49k0xpi7zy",
+      "level": "day",
+      "date": "2026-08-04",
+      "title": "第26章 企业合并 · 学完即做客观题第一轮",
+      "mod": "cpa",
+      "priority": "",
+      "est": "2026.8.5",
+      "detail": "",
+      "done": false,
+      "created": "2026-08-04"
+    },
+    {
       "id": "mseu3f22t2x1h4",
       "level": "day",
       "date": "2026-08-04",
@@ -1795,7 +1807,7 @@
       "urgent": true
     }
   },
-  "_updated": "2026-08-04T15:50:06.462Z",
+  "_updated": "2026-08-04T15:50:29.472Z",
   "checkins": [],
   "_mig": {
     "cpaTasksCleared": true,
