@@ -1563,6 +1563,18 @@
   ],
   "weeklyTasks": [
     {
+      "id": "mseu3f22t2x1h4",
+      "level": "day",
+      "date": "2026-08-04",
+      "title": "第19章 所得税 · 学完即做客观题第一轮",
+      "mod": "cpa",
+      "priority": "",
+      "est": "2026.8.5",
+      "detail": "",
+      "done": false,
+      "created": "2026-08-04"
+    },
+    {
       "id": "msets8djc5j2zf",
       "level": "week",
       "title": "考前 1 天只翻不刷题 · 调状态上考场",
@@ -1783,7 +1795,7 @@
       "urgent": true
     }
   },
-  "_updated": "2026-08-04T15:48:55.304Z",
+  "_updated": "2026-08-04T15:49:49.947Z",
   "checkins": [],
   "_mig": {
     "cpaTasksCleared": true,
