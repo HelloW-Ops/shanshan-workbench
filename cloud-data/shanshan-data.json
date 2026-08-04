@@ -1591,7 +1591,7 @@
     {
       "id": "msets8djptj1th",
       "level": "week",
-      "title": "再做真题 2 套（累计约 3 套）",
+      "title": "历年真题二刷",
       "mod": "cpa",
       "priority": "high",
       "startDate": "2026-08-24",
@@ -1783,7 +1783,7 @@
       "urgent": true
     }
   },
-  "_updated": "2026-08-04T15:45:19.950Z",
+  "_updated": "2026-08-04T15:46:32.510Z",
   "checkins": [],
   "_mig": {
     "cpaTasksCleared": true,
