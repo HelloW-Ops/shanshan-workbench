@@ -2430,16 +2430,6 @@
     "logs": [],
     "books": [
       {
-        "id": "msfbmun2u1w5hd",
-        "title": "认知觉醒",
-        "author": "周岭",
-        "totalPages": 280,
-        "currentPage": 156,
-        "status": "reading",
-        "startDate": "2026-06-15",
-        "source": ""
-      },
-      {
         "id": "msff9szado230b",
         "title": "毛泽东选集（1-7卷）",
         "author": "毛泽东",
@@ -3443,7 +3433,7 @@
       "urgent": true
     }
   },
-  "_updated": "2026-08-05T02:34:00.884Z",
+  "_updated": "2026-08-05T02:34:03.318Z",
   "checkins": [],
   "_mig": {
     "cpaTasksCleared": true,
