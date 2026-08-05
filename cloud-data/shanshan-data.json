@@ -1749,16 +1749,6 @@
     "logs": [],
     "books": [
       {
-        "id": "msff9szagx0nyq",
-        "title": "认知觉醒",
-        "author": "周岭",
-        "totalPages": 280,
-        "currentPage": 156,
-        "status": "reading",
-        "startDate": "2026-06-15",
-        "source": ""
-      },
-      {
         "id": "msff9szado230b",
         "title": "小岛经济学",
         "author": "彼得·希夫",
@@ -2681,7 +2671,7 @@
       "urgent": true
     }
   },
-  "_updated": "2026-08-05T02:03:56.643Z",
+  "_updated": "2026-08-05T02:04:28.104Z",
   "checkins": [],
   "profile": {
     "nickname": "小王同学"
