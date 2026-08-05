@@ -1652,7 +1652,7 @@
       "level": "week",
       "title": "做历年真题（2021–2025 近5年，严格计时 3h/套，至少 3 套）",
       "mod": "cpa",
-      "priority": "high",
+      "priority": "low",
       "startDate": "2026-08-17",
       "endDate": "2026-08-23",
       "dueDate": "2026-08-23",
@@ -1803,7 +1803,7 @@
       "urgent": true
     }
   },
-  "_updated": "2026-08-05T01:26:36.554Z",
+  "_updated": "2026-08-05T01:26:39.107Z",
   "checkins": [
     "2026-08-05"
   ],
