@@ -1759,30 +1759,7 @@
         "source": ""
       }
     ],
-    "podcasts": [
-      {
-        "id": "msff9szao80c8z",
-        "title": "纵横四海",
-        "host": "携隐",
-        "totalEpisodes": 120,
-        "listenedEpisodes": 45,
-        "status": "reading",
-        "startDate": "2026-05-01",
-        "note": "商业类播客，很有启发",
-        "source": ""
-      },
-      {
-        "id": "msff9szagj5gez",
-        "title": "知行小酒馆",
-        "host": "有知有行",
-        "totalEpisodes": 80,
-        "listenedEpisodes": 80,
-        "status": "done",
-        "startDate": "2025-11-01",
-        "note": "投资理财播客",
-        "source": ""
-      }
-    ],
+    "podcasts": [],
     "news": [
       {
         "id": "msff9szaw5qane",
@@ -2671,7 +2648,7 @@
       "urgent": true
     }
   },
-  "_updated": "2026-08-05T02:20:59.205Z",
+  "_updated": "2026-08-05T02:21:54.017Z",
   "checkins": [],
   "profile": {
     "nickname": "小王同学"
