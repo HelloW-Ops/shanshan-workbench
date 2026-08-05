@@ -2780,19 +2780,7 @@
         "source": ""
       }
     ],
-    "podcasts": [
-      {
-        "id": "msess46dtt1oyp",
-        "title": "知行小酒馆",
-        "host": "有知有行",
-        "totalEpisodes": 80,
-        "listenedEpisodes": 80,
-        "status": "done",
-        "startDate": "2025-11-01",
-        "note": "投资理财播客",
-        "source": ""
-      }
-    ],
+    "podcasts": [],
     "news": [
       {
         "id": "msess46d2cprcu",
@@ -3912,7 +3900,7 @@
       "urgent": true
     }
   },
-  "_updated": "2026-08-05T02:57:01.433Z",
+  "_updated": "2026-08-05T02:57:02.615Z",
   "checkins": [],
   "_mig": {
     "cpaTasksCleared": true,
