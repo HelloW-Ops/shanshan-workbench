@@ -1756,7 +1756,7 @@
       "level": "week",
       "title": "第27章 合并财务报表 · 学完即做客观题第一轮",
       "mod": "cpa",
-      "priority": "high",
+      "priority": "low",
       "startDate": "2026-08-03",
       "endDate": "2026-08-09",
       "dueDate": "2026-08-09",
@@ -1803,7 +1803,7 @@
       "urgent": true
     }
   },
-  "_updated": "2026-08-05T01:25:42.875Z",
+  "_updated": "2026-08-05T01:26:04.609Z",
   "checkins": [
     "2026-08-05"
   ],
