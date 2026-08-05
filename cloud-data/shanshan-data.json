@@ -1623,9 +1623,9 @@
     {
       "id": "msffb3ct1ilkcw",
       "level": "week",
-      "title": "逐章做主观题（计算分析 / 综合题）第二轮",
+      "title": "逐章做主观题（计算分析 / 综合题）第一轮",
       "mod": "cpa",
-      "priority": "high",
+      "priority": "",
       "startDate": "2026-08-10",
       "endDate": "2026-08-16",
       "dueDate": "2026-08-16",
@@ -1724,7 +1724,7 @@
       "urgent": true
     }
   },
-  "_updated": "2026-08-05T01:45:23.247Z",
+  "_updated": "2026-08-05T01:45:29.768Z",
   "checkins": [],
   "profile": {
     "nickname": "小王同学"
