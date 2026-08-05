@@ -48,34 +48,6 @@
         "focus": false
       },
       {
-        "id": "msess46dzbw4mz",
-        "name": "公司战略与风险管理",
-        "total": 18,
-        "completed": 0,
-        "color": "blue"
-      },
-      {
-        "id": "msfbmun1gccj1f",
-        "name": "财务成本管理",
-        "total": 28,
-        "completed": 0,
-        "color": "yellow"
-      },
-      {
-        "id": "msfbmun1ibffjh",
-        "name": "公司战略与风险管理",
-        "total": 18,
-        "completed": 0,
-        "color": "blue"
-      },
-      {
-        "id": "msff9szas8a2l0",
-        "name": "经济法",
-        "total": 20,
-        "completed": 0,
-        "color": "green"
-      },
-      {
         "id": "msff9szaczi9bf",
         "name": "审计",
         "total": 25,
@@ -4323,7 +4295,7 @@
       "urgent": true
     }
   },
-  "_updated": "2026-08-05T08:54:06.307Z",
+  "_updated": "2026-08-05T08:54:24.466Z",
   "checkins": [],
   "_mig": {
     "cpaTasksCleared": true,
