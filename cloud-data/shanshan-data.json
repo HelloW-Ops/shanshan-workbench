@@ -1651,7 +1651,7 @@
       "level": "week",
       "title": "第29章 公允价值计量 + 第30章 政府及民间非营利组织会计 · 客观题第一轮",
       "mod": "cpa",
-      "priority": "high",
+      "priority": "",
       "startDate": "2026-08-03",
       "endDate": "2026-08-09",
       "dueDate": "2026-08-09",
@@ -1664,7 +1664,7 @@
       "level": "week",
       "title": "第24章 会计政策变更 + 第25章 资产负债表日后事项 · 客观题第一轮",
       "mod": "cpa",
-      "priority": "high",
+      "priority": "",
       "startDate": "2026-08-03",
       "endDate": "2026-08-09",
       "dueDate": "2026-08-09",
@@ -1677,7 +1677,7 @@
       "level": "week",
       "title": "第23章 财务报告 + 第28章 每股收益 · 客观题第一轮",
       "mod": "cpa",
-      "priority": "high",
+      "priority": "",
       "startDate": "2026-08-03",
       "endDate": "2026-08-09",
       "dueDate": "2026-08-09",
@@ -1737,7 +1737,7 @@
       "urgent": true
     }
   },
-  "_updated": "2026-08-05T01:44:39.302Z",
+  "_updated": "2026-08-05T01:44:46.968Z",
   "checkins": [],
   "profile": {
     "nickname": "小王同学"
