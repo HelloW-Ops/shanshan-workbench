@@ -1622,7 +1622,7 @@
     {
       "id": "msfen5uj7eewm6",
       "level": "week",
-      "title": "错题本二刷至能独立写全分录",
+      "title": "错题本二刷",
       "mod": "cpa",
       "priority": "low",
       "startDate": "2026-08-24",
@@ -1827,7 +1827,7 @@
       "urgent": true
     }
   },
-  "_updated": "2026-08-05T01:31:11.041Z",
+  "_updated": "2026-08-05T01:31:23.677Z",
   "checkins": [
     "2026-08-05"
   ],
