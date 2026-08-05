@@ -1713,7 +1713,7 @@
     {
       "id": "msfen5ujq20lhg",
       "level": "week",
-      "title": "逐章做主观题（计算分析 / 综合题）第二轮",
+      "title": "逐章做主观题（计算分析 / 综合题）第一轮",
       "mod": "cpa",
       "priority": "low",
       "startDate": "2026-08-10",
@@ -1827,7 +1827,7 @@
       "urgent": true
     }
   },
-  "_updated": "2026-08-05T01:29:42.475Z",
+  "_updated": "2026-08-05T01:30:16.463Z",
   "checkins": [
     "2026-08-05"
   ],
