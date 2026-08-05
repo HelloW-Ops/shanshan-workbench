@@ -7,7 +7,7 @@
         "name": "会计",
         "total": 130,
         "completed": 97,
-        "color": "blue",
+        "color": "green",
         "focus": true
       },
       {
@@ -1789,7 +1789,7 @@
       "urgent": true
     }
   },
-  "_updated": "2026-08-05T01:49:07.304Z",
+  "_updated": "2026-08-05T01:49:11.413Z",
   "checkins": [],
   "profile": {
     "nickname": "小王同学"
