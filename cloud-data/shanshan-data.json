@@ -2688,19 +2688,6 @@
   ],
   "weeklyTasks": [
     {
-      "id": "msfdei6qx1yp9z",
-      "level": "week",
-      "title": "8.9 本周回看 · 归集错题",
-      "mod": "cpa",
-      "priority": "high",
-      "startDate": "2026-08-03",
-      "endDate": "2026-08-09",
-      "dueDate": "2026-08-09",
-      "phase": "第一轮收尾 + 章节客观题",
-      "done": false,
-      "created": "2026-08-05"
-    },
-    {
       "id": "msffffnxnrsqdb",
       "level": "month",
       "month": "2026-08",
@@ -2980,7 +2967,7 @@
       "urgent": true
     }
   },
-  "_updated": "2026-08-05T02:29:50.840Z",
+  "_updated": "2026-08-05T02:29:59.062Z",
   "checkins": [],
   "_mig": {
     "cpaTasksCleared": true,
