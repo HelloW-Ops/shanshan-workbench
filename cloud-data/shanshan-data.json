@@ -48,13 +48,6 @@
         "color": "blue"
       },
       {
-        "id": "msess46dr56d7s",
-        "name": "经济法",
-        "total": 20,
-        "completed": 0,
-        "color": "green"
-      },
-      {
         "id": "msess46dzbw4mz",
         "name": "公司战略与风险管理",
         "total": 18,
@@ -3905,7 +3898,7 @@
       "urgent": true
     }
   },
-  "_updated": "2026-08-05T03:11:11.208Z",
+  "_updated": "2026-08-05T03:11:16.094Z",
   "checkins": [],
   "profile": {
     "nickname": "小王同学"
