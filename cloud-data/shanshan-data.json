@@ -331,7 +331,133 @@
     }
   },
   "excel": {
-    "funcDates": [],
+    "funcDates": [
+      {
+        "date": "2026-08-05",
+        "name": "ROUND",
+        "progress": 94
+      },
+      {
+        "date": "2026-08-05",
+        "name": "ROUND",
+        "progress": 87
+      },
+      {
+        "date": "2026-08-05",
+        "name": "ROUND",
+        "progress": 75
+      },
+      {
+        "date": "2026-08-05",
+        "name": "ROUND",
+        "progress": 64
+      },
+      {
+        "date": "2026-08-05",
+        "name": "ROUND",
+        "progress": 50
+      },
+      {
+        "date": "2026-08-05",
+        "name": "ROUND",
+        "progress": 40
+      },
+      {
+        "date": "2026-08-05",
+        "name": "ROUND",
+        "progress": 33
+      },
+      {
+        "date": "2026-08-05",
+        "name": "ROUND",
+        "progress": 26
+      },
+      {
+        "date": "2026-08-05",
+        "name": "ROUND",
+        "progress": 17
+      },
+      {
+        "date": "2026-08-05",
+        "name": "ROUND",
+        "progress": 7
+      },
+      {
+        "date": "2026-08-05",
+        "name": "ROUND",
+        "progress": 0
+      },
+      {
+        "date": "2026-08-05",
+        "name": "SUM",
+        "progress": 95
+      },
+      {
+        "date": "2026-08-05",
+        "name": "SUM",
+        "progress": 92
+      },
+      {
+        "date": "2026-08-05",
+        "name": "SUM",
+        "progress": 81
+      },
+      {
+        "date": "2026-08-05",
+        "name": "SUM",
+        "progress": 68
+      },
+      {
+        "date": "2026-08-05",
+        "name": "SUM",
+        "progress": 45
+      },
+      {
+        "date": "2026-08-05",
+        "name": "SUM",
+        "progress": 28
+      },
+      {
+        "date": "2026-08-05",
+        "name": "SUM",
+        "progress": 5
+      },
+      {
+        "date": "2026-08-05",
+        "name": "SUM",
+        "progress": 0
+      },
+      {
+        "date": "2026-08-05",
+        "name": "AVERAGE",
+        "progress": 81
+      },
+      {
+        "date": "2026-08-05",
+        "name": "AVERAGE",
+        "progress": 68
+      },
+      {
+        "date": "2026-08-05",
+        "name": "AVERAGE",
+        "progress": 50
+      },
+      {
+        "date": "2026-08-05",
+        "name": "AVERAGE",
+        "progress": 31
+      },
+      {
+        "date": "2026-08-05",
+        "name": "AVERAGE",
+        "progress": 7
+      },
+      {
+        "date": "2026-08-05",
+        "name": "AVERAGE",
+        "progress": 0
+      }
+    ],
     "functions": [
       {
         "id": "ef56",
@@ -529,7 +655,7 @@
         "syntax": "=ROUND(数值, 小数位数)",
         "desc": "按指定小数位四舍五入，金额处理必备。",
         "usage": "金额保留2位避免分毫误差",
-        "progress": 100
+        "progress": 0
       },
       {
         "id": "ef19",
@@ -547,7 +673,7 @@
         "syntax": "=SUM(数值1, 数值2, ...)",
         "desc": "计算所有参数之和，最基础的求和。",
         "usage": "各类金额合计",
-        "progress": 100
+        "progress": 0
       },
       {
         "id": "ef21",
@@ -556,7 +682,7 @@
         "syntax": "=AVERAGE(数值区域)",
         "desc": "返回参数的算术平均值。",
         "usage": "计算部门平均工资",
-        "progress": 100
+        "progress": 0
       },
       {
         "id": "ef22",
@@ -2045,7 +2171,7 @@
       "urgent": true
     }
   },
-  "_updated": "2026-08-05T02:02:40.358Z",
+  "_updated": "2026-08-05T02:03:29.259Z",
   "checkins": [],
   "profile": {
     "nickname": "小王同学"
