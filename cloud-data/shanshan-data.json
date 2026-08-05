@@ -299,13 +299,6 @@
         "color": "yellow"
       },
       {
-        "id": "msess46dbmbk72",
-        "name": "涉税服务相关法律",
-        "total": 20,
-        "completed": 0,
-        "color": "pink"
-      },
-      {
         "id": "msess46dfpfzi0",
         "name": "财务与会计",
         "total": 28,
@@ -3622,7 +3615,7 @@
       "urgent": true
     }
   },
-  "_updated": "2026-08-05T02:53:27.121Z",
+  "_updated": "2026-08-05T02:53:35.287Z",
   "checkins": [],
   "_mig": {
     "cpaTasksCleared": true,
