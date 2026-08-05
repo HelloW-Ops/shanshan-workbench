@@ -175,6 +175,14 @@
         "total": 49,
         "correct": 36,
         "note": "第二十章非货币性资产交换"
+      },
+      {
+        "id": "msffsi3pl12zsr",
+        "subject": "会计",
+        "date": "2026-05-02",
+        "total": 63,
+        "correct": 45,
+        "note": "第十八章政府补助"
       }
     ],
     "chapter2": [],
@@ -183,7 +191,7 @@
     "mistakes": [
       {
         "subject": "会计",
-        "objectiveWrong": 193,
+        "objectiveWrong": 211,
         "subjectiveWrong": 0,
         "reviewCount": 0,
         "proficiency": "low"
@@ -2003,7 +2011,7 @@
       "urgent": true
     }
   },
-  "_updated": "2026-08-05T01:56:50.122Z",
+  "_updated": "2026-08-05T01:57:12.230Z",
   "checkins": [],
   "profile": {
     "nickname": "小王同学"
