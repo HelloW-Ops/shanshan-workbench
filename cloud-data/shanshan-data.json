@@ -1626,7 +1626,7 @@
       "level": "week",
       "title": "每天固定时段重做旧错（错题本）",
       "mod": "cpa",
-      "priority": "high",
+      "priority": "low",
       "startDate": "2026-08-17",
       "endDate": "2026-08-23",
       "dueDate": "2026-08-23",
@@ -1639,7 +1639,7 @@
       "level": "week",
       "title": "做模拟题 2 套",
       "mod": "cpa",
-      "priority": "high",
+      "priority": "low",
       "startDate": "2026-08-17",
       "endDate": "2026-08-23",
       "dueDate": "2026-08-23",
@@ -1803,7 +1803,7 @@
       "urgent": true
     }
   },
-  "_updated": "2026-08-05T01:26:30.663Z",
+  "_updated": "2026-08-05T01:26:36.554Z",
   "checkins": [
     "2026-08-05"
   ],
