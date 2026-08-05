@@ -1609,7 +1609,7 @@
       "date": "2026-08-05",
       "title": "第19章 所得税 · 学完即做客观题第一轮",
       "mod": "cpa",
-      "priority": "",
+      "priority": "high",
       "schedDate": "2026-08-05",
       "detail": "",
       "done": false,
@@ -1867,7 +1867,7 @@
       "urgent": true
     }
   },
-  "_updated": "2026-08-05T01:38:00.018Z",
+  "_updated": "2026-08-05T01:38:03.184Z",
   "checkins": [
     "2026-08-05"
   ],
