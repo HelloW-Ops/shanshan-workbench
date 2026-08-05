@@ -1357,6 +1357,61 @@
         "date": "2026-08-05",
         "name": "TODAY",
         "progress": 0
+      },
+      {
+        "date": "2026-08-05",
+        "name": "VLOOKUP",
+        "progress": 26
+      },
+      {
+        "date": "2026-08-05",
+        "name": "VLOOKUP",
+        "progress": 24
+      },
+      {
+        "date": "2026-08-05",
+        "name": "VLOOKUP",
+        "progress": 7
+      },
+      {
+        "date": "2026-08-05",
+        "name": "VLOOKUP",
+        "progress": 0
+      },
+      {
+        "date": "2026-08-05",
+        "name": "INDEX+MATCH",
+        "progress": 0
+      },
+      {
+        "date": "2026-08-05",
+        "name": "SUMIF",
+        "progress": 62
+      },
+      {
+        "date": "2026-08-05",
+        "name": "SUMIF",
+        "progress": 46
+      },
+      {
+        "date": "2026-08-05",
+        "name": "SUMIF",
+        "progress": 33
+      },
+      {
+        "date": "2026-08-05",
+        "name": "SUMIF",
+        "progress": 20
+      },
+      {
+        "date": "2026-08-05",
+        "name": "SUMIF",
+        "progress": 5
+      },
+      {
+        "date": "2026-08-05",
+        "name": "SUMIF",
+        "progress": 0
       }
     ],
     "functions": [
@@ -1511,7 +1566,7 @@
         "syntax": "=VLOOKUP(查找值, 表格区域, 列序号, 0)",
         "desc": "在表格首列查找关键字，返回同行指定列内容，0为精确匹配。",
         "usage": "用工号在工资表里查对应姓名或部门",
-        "progress": 40
+        "progress": 0
       },
       {
         "id": "ef14",
@@ -1529,7 +1584,7 @@
         "syntax": "=INDEX(返回列, MATCH(查找值, 查找列, 0))",
         "desc": "INDEX配合MATCH实现双向查找，不受列顺序限制。",
         "usage": "工资表列顺序变动也不出错",
-        "progress": 10
+        "progress": 0
       },
       {
         "id": "ef16",
@@ -1538,7 +1593,7 @@
         "syntax": "=SUMIF(条件区域, 条件, [求和区域])",
         "desc": "对满足单个条件的单元格求和。",
         "usage": "汇总某个部门的工资总额",
-        "progress": 50
+        "progress": 0
       },
       {
         "id": "ef17",
@@ -3233,7 +3288,7 @@
       "urgent": true
     }
   },
-  "_updated": "2026-08-05T02:33:22.291Z",
+  "_updated": "2026-08-05T02:33:31.442Z",
   "checkins": [],
   "_mig": {
     "cpaTasksCleared": true,
