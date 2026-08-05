@@ -3227,13 +3227,6 @@
       "target": ""
     },
     {
-      "id": "msess46d2gkp9a",
-      "type": "task",
-      "content": "整理一份各科目考试时间表",
-      "date": "2026-07-26",
-      "target": ""
-    },
-    {
       "id": "msff9szat6532o",
       "type": "text",
       "content": "CPA报名时间是4月，记得提前准备照片和学历认证",
@@ -3972,7 +3965,7 @@
       "urgent": true
     }
   },
-  "_updated": "2026-08-05T08:56:20.733Z",
+  "_updated": "2026-08-05T08:56:22.482Z",
   "checkins": [],
   "_mig": {
     "cpaTasksCleared": true,
