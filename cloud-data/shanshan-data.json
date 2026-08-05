@@ -1691,7 +1691,7 @@
       "level": "week",
       "title": "逐章做主观题（计算分析 / 综合题）第二轮",
       "mod": "cpa",
-      "priority": "high",
+      "priority": "low",
       "startDate": "2026-08-10",
       "endDate": "2026-08-16",
       "dueDate": "2026-08-16",
@@ -1803,7 +1803,7 @@
       "urgent": true
     }
   },
-  "_updated": "2026-08-05T01:26:27.668Z",
+  "_updated": "2026-08-05T01:26:30.663Z",
   "checkins": [
     "2026-08-05"
   ],
