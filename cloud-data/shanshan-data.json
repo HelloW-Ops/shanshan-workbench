@@ -1599,7 +1599,7 @@
       "level": "week",
       "title": "整理错题本（标注错因 + 正确分录）",
       "mod": "cpa",
-      "priority": "high",
+      "priority": "",
       "startDate": "2026-08-10",
       "endDate": "2026-08-16",
       "dueDate": "2026-08-16",
@@ -1724,7 +1724,7 @@
       "urgent": true
     }
   },
-  "_updated": "2026-08-05T01:45:08.708Z",
+  "_updated": "2026-08-05T01:45:19.554Z",
   "checkins": [],
   "profile": {
     "nickname": "小王同学"
