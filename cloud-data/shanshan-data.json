@@ -1584,9 +1584,9 @@
     {
       "id": "msffb3cta95pxm",
       "level": "week",
-      "title": "做历年真题（2021–2025 近5年，严格计时 3h/套，至少 3 套）",
+      "title": "做历年真题（2021–2025 近5年，严格计时 3h/套，至少 5 套）",
       "mod": "cpa",
-      "priority": "high",
+      "priority": "",
       "startDate": "2026-08-17",
       "endDate": "2026-08-23",
       "dueDate": "2026-08-23",
@@ -1724,7 +1724,7 @@
       "urgent": true
     }
   },
-  "_updated": "2026-08-05T01:45:49.798Z",
+  "_updated": "2026-08-05T01:45:57.793Z",
   "checkins": [],
   "profile": {
     "nickname": "小王同学"
