@@ -103,6 +103,14 @@
         "total": 58,
         "correct": 47,
         "note": "第十一章借款费用"
+      },
+      {
+        "id": "msffncpsdb8331",
+        "subject": "会计",
+        "date": "2026-04-09",
+        "total": 63,
+        "correct": 49,
+        "note": "第十章股份支付"
       }
     ],
     "chapter2": [],
@@ -111,7 +119,7 @@
     "mistakes": [
       {
         "subject": "会计",
-        "objectiveWrong": 65,
+        "objectiveWrong": 79,
         "subjectiveWrong": 0,
         "reviewCount": 0,
         "proficiency": "low"
@@ -1931,7 +1939,7 @@
       "urgent": true
     }
   },
-  "_updated": "2026-08-05T01:52:52.672Z",
+  "_updated": "2026-08-05T01:53:11.969Z",
   "checkins": [],
   "profile": {
     "nickname": "小王同学"
