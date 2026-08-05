@@ -1834,6 +1834,16 @@
         "mod": "cpa",
         "done": true
       }
+    ],
+    "强化提升": [
+      {
+        "text": "太拖拉！！！！！   未完成",
+        "priority": "high",
+        "startDate": "2026-07-01",
+        "endDate": "2026-07-31",
+        "mod": "cpa",
+        "done": false
+      }
     ]
   },
   "reviews": {},
@@ -1847,7 +1857,7 @@
       "urgent": true
     }
   },
-  "_updated": "2026-08-05T01:33:59.511Z",
+  "_updated": "2026-08-05T01:34:19.351Z",
   "checkins": [
     "2026-08-05"
   ],
