@@ -2770,26 +2770,6 @@
     "logs": [],
     "books": [
       {
-        "id": "msess46d9d0erg",
-        "title": "认知觉醒",
-        "author": "周岭",
-        "totalPages": 280,
-        "currentPage": 156,
-        "status": "reading",
-        "startDate": "2026-06-15",
-        "source": ""
-      },
-      {
-        "id": "msess46dtul92l",
-        "title": "小岛经济学",
-        "author": "彼得·希夫",
-        "totalPages": 320,
-        "currentPage": 0,
-        "status": "planned",
-        "startDate": "",
-        "source": ""
-      },
-      {
         "id": "msff9szado230b",
         "title": "毛泽东选集（1-7卷）",
         "author": "毛泽东",
@@ -2801,17 +2781,6 @@
       }
     ],
     "podcasts": [
-      {
-        "id": "msess46d86tu1w",
-        "title": "纵横四海",
-        "host": "携隐",
-        "totalEpisodes": 120,
-        "listenedEpisodes": 45,
-        "status": "reading",
-        "startDate": "2026-05-01",
-        "note": "商业类播客，很有启发",
-        "source": ""
-      },
       {
         "id": "msess46dtt1oyp",
         "title": "知行小酒馆",
@@ -3943,7 +3912,7 @@
       "urgent": true
     }
   },
-  "_updated": "2026-08-05T02:56:31.436Z",
+  "_updated": "2026-08-05T02:57:01.433Z",
   "checkins": [],
   "_mig": {
     "cpaTasksCleared": true,
