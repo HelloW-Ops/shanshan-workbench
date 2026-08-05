@@ -111,6 +111,14 @@
         "total": 63,
         "correct": 49,
         "note": "第十章股份支付"
+      },
+      {
+        "id": "msffnqv8z77ba4",
+        "subject": "会计",
+        "date": "2026-04-10",
+        "total": 64,
+        "correct": 51,
+        "note": "第七章资产减值"
       }
     ],
     "chapter2": [],
@@ -119,7 +127,7 @@
     "mistakes": [
       {
         "subject": "会计",
-        "objectiveWrong": 79,
+        "objectiveWrong": 92,
         "subjectiveWrong": 0,
         "reviewCount": 0,
         "proficiency": "low"
@@ -1939,7 +1947,7 @@
       "urgent": true
     }
   },
-  "_updated": "2026-08-05T01:53:11.969Z",
+  "_updated": "2026-08-05T01:53:30.308Z",
   "checkins": [],
   "profile": {
     "nickname": "小王同学"
