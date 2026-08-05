@@ -1558,9 +1558,9 @@
     {
       "id": "msffb3ct0zk54i",
       "level": "week",
-      "title": "每天固定时段重做旧错（错题本）",
+      "title": "错题本一刷",
       "mod": "cpa",
-      "priority": "high",
+      "priority": "",
       "startDate": "2026-08-17",
       "endDate": "2026-08-23",
       "dueDate": "2026-08-23",
@@ -1724,7 +1724,7 @@
       "urgent": true
     }
   },
-  "_updated": "2026-08-05T01:45:29.768Z",
+  "_updated": "2026-08-05T01:45:41.241Z",
   "checkins": [],
   "profile": {
     "nickname": "小王同学"
