@@ -291,9 +291,10 @@
       {
         "id": "msff9szaamt9kq",
         "name": "财务与会计",
-        "total": 28,
+        "total": 1,
         "completed": 0,
-        "color": "green"
+        "color": "green",
+        "focus": true
       }
     ],
     "chapter1": [],
@@ -2043,7 +2044,7 @@
       "urgent": true
     }
   },
-  "_updated": "2026-08-05T02:01:43.722Z",
+  "_updated": "2026-08-05T02:02:28.999Z",
   "checkins": [],
   "profile": {
     "nickname": "小王同学"
