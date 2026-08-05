@@ -277,14 +277,6 @@
     "examDate": "2026-11-14",
     "courses": [
       {
-        "id": "msess46dzj2bit",
-        "name": "税法一",
-        "total": 20,
-        "completed": 20,
-        "color": "green",
-        "passed": "2024"
-      },
-      {
         "id": "msess46dkv7pog",
         "name": "税法二",
         "total": 22,
@@ -297,14 +289,6 @@
         "total": 25,
         "completed": 0,
         "color": "yellow"
-      },
-      {
-        "id": "msfbmun2xs76d1",
-        "name": "税法一",
-        "total": 20,
-        "completed": 20,
-        "color": "green",
-        "passed": "2024"
       },
       {
         "id": "msff9sza9o3d03",
@@ -3594,7 +3578,7 @@
       "urgent": true
     }
   },
-  "_updated": "2026-08-05T02:53:43.795Z",
+  "_updated": "2026-08-05T02:53:50.113Z",
   "checkins": [],
   "_mig": {
     "cpaTasksCleared": true,
