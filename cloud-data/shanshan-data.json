@@ -1609,7 +1609,7 @@
     {
       "id": "msfen5ujt7imtp",
       "level": "week",
-      "title": "考前 1 天只翻不刷题 · 调状态上考场",
+      "title": "做过的模拟题再看看",
       "mod": "cpa",
       "priority": "low",
       "startDate": "2026-08-24",
@@ -1827,7 +1827,7 @@
       "urgent": true
     }
   },
-  "_updated": "2026-08-05T01:31:23.677Z",
+  "_updated": "2026-08-05T01:31:46.448Z",
   "checkins": [
     "2026-08-05"
   ],
