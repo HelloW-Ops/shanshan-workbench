@@ -3,396 +3,48 @@
     "examDate": "2026-08-28",
     "courses": [
       {
-        "id": "msess46d70pvlf",
+        "id": "msfizq4j5eyjvp",
+        "name": "会计",
+        "total": 30,
+        "completed": 12,
+        "color": "green",
+        "focus": true
+      },
+      {
+        "id": "msfizq4j0tcrhr",
         "name": "审计",
         "total": 25,
         "completed": 0,
         "color": "blue"
       },
       {
-        "id": "msess46dke6fkg",
+        "id": "msfizq4jcrhs62",
         "name": "财务成本管理",
         "total": 28,
         "completed": 0,
         "color": "yellow"
       },
       {
-        "id": "msess46dr56d7s",
-        "name": "经济法",
-        "total": 20,
-        "completed": 0,
-        "color": "green"
-      },
-      {
-        "id": "msess46dzbw4mz",
-        "name": "公司战略与风险管理",
-        "total": 18,
-        "completed": 0,
-        "color": "blue"
-      },
-      {
-        "id": "msff9sza89mk1p",
-        "name": "会计",
-        "total": 130,
-        "completed": 97,
-        "color": "green",
-        "focus": true
-      },
-      {
-        "id": "msff9sza13teze",
+        "id": "msfizq4jot1jta",
         "name": "税法",
         "total": 22,
         "completed": 22,
         "color": "pink",
-        "passed": "2024",
-        "focus": false
+        "passed": "2024"
       },
       {
-        "id": "msfbmun1gccj1f",
-        "name": "财务成本管理",
-        "total": 28,
-        "completed": 0,
-        "color": "yellow"
-      },
-      {
-        "id": "msfbmun1ibffjh",
-        "name": "公司战略与风险管理",
-        "total": 18,
-        "completed": 0,
-        "color": "blue"
-      },
-      {
-        "id": "msff9szas8a2l0",
+        "id": "msfizq4jwdv3wg",
         "name": "经济法",
         "total": 20,
         "completed": 0,
         "color": "green"
       },
       {
-        "id": "msff9szaczi9bf",
-        "name": "审计",
-        "total": 25,
-        "completed": 0,
-        "color": "blue"
-      },
-      {
-        "id": "msff9sza597rgp",
-        "name": "财务成本管理",
-        "total": 28,
-        "completed": 0,
-        "color": "yellow"
-      },
-      {
-        "id": "msff9szaljjv7i",
+        "id": "msfizq4jbwb56a",
         "name": "公司战略与风险管理",
         "total": 18,
         "completed": 0,
         "color": "blue"
-      }
-    ],
-    "chapter1": [
-      {
-        "id": "msffjhbe9vbobr",
-        "subject": "会计",
-        "date": "2026-04-01",
-        "total": 57,
-        "correct": 43,
-        "note": "第一章总论"
-      },
-      {
-        "id": "msffjxj6rn0wr2",
-        "subject": "会计",
-        "date": "2026-04-01",
-        "total": 67,
-        "correct": 61,
-        "note": "第二章存货"
-      },
-      {
-        "id": "msffkegkbulkx9",
-        "subject": "会计",
-        "date": "2026-04-02",
-        "total": 67,
-        "correct": 56,
-        "note": "第三章固定资产"
-      },
-      {
-        "id": "msffl9bizp58xo",
-        "subject": "会计",
-        "date": "2026-04-03",
-        "total": 46,
-        "correct": 40,
-        "note": "第四章无形资产"
-      },
-      {
-        "id": "msffls8kx50ka7",
-        "subject": "会计",
-        "date": "2026-04-04",
-        "total": 68,
-        "correct": 59,
-        "note": "第五章投资性房地产"
-      },
-      {
-        "id": "msffmep9xcgkum",
-        "subject": "会计",
-        "date": "2026-04-05",
-        "total": 53,
-        "correct": 45,
-        "note": "第九章职工薪酬"
-      },
-      {
-        "id": "msffmxtst91ak7",
-        "subject": "会计",
-        "date": "2026-04-06",
-        "total": 58,
-        "correct": 47,
-        "note": "第十一章借款费用"
-      },
-      {
-        "id": "msffncpsdb8331",
-        "subject": "会计",
-        "date": "2026-04-09",
-        "total": 63,
-        "correct": 49,
-        "note": "第十章股份支付"
-      },
-      {
-        "id": "msffnqv8z77ba4",
-        "subject": "会计",
-        "date": "2026-04-10",
-        "total": 64,
-        "correct": 51,
-        "note": "第七章资产减值"
-      },
-      {
-        "id": "msffobvfo3czhp",
-        "subject": "会计",
-        "date": "2026-04-12",
-        "total": 35,
-        "correct": 22,
-        "note": "第八章负债"
-      },
-      {
-        "id": "msffouretqu4qc",
-        "subject": "会计",
-        "date": "2026-04-13",
-        "total": 47,
-        "correct": 43,
-        "note": "第十六章所有者权益"
-      },
-      {
-        "id": "msffpld4e8uzit",
-        "subject": "会计",
-        "date": "2026-04-15",
-        "total": 52,
-        "correct": 42,
-        "note": "第十二章或有事项"
-      },
-      {
-        "id": "msffqdz8qox5dy",
-        "subject": "会计",
-        "date": "2026-04-17",
-        "total": 43,
-        "correct": 28,
-        "note": "第十五章持有待售的非流动资产、处置组和终止经营"
-      },
-      {
-        "id": "msffqx04j0hgqx",
-        "subject": "会计",
-        "date": "2026-04-23",
-        "total": 96,
-        "correct": 65,
-        "note": "第十七章收入、费用和利润"
-      },
-      {
-        "id": "msffrgbap71hd2",
-        "subject": "会计",
-        "date": "2026-05-02",
-        "total": 65,
-        "correct": 50,
-        "note": "第二十二章外币折算"
-      },
-      {
-        "id": "msffs11mz3nrum",
-        "subject": "会计",
-        "date": "2026-05-02",
-        "total": 49,
-        "correct": 36,
-        "note": "第二十章非货币性资产交换"
-      },
-      {
-        "id": "msffsi3pl12zsr",
-        "subject": "会计",
-        "date": "2026-05-02",
-        "total": 63,
-        "correct": 45,
-        "note": "第十八章政府补助"
-      },
-      {
-        "id": "msfftmnv7wtnm7",
-        "subject": "会计",
-        "date": "2026-05-19",
-        "total": 104,
-        "correct": 75,
-        "note": "第十三章金融工具与保险合同"
-      },
-      {
-        "id": "msffuov0c1o5ru",
-        "subject": "会计",
-        "date": "2026-06-03",
-        "total": 87,
-        "correct": 68,
-        "note": "第六章长期股权投资与合营安排"
-      },
-      {
-        "id": "msffvmg7iu8n1t",
-        "subject": "会计",
-        "date": "2026-05-22",
-        "total": 53,
-        "correct": 49,
-        "note": "第二十一章债务重组"
-      },
-      {
-        "id": "msffybl6wwpmcv",
-        "subject": "会计",
-        "date": "2026-05-09",
-        "total": 56,
-        "correct": 43,
-        "note": "第十四章租赁"
-      }
-    ],
-    "chapter2": [],
-    "pastpapers": [],
-    "mocks": [],
-    "mistakes": [
-      {
-        "subject": "会计",
-        "objectiveWrong": 276,
-        "subjectiveWrong": 0,
-        "reviewCount": 0,
-        "proficiency": "low"
-      }
-    ],
-    "tasks": [],
-    "aiRecs": {
-      "2026-08-04": [
-        {
-          "id": "exm_1785856383017_fidv0",
-          "title": "听完「会计」剩余课程",
-          "type": "听课",
-          "content": "当前进度 40%，是今年重点，优先推进",
-          "reason": "重点科目进度偏低"
-        }
-      ],
-      "2026-08-05": [
-        {
-          "id": "exm_1785898407121_56gvs",
-          "title": "复习会计重点知识",
-          "type": "听课",
-          "content": "回顾会计基础理论，强化理解",
-          "reason": "提高会计科目理解，为刷题打下基础"
-        },
-        {
-          "id": "exm_1785898407121_znyhq",
-          "title": "刷题练习",
-          "type": "刷题",
-          "content": "完成至少20道会计选择题和2道计算题",
-          "reason": "通过练习巩固知识点，提升解题速度和准确率"
-        },
-        {
-          "id": "exm_1785898407121_nvy0h",
-          "title": "复盘错题",
-          "type": "复盘",
-          "content": "分析错题原因，总结解题思路",
-          "reason": "针对薄弱环节进行针对性训练，提高正确率"
-        },
-        {
-          "id": "exm_1785898407121_vb5x3",
-          "title": "规划剩余备考时间",
-          "type": "规划",
-          "content": "制定每日学习计划和复习计划",
-          "reason": "合理安排时间，确保高效备考"
-        },
-        {
-          "id": "exm_1785888050081_jgt63",
-          "title": "听完「会计」剩余课程",
-          "type": "听课",
-          "content": "当前进度 40%，是今年重点，优先推进",
-          "reason": "重点科目进度偏低"
-        },
-        {
-          "id": "exm_1785894532104_26ak5",
-          "title": "会计重点章节复习",
-          "type": "听课",
-          "content": "集中复习会计重点章节，如资产、负债等",
-          "reason": "提升会计科目理解，提高整体进度"
-        },
-        {
-          "id": "exm_1785894532104_48qrm",
-          "title": "每日一题练习",
-          "type": "刷题",
-          "content": "选择会计科目每日一题进行练习，巩固知识点",
-          "reason": "通过做题检验学习效果，提升解题能力"
-        },
-        {
-          "id": "exm_1785894532104_kezyh",
-          "title": "制定学习计划",
-          "type": "规划",
-          "content": "根据剩余时间制定详细学习计划，分配各科目时间",
-          "reason": "合理规划时间，确保高效备考"
-        }
-      ]
-    },
-    "courseDates": []
-  },
-  "tax": {
-    "examDate": "2026-11-14",
-    "courses": [
-      {
-        "id": "msess46dkv7pog",
-        "name": "税法二",
-        "total": 22,
-        "completed": 0,
-        "color": "blue"
-      },
-      {
-        "id": "msess46dzd30pw",
-        "name": "涉税服务实务",
-        "total": 25,
-        "completed": 0,
-        "color": "yellow"
-      },
-      {
-        "id": "msff9sza9o3d03",
-        "name": "涉税服务相关法律",
-        "total": 1,
-        "completed": 0,
-        "color": "green",
-        "focus": true
-      },
-      {
-        "id": "msff9szaamt9kq",
-        "name": "财务与会计",
-        "total": 1,
-        "completed": 0,
-        "color": "green",
-        "focus": true
-      },
-      {
-        "id": "msff9szahauhio",
-        "name": "税法一",
-        "total": 20,
-        "completed": 20,
-        "color": "green",
-        "passed": "2024",
-        "focus": false
-      },
-      {
-        "id": "msff9sza0pyt94",
-        "name": "涉税服务实务",
-        "total": 25,
-        "completed": 0,
-        "color": "yellow",
-        "focus": false
       }
     ],
     "chapter1": [],
@@ -402,1469 +54,79 @@
     "mistakes": [],
     "tasks": [],
     "aiRecs": {
-      "2026-08-04": [
-        {
-          "id": "exm_1785856383018_565lp",
-          "title": "梳理今日学习计划",
-          "type": "规划",
-          "content": "按倒计时安排听课/刷题/复盘",
-          "reason": "保持每日节奏"
-        }
-      ],
       "2026-08-05": [
         {
-          "id": "exm_1785898452941_j4qct",
-          "title": "涉税服务相关法律基础学习",
+          "id": "exm_1785900408068_3ip4r",
+          "title": "听完「会计」剩余课程",
           "type": "听课",
-          "content": "观看涉税服务相关法律基础课程，建立知识框架。",
-          "reason": "科目进度为0%，需从基础知识开始。"
-        },
+          "content": "当前进度 40%，是今年重点，优先推进",
+          "reason": "重点科目进度偏低"
+        }
+      ]
+    },
+    "courseDates": []
+  },
+  "tax": {
+    "examDate": "2026-11-14",
+    "courses": [
+      {
+        "id": "msfizq4jb9yhhm",
+        "name": "税法一",
+        "total": 20,
+        "completed": 20,
+        "color": "green",
+        "passed": "2024"
+      },
+      {
+        "id": "msfizq4jlqrn08",
+        "name": "税法二",
+        "total": 22,
+        "completed": 0,
+        "color": "blue"
+      },
+      {
+        "id": "msfizq4jrr7n1r",
+        "name": "涉税服务实务",
+        "total": 25,
+        "completed": 0,
+        "color": "yellow"
+      },
+      {
+        "id": "msfizq4jlocjpl",
+        "name": "涉税服务相关法律",
+        "total": 20,
+        "completed": 0,
+        "color": "pink"
+      },
+      {
+        "id": "msfizq4jbshyjq",
+        "name": "财务与会计",
+        "total": 28,
+        "completed": 0,
+        "color": "green"
+      }
+    ],
+    "chapter1": [],
+    "chapter2": [],
+    "pastpapers": [],
+    "mocks": [],
+    "mistakes": [],
+    "tasks": [],
+    "aiRecs": {
+      "2026-08-05": [
         {
-          "id": "exm_1785898452941_wp7aj",
-          "title": "财务与会计基础学习",
-          "type": "听课",
-          "content": "开始财务与会计基础课程学习，理解会计基本原理。",
-          "reason": "科目进度为0%，基础会计知识是后续学习的基础。"
-        },
-        {
-          "id": "exm_1785898452941_rp7rv",
-          "title": "制定学习计划",
-          "type": "规划",
-          "content": "根据剩余时间，制定详细的学习计划，包括每天学习内容和目标。",
-          "reason": "101天的时间需要合理规划，提高学习效率。"
-        },
-        {
-          "id": "exm_1785898452941_v00o5",
-          "title": "预习明日课程内容",
-          "type": "规划",
-          "content": "预习明天的课程内容，做到心中有数，提高听课效率。",
-          "reason": "预习有助于跟上老师的思路，提高学习效果。"
-        },
-        {
-          "id": "exm_1785888050081_ca5y0",
+          "id": "exm_1785900408069_7xhrw",
           "title": "梳理今日学习计划",
           "type": "规划",
           "content": "按倒计时安排听课/刷题/复盘",
           "reason": "保持每日节奏"
-        },
-        {
-          "id": "exm_1785894567689_510pc",
-          "title": "复习税法基础概念",
-          "type": "听课",
-          "content": "回顾税法基本概念，强化理解",
-          "reason": "基础概念是后续学习的基础"
-        },
-        {
-          "id": "exm_1785894567689_y3eqq",
-          "title": "完成今日学习任务",
-          "type": "规划",
-          "content": "制定并完成每日学习计划",
-          "reason": "保持学习节奏，提高效率"
-        },
-        {
-          "id": "exm_1785894567689_0xcur",
-          "title": "预习下个章节内容",
-          "type": "听课",
-          "content": "预习下一章节，预览重点难点",
-          "reason": "提前了解，有助于后续学习"
         }
       ]
     },
     "courseDates": []
   },
   "excel": {
-    "funcDates": [
-      {
-        "date": "2026-08-05",
-        "name": "ROUND",
-        "progress": 94
-      },
-      {
-        "date": "2026-08-05",
-        "name": "ROUND",
-        "progress": 87
-      },
-      {
-        "date": "2026-08-05",
-        "name": "ROUND",
-        "progress": 75
-      },
-      {
-        "date": "2026-08-05",
-        "name": "ROUND",
-        "progress": 64
-      },
-      {
-        "date": "2026-08-05",
-        "name": "ROUND",
-        "progress": 50
-      },
-      {
-        "date": "2026-08-05",
-        "name": "ROUND",
-        "progress": 40
-      },
-      {
-        "date": "2026-08-05",
-        "name": "ROUND",
-        "progress": 33
-      },
-      {
-        "date": "2026-08-05",
-        "name": "ROUND",
-        "progress": 26
-      },
-      {
-        "date": "2026-08-05",
-        "name": "ROUND",
-        "progress": 17
-      },
-      {
-        "date": "2026-08-05",
-        "name": "ROUND",
-        "progress": 7
-      },
-      {
-        "date": "2026-08-05",
-        "name": "ROUND",
-        "progress": 0
-      },
-      {
-        "date": "2026-08-05",
-        "name": "SUM",
-        "progress": 95
-      },
-      {
-        "date": "2026-08-05",
-        "name": "SUM",
-        "progress": 92
-      },
-      {
-        "date": "2026-08-05",
-        "name": "SUM",
-        "progress": 81
-      },
-      {
-        "date": "2026-08-05",
-        "name": "SUM",
-        "progress": 68
-      },
-      {
-        "date": "2026-08-05",
-        "name": "SUM",
-        "progress": 45
-      },
-      {
-        "date": "2026-08-05",
-        "name": "SUM",
-        "progress": 28
-      },
-      {
-        "date": "2026-08-05",
-        "name": "SUM",
-        "progress": 5
-      },
-      {
-        "date": "2026-08-05",
-        "name": "SUM",
-        "progress": 0
-      },
-      {
-        "date": "2026-08-05",
-        "name": "AVERAGE",
-        "progress": 81
-      },
-      {
-        "date": "2026-08-05",
-        "name": "AVERAGE",
-        "progress": 68
-      },
-      {
-        "date": "2026-08-05",
-        "name": "AVERAGE",
-        "progress": 50
-      },
-      {
-        "date": "2026-08-05",
-        "name": "AVERAGE",
-        "progress": 31
-      },
-      {
-        "date": "2026-08-05",
-        "name": "AVERAGE",
-        "progress": 7
-      },
-      {
-        "date": "2026-08-05",
-        "name": "AVERAGE",
-        "progress": 0
-      },
-      {
-        "date": "2026-08-05",
-        "name": "COUNTA",
-        "progress": 94
-      },
-      {
-        "date": "2026-08-05",
-        "name": "COUNTA",
-        "progress": 92
-      },
-      {
-        "date": "2026-08-05",
-        "name": "COUNTA",
-        "progress": 80
-      },
-      {
-        "date": "2026-08-05",
-        "name": "COUNTA",
-        "progress": 64
-      },
-      {
-        "date": "2026-08-05",
-        "name": "COUNTA",
-        "progress": 47
-      },
-      {
-        "date": "2026-08-05",
-        "name": "COUNTA",
-        "progress": 30
-      },
-      {
-        "date": "2026-08-05",
-        "name": "COUNTA",
-        "progress": 12
-      },
-      {
-        "date": "2026-08-05",
-        "name": "COUNTA",
-        "progress": 0
-      },
-      {
-        "date": "2026-08-05",
-        "name": "COUNT",
-        "progress": 88
-      },
-      {
-        "date": "2026-08-05",
-        "name": "COUNT",
-        "progress": 69
-      },
-      {
-        "date": "2026-08-05",
-        "name": "COUNT",
-        "progress": 45
-      },
-      {
-        "date": "2026-08-05",
-        "name": "COUNT",
-        "progress": 21
-      },
-      {
-        "date": "2026-08-05",
-        "name": "COUNT",
-        "progress": 0
-      },
-      {
-        "date": "2026-08-05",
-        "name": "MAX",
-        "progress": 88
-      },
-      {
-        "date": "2026-08-05",
-        "name": "MAX",
-        "progress": 75
-      },
-      {
-        "date": "2026-08-05",
-        "name": "MAX",
-        "progress": 66
-      },
-      {
-        "date": "2026-08-05",
-        "name": "MAX",
-        "progress": 57
-      },
-      {
-        "date": "2026-08-05",
-        "name": "MAX",
-        "progress": 47
-      },
-      {
-        "date": "2026-08-05",
-        "name": "MAX",
-        "progress": 35
-      },
-      {
-        "date": "2026-08-05",
-        "name": "MAX",
-        "progress": 24
-      },
-      {
-        "date": "2026-08-05",
-        "name": "MAX",
-        "progress": 10
-      },
-      {
-        "date": "2026-08-05",
-        "name": "MAX",
-        "progress": 0
-      },
-      {
-        "date": "2026-08-05",
-        "name": "MIN",
-        "progress": 99
-      },
-      {
-        "date": "2026-08-05",
-        "name": "MIN",
-        "progress": 95
-      },
-      {
-        "date": "2026-08-05",
-        "name": "MIN",
-        "progress": 90
-      },
-      {
-        "date": "2026-08-05",
-        "name": "MIN",
-        "progress": 81
-      },
-      {
-        "date": "2026-08-05",
-        "name": "MIN",
-        "progress": 68
-      },
-      {
-        "date": "2026-08-05",
-        "name": "MIN",
-        "progress": 56
-      },
-      {
-        "date": "2026-08-05",
-        "name": "MIN",
-        "progress": 40
-      },
-      {
-        "date": "2026-08-05",
-        "name": "MIN",
-        "progress": 23
-      },
-      {
-        "date": "2026-08-05",
-        "name": "MIN",
-        "progress": 2
-      },
-      {
-        "date": "2026-08-05",
-        "name": "MIN",
-        "progress": 0
-      },
-      {
-        "date": "2026-08-05",
-        "name": "LEFT",
-        "progress": 94
-      },
-      {
-        "date": "2026-08-05",
-        "name": "LEFT",
-        "progress": 90
-      },
-      {
-        "date": "2026-08-05",
-        "name": "LEFT",
-        "progress": 85
-      },
-      {
-        "date": "2026-08-05",
-        "name": "LEFT",
-        "progress": 81
-      },
-      {
-        "date": "2026-08-05",
-        "name": "LEFT",
-        "progress": 75
-      },
-      {
-        "date": "2026-08-05",
-        "name": "LEFT",
-        "progress": 57
-      },
-      {
-        "date": "2026-08-05",
-        "name": "LEFT",
-        "progress": 40
-      },
-      {
-        "date": "2026-08-05",
-        "name": "LEFT",
-        "progress": 19
-      },
-      {
-        "date": "2026-08-05",
-        "name": "LEFT",
-        "progress": 0
-      },
-      {
-        "date": "2026-08-05",
-        "name": "RIGHT",
-        "progress": 99
-      },
-      {
-        "date": "2026-08-05",
-        "name": "RIGHT",
-        "progress": 95
-      },
-      {
-        "date": "2026-08-05",
-        "name": "RIGHT",
-        "progress": 94
-      },
-      {
-        "date": "2026-08-05",
-        "name": "RIGHT",
-        "progress": 88
-      },
-      {
-        "date": "2026-08-05",
-        "name": "RIGHT",
-        "progress": 85
-      },
-      {
-        "date": "2026-08-05",
-        "name": "RIGHT",
-        "progress": 76
-      },
-      {
-        "date": "2026-08-05",
-        "name": "RIGHT",
-        "progress": 66
-      },
-      {
-        "date": "2026-08-05",
-        "name": "RIGHT",
-        "progress": 43
-      },
-      {
-        "date": "2026-08-05",
-        "name": "RIGHT",
-        "progress": 10
-      },
-      {
-        "date": "2026-08-05",
-        "name": "RIGHT",
-        "progress": 0
-      },
-      {
-        "date": "2026-08-05",
-        "name": "MID",
-        "progress": 83
-      },
-      {
-        "date": "2026-08-05",
-        "name": "MID",
-        "progress": 54
-      },
-      {
-        "date": "2026-08-05",
-        "name": "MID",
-        "progress": 28
-      },
-      {
-        "date": "2026-08-05",
-        "name": "MID",
-        "progress": 0
-      },
-      {
-        "date": "2026-08-05",
-        "name": "TODAY",
-        "progress": 90
-      },
-      {
-        "date": "2026-08-05",
-        "name": "TODAY",
-        "progress": 83
-      },
-      {
-        "date": "2026-08-05",
-        "name": "TODAY",
-        "progress": 57
-      },
-      {
-        "date": "2026-08-05",
-        "name": "TODAY",
-        "progress": 30
-      },
-      {
-        "date": "2026-08-05",
-        "name": "TODAY",
-        "progress": 0
-      },
-      {
-        "date": "2026-08-05",
-        "name": "VLOOKUP",
-        "progress": 31
-      },
-      {
-        "date": "2026-08-05",
-        "name": "VLOOKUP",
-        "progress": 23
-      },
-      {
-        "date": "2026-08-05",
-        "name": "VLOOKUP",
-        "progress": 10
-      },
-      {
-        "date": "2026-08-05",
-        "name": "VLOOKUP",
-        "progress": 0
-      },
-      {
-        "date": "2026-08-05",
-        "name": "INDEX+MATCH",
-        "progress": 2
-      },
-      {
-        "date": "2026-08-05",
-        "name": "INDEX+MATCH",
-        "progress": 0
-      },
-      {
-        "date": "2026-08-05",
-        "name": "SUMIF",
-        "progress": 42
-      },
-      {
-        "date": "2026-08-05",
-        "name": "SUMIF",
-        "progress": 28
-      },
-      {
-        "date": "2026-08-05",
-        "name": "SUMIF",
-        "progress": 17
-      },
-      {
-        "date": "2026-08-05",
-        "name": "SUMIF",
-        "progress": 5
-      },
-      {
-        "date": "2026-08-05",
-        "name": "SUMIF",
-        "progress": 0
-      },
-      {
-        "date": "2026-08-05",
-        "name": "SUMIFS",
-        "progress": 26
-      },
-      {
-        "date": "2026-08-05",
-        "name": "SUMIFS",
-        "progress": 28
-      },
-      {
-        "date": "2026-08-05",
-        "name": "SUMIFS",
-        "progress": 12
-      },
-      {
-        "date": "2026-08-05",
-        "name": "SUMIFS",
-        "progress": 0
-      },
-      {
-        "date": "2026-08-05",
-        "name": "COUNTIF",
-        "progress": 50
-      },
-      {
-        "date": "2026-08-05",
-        "name": "COUNTIF",
-        "progress": 47
-      },
-      {
-        "date": "2026-08-05",
-        "name": "COUNTIF",
-        "progress": 26
-      },
-      {
-        "date": "2026-08-05",
-        "name": "COUNTIF",
-        "progress": 10
-      },
-      {
-        "date": "2026-08-05",
-        "name": "COUNTIF",
-        "progress": 0
-      },
-      {
-        "date": "2026-08-05",
-        "name": "COUNTIFS",
-        "progress": 19
-      },
-      {
-        "date": "2026-08-05",
-        "name": "COUNTIFS",
-        "progress": 12
-      },
-      {
-        "date": "2026-08-05",
-        "name": "COUNTIFS",
-        "progress": 0
-      },
-      {
-        "date": "2026-08-05",
-        "name": "RANK",
-        "progress": 4
-      },
-      {
-        "date": "2026-08-05",
-        "name": "RANK",
-        "progress": 0
-      },
-      {
-        "date": "2026-08-05",
-        "name": "IF",
-        "progress": 57
-      },
-      {
-        "date": "2026-08-05",
-        "name": "IF",
-        "progress": 47
-      },
-      {
-        "date": "2026-08-05",
-        "name": "IF",
-        "progress": 38
-      },
-      {
-        "date": "2026-08-05",
-        "name": "IF",
-        "progress": 28
-      },
-      {
-        "date": "2026-08-05",
-        "name": "IF",
-        "progress": 14
-      },
-      {
-        "date": "2026-08-05",
-        "name": "IF",
-        "progress": 4
-      },
-      {
-        "date": "2026-08-05",
-        "name": "IF",
-        "progress": 0
-      },
-      {
-        "date": "2026-08-05",
-        "name": "AND",
-        "progress": 31
-      },
-      {
-        "date": "2026-08-05",
-        "name": "AND",
-        "progress": 28
-      },
-      {
-        "date": "2026-08-05",
-        "name": "AND",
-        "progress": 12
-      },
-      {
-        "date": "2026-08-05",
-        "name": "AND",
-        "progress": 0
-      },
-      {
-        "date": "2026-08-05",
-        "name": "OR",
-        "progress": 26
-      },
-      {
-        "date": "2026-08-05",
-        "name": "OR",
-        "progress": 16
-      },
-      {
-        "date": "2026-08-05",
-        "name": "OR",
-        "progress": 4
-      },
-      {
-        "date": "2026-08-05",
-        "name": "OR",
-        "progress": 0
-      },
-      {
-        "date": "2026-08-05",
-        "name": "IFERROR",
-        "progress": 4
-      },
-      {
-        "date": "2026-08-05",
-        "name": "IFERROR",
-        "progress": 0
-      },
-      {
-        "date": "2026-08-05",
-        "name": "ROUND",
-        "progress": 93
-      },
-      {
-        "date": "2026-08-05",
-        "name": "ROUND",
-        "progress": 86
-      },
-      {
-        "date": "2026-08-05",
-        "name": "ROUND",
-        "progress": 78
-      },
-      {
-        "date": "2026-08-05",
-        "name": "ROUND",
-        "progress": 67
-      },
-      {
-        "date": "2026-08-05",
-        "name": "ROUND",
-        "progress": 48
-      },
-      {
-        "date": "2026-08-05",
-        "name": "ROUND",
-        "progress": 1
-      },
-      {
-        "date": "2026-08-05",
-        "name": "SUM",
-        "progress": 97
-      },
-      {
-        "date": "2026-08-05",
-        "name": "SUM",
-        "progress": 91
-      },
-      {
-        "date": "2026-08-05",
-        "name": "SUM",
-        "progress": 79
-      },
-      {
-        "date": "2026-08-05",
-        "name": "SUM",
-        "progress": 69
-      },
-      {
-        "date": "2026-08-05",
-        "name": "SUM",
-        "progress": 52
-      },
-      {
-        "date": "2026-08-05",
-        "name": "SUM",
-        "progress": 29
-      },
-      {
-        "date": "2026-08-05",
-        "name": "SUM",
-        "progress": 1
-      },
-      {
-        "date": "2026-08-05",
-        "name": "AVERAGE",
-        "progress": 95
-      },
-      {
-        "date": "2026-08-05",
-        "name": "AVERAGE",
-        "progress": 90
-      },
-      {
-        "date": "2026-08-05",
-        "name": "AVERAGE",
-        "progress": 67
-      },
-      {
-        "date": "2026-08-05",
-        "name": "AVERAGE",
-        "progress": 52
-      },
-      {
-        "date": "2026-08-05",
-        "name": "AVERAGE",
-        "progress": 38
-      },
-      {
-        "date": "2026-08-05",
-        "name": "AVERAGE",
-        "progress": 27
-      },
-      {
-        "date": "2026-08-05",
-        "name": "AVERAGE",
-        "progress": 10
-      },
-      {
-        "date": "2026-08-05",
-        "name": "COUNT",
-        "progress": 97
-      },
-      {
-        "date": "2026-08-05",
-        "name": "COUNT",
-        "progress": 93
-      },
-      {
-        "date": "2026-08-05",
-        "name": "COUNT",
-        "progress": 83
-      },
-      {
-        "date": "2026-08-05",
-        "name": "COUNT",
-        "progress": 67
-      },
-      {
-        "date": "2026-08-05",
-        "name": "COUNT",
-        "progress": 40
-      },
-      {
-        "date": "2026-08-05",
-        "name": "COUNTA",
-        "progress": 88
-      },
-      {
-        "date": "2026-08-05",
-        "name": "COUNTA",
-        "progress": 76
-      },
-      {
-        "date": "2026-08-05",
-        "name": "COUNTA",
-        "progress": 55
-      },
-      {
-        "date": "2026-08-05",
-        "name": "COUNTA",
-        "progress": 27
-      },
-      {
-        "date": "2026-08-05",
-        "name": "MAX",
-        "progress": 93
-      },
-      {
-        "date": "2026-08-05",
-        "name": "MAX",
-        "progress": 67
-      },
-      {
-        "date": "2026-08-05",
-        "name": "MAX",
-        "progress": 22
-      },
-      {
-        "date": "2026-08-05",
-        "name": "MIN",
-        "progress": 71
-      },
-      {
-        "date": "2026-08-05",
-        "name": "MIN",
-        "progress": 43
-      },
-      {
-        "date": "2026-08-05",
-        "name": "LEFT",
-        "progress": 91
-      },
-      {
-        "date": "2026-08-05",
-        "name": "LEFT",
-        "progress": 78
-      },
-      {
-        "date": "2026-08-05",
-        "name": "LEFT",
-        "progress": 74
-      },
-      {
-        "date": "2026-08-05",
-        "name": "LEFT",
-        "progress": 65
-      },
-      {
-        "date": "2026-08-05",
-        "name": "LEFT",
-        "progress": 53
-      },
-      {
-        "date": "2026-08-05",
-        "name": "LEFT",
-        "progress": 36
-      },
-      {
-        "date": "2026-08-05",
-        "name": "LEFT",
-        "progress": 15
-      },
-      {
-        "date": "2026-08-05",
-        "name": "RIGHT",
-        "progress": 98
-      },
-      {
-        "date": "2026-08-05",
-        "name": "RIGHT",
-        "progress": 86
-      },
-      {
-        "date": "2026-08-05",
-        "name": "RIGHT",
-        "progress": 67
-      },
-      {
-        "date": "2026-08-05",
-        "name": "RIGHT",
-        "progress": 52
-      },
-      {
-        "date": "2026-08-05",
-        "name": "RIGHT",
-        "progress": 38
-      },
-      {
-        "date": "2026-08-05",
-        "name": "RIGHT",
-        "progress": 17
-      },
-      {
-        "date": "2026-08-05",
-        "name": "MID",
-        "progress": 74
-      },
-      {
-        "date": "2026-08-05",
-        "name": "MID",
-        "progress": 53
-      },
-      {
-        "date": "2026-08-05",
-        "name": "MID",
-        "progress": 12
-      },
-      {
-        "date": "2026-08-05",
-        "name": "TODAY",
-        "progress": 93
-      },
-      {
-        "date": "2026-08-05",
-        "name": "TODAY",
-        "progress": 88
-      },
-      {
-        "date": "2026-08-05",
-        "name": "TODAY",
-        "progress": 85
-      },
-      {
-        "date": "2026-08-05",
-        "name": "TODAY",
-        "progress": 81
-      },
-      {
-        "date": "2026-08-05",
-        "name": "TODAY",
-        "progress": 74
-      },
-      {
-        "date": "2026-08-05",
-        "name": "TODAY",
-        "progress": 64
-      },
-      {
-        "date": "2026-08-05",
-        "name": "TODAY",
-        "progress": 41
-      },
-      {
-        "date": "2026-08-05",
-        "name": "TODAY",
-        "progress": 10
-      },
-      {
-        "date": "2026-08-05",
-        "name": "VLOOKUP",
-        "progress": 26
-      },
-      {
-        "date": "2026-08-05",
-        "name": "VLOOKUP",
-        "progress": 24
-      },
-      {
-        "date": "2026-08-05",
-        "name": "VLOOKUP",
-        "progress": 7
-      },
-      {
-        "date": "2026-08-05",
-        "name": "SUMIF",
-        "progress": 62
-      },
-      {
-        "date": "2026-08-05",
-        "name": "SUMIF",
-        "progress": 46
-      },
-      {
-        "date": "2026-08-05",
-        "name": "SUMIF",
-        "progress": 33
-      },
-      {
-        "date": "2026-08-05",
-        "name": "SUMIF",
-        "progress": 20
-      },
-      {
-        "date": "2026-08-05",
-        "name": "SUMIFS",
-        "progress": 20
-      },
-      {
-        "date": "2026-08-05",
-        "name": "SUMIFS",
-        "progress": 8
-      },
-      {
-        "date": "2026-08-05",
-        "name": "COUNTIF",
-        "progress": 64
-      },
-      {
-        "date": "2026-08-05",
-        "name": "COUNTIF",
-        "progress": 62
-      },
-      {
-        "date": "2026-08-05",
-        "name": "COUNTIF",
-        "progress": 48
-      },
-      {
-        "date": "2026-08-05",
-        "name": "COUNTIF",
-        "progress": 29
-      },
-      {
-        "date": "2026-08-05",
-        "name": "COUNTIF",
-        "progress": 5
-      },
-      {
-        "date": "2026-08-05",
-        "name": "COUNTIFS",
-        "progress": 31
-      },
-      {
-        "date": "2026-08-05",
-        "name": "COUNTIFS",
-        "progress": 29
-      },
-      {
-        "date": "2026-08-05",
-        "name": "COUNTIFS",
-        "progress": 26
-      },
-      {
-        "date": "2026-08-05",
-        "name": "COUNTIFS",
-        "progress": 15
-      },
-      {
-        "date": "2026-08-05",
-        "name": "COUNTIFS",
-        "progress": 5
-      },
-      {
-        "date": "2026-08-05",
-        "name": "IF",
-        "progress": 53
-      },
-      {
-        "date": "2026-08-05",
-        "name": "IF",
-        "progress": 50
-      },
-      {
-        "date": "2026-08-05",
-        "name": "IF",
-        "progress": 36
-      },
-      {
-        "date": "2026-08-05",
-        "name": "IF",
-        "progress": 10
-      },
-      {
-        "date": "2026-08-05",
-        "name": "AND",
-        "progress": 34
-      },
-      {
-        "date": "2026-08-05",
-        "name": "AND",
-        "progress": 24
-      },
-      {
-        "date": "2026-08-05",
-        "name": "AND",
-        "progress": 14
-      },
-      {
-        "date": "2026-08-05",
-        "name": "AND",
-        "progress": 1
-      },
-      {
-        "date": "2026-08-05",
-        "name": "OR",
-        "progress": 27
-      },
-      {
-        "date": "2026-08-05",
-        "name": "OR",
-        "progress": 19
-      },
-      {
-        "date": "2026-08-05",
-        "name": "OR",
-        "progress": 1
-      },
-      {
-        "date": "2026-08-05",
-        "name": "IFERROR",
-        "progress": 5
-      },
-      {
-        "date": "2026-08-05",
-        "name": "IFERROR",
-        "progress": 3
-      },
-      {
-        "date": "2026-08-05",
-        "name": "ROUND",
-        "progress": 82
-      },
-      {
-        "date": "2026-08-05",
-        "name": "ROUND",
-        "progress": 76
-      },
-      {
-        "date": "2026-08-05",
-        "name": "ROUND",
-        "progress": 65
-      },
-      {
-        "date": "2026-08-05",
-        "name": "ROUND",
-        "progress": 53
-      },
-      {
-        "date": "2026-08-05",
-        "name": "ROUND",
-        "progress": 38
-      },
-      {
-        "date": "2026-08-05",
-        "name": "ROUND",
-        "progress": 23
-      },
-      {
-        "date": "2026-08-05",
-        "name": "ROUND",
-        "progress": 9
-      },
-      {
-        "date": "2026-08-05",
-        "name": "SUM",
-        "progress": 94
-      },
-      {
-        "date": "2026-08-05",
-        "name": "SUM",
-        "progress": 88
-      },
-      {
-        "date": "2026-08-05",
-        "name": "SUM",
-        "progress": 70
-      },
-      {
-        "date": "2026-08-05",
-        "name": "SUM",
-        "progress": 53
-      },
-      {
-        "date": "2026-08-05",
-        "name": "SUM",
-        "progress": 32
-      },
-      {
-        "date": "2026-08-05",
-        "name": "SUM",
-        "progress": 9
-      },
-      {
-        "date": "2026-08-05",
-        "name": "AVERAGE",
-        "progress": 88
-      },
-      {
-        "date": "2026-08-05",
-        "name": "AVERAGE",
-        "progress": 79
-      },
-      {
-        "date": "2026-08-05",
-        "name": "AVERAGE",
-        "progress": 59
-      },
-      {
-        "date": "2026-08-05",
-        "name": "AVERAGE",
-        "progress": 32
-      },
-      {
-        "date": "2026-08-05",
-        "name": "AVERAGE",
-        "progress": 3
-      },
-      {
-        "date": "2026-08-05",
-        "name": "COUNT",
-        "progress": 76
-      },
-      {
-        "date": "2026-08-05",
-        "name": "COUNT",
-        "progress": 70
-      },
-      {
-        "date": "2026-08-05",
-        "name": "COUNT",
-        "progress": 56
-      },
-      {
-        "date": "2026-08-05",
-        "name": "COUNT",
-        "progress": 35
-      },
-      {
-        "date": "2026-08-05",
-        "name": "COUNT",
-        "progress": 15
-      },
-      {
-        "date": "2026-08-05",
-        "name": "COUNTA",
-        "progress": 68
-      },
-      {
-        "date": "2026-08-05",
-        "name": "COUNTA",
-        "progress": 56
-      },
-      {
-        "date": "2026-08-05",
-        "name": "COUNTA",
-        "progress": 44
-      },
-      {
-        "date": "2026-08-05",
-        "name": "COUNTA",
-        "progress": 20
-      },
-      {
-        "date": "2026-08-05",
-        "name": "MAX",
-        "progress": 91
-      },
-      {
-        "date": "2026-08-05",
-        "name": "MAX",
-        "progress": 76
-      },
-      {
-        "date": "2026-08-05",
-        "name": "MAX",
-        "progress": 53
-      },
-      {
-        "date": "2026-08-05",
-        "name": "MAX",
-        "progress": 26
-      },
-      {
-        "date": "2026-08-05",
-        "name": "MIN",
-        "progress": 59
-      },
-      {
-        "date": "2026-08-05",
-        "name": "MIN",
-        "progress": 44
-      },
-      {
-        "date": "2026-08-05",
-        "name": "MIN",
-        "progress": 18
-      },
-      {
-        "date": "2026-08-05",
-        "name": "LEFT",
-        "progress": 73
-      },
-      {
-        "date": "2026-08-05",
-        "name": "LEFT",
-        "progress": 68
-      },
-      {
-        "date": "2026-08-05",
-        "name": "LEFT",
-        "progress": 59
-      },
-      {
-        "date": "2026-08-05",
-        "name": "LEFT",
-        "progress": 44
-      },
-      {
-        "date": "2026-08-05",
-        "name": "LEFT",
-        "progress": 26
-      },
-      {
-        "date": "2026-08-05",
-        "name": "LEFT",
-        "progress": 3
-      },
-      {
-        "date": "2026-08-05",
-        "name": "RIGHT",
-        "progress": 29
-      },
-      {
-        "date": "2026-08-05",
-        "name": "RIGHT",
-        "progress": 9
-      },
-      {
-        "date": "2026-08-05",
-        "name": "MID",
-        "progress": 70
-      },
-      {
-        "date": "2026-08-05",
-        "name": "MID",
-        "progress": 59
-      },
-      {
-        "date": "2026-08-05",
-        "name": "MID",
-        "progress": 50
-      },
-      {
-        "date": "2026-08-05",
-        "name": "MID",
-        "progress": 26
-      },
-      {
-        "date": "2026-08-05",
-        "name": "TODAY",
-        "progress": 82
-      },
-      {
-        "date": "2026-08-05",
-        "name": "TODAY",
-        "progress": 70
-      },
-      {
-        "date": "2026-08-05",
-        "name": "TODAY",
-        "progress": 44
-      },
-      {
-        "date": "2026-08-05",
-        "name": "TODAY",
-        "progress": 15
-      },
-      {
-        "date": "2026-08-05",
-        "name": "VLOOKUP",
-        "progress": 12
-      },
-      {
-        "date": "2026-08-05",
-        "name": "SUMIF",
-        "progress": 29
-      },
-      {
-        "date": "2026-08-05",
-        "name": "SUMIFS",
-        "progress": 3
-      },
-      {
-        "date": "2026-08-05",
-        "name": "COUNTIF",
-        "progress": 38
-      },
-      {
-        "date": "2026-08-05",
-        "name": "COUNTIF",
-        "progress": 18
-      },
-      {
-        "date": "2026-08-05",
-        "name": "IF",
-        "progress": 68
-      },
-      {
-        "date": "2026-08-05",
-        "name": "IF",
-        "progress": 32
-      },
-      {
-        "date": "2026-08-05",
-        "name": "IF",
-        "progress": 26
-      },
-      {
-        "date": "2026-08-05",
-        "name": "IF",
-        "progress": 12
-      },
-      {
-        "date": "2026-08-05",
-        "name": "AND",
-        "progress": 6
-      },
-      {
-        "date": "2026-08-05",
-        "name": "OR",
-        "progress": 15
-      }
-    ],
+    "funcDates": [],
     "functions": [
       {
         "id": "ef56",
@@ -2017,7 +279,7 @@
         "syntax": "=VLOOKUP(查找值, 表格区域, 列序号, 0)",
         "desc": "在表格首列查找关键字，返回同行指定列内容，0为精确匹配。",
         "usage": "用工号在工资表里查对应姓名或部门",
-        "progress": 0
+        "progress": 40
       },
       {
         "id": "ef14",
@@ -2035,7 +297,7 @@
         "syntax": "=INDEX(返回列, MATCH(查找值, 查找列, 0))",
         "desc": "INDEX配合MATCH实现双向查找，不受列顺序限制。",
         "usage": "工资表列顺序变动也不出错",
-        "progress": 0
+        "progress": 10
       },
       {
         "id": "ef16",
@@ -2044,7 +306,7 @@
         "syntax": "=SUMIF(条件区域, 条件, [求和区域])",
         "desc": "对满足单个条件的单元格求和。",
         "usage": "汇总某个部门的工资总额",
-        "progress": 0
+        "progress": 50
       },
       {
         "id": "ef17",
@@ -2053,7 +315,7 @@
         "syntax": "=SUMIFS(求和区域, 条件区1, 条件1, 条件区2, 条件2)",
         "desc": "多条件同时满足才求和，财务统计主力。",
         "usage": "按“部门+月份”汇总报销金额",
-        "progress": 0
+        "progress": 30
       },
       {
         "id": "ef18",
@@ -2062,7 +324,7 @@
         "syntax": "=ROUND(数值, 小数位数)",
         "desc": "按指定小数位四舍五入，金额处理必备。",
         "usage": "金额保留2位避免分毫误差",
-        "progress": 0
+        "progress": 100
       },
       {
         "id": "ef19",
@@ -2080,7 +342,7 @@
         "syntax": "=SUM(数值1, 数值2, ...)",
         "desc": "计算所有参数之和，最基础的求和。",
         "usage": "各类金额合计",
-        "progress": 0
+        "progress": 100
       },
       {
         "id": "ef21",
@@ -2089,7 +351,7 @@
         "syntax": "=AVERAGE(数值区域)",
         "desc": "返回参数的算术平均值。",
         "usage": "计算部门平均工资",
-        "progress": 0
+        "progress": 100
       },
       {
         "id": "ef22",
@@ -2098,7 +360,7 @@
         "syntax": "=COUNT(值区域)",
         "desc": "统计区域中数字单元格的个数。",
         "usage": "统计有效单据数量",
-        "progress": 0
+        "progress": 100
       },
       {
         "id": "ef23",
@@ -2107,7 +369,7 @@
         "syntax": "=COUNTA(值区域)",
         "desc": "统计区域中非空单元格的个数。",
         "usage": "统计已填写字段数",
-        "progress": 0
+        "progress": 100
       },
       {
         "id": "ef24",
@@ -2116,7 +378,7 @@
         "syntax": "=COUNTIF(区域, 条件)",
         "desc": "统计满足单个条件的单元格个数。",
         "usage": "统计某部门人数或迟到次数",
-        "progress": 0
+        "progress": 60
       },
       {
         "id": "ef25",
@@ -2125,7 +387,7 @@
         "syntax": "=COUNTIFS(区1,条件1, 区2,条件2)",
         "desc": "多条件同时满足才计数。",
         "usage": "统计“销售部且绩效A”的人数",
-        "progress": 0
+        "progress": 20
       },
       {
         "id": "ef26",
@@ -2152,7 +414,7 @@
         "syntax": "=RANK(数值, 区域, 0)",
         "desc": "返回数值在区域中的排名，0为降序。",
         "usage": "销售业绩名次排序",
-        "progress": 0
+        "progress": 10
       },
       {
         "id": "ef29",
@@ -2161,7 +423,7 @@
         "syntax": "=MAX(数值区域)",
         "desc": "返回参数中的最大值。",
         "usage": "最高工资或最大单笔支出",
-        "progress": 0
+        "progress": 100
       },
       {
         "id": "ef30",
@@ -2170,7 +432,7 @@
         "syntax": "=MIN(数值区域)",
         "desc": "返回参数中的最小值。",
         "usage": "最低支出或最低工资",
-        "progress": 0
+        "progress": 100
       },
       {
         "id": "ef31",
@@ -2179,7 +441,7 @@
         "syntax": "=LEFT(文本, 位数)",
         "desc": "从文本左侧截取指定数量的字符。",
         "usage": "从身份证取前6位地区码",
-        "progress": 0
+        "progress": 100
       },
       {
         "id": "ef32",
@@ -2188,7 +450,7 @@
         "syntax": "=RIGHT(文本, 位数)",
         "desc": "从文本右侧截取指定数量的字符。",
         "usage": "从订单号取后4位序号",
-        "progress": 0
+        "progress": 100
       },
       {
         "id": "ef33",
@@ -2197,7 +459,7 @@
         "syntax": "=MID(文本, 起始位, 位数)",
         "desc": "从指定位置开始截取指定长度文本。",
         "usage": "从身份证第7位取8位出生日期",
-        "progress": 0
+        "progress": 100
       },
       {
         "id": "ef34",
@@ -2251,7 +513,7 @@
         "syntax": "=TODAY()",
         "desc": "返回当前日期，随系统自动更新。",
         "usage": "考勤表自动填当天日期",
-        "progress": 0
+        "progress": 100
       },
       {
         "id": "ef40",
@@ -2341,7 +603,7 @@
         "syntax": "=IF(条件, 真时结果, 假时结果)",
         "desc": "根据条件判断返回不同结果，最常用逻辑函数。",
         "usage": "工资是否超起征点，超了才计税",
-        "progress": 0
+        "progress": 60
       },
       {
         "id": "ef50",
@@ -2359,7 +621,7 @@
         "syntax": "=AND(条件1, 条件2)",
         "desc": "所有条件都为真时返回真，常与IF配合。",
         "usage": "判断工资既在范围又属某部门",
-        "progress": 0
+        "progress": 30
       },
       {
         "id": "ef52",
@@ -2368,7 +630,7 @@
         "syntax": "=OR(条件1, 条件2)",
         "desc": "任一条件为真即返回真。",
         "usage": "迟到或请假都算缺勤",
-        "progress": 0
+        "progress": 20
       },
       {
         "id": "ef53",
@@ -2395,7 +657,7 @@
         "syntax": "=IFERROR(公式, 出错返回值)",
         "desc": "公式出错时返回指定值，避免表格出现错误值。",
         "usage": "VLOOKUP查不到时显示“无记录”",
-        "progress": 0
+        "progress": 10
       }
     ],
     "templates": [
@@ -2550,128 +812,30 @@
     ],
     "tasks": [],
     "aiRecs": {
-      "2026-08-04": [
-        {
-          "id": "ex_1785856383017_yi59z",
-          "name": "数据透视表",
-          "why": "当前掌握度 0%，建议巩固练习",
-          "usage": "按 部门+月份 拖拽即出销售/费用汇总表，比公式快得多"
-        },
-        {
-          "id": "ex_1785856383017_yiug8",
-          "name": "分列",
-          "why": "当前掌握度 0%，建议巩固练习",
-          "usage": "把 姓名-工号 一列拆成姓名、工号两列，方便后续匹配"
-        },
-        {
-          "id": "ex_1785856383017_i4hsr",
-          "name": "条件格式",
-          "why": "当前掌握度 0%，建议巩固练习",
-          "usage": "给逾期天数>30 的单元格标红，给 Top10 销售额高亮"
-        },
-        {
-          "id": "ex_1785856383017_uu5e8",
-          "name": "快速填充",
-          "why": "当前掌握度 0%，建议巩固练习",
-          "usage": "从 2026/8/1 批量提取 8月，或从全称中拆出姓名"
-        }
-      ],
       "2026-08-05": [
         {
-          "id": "ex_1785860442407_c1z1q",
+          "id": "ex_1785900408068_u8qyd",
           "name": "数据透视表",
           "why": "当前掌握度 0%，建议巩固练习",
           "usage": "按 部门+月份 拖拽即出销售/费用汇总表，比公式快得多"
         },
         {
-          "id": "ex_1785860442407_fjjw4",
+          "id": "ex_1785900408068_9kk3g",
           "name": "分列",
           "why": "当前掌握度 0%，建议巩固练习",
           "usage": "把 姓名-工号 一列拆成姓名、工号两列，方便后续匹配"
         },
         {
-          "id": "ex_1785860442407_2ojae",
+          "id": "ex_1785900408068_ui3xe",
           "name": "条件格式",
           "why": "当前掌握度 0%，建议巩固练习",
           "usage": "给逾期天数>30 的单元格标红，给 Top10 销售额高亮"
         },
         {
-          "id": "ex_1785860442407_mbykw",
+          "id": "ex_1785900408068_lfdra",
           "name": "快速填充",
           "why": "当前掌握度 0%，建议巩固练习",
           "usage": "从 2026/8/1 批量提取 8月，或从全称中拆出姓名"
-        },
-        {
-          "id": "ex_1785897688164_vvzpb",
-          "name": "数据透视表",
-          "why": "理解财务数据结构，适合文员场景",
-          "usage": "将销售数据按产品、地区、时间分析"
-        },
-        {
-          "id": "ex_1785897688164_myrrg",
-          "name": "分列",
-          "why": "处理不规则数据，提高数据录入效率",
-          "usage": "将姓名和电话号码分开"
-        },
-        {
-          "id": "ex_1785897688164_nw2zg",
-          "name": "条件格式",
-          "why": "快速识别异常数据，便于财务分析",
-          "usage": "突出显示销售低于平均值的记录"
-        },
-        {
-          "id": "ex_1785899014723_trxdg",
-          "name": "数据透视表",
-          "why": "提升数据分析能力，适合财务报表制作",
-          "usage": "创建数据透视表分析销售数据"
-        },
-        {
-          "id": "ex_1785899014723_7iv51",
-          "name": "分列",
-          "why": "数据整理，适用于文员日常数据录入",
-          "usage": "将合并单元格的数据分列显示"
-        },
-        {
-          "id": "ex_1785899014723_dbto2",
-          "name": "条件格式",
-          "why": "数据可视化，便于快速识别异常值",
-          "usage": "突出显示销售数据中的最高值"
-        },
-        {
-          "id": "ex_1785899569389_p8m7z",
-          "name": "数据透视表",
-          "why": "提升数据分析能力，适合财务报表制作",
-          "usage": "将数据源创建数据透视表，分析销售数据"
-        },
-        {
-          "id": "ex_1785899569389_qb5fd",
-          "name": "分列",
-          "why": "快速处理不规则数据，提高数据录入效率",
-          "usage": "将姓名和电话号码分列"
-        },
-        {
-          "id": "ex_1785899569389_caui9",
-          "name": "条件格式",
-          "why": "突出显示关键数据，便于快速识别异常值",
-          "usage": "设置条件格式，突出显示销售超过10万的记录"
-        },
-        {
-          "id": "ex_1785900143540_49war",
-          "name": "数据透视表",
-          "why": "财务分析，数据汇总",
-          "usage": "创建数据透视表分析销售数据"
-        },
-        {
-          "id": "ex_1785900143541_qsfi9",
-          "name": "分列",
-          "why": "数据整理，格式调整",
-          "usage": "将合并单元格数据分列显示"
-        },
-        {
-          "id": "ex_1785900143541_opr43",
-          "name": "条件格式",
-          "why": "数据可视化，快速识别异常",
-          "usage": "突出显示超过平均值的销售数据"
         }
       ]
     }
@@ -2679,14 +843,14 @@
   "shiyebian": {
     "items": [
       {
-        "id": "msff9szag6a4us",
+        "id": "msfizq4jzuwpzs",
         "title": "省属事业单位招聘信息",
         "content": "关注省人事考试网，预计明年3月发布公告",
         "source": "省人事考试网",
         "date": "2026-07-20"
       },
       {
-        "id": "msff9sza4j7m9n",
+        "id": "msfizq4jdxrjeb",
         "title": "公共基础知识备考范围",
         "content": "政治、经济、法律、管理、公文写作等",
         "source": "备考论坛",
@@ -2695,42 +859,21 @@
     ],
     "lyg": [
       {
-        "id": "msess46d1dv4xw",
+        "id": "msfizq4j81kexw",
         "title": "连云港市事业单位招聘公告发布渠道",
         "content": "连云港市人力资源和社会保障局官网(http://rsj.lyg.gov.cn)是发布事业单位招聘公告的官方渠道，建议每周关注。",
         "source": "连云港市人社局",
         "date": "2026-07-30"
       },
       {
-        "id": "msess46d73mb4s",
+        "id": "msfizq4jmushgh",
         "title": "连云港2026年事业单位统考时间预测",
         "content": "参考往年时间安排，连云港事业单位统考通常在上半年3-5月发布公告，5-6月笔试。建议提前3个月开始备考。",
         "source": "备考分析",
         "date": "2026-07-30"
       },
       {
-        "id": "msess46dw1l1ud",
-        "title": "连云港事业编考试内容",
-        "content": "连云港事业单位考试一般包括：公共基础知识（政治、经济、法律、管理、公文写作）+ 职业能力测验 + 专业知识（根据岗位不同）",
-        "source": "考试大纲",
-        "date": "2026-07-30"
-      },
-      {
-        "id": "msff9sza31y4ue",
-        "title": "连云港市事业单位招聘公告发布渠道",
-        "content": "连云港市人力资源和社会保障局官网(http://rsj.lyg.gov.cn)是发布事业单位招聘公告的官方渠道，建议每周关注。",
-        "source": "连云港市人社局",
-        "date": "2026-07-30"
-      },
-      {
-        "id": "msff9szagzyxzp",
-        "title": "连云港2026年事业单位统考时间预测",
-        "content": "参考往年时间安排，连云港事业单位统考通常在上半年3-5月发布公告，5-6月笔试。建议提前3个月开始备考。",
-        "source": "备考分析",
-        "date": "2026-07-30"
-      },
-      {
-        "id": "msff9szanycy7y",
+        "id": "msfizq4jrrnjkc",
         "title": "连云港事业编考试内容",
         "content": "连云港事业单位考试一般包括：公共基础知识（政治、经济、法律、管理、公文写作）+ 职业能力测验 + 专业知识（根据岗位不同）",
         "source": "考试大纲",
@@ -2739,9 +882,9 @@
     ],
     "tasks": [],
     "lygAI": {
-      "2026-08-04": [
+      "2026-08-05": [
         {
-          "id": "lyg_1785856383016_sk4uj",
+          "id": "lyg_1785900408068_m3qc9",
           "title": "连云港市人社局官网",
           "type": "官网",
           "content": "官方发布事业单位招聘公告、报名与考试安排，建议每周固定查看。",
@@ -2749,7 +892,7 @@
           "attention": ""
         },
         {
-          "id": "lyg_1785856383016_rfwpo",
+          "id": "lyg_1785900408068_9ttko",
           "title": "江苏省属事业单位统考",
           "type": "考试",
           "content": "江苏省事业单位统一公开招聘考试通常上半年发布公告，连云港设有岗位。",
@@ -2757,7 +900,7 @@
           "attention": ""
         },
         {
-          "id": "lyg_1785856383016_kwgt9",
+          "id": "lyg_1785900408068_l3kpd",
           "title": "连云港市直属事业单位招聘",
           "type": "招聘",
           "content": "各市直单位（教育、卫健、广电等）不定期自主招聘，关注部门官网。",
@@ -2765,94 +908,12 @@
           "attention": ""
         },
         {
-          "id": "lyg_1785856383016_pzvef",
+          "id": "lyg_1785900408068_s1z3x",
           "title": "事业编笔试科目",
           "type": "备考",
           "content": "《综合知识和能力素质》+ 专业科目，连云港岗位多考公共基础+申论类。",
           "source": "招考公告",
           "attention": ""
-        }
-      ],
-      "2026-08-05": [
-        {
-          "id": "lyg_1785898536953_bunv8",
-          "title": "连云港市XX医院招聘启事",
-          "type": "招聘",
-          "content": "计划招聘医生、护士等岗位，具体要求及报名方式请关注官网",
-          "source": "连云港人社局官网",
-          "attention": "学历、专业要求"
-        },
-        {
-          "id": "lyg_1785898536953_36pan",
-          "title": "事业单位岗位调整通知",
-          "type": "政策",
-          "content": "部分事业单位岗位有调整，请及时关注具体岗位变化",
-          "source": "连云港人社局官网",
-          "attention": "岗位调整信息"
-        },
-        {
-          "id": "lyg_1785898536953_kdgrg",
-          "title": "2027年事业单位考试报名时间发布",
-          "type": "考试",
-          "content": "报名时间定于2026年9月1日至9月30日，请提前准备",
-          "source": "连云港人社局官网",
-          "attention": "报名时间及流程"
-        },
-        {
-          "id": "lyg_1785898536953_hrn5t",
-          "title": "事业单位考试大纲更新",
-          "type": "政策",
-          "content": "考试大纲已更新，请参考最新大纲进行备考",
-          "source": "连云港人社局官网",
-          "attention": "考试大纲内容"
-        },
-        {
-          "id": "lyg_1785897662883_g43uz",
-          "title": "连云港市某医院招聘公告",
-          "type": "招聘",
-          "content": "招聘临床医生、护士等岗位，即日起至9月30日报名。",
-          "source": "连云港人社局官网",
-          "attention": "关注岗位要求及报名时间。"
-        },
-        {
-          "id": "lyg_1785897662883_toywa",
-          "title": "事业单位统考报名即将开始",
-          "type": "考试",
-          "content": "2027年事业单位统考报名将于10月1日开始，持续至10月15日。",
-          "source": "连云港人社局官网",
-          "attention": "留意报名时间和考试科目。"
-        },
-        {
-          "id": "lyg_1785897662883_gm0px",
-          "title": "连云港市教育系统招聘教师",
-          "type": "招聘",
-          "content": "计划招聘中学教师50名，报名时间为9月20日至10月10日。",
-          "source": "连云港教育局官网",
-          "attention": "关注教师岗位及报名详情。"
-        },
-        {
-          "id": "lyg_1785894569839_1p5uh",
-          "title": "连云港市某医院招聘公告",
-          "type": "招聘",
-          "content": "临床、医技等岗位招聘，8月10日开始报名。",
-          "source": "连云港人社局官网",
-          "attention": "岗位信息、报名流程"
-        },
-        {
-          "id": "lyg_1785894569839_yynkv",
-          "title": "连云港事业单位统一招聘政策调整",
-          "type": "政策",
-          "content": "明年政策将实施新标准，注意政策变动。",
-          "source": "连云港人社局官网",
-          "attention": "政策调整内容"
-        },
-        {
-          "id": "lyg_1785894569839_i531f",
-          "title": "事业单位考试大纲公布时间预计11月",
-          "type": "考试",
-          "content": "大纲预计11月发布，提前了解考试方向。",
-          "source": "连云港人社局官网",
-          "attention": "大纲发布时间、考试内容"
         }
       ]
     }
@@ -2861,20 +922,53 @@
     "logs": [],
     "books": [
       {
-        "id": "msff9szado230b",
-        "title": "毛泽东选集（1-7卷）",
-        "author": "毛泽东",
-        "totalPages": 2740,
+        "id": "msfizq4jc6t52f",
+        "title": "认知觉醒",
+        "author": "周岭",
+        "totalPages": 280,
+        "currentPage": 156,
+        "status": "reading",
+        "startDate": "2026-06-15",
+        "source": ""
+      },
+      {
+        "id": "msfizq4ja5f7sx",
+        "title": "小岛经济学",
+        "author": "彼得·希夫",
+        "totalPages": 320,
         "currentPage": 0,
         "status": "planned",
-        "startDate": "2026-09-01",
+        "startDate": "",
         "source": ""
       }
     ],
-    "podcasts": [],
+    "podcasts": [
+      {
+        "id": "msfizq4j9d1x7l",
+        "title": "纵横四海",
+        "host": "携隐",
+        "totalEpisodes": 120,
+        "listenedEpisodes": 45,
+        "status": "reading",
+        "startDate": "2026-05-01",
+        "note": "商业类播客，很有启发",
+        "source": ""
+      },
+      {
+        "id": "msfizq4j8j527u",
+        "title": "知行小酒馆",
+        "host": "有知有行",
+        "totalEpisodes": 80,
+        "listenedEpisodes": 80,
+        "status": "done",
+        "startDate": "2025-11-01",
+        "note": "投资理财播客",
+        "source": ""
+      }
+    ],
     "news": [
       {
-        "id": "msess46d2cprcu",
+        "id": "msfizq4jbx1hiu",
         "date": "2026-07-30",
         "title": "增值税留抵退税政策延续优化",
         "summary": "财政部、税务总局联合发布通知，进一步完善增值税留抵退税政策，扩大适用范围。",
@@ -2884,7 +978,7 @@
         "source": "国家税务总局"
       },
       {
-        "id": "msess46dfh9niz",
+        "id": "msfizq4jumkqga",
         "date": "2026-07-30",
         "title": "个人所得税专项附加扣除标准提高",
         "summary": "3岁以下婴幼儿照护、子女教育、赡养老人三项专项附加扣除标准提高。",
@@ -2894,7 +988,7 @@
         "source": "国家税务总局"
       },
       {
-        "id": "msess46dqmhjg9",
+        "id": "msfizq4jcvwfyb",
         "date": "2026-07-30",
         "title": "央行宣布降准0.5个百分点",
         "summary": "中国人民银行决定下调金融机构存款准备金率0.5个百分点，释放长期资金。",
@@ -2904,7 +998,7 @@
         "source": "中国人民银行"
       },
       {
-        "id": "msess46dtof4bx",
+        "id": "msfizq4jkjg9mo",
         "date": "2026-07-30",
         "title": "国务院研究优化营商环境条例",
         "summary": "国务院常务会议审议通过优化营商环境条例修订草案，进一步简化审批流程。",
@@ -2912,41 +1006,11 @@
         "reason": "营商环境改革涉及企业注册、税务办理等，与CPA经济法相关",
         "attention": "关注行政审批简化和税务服务优化的具体措施",
         "source": "新华社"
-      },
-      {
-        "id": "msfbmun20yq6xz",
-        "date": "2026-07-30",
-        "title": "央行宣布降准0.5个百分点",
-        "summary": "中国人民银行决定下调金融机构存款准备金率0.5个百分点，释放长期资金。",
-        "category": "财经",
-        "reason": "货币政策影响企业融资成本和投资决策，审计和财管涉及宏观分析",
-        "attention": "理解降准对流动性、利率、资本市场的影响链条",
-        "source": "中国人民银行"
-      },
-      {
-        "id": "msff9szaw5qane",
-        "date": "2026-07-30",
-        "title": "增值税留抵退税政策延续优化",
-        "summary": "财政部、税务总局联合发布通知，进一步完善增值税留抵退税政策，扩大适用范围。",
-        "category": "税务",
-        "reason": "直接关系企业税负，CPA税法和税务师考试高频考点",
-        "attention": "注意退税条件的变化和计算方法，考试可能出计算题",
-        "source": "国家税务总局"
-      },
-      {
-        "id": "msff9sza4tqi8u",
-        "date": "2026-07-30",
-        "title": "个人所得税专项附加扣除标准提高",
-        "summary": "3岁以下婴幼儿照护、子女教育、赡养老人三项专项附加扣除标准提高。",
-        "category": "税务",
-        "reason": "个税改革是近年热点，CPA经济法和税务师涉税法律常考内容",
-        "attention": "关注扣除标准和适用条件的变化，注意综合所得汇算清缴的影响",
-        "source": "国家税务总局"
       }
     ],
     "dailyPicks": [
       {
-        "id": "msff9szapmxy8h",
+        "id": "msfizq4jt4rmua",
         "date": "2026-07-30",
         "type": "book",
         "title": "纳税筹划实务与案例",
@@ -2956,7 +1020,7 @@
         "source": ""
       },
       {
-        "id": "msff9szab0ukht",
+        "id": "msfizq4jvodcsz",
         "date": "2026-07-30",
         "type": "podcast",
         "title": "纵横四海 · EP45：如何构建个人知识体系",
@@ -2964,90 +1028,11 @@
         "reason": "个人知识管理方法论，帮助你更高效地整合备考知识，建立系统化学习框架",
         "attention": "尝试将播客中的知识管理方法应用到CPA和税务师备考中",
         "source": ""
-      },
-      {
-        "id": "msfbmun2szv9lg",
-        "date": "2026-07-30",
-        "type": "book",
-        "title": "纳税筹划实务与案例",
-        "author": "蔡昌",
-        "reason": "结合当前税务政策变化，系统讲解纳税筹划思路，对CPA税法和税务师实务考试有直接帮助",
-        "attention": "重点关注增值税和企业所得税的筹划案例，与最新政策对照学习",
-        "source": ""
       }
     ],
     "dismissed": [],
     "recent": {},
     "aiRecs": {
-      "2026-08-04": [
-        {
-          "id": "ai_libn-1",
-          "kind": "news",
-          "title": "增值税留抵退税政策延续优化",
-          "category": "税务",
-          "summary": "财政部、税务总局完善增值税留抵退税政策，扩大适用范围并简化流程。",
-          "reason": "直接关系企业税负，是CPA税法与税务师考试的高频考点",
-          "attention": "注意退税条件变化与计算方法，考试易出计算题",
-          "source": "国家税务总局"
-        },
-        {
-          "id": "ai_libn-5",
-          "kind": "news",
-          "title": "央行降准释放长期资金",
-          "category": "财经",
-          "summary": "央行下调金融机构存款准备金率，释放流动性支持实体经济。",
-          "reason": "货币政策影响融资成本与投资判断，财管/审计涉及宏观分析",
-          "attention": "理解降准对利率、流动性、资本市场的传导链条",
-          "source": "中国人民银行"
-        },
-        {
-          "id": "ai_libn-12",
-          "kind": "news",
-          "title": "数据要素与算力基础设施建设",
-          "category": "AI科技",
-          "summary": "数据资产入表与算力网络建设持续推进，数字经济发展底座加固。",
-          "reason": "数据资产化是财务与会计领域的新课题",
-          "attention": "关注数据资源确认为资产的相关准则动态",
-          "source": "发改委"
-        },
-        {
-          "id": "ai_libn-14",
-          "kind": "news",
-          "title": "职业教育与技能人才政策",
-          "category": "时政",
-          "summary": "国家持续推进职业教育体系建设，技能人才培养力度加大。",
-          "reason": "与事业编/职业发展相关，可关注政策导向",
-          "attention": "关注职业资格与技能认证的政策变化",
-          "source": "新华社"
-        },
-        {
-          "id": "ai_libp-6",
-          "kind": "book",
-          "title": "AI 2041",
-          "author": "李开复 / 陈楸帆",
-          "reason": "用科幻+科普方式展望未来AI应用，建立科技视野",
-          "attention": "对照“AI科技”新闻思考职业与学习影响",
-          "source": ""
-        },
-        {
-          "id": "ai_libp-7",
-          "kind": "podcast",
-          "title": "纵横四海",
-          "author": "携隐",
-          "reason": "商业与认知类播客，信息密度高，常带来方法论启发",
-          "attention": "尝试把知识管理方法应用到备考资料整合",
-          "source": ""
-        },
-        {
-          "id": "ai_libp-8",
-          "kind": "podcast",
-          "title": "知行小酒馆",
-          "author": "有知有行",
-          "reason": "投资理财与金钱观播客，帮助建立长期财务思维",
-          "attention": "关注其关于复利与资产配置的朴素逻辑",
-          "source": ""
-        }
-      ],
       "2026-08-05": [
         {
           "id": "ai_libn-2",
@@ -3121,63 +1106,21 @@
   },
   "inbox": [
     {
-      "id": "msess46d2rc9pg",
+      "id": "msfizq4jxnjhwq",
       "type": "text",
       "content": "CPA报名时间是4月，记得提前准备照片和学历认证",
       "date": "2026-07-29",
       "target": ""
     },
     {
-      "id": "msess46do36iwt",
+      "id": "msfizq4jlx9h4v",
       "type": "link",
       "content": "https://www.cicpa.org.cn — 中注协官网",
       "date": "2026-07-28",
       "target": ""
     },
     {
-      "id": "msess46d2gkp9a",
-      "type": "task",
-      "content": "整理一份各科目考试时间表",
-      "date": "2026-07-26",
-      "target": ""
-    },
-    {
-      "id": "msfbmun2weo9h2",
-      "type": "text",
-      "content": "CPA报名时间是4月，记得提前准备照片和学历认证",
-      "date": "2026-07-29",
-      "target": ""
-    },
-    {
-      "id": "msfbmun2us1ros",
-      "type": "link",
-      "content": "https://www.cicpa.org.cn — 中注协官网",
-      "date": "2026-07-28",
-      "target": ""
-    },
-    {
-      "id": "msfbmun2e7t1z3",
-      "type": "task",
-      "content": "整理一份各科目考试时间表",
-      "date": "2026-07-26",
-      "target": ""
-    },
-    {
-      "id": "msff9szat6532o",
-      "type": "text",
-      "content": "CPA报名时间是4月，记得提前准备照片和学历认证",
-      "date": "2026-07-29",
-      "target": ""
-    },
-    {
-      "id": "msff9sza2vtx17",
-      "type": "link",
-      "content": "https://www.cicpa.org.cn — 中注协官网",
-      "date": "2026-07-28",
-      "target": ""
-    },
-    {
-      "id": "msff9szakd128s",
+      "id": "msfizq4jzpasu3",
       "type": "task",
       "content": "整理一份各科目考试时间表",
       "date": "2026-07-26",
@@ -3185,6 +1128,34 @@
     }
   ],
   "changelog": [
+    {
+      "date": "2026-08-05",
+      "content": "v2.2.40 修复跨设备同步：cloudPull 改为匿名 GET（public 仓库无需 PAT），cloudAutoSync 去掉「无 PAT 直接 return」前置；此前手机未填/填无效 PAT 时拉取被阻断，导致电脑同步的数据在手机看不到。"
+    },
+    {
+      "date": "2026-08-05",
+      "content": "v2.2.39 修复路线图阶段状态下拉框 ReferenceError：saveStageStatus/saveStageNote 原定义在 renderRoadmap 函数体内（闭包），inline handler（onchange/onblur）调用栈外查不到 → ReferenceError。已移至顶层为全局函数。"
+    },
+    {
+      "date": "2026-08-05",
+      "content": "v2.2.38 修复设置页渲染崩溃：DATA.changelog 历史累积 null 元素导致「设置与数据」整页报\"null is not an object (evaluating c.date)\"；已加 filter 防御 + _clnDataPlaceholders 清理 changelog 数组。"
+    },
+    {
+      "date": "2026-08-05",
+      "content": "v2.2.37 勾选完成终极保险：勾选「各阶段学习规划」完成后，状态写入本地独立存证（shanshan_done_marks），任何云端同步 / 合并 / 覆盖都无法回退；设置页「关于」新增同步诊断（本地最后修改 / 云端最后同步 / 勾选存证数）。"
+    },
+    {
+      "date": "2026-08-05",
+      "content": "v2.2.36 云端同步彻底改为合并式：勾选「各阶段学习规划 / 今日任务 / 模块任务」完成后，本地已完成状态永不被云端旧数据回退（此前修复已生效，本版更新版本号强制所有设备刷新到最新文件，避免旧缓存继续回写旧状态）。"
+    },
+    {
+      "date": "2026-08-04",
+      "content": "v2.2.35 学习规划优化：取消「今日任务」里的「模块今日待办（自动汇总）」段，今日只保留手动「我的日计划」；新增可选「日期」字段（添加栏与编辑弹窗均为日期选择器，可留空，卡片以墨绿徽章显示所选日期），并移除「时长/时段」字段；修复勾选任务完成被云端同步覆盖回未完成的问题（本地有未推送修改时优先保留本地、只上传不覆盖）。"
+    },
+    {
+      "date": "2026-08-04",
+      "content": "v2.2.34 紧急修复：v2.2.30 起模块接入 AI 后，云端同步/老版本数据带回的 null 占位元素会触发 null.date 渲染崩溃（首页一直显示「渲染出错 · Cannot read properties of null (reading date)」。v2.2.34 在 loadData 与 applyCloudSyncData 起点统一清洗各模块 tasks / courseDates / funcDates / logs / items / lyg / inbox / weeklyTasks / aiRecs / lygAI 数组中的 null 项，并在几个核心 forEach 内加 if(!t)return 保险。无需清空数据，下次刷新页面即可自动恢复。"
+    },
     {
       "date": "2026-08-04",
       "content": "v2.2.33 将 Excel/事业编/CPA/税务师 各 AI 功能收进模块内独立「AI」标签页（不再置于模块底部）：Excel 每日函数推荐+AI 助手、事业编连云港每日 AI 动态、CPA/税务师今日 AI 学习重点+AI 备考助手，均在该模块 tab 栏「AI」标签下查看。",
@@ -3612,294 +1583,10 @@
       "content": "课程卡片新增编辑按钮，可直接修改科目名称、总课时、已完成课时和备考标记",
       "scope": "CPA备考/税务师备考",
       "action": "刷新页面即可看到更新"
-    },
-    {
-      "date": "2026-08-05",
-      "content": "v2.2.36 云端同步彻底改为合并式：勾选「各阶段学习规划 / 今日任务 / 模块任务」完成后，本地已完成状态永不被云端旧数据回退（此前修复已生效，本版更新版本号强制所有设备刷新到最新文件，避免旧缓存继续回写旧状态）。"
-    },
-    {
-      "date": "2026-08-04",
-      "content": "v2.2.35 学习规划优化：取消「今日任务」里的「模块今日待办（自动汇总）」段，今日只保留手动「我的日计划」；新增可选「日期」字段（添加栏与编辑弹窗均为日期选择器，可留空，卡片以墨绿徽章显示所选日期），并移除「时长/时段」字段；修复勾选任务完成被云端同步覆盖回未完成的问题（本地有未推送修改时优先保留本地、只上传不覆盖）。"
-    },
-    {
-      "date": "2026-08-04",
-      "content": "v2.2.34 紧急修复：v2.2.30 起模块接入 AI 后，云端同步/老版本数据带回的 null 占位元素会触发 null.date 渲染崩溃（首页一直显示「渲染出错 · Cannot read properties of null (reading date)」。v2.2.34 在 loadData 与 applyCloudSyncData 起点统一清洗各模块 tasks / courseDates / funcDates / logs / items / lyg / inbox / weeklyTasks / aiRecs / lygAI 数组中的 null 项，并在几个核心 forEach 内加 if(!t)return 保险。无需清空数据，下次刷新页面即可自动恢复。"
-    },
-    {
-      "date": "2026-08-05",
-      "content": "v2.2.39 修复路线图阶段状态下拉框 ReferenceError：saveStageStatus/saveStageNote 原定义在 renderRoadmap 函数体内（闭包），inline handler（onchange/onblur）调用栈外查不到 → ReferenceError。已移至顶层为全局函数。"
-    },
-    {
-      "date": "2026-08-05",
-      "content": "v2.2.38 修复设置页渲染崩溃：DATA.changelog 历史累积 null 元素导致「设置与数据」整页报\"null is not an object (evaluating c.date)\"；已加 filter 防御 + _clnDataPlaceholders 清理 changelog 数组。"
-    },
-    {
-      "date": "2026-08-05",
-      "content": "v2.2.37 勾选完成终极保险：勾选「各阶段学习规划」完成后，状态写入本地独立存证（shanshan_done_marks），任何云端同步 / 合并 / 覆盖都无法回退；设置页「关于」新增同步诊断（本地最后修改 / 云端最后同步 / 勾选存证数）。"
     }
   ],
-  "weeklyTasks": [
-    {
-      "id": "msffffnxnrsqdb",
-      "level": "month",
-      "month": "2026-08",
-      "title": "CPA会计冲刺阶段！！！！！",
-      "content": "",
-      "done": false,
-      "created": "2026-08-05"
-    },
-    {
-      "id": "msffbwdfar3noi",
-      "level": "day",
-      "date": "2026-08-05",
-      "title": "第26章 企业合并 · 学完即做客观题第一轮",
-      "mod": "cpa",
-      "priority": "high",
-      "schedDate": "2026-08-05",
-      "detail": "",
-      "done": false,
-      "created": "2026-08-05"
-    },
-    {
-      "id": "msffbk8bra7bvz",
-      "level": "day",
-      "date": "2026-08-05",
-      "title": "第19章 所得税 · 学完即做客观题第一轮",
-      "mod": "cpa",
-      "priority": "high",
-      "schedDate": "2026-08-05",
-      "detail": "",
-      "done": false,
-      "created": "2026-08-05"
-    },
-    {
-      "id": "msffb3ctzgyaup",
-      "level": "week",
-      "title": "做的模拟题再看看",
-      "mod": "cpa",
-      "priority": "",
-      "startDate": "2026-08-24",
-      "endDate": "2026-08-28",
-      "dueDate": "2026-08-28",
-      "phase": "真题模拟 + 错题二刷 + 调状态",
-      "done": false,
-      "created": "2026-08-05"
-    },
-    {
-      "id": "msffb3ctvwtibv",
-      "level": "week",
-      "title": "错题本二刷",
-      "mod": "cpa",
-      "priority": "",
-      "startDate": "2026-08-24",
-      "endDate": "2026-08-28",
-      "dueDate": "2026-08-28",
-      "phase": "真题模拟 + 错题二刷 + 调状态",
-      "done": false,
-      "created": "2026-08-05"
-    },
-    {
-      "id": "msffb3ct6dkobq",
-      "level": "week",
-      "title": "历年真题二刷",
-      "mod": "cpa",
-      "priority": "",
-      "startDate": "2026-08-24",
-      "endDate": "2026-08-28",
-      "dueDate": "2026-08-28",
-      "phase": "真题模拟 + 错题二刷 + 调状态",
-      "done": false,
-      "created": "2026-08-05"
-    },
-    {
-      "id": "msffb3ct0zk54i",
-      "level": "week",
-      "title": "错题本一刷",
-      "mod": "cpa",
-      "priority": "",
-      "startDate": "2026-08-17",
-      "endDate": "2026-08-23",
-      "dueDate": "2026-08-23",
-      "phase": "历年真题 + 模拟题 + 错题二刷",
-      "done": false,
-      "created": "2026-08-05"
-    },
-    {
-      "id": "msffb3ctxve96y",
-      "level": "week",
-      "title": "做模拟题3套左右",
-      "mod": "cpa",
-      "priority": "",
-      "startDate": "2026-08-17",
-      "endDate": "2026-08-23",
-      "dueDate": "2026-08-23",
-      "phase": "历年真题 + 模拟题 + 错题二刷",
-      "done": false,
-      "created": "2026-08-05"
-    },
-    {
-      "id": "msffb3cta95pxm",
-      "level": "week",
-      "title": "做历年真题（2021–2025 近5年，严格计时 3h/套，至少 5 套）",
-      "mod": "cpa",
-      "priority": "",
-      "startDate": "2026-08-17",
-      "endDate": "2026-08-23",
-      "dueDate": "2026-08-23",
-      "phase": "历年真题 + 模拟题 + 错题二刷",
-      "done": false,
-      "created": "2026-08-05"
-    },
-    {
-      "id": "msffb3ct4prbll",
-      "level": "week",
-      "title": "整理错题本（标注错因 + 正确分录）",
-      "mod": "cpa",
-      "priority": "",
-      "startDate": "2026-08-10",
-      "endDate": "2026-08-16",
-      "dueDate": "2026-08-16",
-      "phase": "章节主客观题第二轮 + 整理错题本",
-      "done": false,
-      "created": "2026-08-05"
-    },
-    {
-      "id": "msffb3ctn2bji1",
-      "level": "week",
-      "title": "逐章做客观题第二轮",
-      "mod": "cpa",
-      "priority": "",
-      "startDate": "2026-08-10",
-      "endDate": "2026-08-16",
-      "dueDate": "2026-08-16",
-      "phase": "章节主客观题第二轮 + 整理错题本",
-      "done": false,
-      "created": "2026-08-05"
-    },
-    {
-      "id": "msffb3ct1ilkcw",
-      "level": "week",
-      "title": "逐章做主观题（计算分析 / 综合题）第一轮",
-      "mod": "cpa",
-      "priority": "",
-      "startDate": "2026-08-10",
-      "endDate": "2026-08-16",
-      "dueDate": "2026-08-16",
-      "phase": "章节主客观题第二轮 + 整理错题本",
-      "done": false,
-      "created": "2026-08-05"
-    },
-    {
-      "id": "msffb3ctq7tyzw",
-      "level": "week",
-      "title": "第29章 公允价值计量 + 第30章 政府及民间非营利组织会计 · 客观题第一轮",
-      "mod": "cpa",
-      "priority": "",
-      "startDate": "2026-08-03",
-      "endDate": "2026-08-09",
-      "dueDate": "2026-08-09",
-      "phase": "第一轮收尾 + 章节客观题",
-      "done": false,
-      "created": "2026-08-05"
-    },
-    {
-      "id": "msffb3ctx7mnhs",
-      "level": "week",
-      "title": "第24章 会计政策变更 + 第25章 资产负债表日后事项 · 客观题第一轮",
-      "mod": "cpa",
-      "priority": "",
-      "startDate": "2026-08-03",
-      "endDate": "2026-08-09",
-      "dueDate": "2026-08-09",
-      "phase": "第一轮收尾 + 章节客观题",
-      "done": false,
-      "created": "2026-08-05"
-    },
-    {
-      "id": "msffb3ctli65pk",
-      "level": "week",
-      "title": "第23章 财务报告 + 第28章 每股收益 · 客观题第一轮",
-      "mod": "cpa",
-      "priority": "",
-      "startDate": "2026-08-03",
-      "endDate": "2026-08-09",
-      "dueDate": "2026-08-09",
-      "phase": "第一轮收尾 + 章节客观题",
-      "done": false,
-      "created": "2026-08-05"
-    },
-    {
-      "id": "msffb3ct9hfbl6",
-      "level": "week",
-      "title": "第27章 合并财务报表 · 学完即做客观题第一轮",
-      "mod": "cpa",
-      "priority": "",
-      "startDate": "2026-08-03",
-      "endDate": "2026-08-09",
-      "dueDate": "2026-08-09",
-      "phase": "第一轮收尾 + 章节客观题",
-      "done": false,
-      "created": "2026-08-05"
-    },
-    {
-      "id": "msffb3cthgxrs0",
-      "level": "week",
-      "title": "第26章 企业合并 · 学完即做客观题第一轮",
-      "mod": "cpa",
-      "priority": "",
-      "startDate": "2026-08-03",
-      "endDate": "2026-08-09",
-      "dueDate": "2026-08-09",
-      "phase": "第一轮收尾 + 章节客观题",
-      "done": false,
-      "created": "2026-08-05"
-    },
-    {
-      "id": "msffb3ctserhw8",
-      "level": "week",
-      "title": "第19章 所得税 · 学完即做客观题第一轮",
-      "mod": "cpa",
-      "priority": "",
-      "startDate": "2026-08-03",
-      "endDate": "2026-08-09",
-      "dueDate": "2026-08-09",
-      "phase": "第一轮收尾 + 章节客观题",
-      "done": false,
-      "created": "2026-08-05"
-    }
-  ],
-  "roadmapPlans": {
-    "基础学习": [
-      {
-        "text": "太拖拉！！！！！未完成",
-        "priority": "",
-        "startDate": "2026-04-01",
-        "endDate": "2026-06-30",
-        "mod": "cpa",
-        "done": true
-      }
-    ],
-    "强化提升": [
-      {
-        "text": "太拖拉！！！！！未完成",
-        "priority": "",
-        "startDate": "2026-07-01",
-        "endDate": "2026-07-31",
-        "mod": "cpa",
-        "done": true
-      }
-    ],
-    "冲刺模考": [
-      {
-        "text": "按照冲刺计划（每周安排计划里有）",
-        "priority": "high",
-        "startDate": "2026-08-01",
-        "endDate": "2026-08-28",
-        "mod": "cpa",
-        "done": false
-      }
-    ]
-  },
+  "weeklyTasks": [],
+  "roadmapPlans": {},
   "reviews": {},
   "settings": {
     "dailyBrief": true,
@@ -3911,26 +1598,13 @@
       "urgent": true
     }
   },
-  "_updated": "2026-08-05T03:25:41.488Z",
+  "_updated": "2026-08-05T03:27:18.624Z",
   "checkins": [],
   "_mig": {
     "cpaTasksCleared": true,
-    "excelUsageBackfill": true,
-    "cpaSprintImported2": true
+    "excelUsageBackfill": true
   },
   "profile": {
     "nickname": "小王同学"
-  },
-  "roadmapStageStatus": {
-    "cpa": {
-      "基础学习": "已完成",
-      "强化提升": "已完成",
-      "冲刺模考": "进行中"
-    }
-  },
-  "roadmapStageNotes": {
-    "基础学习": "",
-    "强化提升": "",
-    "冲刺模考": ""
   }
 }
