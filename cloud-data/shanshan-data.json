@@ -71,6 +71,14 @@
         "total": 67,
         "correct": 56,
         "note": "第三章固定资产"
+      },
+      {
+        "id": "msffl9bizp58xo",
+        "subject": "会计",
+        "date": "2026-04-03",
+        "total": 46,
+        "correct": 40,
+        "note": "第四章无形资产"
       }
     ],
     "chapter2": [],
@@ -79,7 +87,7 @@
     "mistakes": [
       {
         "subject": "会计",
-        "objectiveWrong": 31,
+        "objectiveWrong": 37,
         "subjectiveWrong": 0,
         "reviewCount": 0,
         "proficiency": "low"
@@ -1899,7 +1907,7 @@
       "urgent": true
     }
   },
-  "_updated": "2026-08-05T01:50:54.260Z",
+  "_updated": "2026-08-05T01:51:34.254Z",
   "checkins": [],
   "profile": {
     "nickname": "小王同学"
