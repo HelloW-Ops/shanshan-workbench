@@ -2022,6 +2022,251 @@
         "date": "2026-08-05",
         "name": "MIN",
         "progress": 0
+      },
+      {
+        "date": "2026-08-05",
+        "name": "LEFT",
+        "progress": 56
+      },
+      {
+        "date": "2026-08-05",
+        "name": "LEFT",
+        "progress": 53
+      },
+      {
+        "date": "2026-08-05",
+        "name": "LEFT",
+        "progress": 50
+      },
+      {
+        "date": "2026-08-05",
+        "name": "LEFT",
+        "progress": 38
+      },
+      {
+        "date": "2026-08-05",
+        "name": "LEFT",
+        "progress": 29
+      },
+      {
+        "date": "2026-08-05",
+        "name": "LEFT",
+        "progress": 18
+      },
+      {
+        "date": "2026-08-05",
+        "name": "LEFT",
+        "progress": 3
+      },
+      {
+        "date": "2026-08-05",
+        "name": "LEFT",
+        "progress": 0
+      },
+      {
+        "date": "2026-08-05",
+        "name": "RIGHT",
+        "progress": 85
+      },
+      {
+        "date": "2026-08-05",
+        "name": "RIGHT",
+        "progress": 76
+      },
+      {
+        "date": "2026-08-05",
+        "name": "RIGHT",
+        "progress": 62
+      },
+      {
+        "date": "2026-08-05",
+        "name": "RIGHT",
+        "progress": 44
+      },
+      {
+        "date": "2026-08-05",
+        "name": "RIGHT",
+        "progress": 20
+      },
+      {
+        "date": "2026-08-05",
+        "name": "RIGHT",
+        "progress": 0
+      },
+      {
+        "date": "2026-08-05",
+        "name": "MID",
+        "progress": 94
+      },
+      {
+        "date": "2026-08-05",
+        "name": "MID",
+        "progress": 79
+      },
+      {
+        "date": "2026-08-05",
+        "name": "MID",
+        "progress": 59
+      },
+      {
+        "date": "2026-08-05",
+        "name": "MID",
+        "progress": 35
+      },
+      {
+        "date": "2026-08-05",
+        "name": "MID",
+        "progress": 18
+      },
+      {
+        "date": "2026-08-05",
+        "name": "MID",
+        "progress": 0
+      },
+      {
+        "date": "2026-08-05",
+        "name": "TODAY",
+        "progress": 85
+      },
+      {
+        "date": "2026-08-05",
+        "name": "TODAY",
+        "progress": 79
+      },
+      {
+        "date": "2026-08-05",
+        "name": "TODAY",
+        "progress": 70
+      },
+      {
+        "date": "2026-08-05",
+        "name": "TODAY",
+        "progress": 56
+      },
+      {
+        "date": "2026-08-05",
+        "name": "TODAY",
+        "progress": 38
+      },
+      {
+        "date": "2026-08-05",
+        "name": "TODAY",
+        "progress": 20
+      },
+      {
+        "date": "2026-08-05",
+        "name": "TODAY",
+        "progress": 0
+      },
+      {
+        "date": "2026-08-05",
+        "name": "VLOOKUP",
+        "progress": 20
+      },
+      {
+        "date": "2026-08-05",
+        "name": "VLOOKUP",
+        "progress": 6
+      },
+      {
+        "date": "2026-08-05",
+        "name": "VLOOKUP",
+        "progress": 0
+      },
+      {
+        "date": "2026-08-05",
+        "name": "INDEX+MATCH",
+        "progress": 0
+      },
+      {
+        "date": "2026-08-05",
+        "name": "SUMIF",
+        "progress": 26
+      },
+      {
+        "date": "2026-08-05",
+        "name": "SUMIF",
+        "progress": 6
+      },
+      {
+        "date": "2026-08-05",
+        "name": "SUMIF",
+        "progress": 0
+      },
+      {
+        "date": "2026-08-05",
+        "name": "SUMIFS",
+        "progress": 0
+      },
+      {
+        "date": "2026-08-05",
+        "name": "COUNTIF",
+        "progress": 20
+      },
+      {
+        "date": "2026-08-05",
+        "name": "COUNTIF",
+        "progress": 9
+      },
+      {
+        "date": "2026-08-05",
+        "name": "COUNTIF",
+        "progress": 0
+      },
+      {
+        "date": "2026-08-05",
+        "name": "COUNTIFS",
+        "progress": 0
+      },
+      {
+        "date": "2026-08-05",
+        "name": "RANK",
+        "progress": 0
+      },
+      {
+        "date": "2026-08-05",
+        "name": "IF",
+        "progress": 38
+      },
+      {
+        "date": "2026-08-05",
+        "name": "IF",
+        "progress": 23
+      },
+      {
+        "date": "2026-08-05",
+        "name": "IF",
+        "progress": 15
+      },
+      {
+        "date": "2026-08-05",
+        "name": "IF",
+        "progress": 3
+      },
+      {
+        "date": "2026-08-05",
+        "name": "IF",
+        "progress": 0
+      },
+      {
+        "date": "2026-08-05",
+        "name": "AND",
+        "progress": 12
+      },
+      {
+        "date": "2026-08-05",
+        "name": "AND",
+        "progress": 0
+      },
+      {
+        "date": "2026-08-05",
+        "name": "OR",
+        "progress": 0
+      },
+      {
+        "date": "2026-08-05",
+        "name": "IFERROR",
+        "progress": 0
       }
     ],
     "functions": [
@@ -2176,7 +2421,7 @@
         "syntax": "=VLOOKUP(查找值, 表格区域, 列序号, 0)",
         "desc": "在表格首列查找关键字，返回同行指定列内容，0为精确匹配。",
         "usage": "用工号在工资表里查对应姓名或部门",
-        "progress": 40
+        "progress": 0
       },
       {
         "id": "ef14",
@@ -2194,7 +2439,7 @@
         "syntax": "=INDEX(返回列, MATCH(查找值, 查找列, 0))",
         "desc": "INDEX配合MATCH实现双向查找，不受列顺序限制。",
         "usage": "工资表列顺序变动也不出错",
-        "progress": 10
+        "progress": 0
       },
       {
         "id": "ef16",
@@ -2203,7 +2448,7 @@
         "syntax": "=SUMIF(条件区域, 条件, [求和区域])",
         "desc": "对满足单个条件的单元格求和。",
         "usage": "汇总某个部门的工资总额",
-        "progress": 50
+        "progress": 0
       },
       {
         "id": "ef17",
@@ -2212,7 +2457,7 @@
         "syntax": "=SUMIFS(求和区域, 条件区1, 条件1, 条件区2, 条件2)",
         "desc": "多条件同时满足才求和，财务统计主力。",
         "usage": "按“部门+月份”汇总报销金额",
-        "progress": 30
+        "progress": 0
       },
       {
         "id": "ef18",
@@ -2275,7 +2520,7 @@
         "syntax": "=COUNTIF(区域, 条件)",
         "desc": "统计满足单个条件的单元格个数。",
         "usage": "统计某部门人数或迟到次数",
-        "progress": 60
+        "progress": 0
       },
       {
         "id": "ef25",
@@ -2284,7 +2529,7 @@
         "syntax": "=COUNTIFS(区1,条件1, 区2,条件2)",
         "desc": "多条件同时满足才计数。",
         "usage": "统计“销售部且绩效A”的人数",
-        "progress": 20
+        "progress": 0
       },
       {
         "id": "ef26",
@@ -2311,7 +2556,7 @@
         "syntax": "=RANK(数值, 区域, 0)",
         "desc": "返回数值在区域中的排名，0为降序。",
         "usage": "销售业绩名次排序",
-        "progress": 10
+        "progress": 0
       },
       {
         "id": "ef29",
@@ -2338,7 +2583,7 @@
         "syntax": "=LEFT(文本, 位数)",
         "desc": "从文本左侧截取指定数量的字符。",
         "usage": "从身份证取前6位地区码",
-        "progress": 100
+        "progress": 0
       },
       {
         "id": "ef32",
@@ -2347,7 +2592,7 @@
         "syntax": "=RIGHT(文本, 位数)",
         "desc": "从文本右侧截取指定数量的字符。",
         "usage": "从订单号取后4位序号",
-        "progress": 100
+        "progress": 0
       },
       {
         "id": "ef33",
@@ -2356,7 +2601,7 @@
         "syntax": "=MID(文本, 起始位, 位数)",
         "desc": "从指定位置开始截取指定长度文本。",
         "usage": "从身份证第7位取8位出生日期",
-        "progress": 100
+        "progress": 0
       },
       {
         "id": "ef34",
@@ -2410,7 +2655,7 @@
         "syntax": "=TODAY()",
         "desc": "返回当前日期，随系统自动更新。",
         "usage": "考勤表自动填当天日期",
-        "progress": 100
+        "progress": 0
       },
       {
         "id": "ef40",
@@ -2500,7 +2745,7 @@
         "syntax": "=IF(条件, 真时结果, 假时结果)",
         "desc": "根据条件判断返回不同结果，最常用逻辑函数。",
         "usage": "工资是否超起征点，超了才计税",
-        "progress": 60
+        "progress": 0
       },
       {
         "id": "ef50",
@@ -2518,7 +2763,7 @@
         "syntax": "=AND(条件1, 条件2)",
         "desc": "所有条件都为真时返回真，常与IF配合。",
         "usage": "判断工资既在范围又属某部门",
-        "progress": 30
+        "progress": 0
       },
       {
         "id": "ef52",
@@ -2527,7 +2772,7 @@
         "syntax": "=OR(条件1, 条件2)",
         "desc": "任一条件为真即返回真。",
         "usage": "迟到或请假都算缺勤",
-        "progress": 20
+        "progress": 0
       },
       {
         "id": "ef53",
@@ -2554,7 +2799,7 @@
         "syntax": "=IFERROR(公式, 出错返回值)",
         "desc": "公式出错时返回指定值，避免表格出现错误值。",
         "usage": "VLOOKUP查不到时显示“无记录”",
-        "progress": 10
+        "progress": 0
       }
     ],
     "templates": [
@@ -2977,26 +3222,6 @@
     "logs": [],
     "books": [
       {
-        "id": "msfizq4jc6t52f",
-        "title": "认知觉醒",
-        "author": "周岭",
-        "totalPages": 280,
-        "currentPage": 156,
-        "status": "reading",
-        "startDate": "2026-06-15",
-        "source": ""
-      },
-      {
-        "id": "msfizq4ja5f7sx",
-        "title": "小岛经济学",
-        "author": "彼得·希夫",
-        "totalPages": 320,
-        "currentPage": 0,
-        "status": "planned",
-        "startDate": "",
-        "source": ""
-      },
-      {
         "id": "msff9szado230b",
         "title": "毛泽东选集（1-7卷）",
         "author": "毛泽东",
@@ -3007,51 +3232,8 @@
         "source": ""
       }
     ],
-    "podcasts": [
-      {
-        "id": "msfizq4j9d1x7l",
-        "title": "纵横四海",
-        "host": "携隐",
-        "totalEpisodes": 120,
-        "listenedEpisodes": 45,
-        "status": "reading",
-        "startDate": "2026-05-01",
-        "note": "商业类播客，很有启发",
-        "source": ""
-      },
-      {
-        "id": "msfizq4j8j527u",
-        "title": "知行小酒馆",
-        "host": "有知有行",
-        "totalEpisodes": 80,
-        "listenedEpisodes": 80,
-        "status": "done",
-        "startDate": "2025-11-01",
-        "note": "投资理财播客",
-        "source": ""
-      }
-    ],
+    "podcasts": [],
     "news": [
-      {
-        "id": "msfizq4jbx1hiu",
-        "date": "2026-07-30",
-        "title": "增值税留抵退税政策延续优化",
-        "summary": "财政部、税务总局联合发布通知，进一步完善增值税留抵退税政策，扩大适用范围。",
-        "category": "税务",
-        "reason": "直接关系企业税负，CPA税法和税务师考试高频考点",
-        "attention": "注意退税条件的变化和计算方法，考试可能出计算题",
-        "source": "国家税务总局"
-      },
-      {
-        "id": "msfizq4jumkqga",
-        "date": "2026-07-30",
-        "title": "个人所得税专项附加扣除标准提高",
-        "summary": "3岁以下婴幼儿照护、子女教育、赡养老人三项专项附加扣除标准提高。",
-        "category": "税务",
-        "reason": "个税改革是近年热点，CPA经济法和税务师涉税法律常考内容",
-        "attention": "关注扣除标准和适用条件的变化，注意综合所得汇算清缴的影响",
-        "source": "国家税务总局"
-      },
       {
         "id": "msfizq4jcvwfyb",
         "date": "2026-07-30",
@@ -3064,16 +3246,6 @@
       },
       {
         "id": "msfizq4jkjg9mo",
-        "date": "2026-07-30",
-        "title": "国务院研究优化营商环境条例",
-        "summary": "国务院常务会议审议通过优化营商环境条例修订草案，进一步简化审批流程。",
-        "category": "时政",
-        "reason": "营商环境改革涉及企业注册、税务办理等，与CPA经济法相关",
-        "attention": "关注行政审批简化和税务服务优化的具体措施",
-        "source": "新华社"
-      },
-      {
-        "id": "msess46dtof4bx",
         "date": "2026-07-30",
         "title": "国务院研究优化营商环境条例",
         "summary": "国务院常务会议审议通过优化营商环境条例修订草案，进一步简化审批流程。",
@@ -3104,16 +3276,6 @@
       }
     ],
     "dailyPicks": [
-      {
-        "id": "msfizq4jt4rmua",
-        "date": "2026-07-30",
-        "type": "book",
-        "title": "纳税筹划实务与案例",
-        "author": "蔡昌",
-        "reason": "结合当前税务政策变化，系统讲解纳税筹划思路，对CPA税法和税务师实务考试有直接帮助",
-        "attention": "重点关注增值税和企业所得税的筹划案例，与最新政策对照学习",
-        "source": ""
-      },
       {
         "id": "msfizq4jvodcsz",
         "date": "2026-07-30",
@@ -4032,7 +4194,7 @@
       "urgent": true
     }
   },
-  "_updated": "2026-08-05T03:38:40.023Z",
+  "_updated": "2026-08-05T03:39:48.950Z",
   "checkins": [],
   "_mig": {
     "cpaTasksCleared": true,
