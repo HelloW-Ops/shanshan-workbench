@@ -2920,13 +2920,6 @@
   "shiyebian": {
     "items": [
       {
-        "id": "msfizq4jzuwpzs",
-        "title": "省属事业单位招聘信息",
-        "content": "关注省人事考试网，预计明年3月发布公告",
-        "source": "省人事考试网",
-        "date": "2026-07-20"
-      },
-      {
         "id": "msfizq4jdxrjeb",
         "title": "公共基础知识备考范围",
         "content": "政治、经济、法律、管理、公文写作等",
@@ -2939,23 +2932,9 @@
         "content": "关注省人事考试网，预计明年3月发布公告",
         "source": "省人事考试网",
         "date": "2026-07-20"
-      },
-      {
-        "id": "msff9sza4j7m9n",
-        "title": "公共基础知识备考范围",
-        "content": "政治、经济、法律、管理、公文写作等",
-        "source": "备考论坛",
-        "date": "2026-07-15"
       }
     ],
     "lyg": [
-      {
-        "id": "msfizq4j81kexw",
-        "title": "连云港市事业单位招聘公告发布渠道",
-        "content": "连云港市人力资源和社会保障局官网(http://rsj.lyg.gov.cn)是发布事业单位招聘公告的官方渠道，建议每周关注。",
-        "source": "连云港市人社局",
-        "date": "2026-07-30"
-      },
       {
         "id": "msfizq4jmushgh",
         "title": "连云港2026年事业单位统考时间预测",
@@ -4274,7 +4253,7 @@
       "urgent": true
     }
   },
-  "_updated": "2026-08-05T08:54:34.331Z",
+  "_updated": "2026-08-05T08:55:16.301Z",
   "checkins": [],
   "_mig": {
     "cpaTasksCleared": true,
