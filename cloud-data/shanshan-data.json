@@ -119,6 +119,14 @@
         "total": 64,
         "correct": 51,
         "note": "第七章资产减值"
+      },
+      {
+        "id": "msffobvfo3czhp",
+        "subject": "会计",
+        "date": "2026-04-12",
+        "total": 35,
+        "correct": 22,
+        "note": "第八章负债"
       }
     ],
     "chapter2": [],
@@ -127,7 +135,7 @@
     "mistakes": [
       {
         "subject": "会计",
-        "objectiveWrong": 92,
+        "objectiveWrong": 105,
         "subjectiveWrong": 0,
         "reviewCount": 0,
         "proficiency": "low"
@@ -1947,7 +1955,7 @@
       "urgent": true
     }
   },
-  "_updated": "2026-08-05T01:53:30.308Z",
+  "_updated": "2026-08-05T01:53:57.532Z",
   "checkins": [],
   "profile": {
     "nickname": "小王同学"
