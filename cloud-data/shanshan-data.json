@@ -1491,7 +1491,216 @@
       "action": "刷新页面即可看到更新"
     }
   ],
-  "weeklyTasks": [],
+  "weeklyTasks": [
+    {
+      "id": "msffb3ctzgyaup",
+      "level": "week",
+      "title": "考前 1 天只翻不刷题 · 调状态上考场",
+      "mod": "cpa",
+      "priority": "high",
+      "startDate": "2026-08-24",
+      "endDate": "2026-08-28",
+      "dueDate": "2026-08-28",
+      "phase": "真题模拟 + 错题二刷 + 调状态",
+      "done": false,
+      "created": "2026-08-05"
+    },
+    {
+      "id": "msffb3ctvwtibv",
+      "level": "week",
+      "title": "错题本二刷至能独立写全分录",
+      "mod": "cpa",
+      "priority": "high",
+      "startDate": "2026-08-24",
+      "endDate": "2026-08-28",
+      "dueDate": "2026-08-28",
+      "phase": "真题模拟 + 错题二刷 + 调状态",
+      "done": false,
+      "created": "2026-08-05"
+    },
+    {
+      "id": "msffb3ct6dkobq",
+      "level": "week",
+      "title": "再做真题 2 套（累计约 3 套）",
+      "mod": "cpa",
+      "priority": "high",
+      "startDate": "2026-08-24",
+      "endDate": "2026-08-28",
+      "dueDate": "2026-08-28",
+      "phase": "真题模拟 + 错题二刷 + 调状态",
+      "done": false,
+      "created": "2026-08-05"
+    },
+    {
+      "id": "msffb3ct0zk54i",
+      "level": "week",
+      "title": "每天固定时段重做旧错（错题本）",
+      "mod": "cpa",
+      "priority": "high",
+      "startDate": "2026-08-17",
+      "endDate": "2026-08-23",
+      "dueDate": "2026-08-23",
+      "phase": "历年真题 + 模拟题 + 错题二刷",
+      "done": false,
+      "created": "2026-08-05"
+    },
+    {
+      "id": "msffb3ctxve96y",
+      "level": "week",
+      "title": "做模拟题 2 套",
+      "mod": "cpa",
+      "priority": "high",
+      "startDate": "2026-08-17",
+      "endDate": "2026-08-23",
+      "dueDate": "2026-08-23",
+      "phase": "历年真题 + 模拟题 + 错题二刷",
+      "done": false,
+      "created": "2026-08-05"
+    },
+    {
+      "id": "msffb3cta95pxm",
+      "level": "week",
+      "title": "做历年真题（2021–2025 近5年，严格计时 3h/套，至少 3 套）",
+      "mod": "cpa",
+      "priority": "high",
+      "startDate": "2026-08-17",
+      "endDate": "2026-08-23",
+      "dueDate": "2026-08-23",
+      "phase": "历年真题 + 模拟题 + 错题二刷",
+      "done": false,
+      "created": "2026-08-05"
+    },
+    {
+      "id": "msffb3ct4prbll",
+      "level": "week",
+      "title": "整理错题本（标注错因 + 正确分录）",
+      "mod": "cpa",
+      "priority": "high",
+      "startDate": "2026-08-10",
+      "endDate": "2026-08-16",
+      "dueDate": "2026-08-16",
+      "phase": "章节主客观题第二轮 + 整理错题本",
+      "done": false,
+      "created": "2026-08-05"
+    },
+    {
+      "id": "msffb3ctn2bji1",
+      "level": "week",
+      "title": "逐章做客观题第二轮",
+      "mod": "cpa",
+      "priority": "high",
+      "startDate": "2026-08-10",
+      "endDate": "2026-08-16",
+      "dueDate": "2026-08-16",
+      "phase": "章节主客观题第二轮 + 整理错题本",
+      "done": false,
+      "created": "2026-08-05"
+    },
+    {
+      "id": "msffb3ct1ilkcw",
+      "level": "week",
+      "title": "逐章做主观题（计算分析 / 综合题）第二轮",
+      "mod": "cpa",
+      "priority": "high",
+      "startDate": "2026-08-10",
+      "endDate": "2026-08-16",
+      "dueDate": "2026-08-16",
+      "phase": "章节主客观题第二轮 + 整理错题本",
+      "done": false,
+      "created": "2026-08-05"
+    },
+    {
+      "id": "msffb3ctvar4au",
+      "level": "week",
+      "title": "8.9 本周回看 · 归集错题",
+      "mod": "cpa",
+      "priority": "high",
+      "startDate": "2026-08-03",
+      "endDate": "2026-08-09",
+      "dueDate": "2026-08-09",
+      "phase": "第一轮收尾 + 章节客观题",
+      "done": false,
+      "created": "2026-08-05"
+    },
+    {
+      "id": "msffb3ctq7tyzw",
+      "level": "week",
+      "title": "第29章 公允价值计量 + 第30章 政府及民间非营利组织会计 · 客观题第一轮",
+      "mod": "cpa",
+      "priority": "high",
+      "startDate": "2026-08-03",
+      "endDate": "2026-08-09",
+      "dueDate": "2026-08-09",
+      "phase": "第一轮收尾 + 章节客观题",
+      "done": false,
+      "created": "2026-08-05"
+    },
+    {
+      "id": "msffb3ctx7mnhs",
+      "level": "week",
+      "title": "第24章 会计政策变更 + 第25章 资产负债表日后事项 · 客观题第一轮",
+      "mod": "cpa",
+      "priority": "high",
+      "startDate": "2026-08-03",
+      "endDate": "2026-08-09",
+      "dueDate": "2026-08-09",
+      "phase": "第一轮收尾 + 章节客观题",
+      "done": false,
+      "created": "2026-08-05"
+    },
+    {
+      "id": "msffb3ctli65pk",
+      "level": "week",
+      "title": "第23章 财务报告 + 第28章 每股收益 · 客观题第一轮",
+      "mod": "cpa",
+      "priority": "high",
+      "startDate": "2026-08-03",
+      "endDate": "2026-08-09",
+      "dueDate": "2026-08-09",
+      "phase": "第一轮收尾 + 章节客观题",
+      "done": false,
+      "created": "2026-08-05"
+    },
+    {
+      "id": "msffb3ct9hfbl6",
+      "level": "week",
+      "title": "第27章 合并财务报表 · 学完即做客观题第一轮",
+      "mod": "cpa",
+      "priority": "high",
+      "startDate": "2026-08-03",
+      "endDate": "2026-08-09",
+      "dueDate": "2026-08-09",
+      "phase": "第一轮收尾 + 章节客观题",
+      "done": false,
+      "created": "2026-08-05"
+    },
+    {
+      "id": "msffb3cthgxrs0",
+      "level": "week",
+      "title": "第26章 企业合并 · 学完即做客观题第一轮",
+      "mod": "cpa",
+      "priority": "high",
+      "startDate": "2026-08-03",
+      "endDate": "2026-08-09",
+      "dueDate": "2026-08-09",
+      "phase": "第一轮收尾 + 章节客观题",
+      "done": false,
+      "created": "2026-08-05"
+    },
+    {
+      "id": "msffb3ctserhw8",
+      "level": "week",
+      "title": "第19章 所得税 · 学完即做客观题第一轮",
+      "mod": "cpa",
+      "priority": "high",
+      "startDate": "2026-08-03",
+      "endDate": "2026-08-09",
+      "dueDate": "2026-08-09",
+      "phase": "第一轮收尾 + 章节客观题",
+      "done": false,
+      "created": "2026-08-05"
+    }
+  ],
   "roadmapPlans": {},
   "reviews": {},
   "settings": {
@@ -1504,9 +1713,12 @@
       "urgent": true
     }
   },
-  "_updated": "2026-08-05T01:42:59.517Z",
+  "_updated": "2026-08-05T01:43:39.965Z",
   "checkins": [],
   "profile": {
     "nickname": "小王同学"
+  },
+  "_mig": {
+    "cpaSprintImported2": true
   }
 }
