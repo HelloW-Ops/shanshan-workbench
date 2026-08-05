@@ -3,6 +3,50 @@
     "examDate": "2026-08-28",
     "courses": [
       {
+        "id": "msfizq4j5eyjvp",
+        "name": "会计",
+        "total": 30,
+        "completed": 12,
+        "color": "green",
+        "focus": true
+      },
+      {
+        "id": "msfizq4j0tcrhr",
+        "name": "审计",
+        "total": 25,
+        "completed": 0,
+        "color": "blue"
+      },
+      {
+        "id": "msfizq4jcrhs62",
+        "name": "财务成本管理",
+        "total": 28,
+        "completed": 0,
+        "color": "yellow"
+      },
+      {
+        "id": "msfizq4jot1jta",
+        "name": "税法",
+        "total": 22,
+        "completed": 22,
+        "color": "pink",
+        "passed": "2024"
+      },
+      {
+        "id": "msfizq4jwdv3wg",
+        "name": "经济法",
+        "total": 20,
+        "completed": 0,
+        "color": "green"
+      },
+      {
+        "id": "msfizq4jbwb56a",
+        "name": "公司战略与风险管理",
+        "total": 18,
+        "completed": 0,
+        "color": "blue"
+      },
+      {
         "id": "msfbmun1gccj1f",
         "name": "财务成本管理",
         "total": 28,
@@ -84,50 +128,6 @@
       },
       {
         "id": "msess46dzbw4mz",
-        "name": "公司战略与风险管理",
-        "total": 18,
-        "completed": 0,
-        "color": "blue"
-      },
-      {
-        "id": "msfizq4j5eyjvp",
-        "name": "会计",
-        "total": 30,
-        "completed": 12,
-        "color": "green",
-        "focus": true
-      },
-      {
-        "id": "msfizq4j0tcrhr",
-        "name": "审计",
-        "total": 25,
-        "completed": 0,
-        "color": "blue"
-      },
-      {
-        "id": "msfizq4jcrhs62",
-        "name": "财务成本管理",
-        "total": 28,
-        "completed": 0,
-        "color": "yellow"
-      },
-      {
-        "id": "msfizq4jot1jta",
-        "name": "税法",
-        "total": 22,
-        "completed": 22,
-        "color": "pink",
-        "passed": "2024"
-      },
-      {
-        "id": "msfizq4jwdv3wg",
-        "name": "经济法",
-        "total": 20,
-        "completed": 0,
-        "color": "green"
-      },
-      {
-        "id": "msfizq4jbwb56a",
         "name": "公司战略与风险管理",
         "total": 18,
         "completed": 0,
@@ -320,6 +320,13 @@
     "aiRecs": {
       "2026-08-05": [
         {
+          "id": "exm_1785900408068_3ip4r",
+          "title": "听完「会计」剩余课程",
+          "type": "听课",
+          "content": "当前进度 40%，是今年重点，优先推进",
+          "reason": "重点科目进度偏低"
+        },
+        {
           "id": "exm_1785888050081_jgt63",
           "title": "听完「会计」剩余课程",
           "type": "听课",
@@ -374,13 +381,6 @@
           "type": "规划",
           "content": "制定每日学习计划和复习计划",
           "reason": "合理安排时间，确保高效备考"
-        },
-        {
-          "id": "exm_1785900408068_3ip4r",
-          "title": "听完「会计」剩余课程",
-          "type": "听课",
-          "content": "当前进度 40%，是今年重点，优先推进",
-          "reason": "重点科目进度偏低"
         }
       ],
       "2026-08-04": [
@@ -398,6 +398,42 @@
   "tax": {
     "examDate": "2026-11-14",
     "courses": [
+      {
+        "id": "msfizq4jb9yhhm",
+        "name": "税法一",
+        "total": 20,
+        "completed": 20,
+        "color": "green",
+        "passed": "2024"
+      },
+      {
+        "id": "msfizq4jlqrn08",
+        "name": "税法二",
+        "total": 22,
+        "completed": 0,
+        "color": "blue"
+      },
+      {
+        "id": "msfizq4jrr7n1r",
+        "name": "涉税服务实务",
+        "total": 25,
+        "completed": 0,
+        "color": "yellow"
+      },
+      {
+        "id": "msfizq4jlocjpl",
+        "name": "涉税服务相关法律",
+        "total": 20,
+        "completed": 0,
+        "color": "pink"
+      },
+      {
+        "id": "msfizq4jbshyjq",
+        "name": "财务与会计",
+        "total": 28,
+        "completed": 0,
+        "color": "green"
+      },
       {
         "id": "msff9sza0pyt94",
         "name": "涉税服务实务",
@@ -444,35 +480,6 @@
         "total": 25,
         "completed": 0,
         "color": "yellow"
-      },
-      {
-        "id": "msfizq4jb9yhhm",
-        "name": "税法一",
-        "total": 20,
-        "completed": 20,
-        "color": "green",
-        "passed": "2024"
-      },
-      {
-        "id": "msfizq4jrr7n1r",
-        "name": "涉税服务实务",
-        "total": 25,
-        "completed": 0,
-        "color": "yellow"
-      },
-      {
-        "id": "msfizq4jlocjpl",
-        "name": "涉税服务相关法律",
-        "total": 20,
-        "completed": 0,
-        "color": "pink"
-      },
-      {
-        "id": "msfizq4jbshyjq",
-        "name": "财务与会计",
-        "total": 28,
-        "completed": 0,
-        "color": "green"
       }
     ],
     "chapter1": [],
@@ -483,6 +490,13 @@
     "tasks": [],
     "aiRecs": {
       "2026-08-05": [
+        {
+          "id": "exm_1785900408069_7xhrw",
+          "title": "梳理今日学习计划",
+          "type": "规划",
+          "content": "按倒计时安排听课/刷题/复盘",
+          "reason": "保持每日节奏"
+        },
         {
           "id": "exm_1785888050081_ca5y0",
           "title": "梳理今日学习计划",
@@ -538,13 +552,6 @@
           "type": "规划",
           "content": "预习明天的课程内容，做到心中有数，提高听课效率。",
           "reason": "预习有助于跟上老师的思路，提高学习效果。"
-        },
-        {
-          "id": "exm_1785900408069_7xhrw",
-          "title": "梳理今日学习计划",
-          "type": "规划",
-          "content": "按倒计时安排听课/刷题/复盘",
-          "reason": "保持每日节奏"
         }
       ],
       "2026-08-04": [
@@ -2104,7 +2111,7 @@
         "syntax": "=VLOOKUP(查找值, 表格区域, 列序号, 0)",
         "desc": "在表格首列查找关键字，返回同行指定列内容，0为精确匹配。",
         "usage": "用工号在工资表里查对应姓名或部门",
-        "progress": 0
+        "progress": 40
       },
       {
         "id": "ef14",
@@ -2122,7 +2129,7 @@
         "syntax": "=INDEX(返回列, MATCH(查找值, 查找列, 0))",
         "desc": "INDEX配合MATCH实现双向查找，不受列顺序限制。",
         "usage": "工资表列顺序变动也不出错",
-        "progress": 0
+        "progress": 10
       },
       {
         "id": "ef16",
@@ -2131,7 +2138,7 @@
         "syntax": "=SUMIF(条件区域, 条件, [求和区域])",
         "desc": "对满足单个条件的单元格求和。",
         "usage": "汇总某个部门的工资总额",
-        "progress": 0
+        "progress": 50
       },
       {
         "id": "ef17",
@@ -2140,7 +2147,7 @@
         "syntax": "=SUMIFS(求和区域, 条件区1, 条件1, 条件区2, 条件2)",
         "desc": "多条件同时满足才求和，财务统计主力。",
         "usage": "按“部门+月份”汇总报销金额",
-        "progress": 0
+        "progress": 30
       },
       {
         "id": "ef18",
@@ -2149,7 +2156,7 @@
         "syntax": "=ROUND(数值, 小数位数)",
         "desc": "按指定小数位四舍五入，金额处理必备。",
         "usage": "金额保留2位避免分毫误差",
-        "progress": 0
+        "progress": 100
       },
       {
         "id": "ef19",
@@ -2167,7 +2174,7 @@
         "syntax": "=SUM(数值1, 数值2, ...)",
         "desc": "计算所有参数之和，最基础的求和。",
         "usage": "各类金额合计",
-        "progress": 0
+        "progress": 100
       },
       {
         "id": "ef21",
@@ -2176,7 +2183,7 @@
         "syntax": "=AVERAGE(数值区域)",
         "desc": "返回参数的算术平均值。",
         "usage": "计算部门平均工资",
-        "progress": 0
+        "progress": 100
       },
       {
         "id": "ef22",
@@ -2185,7 +2192,7 @@
         "syntax": "=COUNT(值区域)",
         "desc": "统计区域中数字单元格的个数。",
         "usage": "统计有效单据数量",
-        "progress": 0
+        "progress": 100
       },
       {
         "id": "ef23",
@@ -2194,7 +2201,7 @@
         "syntax": "=COUNTA(值区域)",
         "desc": "统计区域中非空单元格的个数。",
         "usage": "统计已填写字段数",
-        "progress": 0
+        "progress": 100
       },
       {
         "id": "ef24",
@@ -2203,7 +2210,7 @@
         "syntax": "=COUNTIF(区域, 条件)",
         "desc": "统计满足单个条件的单元格个数。",
         "usage": "统计某部门人数或迟到次数",
-        "progress": 0
+        "progress": 60
       },
       {
         "id": "ef25",
@@ -2212,7 +2219,7 @@
         "syntax": "=COUNTIFS(区1,条件1, 区2,条件2)",
         "desc": "多条件同时满足才计数。",
         "usage": "统计“销售部且绩效A”的人数",
-        "progress": 0
+        "progress": 20
       },
       {
         "id": "ef26",
@@ -2239,7 +2246,7 @@
         "syntax": "=RANK(数值, 区域, 0)",
         "desc": "返回数值在区域中的排名，0为降序。",
         "usage": "销售业绩名次排序",
-        "progress": 0
+        "progress": 10
       },
       {
         "id": "ef29",
@@ -2248,7 +2255,7 @@
         "syntax": "=MAX(数值区域)",
         "desc": "返回参数中的最大值。",
         "usage": "最高工资或最大单笔支出",
-        "progress": 0
+        "progress": 100
       },
       {
         "id": "ef30",
@@ -2257,7 +2264,7 @@
         "syntax": "=MIN(数值区域)",
         "desc": "返回参数中的最小值。",
         "usage": "最低支出或最低工资",
-        "progress": 0
+        "progress": 100
       },
       {
         "id": "ef31",
@@ -2266,7 +2273,7 @@
         "syntax": "=LEFT(文本, 位数)",
         "desc": "从文本左侧截取指定数量的字符。",
         "usage": "从身份证取前6位地区码",
-        "progress": 0
+        "progress": 100
       },
       {
         "id": "ef32",
@@ -2275,7 +2282,7 @@
         "syntax": "=RIGHT(文本, 位数)",
         "desc": "从文本右侧截取指定数量的字符。",
         "usage": "从订单号取后4位序号",
-        "progress": 0
+        "progress": 100
       },
       {
         "id": "ef33",
@@ -2284,7 +2291,7 @@
         "syntax": "=MID(文本, 起始位, 位数)",
         "desc": "从指定位置开始截取指定长度文本。",
         "usage": "从身份证第7位取8位出生日期",
-        "progress": 0
+        "progress": 100
       },
       {
         "id": "ef34",
@@ -2338,7 +2345,7 @@
         "syntax": "=TODAY()",
         "desc": "返回当前日期，随系统自动更新。",
         "usage": "考勤表自动填当天日期",
-        "progress": 0
+        "progress": 100
       },
       {
         "id": "ef40",
@@ -2428,7 +2435,7 @@
         "syntax": "=IF(条件, 真时结果, 假时结果)",
         "desc": "根据条件判断返回不同结果，最常用逻辑函数。",
         "usage": "工资是否超起征点，超了才计税",
-        "progress": 0
+        "progress": 60
       },
       {
         "id": "ef50",
@@ -2446,7 +2453,7 @@
         "syntax": "=AND(条件1, 条件2)",
         "desc": "所有条件都为真时返回真，常与IF配合。",
         "usage": "判断工资既在范围又属某部门",
-        "progress": 0
+        "progress": 30
       },
       {
         "id": "ef52",
@@ -2455,7 +2462,7 @@
         "syntax": "=OR(条件1, 条件2)",
         "desc": "任一条件为真即返回真。",
         "usage": "迟到或请假都算缺勤",
-        "progress": 0
+        "progress": 20
       },
       {
         "id": "ef53",
@@ -2482,7 +2489,7 @@
         "syntax": "=IFERROR(公式, 出错返回值)",
         "desc": "公式出错时返回指定值，避免表格出现错误值。",
         "usage": "VLOOKUP查不到时显示“无记录”",
-        "progress": 0
+        "progress": 10
       }
     ],
     "templates": [
@@ -2637,6 +2644,50 @@
     ],
     "tasks": [],
     "aiRecs": {
+      "2026-08-05": [
+        {
+          "id": "ex_1785900408068_u8qyd",
+          "name": "数据透视表",
+          "why": "当前掌握度 0%，建议巩固练习",
+          "usage": "按 部门+月份 拖拽即出销售/费用汇总表，比公式快得多"
+        },
+        {
+          "id": "ex_1785900408068_9kk3g",
+          "name": "分列",
+          "why": "当前掌握度 0%，建议巩固练习",
+          "usage": "把 姓名-工号 一列拆成姓名、工号两列，方便后续匹配"
+        },
+        {
+          "id": "ex_1785900408068_ui3xe",
+          "name": "条件格式",
+          "why": "当前掌握度 0%，建议巩固练习",
+          "usage": "给逾期天数>30 的单元格标红，给 Top10 销售额高亮"
+        },
+        {
+          "id": "ex_1785900408068_lfdra",
+          "name": "快速填充",
+          "why": "当前掌握度 0%，建议巩固练习",
+          "usage": "从 2026/8/1 批量提取 8月，或从全称中拆出姓名"
+        },
+        {
+          "id": "ex_1785900887671_arssj",
+          "name": "PMT",
+          "why": "了解贷款月付款额，财务场景常用",
+          "usage": "=PMT(利率,期数,贷款金额,结束金额,0)"
+        },
+        {
+          "id": "ex_1785900887671_h385t",
+          "name": "FV",
+          "why": "计算未来价值，用于投资评估",
+          "usage": "=FV(利率,期数,付款额,初始金额,0)"
+        },
+        {
+          "id": "ex_1785900887671_pndok",
+          "name": "PV",
+          "why": "计算现值，用于投资决策",
+          "usage": "=PV(利率,期数,付款额,0,1)"
+        }
+      ],
       "2026-08-04": [
         {
           "id": "ex_1785856383017_yi59z",
@@ -2662,26 +2713,6 @@
           "why": "当前掌握度 0%，建议巩固练习",
           "usage": "从 2026/8/1 批量提取 8月，或从全称中拆出姓名"
         }
-      ],
-      "2026-08-05": [
-        {
-          "id": "ex_1785900887671_arssj",
-          "name": "PMT",
-          "why": "了解贷款月付款额，财务场景常用",
-          "usage": "=PMT(利率,期数,贷款金额,结束金额,0)"
-        },
-        {
-          "id": "ex_1785900887671_h385t",
-          "name": "FV",
-          "why": "计算未来价值，用于投资评估",
-          "usage": "=FV(利率,期数,付款额,初始金额,0)"
-        },
-        {
-          "id": "ex_1785900887671_pndok",
-          "name": "PV",
-          "why": "计算现值，用于投资决策",
-          "usage": "=PV(利率,期数,付款额,0,1)"
-        }
       ]
     }
   },
@@ -2703,6 +2734,27 @@
       }
     ],
     "lyg": [
+      {
+        "id": "msfizq4j81kexw",
+        "title": "连云港市事业单位招聘公告发布渠道",
+        "content": "连云港市人力资源和社会保障局官网(http://rsj.lyg.gov.cn)是发布事业单位招聘公告的官方渠道，建议每周关注。",
+        "source": "连云港市人社局",
+        "date": "2026-07-30"
+      },
+      {
+        "id": "msfizq4jmushgh",
+        "title": "连云港2026年事业单位统考时间预测",
+        "content": "参考往年时间安排，连云港事业单位统考通常在上半年3-5月发布公告，5-6月笔试。建议提前3个月开始备考。",
+        "source": "备考分析",
+        "date": "2026-07-30"
+      },
+      {
+        "id": "msfizq4jrrnjkc",
+        "title": "连云港事业编考试内容",
+        "content": "连云港事业单位考试一般包括：公共基础知识（政治、经济、法律、管理、公文写作）+ 职业能力测验 + 专业知识（根据岗位不同）",
+        "source": "考试大纲",
+        "date": "2026-07-30"
+      },
       {
         "id": "msff9sza31y4ue",
         "title": "连云港市事业单位招聘公告发布渠道",
@@ -2728,6 +2780,38 @@
     "tasks": [],
     "lygAI": {
       "2026-08-05": [
+        {
+          "id": "lyg_1785900408068_m3qc9",
+          "title": "连云港市人社局官网",
+          "type": "官网",
+          "content": "官方发布事业单位招聘公告、报名与考试安排，建议每周固定查看。",
+          "source": "连云港人社局",
+          "attention": ""
+        },
+        {
+          "id": "lyg_1785900408068_9ttko",
+          "title": "江苏省属事业单位统考",
+          "type": "考试",
+          "content": "江苏省事业单位统一公开招聘考试通常上半年发布公告，连云港设有岗位。",
+          "source": "江苏人事考试网",
+          "attention": ""
+        },
+        {
+          "id": "lyg_1785900408068_l3kpd",
+          "title": "连云港市直属事业单位招聘",
+          "type": "招聘",
+          "content": "各市直单位（教育、卫健、广电等）不定期自主招聘，关注部门官网。",
+          "source": "连云港人社局",
+          "attention": ""
+        },
+        {
+          "id": "lyg_1785900408068_s1z3x",
+          "title": "事业编笔试科目",
+          "type": "备考",
+          "content": "《综合知识和能力素质》+ 专业科目，连云港岗位多考公共基础+申论类。",
+          "source": "招考公告",
+          "attention": ""
+        },
         {
           "id": "lyg_1785897662883_g43uz",
           "title": "连云港市某医院招聘公告",
@@ -2807,38 +2891,6 @@
           "content": "大纲预计11月发布，提前了解考试方向。",
           "source": "连云港人社局官网",
           "attention": "大纲发布时间、考试内容"
-        },
-        {
-          "id": "lyg_1785900408068_m3qc9",
-          "title": "连云港市人社局官网",
-          "type": "官网",
-          "content": "官方发布事业单位招聘公告、报名与考试安排，建议每周固定查看。",
-          "source": "连云港人社局",
-          "attention": ""
-        },
-        {
-          "id": "lyg_1785900408068_9ttko",
-          "title": "江苏省属事业单位统考",
-          "type": "考试",
-          "content": "江苏省事业单位统一公开招聘考试通常上半年发布公告，连云港设有岗位。",
-          "source": "江苏人事考试网",
-          "attention": ""
-        },
-        {
-          "id": "lyg_1785900408068_l3kpd",
-          "title": "连云港市直属事业单位招聘",
-          "type": "招聘",
-          "content": "各市直单位（教育、卫健、广电等）不定期自主招聘，关注部门官网。",
-          "source": "连云港人社局",
-          "attention": ""
-        },
-        {
-          "id": "lyg_1785900408068_s1z3x",
-          "title": "事业编笔试科目",
-          "type": "备考",
-          "content": "《综合知识和能力素质》+ 专业科目，连云港岗位多考公共基础+申论类。",
-          "source": "招考公告",
-          "attention": ""
         }
       ],
       "2026-08-04": [
@@ -2881,6 +2933,26 @@
     "logs": [],
     "books": [
       {
+        "id": "msfizq4jc6t52f",
+        "title": "认知觉醒",
+        "author": "周岭",
+        "totalPages": 280,
+        "currentPage": 156,
+        "status": "reading",
+        "startDate": "2026-06-15",
+        "source": ""
+      },
+      {
+        "id": "msfizq4ja5f7sx",
+        "title": "小岛经济学",
+        "author": "彼得·希夫",
+        "totalPages": 320,
+        "currentPage": 0,
+        "status": "planned",
+        "startDate": "",
+        "source": ""
+      },
+      {
         "id": "msff9szado230b",
         "title": "毛泽东选集（1-7卷）",
         "author": "毛泽东",
@@ -2891,8 +2963,71 @@
         "source": ""
       }
     ],
-    "podcasts": [],
+    "podcasts": [
+      {
+        "id": "msfizq4j9d1x7l",
+        "title": "纵横四海",
+        "host": "携隐",
+        "totalEpisodes": 120,
+        "listenedEpisodes": 45,
+        "status": "reading",
+        "startDate": "2026-05-01",
+        "note": "商业类播客，很有启发",
+        "source": ""
+      },
+      {
+        "id": "msfizq4j8j527u",
+        "title": "知行小酒馆",
+        "host": "有知有行",
+        "totalEpisodes": 80,
+        "listenedEpisodes": 80,
+        "status": "done",
+        "startDate": "2025-11-01",
+        "note": "投资理财播客",
+        "source": ""
+      }
+    ],
     "news": [
+      {
+        "id": "msfizq4jbx1hiu",
+        "date": "2026-07-30",
+        "title": "增值税留抵退税政策延续优化",
+        "summary": "财政部、税务总局联合发布通知，进一步完善增值税留抵退税政策，扩大适用范围。",
+        "category": "税务",
+        "reason": "直接关系企业税负，CPA税法和税务师考试高频考点",
+        "attention": "注意退税条件的变化和计算方法，考试可能出计算题",
+        "source": "国家税务总局"
+      },
+      {
+        "id": "msfizq4jumkqga",
+        "date": "2026-07-30",
+        "title": "个人所得税专项附加扣除标准提高",
+        "summary": "3岁以下婴幼儿照护、子女教育、赡养老人三项专项附加扣除标准提高。",
+        "category": "税务",
+        "reason": "个税改革是近年热点，CPA经济法和税务师涉税法律常考内容",
+        "attention": "关注扣除标准和适用条件的变化，注意综合所得汇算清缴的影响",
+        "source": "国家税务总局"
+      },
+      {
+        "id": "msfizq4jcvwfyb",
+        "date": "2026-07-30",
+        "title": "央行宣布降准0.5个百分点",
+        "summary": "中国人民银行决定下调金融机构存款准备金率0.5个百分点，释放长期资金。",
+        "category": "财经",
+        "reason": "货币政策影响企业融资成本和投资决策，审计和财管涉及宏观分析",
+        "attention": "理解降准对流动性、利率、资本市场的影响链条",
+        "source": "中国人民银行"
+      },
+      {
+        "id": "msfizq4jkjg9mo",
+        "date": "2026-07-30",
+        "title": "国务院研究优化营商环境条例",
+        "summary": "国务院常务会议审议通过优化营商环境条例修订草案，进一步简化审批流程。",
+        "category": "时政",
+        "reason": "营商环境改革涉及企业注册、税务办理等，与CPA经济法相关",
+        "attention": "关注行政审批简化和税务服务优化的具体措施",
+        "source": "新华社"
+      },
       {
         "id": "msess46dtof4bx",
         "date": "2026-07-30",
@@ -2922,21 +3057,11 @@
         "reason": "个税改革是近年热点，CPA经济法和税务师涉税法律常考内容",
         "attention": "关注扣除标准和适用条件的变化，注意综合所得汇算清缴的影响",
         "source": "国家税务总局"
-      },
-      {
-        "id": "msfizq4jcvwfyb",
-        "date": "2026-07-30",
-        "title": "央行宣布降准0.5个百分点",
-        "summary": "中国人民银行决定下调金融机构存款准备金率0.5个百分点，释放长期资金。",
-        "category": "财经",
-        "reason": "货币政策影响企业融资成本和投资决策，审计和财管涉及宏观分析",
-        "attention": "理解降准对流动性、利率、资本市场的影响链条",
-        "source": "中国人民银行"
       }
     ],
     "dailyPicks": [
       {
-        "id": "msfbmun2szv9lg",
+        "id": "msfizq4jt4rmua",
         "date": "2026-07-30",
         "type": "book",
         "title": "纳税筹划实务与案例",
@@ -2953,6 +3078,16 @@
         "author": "携隐",
         "reason": "个人知识管理方法论，帮助你更高效地整合备考知识，建立系统化学习框架",
         "attention": "尝试将播客中的知识管理方法应用到CPA和税务师备考中",
+        "source": ""
+      },
+      {
+        "id": "msfbmun2szv9lg",
+        "date": "2026-07-30",
+        "type": "book",
+        "title": "纳税筹划实务与案例",
+        "author": "蔡昌",
+        "reason": "结合当前税务政策变化，系统讲解纳税筹划思路，对CPA税法和税务师实务考试有直接帮助",
+        "attention": "重点关注增值税和企业所得税的筹划案例，与最新政策对照学习",
         "source": ""
       }
     ],
@@ -3123,6 +3258,22 @@
     }
   ],
   "changelog": [
+    {
+      "date": "2026-08-05",
+      "content": "v2.2.40 修复跨设备同步：cloudPull 改为匿名 GET（public 仓库无需 PAT），cloudAutoSync 去掉「无 PAT 直接 return」前置；此前手机未填/填无效 PAT 时拉取被阻断，导致电脑同步的数据在手机看不到。"
+    },
+    {
+      "date": "2026-08-05",
+      "content": "v2.2.39 修复路线图阶段状态下拉框 ReferenceError：saveStageStatus/saveStageNote 原定义在 renderRoadmap 函数体内（闭包），inline handler（onchange/onblur）调用栈外查不到 → ReferenceError。已移至顶层为全局函数。"
+    },
+    {
+      "date": "2026-08-05",
+      "content": "v2.2.38 修复设置页渲染崩溃：DATA.changelog 历史累积 null 元素导致「设置与数据」整页报\"null is not an object (evaluating c.date)\"；已加 filter 防御 + _clnDataPlaceholders 清理 changelog 数组。"
+    },
+    {
+      "date": "2026-08-05",
+      "content": "v2.2.37 勾选完成终极保险：勾选「各阶段学习规划」完成后，状态写入本地独立存证（shanshan_done_marks），任何云端同步 / 合并 / 覆盖都无法回退；设置页「关于」新增同步诊断（本地最后修改 / 云端最后同步 / 勾选存证数）。"
+    },
     {
       "date": "2026-08-05",
       "content": "v2.2.36 云端同步彻底改为合并式：勾选「各阶段学习规划 / 今日任务 / 模块任务」完成后，本地已完成状态永不被云端旧数据回退（此前修复已生效，本版更新版本号强制所有设备刷新到最新文件，避免旧缓存继续回写旧状态）。"
@@ -3562,22 +3713,6 @@
       "content": "课程卡片新增编辑按钮，可直接修改科目名称、总课时、已完成课时和备考标记",
       "scope": "CPA备考/税务师备考",
       "action": "刷新页面即可看到更新"
-    },
-    {
-      "date": "2026-08-05",
-      "content": "v2.2.39 修复路线图阶段状态下拉框 ReferenceError：saveStageStatus/saveStageNote 原定义在 renderRoadmap 函数体内（闭包），inline handler（onchange/onblur）调用栈外查不到 → ReferenceError。已移至顶层为全局函数。"
-    },
-    {
-      "date": "2026-08-05",
-      "content": "v2.2.38 修复设置页渲染崩溃：DATA.changelog 历史累积 null 元素导致「设置与数据」整页报\"null is not an object (evaluating c.date)\"；已加 filter 防御 + _clnDataPlaceholders 清理 changelog 数组。"
-    },
-    {
-      "date": "2026-08-05",
-      "content": "v2.2.37 勾选完成终极保险：勾选「各阶段学习规划」完成后，状态写入本地独立存证（shanshan_done_marks），任何云端同步 / 合并 / 覆盖都无法回退；设置页「关于」新增同步诊断（本地最后修改 / 云端最后同步 / 勾选存证数）。"
-    },
-    {
-      "date": "2026-08-05",
-      "content": "v2.2.40 修复跨设备同步：cloudPull 改为匿名 GET（public 仓库无需 PAT），cloudAutoSync 去掉「无 PAT 直接 return」前置；此前手机未填/填无效 PAT 时拉取被阻断，导致电脑同步的数据在手机看不到。"
     }
   ],
   "weeklyTasks": [
@@ -3853,7 +3988,7 @@
       "urgent": true
     }
   },
-  "_updated": "2026-08-05T03:35:06.383Z",
+  "_updated": "2026-08-05T03:36:39.458Z",
   "checkins": [],
   "_mig": {
     "cpaTasksCleared": true,
