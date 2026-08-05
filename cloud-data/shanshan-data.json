@@ -2543,26 +2543,6 @@
         "reason": "个人知识管理方法论，帮助你更高效地整合备考知识，建立系统化学习框架",
         "attention": "尝试将播客中的知识管理方法应用到CPA和税务师备考中",
         "source": ""
-      },
-      {
-        "id": "msff9szapmxy8h",
-        "date": "2026-07-30",
-        "type": "book",
-        "title": "纳税筹划实务与案例",
-        "author": "蔡昌",
-        "reason": "结合当前税务政策变化，系统讲解纳税筹划思路，对CPA税法和税务师实务考试有直接帮助",
-        "attention": "重点关注增值税和企业所得税的筹划案例，与最新政策对照学习",
-        "source": ""
-      },
-      {
-        "id": "msff9szab0ukht",
-        "date": "2026-07-30",
-        "type": "podcast",
-        "title": "纵横四海 · EP45：如何构建个人知识体系",
-        "author": "携隐",
-        "reason": "个人知识管理方法论，帮助你更高效地整合备考知识，建立系统化学习框架",
-        "attention": "尝试将播客中的知识管理方法应用到CPA和税务师备考中",
-        "source": ""
       }
     ],
     "dismissed": [],
@@ -3410,7 +3390,7 @@
       "urgent": true
     }
   },
-  "_updated": "2026-08-05T02:34:09.018Z",
+  "_updated": "2026-08-05T02:34:19.065Z",
   "checkins": [],
   "_mig": {
     "cpaTasksCleared": true,
