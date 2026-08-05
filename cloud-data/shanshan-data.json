@@ -1704,7 +1704,7 @@
       "level": "week",
       "title": "8.9 本周回看 · 归集错题",
       "mod": "cpa",
-      "priority": "high",
+      "priority": "low",
       "startDate": "2026-08-03",
       "endDate": "2026-08-09",
       "dueDate": "2026-08-09",
@@ -1803,7 +1803,7 @@
       "urgent": true
     }
   },
-  "_updated": "2026-08-05T01:25:03.451Z",
+  "_updated": "2026-08-05T01:25:26.784Z",
   "checkins": [
     "2026-08-05"
   ],
