@@ -3,7 +3,7 @@
     "examDate": "2026-08-28",
     "courses": [
       {
-        "id": "msetm8mrczf8pf",
+        "id": "msfbmun1z897f7",
         "name": "会计",
         "total": 30,
         "completed": 12,
@@ -11,21 +11,21 @@
         "focus": true
       },
       {
-        "id": "msetm8mrsxxdwh",
+        "id": "msfbmun1tf551c",
         "name": "审计",
         "total": 25,
         "completed": 0,
         "color": "blue"
       },
       {
-        "id": "msetm8mrrw349s",
+        "id": "msfbmun1gccj1f",
         "name": "财务成本管理",
         "total": 28,
         "completed": 0,
         "color": "yellow"
       },
       {
-        "id": "msetm8mretvvuw",
+        "id": "msfbmun1fqrc3d",
         "name": "税法",
         "total": 22,
         "completed": 22,
@@ -33,14 +33,14 @@
         "passed": "2024"
       },
       {
-        "id": "msetm8mrpz4in6",
+        "id": "msfbmun1olnnym",
         "name": "经济法",
         "total": 20,
         "completed": 0,
         "color": "green"
       },
       {
-        "id": "msetm8mri31cfr",
+        "id": "msfbmun1ibffjh",
         "name": "公司战略与风险管理",
         "total": 18,
         "completed": 0,
@@ -54,18 +54,9 @@
     "mistakes": [],
     "tasks": [],
     "aiRecs": {
-      "2026-08-04": [
-        {
-          "id": "exm_1785857788472_am2f7",
-          "title": "听完「会计」剩余课程",
-          "type": "听课",
-          "content": "当前进度 40%，是今年重点，优先推进",
-          "reason": "重点科目进度偏低"
-        }
-      ],
       "2026-08-05": [
         {
-          "id": "exm_1785859211138_xcjhy",
+          "id": "exm_1785888050081_jgt63",
           "title": "听完「会计」剩余课程",
           "type": "听课",
           "content": "当前进度 40%，是今年重点，优先推进",
@@ -79,7 +70,7 @@
     "examDate": "2026-11-14",
     "courses": [
       {
-        "id": "msetm8mr2aws3g",
+        "id": "msfbmun2xs76d1",
         "name": "税法一",
         "total": 20,
         "completed": 20,
@@ -87,28 +78,28 @@
         "passed": "2024"
       },
       {
-        "id": "msetm8mrkij0c8",
+        "id": "msfbmun2dnxe7n",
         "name": "税法二",
         "total": 22,
         "completed": 0,
         "color": "blue"
       },
       {
-        "id": "msetm8mr3jdevg",
+        "id": "msfbmun2ea8lw1",
         "name": "涉税服务实务",
         "total": 25,
         "completed": 0,
         "color": "yellow"
       },
       {
-        "id": "msetm8mrkwlpma",
+        "id": "msfbmun29tmob6",
         "name": "涉税服务相关法律",
         "total": 20,
         "completed": 0,
         "color": "pink"
       },
       {
-        "id": "msetm8mrxrkrk7",
+        "id": "msfbmun2tebmy4",
         "name": "财务与会计",
         "total": 28,
         "completed": 0,
@@ -122,18 +113,9 @@
     "mistakes": [],
     "tasks": [],
     "aiRecs": {
-      "2026-08-04": [
-        {
-          "id": "exm_1785857788472_yut9r",
-          "title": "梳理今日学习计划",
-          "type": "规划",
-          "content": "按倒计时安排听课/刷题/复盘",
-          "reason": "保持每日节奏"
-        }
-      ],
       "2026-08-05": [
         {
-          "id": "exm_1785859211139_8l4hw",
+          "id": "exm_1785888050081_ca5y0",
           "title": "梳理今日学习计划",
           "type": "规划",
           "content": "按倒计时安排听课/刷题/复盘",
@@ -830,53 +812,27 @@
     ],
     "tasks": [],
     "aiRecs": {
-      "2026-08-04": [
-        {
-          "id": "ex_1785857788471_u2dlf",
-          "name": "数据透视表",
-          "why": "当前掌握度 0%，建议巩固练习",
-          "usage": "按 部门+月份 拖拽即出销售/费用汇总表，比公式快得多"
-        },
-        {
-          "id": "ex_1785857788471_68cp0",
-          "name": "分列",
-          "why": "当前掌握度 0%，建议巩固练习",
-          "usage": "把 姓名-工号 一列拆成姓名、工号两列，方便后续匹配"
-        },
-        {
-          "id": "ex_1785857788471_wwmfs",
-          "name": "条件格式",
-          "why": "当前掌握度 0%，建议巩固练习",
-          "usage": "给逾期天数>30 的单元格标红，给 Top10 销售额高亮"
-        },
-        {
-          "id": "ex_1785857788471_7rpf2",
-          "name": "快速填充",
-          "why": "当前掌握度 0%，建议巩固练习",
-          "usage": "从 2026/8/1 批量提取 8月，或从全称中拆出姓名"
-        }
-      ],
       "2026-08-05": [
         {
-          "id": "ex_1785859211136_1jygb",
+          "id": "ex_1785888050080_e7ffh",
           "name": "数据透视表",
           "why": "当前掌握度 0%，建议巩固练习",
           "usage": "按 部门+月份 拖拽即出销售/费用汇总表，比公式快得多"
         },
         {
-          "id": "ex_1785859211136_l8l3p",
+          "id": "ex_1785888050080_hveqs",
           "name": "分列",
           "why": "当前掌握度 0%，建议巩固练习",
           "usage": "把 姓名-工号 一列拆成姓名、工号两列，方便后续匹配"
         },
         {
-          "id": "ex_1785859211136_vcmfs",
+          "id": "ex_1785888050080_il7cw",
           "name": "条件格式",
           "why": "当前掌握度 0%，建议巩固练习",
           "usage": "给逾期天数>30 的单元格标红，给 Top10 销售额高亮"
         },
         {
-          "id": "ex_1785859211136_zkfcs",
+          "id": "ex_1785888050080_k0q88",
           "name": "快速填充",
           "why": "当前掌握度 0%，建议巩固练习",
           "usage": "从 2026/8/1 批量提取 8月，或从全称中拆出姓名"
@@ -887,14 +843,14 @@
   "shiyebian": {
     "items": [
       {
-        "id": "msetm8mrrm6x1z",
+        "id": "msfbmun2jof6d2",
         "title": "省属事业单位招聘信息",
         "content": "关注省人事考试网，预计明年3月发布公告",
         "source": "省人事考试网",
         "date": "2026-07-20"
       },
       {
-        "id": "msetm8mrqg14uw",
+        "id": "msfbmun2w3niph",
         "title": "公共基础知识备考范围",
         "content": "政治、经济、法律、管理、公文写作等",
         "source": "备考论坛",
@@ -903,21 +859,21 @@
     ],
     "lyg": [
       {
-        "id": "msetm8mrkkx8gv",
+        "id": "msfbmun2kkpaiw",
         "title": "连云港市事业单位招聘公告发布渠道",
         "content": "连云港市人力资源和社会保障局官网(http://rsj.lyg.gov.cn)是发布事业单位招聘公告的官方渠道，建议每周关注。",
         "source": "连云港市人社局",
         "date": "2026-07-30"
       },
       {
-        "id": "msetm8mrll2em5",
+        "id": "msfbmun2itg1jh",
         "title": "连云港2026年事业单位统考时间预测",
         "content": "参考往年时间安排，连云港事业单位统考通常在上半年3-5月发布公告，5-6月笔试。建议提前3个月开始备考。",
         "source": "备考分析",
         "date": "2026-07-30"
       },
       {
-        "id": "msetm8mrch400m",
+        "id": "msfbmun2uv9h3e",
         "title": "连云港事业编考试内容",
         "content": "连云港事业单位考试一般包括：公共基础知识（政治、经济、法律、管理、公文写作）+ 职业能力测验 + 专业知识（根据岗位不同）",
         "source": "考试大纲",
@@ -926,43 +882,9 @@
     ],
     "tasks": [],
     "lygAI": {
-      "2026-08-04": [
-        {
-          "id": "lyg_1785857788470_datn9",
-          "title": "连云港市人社局官网",
-          "type": "官网",
-          "content": "官方发布事业单位招聘公告、报名与考试安排，建议每周固定查看。",
-          "source": "连云港人社局",
-          "attention": ""
-        },
-        {
-          "id": "lyg_1785857788470_d1i59",
-          "title": "江苏省属事业单位统考",
-          "type": "考试",
-          "content": "江苏省事业单位统一公开招聘考试通常上半年发布公告，连云港设有岗位。",
-          "source": "江苏人事考试网",
-          "attention": ""
-        },
-        {
-          "id": "lyg_1785857788470_qq0pe",
-          "title": "连云港市直属事业单位招聘",
-          "type": "招聘",
-          "content": "各市直单位（教育、卫健、广电等）不定期自主招聘，关注部门官网。",
-          "source": "连云港人社局",
-          "attention": ""
-        },
-        {
-          "id": "lyg_1785857788470_hfzrd",
-          "title": "事业编笔试科目",
-          "type": "备考",
-          "content": "《综合知识和能力素质》+ 专业科目，连云港岗位多考公共基础+申论类。",
-          "source": "招考公告",
-          "attention": ""
-        }
-      ],
       "2026-08-05": [
         {
-          "id": "lyg_1785859211135_mcceb",
+          "id": "lyg_1785888050080_gmd3h",
           "title": "连云港市人社局官网",
           "type": "官网",
           "content": "官方发布事业单位招聘公告、报名与考试安排，建议每周固定查看。",
@@ -970,7 +892,7 @@
           "attention": ""
         },
         {
-          "id": "lyg_1785859211135_ne9ao",
+          "id": "lyg_1785888050080_u5lwc",
           "title": "江苏省属事业单位统考",
           "type": "考试",
           "content": "江苏省事业单位统一公开招聘考试通常上半年发布公告，连云港设有岗位。",
@@ -978,7 +900,7 @@
           "attention": ""
         },
         {
-          "id": "lyg_1785859211135_e89cr",
+          "id": "lyg_1785888050080_mc1up",
           "title": "连云港市直属事业单位招聘",
           "type": "招聘",
           "content": "各市直单位（教育、卫健、广电等）不定期自主招聘，关注部门官网。",
@@ -986,7 +908,7 @@
           "attention": ""
         },
         {
-          "id": "lyg_1785859211135_du57r",
+          "id": "lyg_1785888050080_nofvd",
           "title": "事业编笔试科目",
           "type": "备考",
           "content": "《综合知识和能力素质》+ 专业科目，连云港岗位多考公共基础+申论类。",
@@ -1000,7 +922,7 @@
     "logs": [],
     "books": [
       {
-        "id": "msetm8mrzn43vn",
+        "id": "msfbmun2u1w5hd",
         "title": "认知觉醒",
         "author": "周岭",
         "totalPages": 280,
@@ -1010,7 +932,7 @@
         "source": ""
       },
       {
-        "id": "msetm8mryklzkm",
+        "id": "msfbmun2er6gp8",
         "title": "小岛经济学",
         "author": "彼得·希夫",
         "totalPages": 320,
@@ -1022,7 +944,7 @@
     ],
     "podcasts": [
       {
-        "id": "msetm8mrj9plzp",
+        "id": "msfbmun2bz4ek0",
         "title": "纵横四海",
         "host": "携隐",
         "totalEpisodes": 120,
@@ -1033,7 +955,7 @@
         "source": ""
       },
       {
-        "id": "msetm8mr562o0n",
+        "id": "msfbmun2pimmf6",
         "title": "知行小酒馆",
         "host": "有知有行",
         "totalEpisodes": 80,
@@ -1046,7 +968,7 @@
     ],
     "news": [
       {
-        "id": "msetm8mrh76pgi",
+        "id": "msfbmun211dx8g",
         "date": "2026-07-30",
         "title": "增值税留抵退税政策延续优化",
         "summary": "财政部、税务总局联合发布通知，进一步完善增值税留抵退税政策，扩大适用范围。",
@@ -1056,7 +978,7 @@
         "source": "国家税务总局"
       },
       {
-        "id": "msetm8mr8zxuwx",
+        "id": "msfbmun20kz7wr",
         "date": "2026-07-30",
         "title": "个人所得税专项附加扣除标准提高",
         "summary": "3岁以下婴幼儿照护、子女教育、赡养老人三项专项附加扣除标准提高。",
@@ -1066,7 +988,7 @@
         "source": "国家税务总局"
       },
       {
-        "id": "msetm8mrw36fqz",
+        "id": "msfbmun20yq6xz",
         "date": "2026-07-30",
         "title": "央行宣布降准0.5个百分点",
         "summary": "中国人民银行决定下调金融机构存款准备金率0.5个百分点，释放长期资金。",
@@ -1076,7 +998,7 @@
         "source": "中国人民银行"
       },
       {
-        "id": "msetm8mrloddof",
+        "id": "msfbmun2qjqgip",
         "date": "2026-07-30",
         "title": "国务院研究优化营商环境条例",
         "summary": "国务院常务会议审议通过优化营商环境条例修订草案，进一步简化审批流程。",
@@ -1088,7 +1010,7 @@
     ],
     "dailyPicks": [
       {
-        "id": "msetm8mr2ccyp4",
+        "id": "msfbmun2szv9lg",
         "date": "2026-07-30",
         "type": "book",
         "title": "纳税筹划实务与案例",
@@ -1098,7 +1020,7 @@
         "source": ""
       },
       {
-        "id": "msetm8mrxh4tc1",
+        "id": "msfbmun2jrr4ag",
         "date": "2026-07-30",
         "type": "podcast",
         "title": "纵横四海 · EP45：如何构建个人知识体系",
@@ -1111,75 +1033,6 @@
     "dismissed": [],
     "recent": {},
     "aiRecs": {
-      "2026-08-04": [
-        {
-          "id": "ai_libn-1",
-          "kind": "news",
-          "title": "增值税留抵退税政策延续优化",
-          "category": "税务",
-          "summary": "财政部、税务总局完善增值税留抵退税政策，扩大适用范围并简化流程。",
-          "reason": "直接关系企业税负，是CPA税法与税务师考试的高频考点",
-          "attention": "注意退税条件变化与计算方法，考试易出计算题",
-          "source": "国家税务总局"
-        },
-        {
-          "id": "ai_libn-5",
-          "kind": "news",
-          "title": "央行降准释放长期资金",
-          "category": "财经",
-          "summary": "央行下调金融机构存款准备金率，释放流动性支持实体经济。",
-          "reason": "货币政策影响融资成本与投资判断，财管/审计涉及宏观分析",
-          "attention": "理解降准对利率、流动性、资本市场的传导链条",
-          "source": "中国人民银行"
-        },
-        {
-          "id": "ai_libn-12",
-          "kind": "news",
-          "title": "数据要素与算力基础设施建设",
-          "category": "AI科技",
-          "summary": "数据资产入表与算力网络建设持续推进，数字经济发展底座加固。",
-          "reason": "数据资产化是财务与会计领域的新课题",
-          "attention": "关注数据资源确认为资产的相关准则动态",
-          "source": "发改委"
-        },
-        {
-          "id": "ai_libn-14",
-          "kind": "news",
-          "title": "职业教育与技能人才政策",
-          "category": "时政",
-          "summary": "国家持续推进职业教育体系建设，技能人才培养力度加大。",
-          "reason": "与事业编/职业发展相关，可关注政策导向",
-          "attention": "关注职业资格与技能认证的政策变化",
-          "source": "新华社"
-        },
-        {
-          "id": "ai_libp-6",
-          "kind": "book",
-          "title": "AI 2041",
-          "author": "李开复 / 陈楸帆",
-          "reason": "用科幻+科普方式展望未来AI应用，建立科技视野",
-          "attention": "对照“AI科技”新闻思考职业与学习影响",
-          "source": ""
-        },
-        {
-          "id": "ai_libp-7",
-          "kind": "podcast",
-          "title": "纵横四海",
-          "author": "携隐",
-          "reason": "商业与认知类播客，信息密度高，常带来方法论启发",
-          "attention": "尝试把知识管理方法应用到备考资料整合",
-          "source": ""
-        },
-        {
-          "id": "ai_libp-8",
-          "kind": "podcast",
-          "title": "知行小酒馆",
-          "author": "有知有行",
-          "reason": "投资理财与金钱观播客，帮助建立长期财务思维",
-          "attention": "关注其关于复利与资产配置的朴素逻辑",
-          "source": ""
-        }
-      ],
       "2026-08-05": [
         {
           "id": "ai_libn-2",
@@ -1253,21 +1106,21 @@
   },
   "inbox": [
     {
-      "id": "msetm8mro23p4h",
+      "id": "msfbmun2weo9h2",
       "type": "text",
       "content": "CPA报名时间是4月，记得提前准备照片和学历认证",
       "date": "2026-07-29",
       "target": ""
     },
     {
-      "id": "msetm8mr0qviji",
+      "id": "msfbmun2us1ros",
       "type": "link",
       "content": "https://www.cicpa.org.cn — 中注协官网",
       "date": "2026-07-28",
       "target": ""
     },
     {
-      "id": "msetm8mru1avan",
+      "id": "msfbmun2e7t1z3",
       "type": "task",
       "content": "整理一份各科目考试时间表",
       "date": "2026-07-26",
@@ -1275,6 +1128,14 @@
     }
   ],
   "changelog": [
+    {
+      "date": "2026-08-05",
+      "content": "v2.2.36 云端同步彻底改为合并式：勾选「各阶段学习规划 / 今日任务 / 模块任务」完成后，本地已完成状态永不被云端旧数据回退（此前修复已生效，本版更新版本号强制所有设备刷新到最新文件，避免旧缓存继续回写旧状态）。"
+    },
+    {
+      "date": "2026-08-04",
+      "content": "v2.2.35 学习规划优化：取消「今日任务」里的「模块今日待办（自动汇总）」段，今日只保留手动「我的日计划」；新增可选「日期」字段（添加栏与编辑弹窗均为日期选择器，可留空，卡片以墨绿徽章显示所选日期），并移除「时长/时段」字段；修复勾选任务完成被云端同步覆盖回未完成的问题（本地有未推送修改时优先保留本地、只上传不覆盖）。"
+    },
     {
       "date": "2026-08-04",
       "content": "v2.2.34 紧急修复：v2.2.30 起模块接入 AI 后，云端同步/老版本数据带回的 null 占位元素会触发 null.date 渲染崩溃（首页一直显示「渲染出错 · Cannot read properties of null (reading date)」。v2.2.34 在 loadData 与 applyCloudSyncData 起点统一清洗各模块 tasks / courseDates / funcDates / logs / items / lyg / inbox / weeklyTasks / aiRecs / lygAI 数组中的 null 项，并在几个核心 forEach 内加 if(!t)return 保险。无需清空数据，下次刷新页面即可自动恢复。"
@@ -1710,248 +1571,238 @@
   ],
   "weeklyTasks": [
     {
-      "id": "mseuhujwvjl2ur",
-      "level": "month",
-      "month": "2026-08",
-      "title": "CPA会计冲刺阶段！！！",
-      "content": "",
+      "id": "msfdfvr8t8w5aq",
+      "level": "day",
+      "date": "2026-08-05",
+      "title": "11",
+      "mod": "cpa",
+      "priority": "high",
+      "schedDate": "",
+      "detail": "",
       "done": false,
       "created": "2026-08-05"
     },
     {
-      "id": "mseu49k0xpi7zy",
-      "level": "day",
-      "date": "2026-08-04",
-      "title": "第26章 企业合并 · 学完即做客观题第一轮",
-      "mod": "cpa",
-      "priority": "",
-      "est": "2026.8.5",
-      "detail": "",
-      "done": false,
-      "created": "2026-08-04"
-    },
-    {
-      "id": "mseu3f22t2x1h4",
-      "level": "day",
-      "date": "2026-08-04",
-      "title": "第19章 所得税 · 学完即做客观题第一轮",
-      "mod": "cpa",
-      "priority": "",
-      "est": "2026.8.5",
-      "detail": "",
-      "done": false,
-      "created": "2026-08-04"
-    },
-    {
-      "id": "msets8djc5j2zf",
+      "id": "msfdei6qhxmml9",
       "level": "week",
       "title": "考前 1 天只翻不刷题 · 调状态上考场",
       "mod": "cpa",
-      "priority": "low",
+      "priority": "high",
       "startDate": "2026-08-24",
       "endDate": "2026-08-28",
       "dueDate": "2026-08-28",
       "phase": "真题模拟 + 错题二刷 + 调状态",
       "done": false,
-      "created": "2026-08-04"
+      "created": "2026-08-05"
     },
     {
-      "id": "msets8djjrxl8t",
+      "id": "msfdei6quwv8fr",
       "level": "week",
-      "title": "错题本二刷",
+      "title": "错题本二刷至能独立写全分录",
       "mod": "cpa",
-      "priority": "low",
+      "priority": "high",
       "startDate": "2026-08-24",
       "endDate": "2026-08-28",
       "dueDate": "2026-08-28",
       "phase": "真题模拟 + 错题二刷 + 调状态",
       "done": false,
-      "created": "2026-08-04"
+      "created": "2026-08-05"
     },
     {
-      "id": "msets8djptj1th",
+      "id": "msfdei6q3a5dt9",
       "level": "week",
-      "title": "历年真题二刷",
+      "title": "再做真题 2 套（累计约 3 套）",
       "mod": "cpa",
-      "priority": "low",
+      "priority": "high",
       "startDate": "2026-08-24",
       "endDate": "2026-08-28",
       "dueDate": "2026-08-28",
       "phase": "真题模拟 + 错题二刷 + 调状态",
       "done": false,
-      "created": "2026-08-04"
+      "created": "2026-08-05"
     },
     {
-      "id": "msets8djg1kz3l",
+      "id": "msfdei6qc25ulf",
       "level": "week",
       "title": "每天固定时段重做旧错（错题本）",
       "mod": "cpa",
-      "priority": "low",
+      "priority": "high",
       "startDate": "2026-08-17",
       "endDate": "2026-08-23",
       "dueDate": "2026-08-23",
       "phase": "历年真题 + 模拟题 + 错题二刷",
       "done": false,
-      "created": "2026-08-04"
+      "created": "2026-08-05"
     },
     {
-      "id": "msets8djjaujij",
+      "id": "msfdei6qd6s2rv",
       "level": "week",
-      "title": "做模拟题 3套左右",
+      "title": "做模拟题 2 套",
       "mod": "cpa",
-      "priority": "low",
+      "priority": "high",
       "startDate": "2026-08-17",
       "endDate": "2026-08-23",
       "dueDate": "2026-08-23",
       "phase": "历年真题 + 模拟题 + 错题二刷",
       "done": false,
-      "created": "2026-08-04"
+      "created": "2026-08-05"
     },
     {
-      "id": "msets8djvbcjp0",
+      "id": "msfdei6qrckyif",
       "level": "week",
-      "title": "做历年真题（2021–2025 近5年，严格计时 3h/套， 5套）",
+      "title": "做历年真题（2021–2025 近5年，严格计时 3h/套，至少 3 套）",
       "mod": "cpa",
-      "priority": "low",
+      "priority": "high",
       "startDate": "2026-08-17",
       "endDate": "2026-08-23",
       "dueDate": "2026-08-23",
       "phase": "历年真题 + 模拟题 + 错题二刷",
       "done": false,
-      "created": "2026-08-04"
+      "created": "2026-08-05"
     },
     {
-      "id": "msets8djwywa1u",
+      "id": "msfdei6qw4nk7q",
       "level": "week",
       "title": "整理错题本（标注错因 + 正确分录）",
       "mod": "cpa",
-      "priority": "low",
+      "priority": "high",
       "startDate": "2026-08-10",
       "endDate": "2026-08-16",
       "dueDate": "2026-08-16",
       "phase": "章节主客观题第二轮 + 整理错题本",
       "done": false,
-      "created": "2026-08-04"
+      "created": "2026-08-05"
     },
     {
-      "id": "msets8djwi11hj",
+      "id": "msfdei6qrf079a",
       "level": "week",
       "title": "逐章做客观题第二轮",
       "mod": "cpa",
-      "priority": "low",
+      "priority": "high",
       "startDate": "2026-08-10",
       "endDate": "2026-08-16",
       "dueDate": "2026-08-16",
       "phase": "章节主客观题第二轮 + 整理错题本",
       "done": false,
-      "created": "2026-08-04"
+      "created": "2026-08-05"
     },
     {
-      "id": "msets8djhror5e",
+      "id": "msfdei6q2sqnx6",
       "level": "week",
-      "title": "逐章做主观题（计算分析 / 综合题）第一轮",
+      "title": "逐章做主观题（计算分析 / 综合题）第二轮",
       "mod": "cpa",
-      "priority": "low",
+      "priority": "high",
       "startDate": "2026-08-10",
       "endDate": "2026-08-16",
       "dueDate": "2026-08-16",
       "phase": "章节主客观题第二轮 + 整理错题本",
       "done": false,
-      "created": "2026-08-04"
+      "created": "2026-08-05"
     },
     {
-      "id": "msets8djjn5mvw",
+      "id": "msfdei6qx1yp9z",
       "level": "week",
       "title": "8.9 本周回看 · 归集错题",
       "mod": "cpa",
-      "priority": "low",
+      "priority": "high",
       "startDate": "2026-08-03",
       "endDate": "2026-08-09",
       "dueDate": "2026-08-09",
       "phase": "第一轮收尾 + 章节客观题",
       "done": false,
-      "created": "2026-08-04"
+      "created": "2026-08-05"
     },
     {
-      "id": "msets8djgdiuff",
+      "id": "msfdei6qpn1tx9",
       "level": "week",
       "title": "第29章 公允价值计量 + 第30章 政府及民间非营利组织会计 · 客观题第一轮",
       "mod": "cpa",
-      "priority": "low",
+      "priority": "high",
       "startDate": "2026-08-03",
       "endDate": "2026-08-09",
       "dueDate": "2026-08-09",
       "phase": "第一轮收尾 + 章节客观题",
       "done": false,
-      "created": "2026-08-04"
+      "created": "2026-08-05"
     },
     {
-      "id": "msets8dj8dgy89",
+      "id": "msfdei6qemhmd0",
       "level": "week",
       "title": "第24章 会计政策变更 + 第25章 资产负债表日后事项 · 客观题第一轮",
       "mod": "cpa",
-      "priority": "low",
+      "priority": "high",
       "startDate": "2026-08-03",
       "endDate": "2026-08-09",
       "dueDate": "2026-08-09",
       "phase": "第一轮收尾 + 章节客观题",
       "done": false,
-      "created": "2026-08-04"
+      "created": "2026-08-05"
     },
     {
-      "id": "msets8dj812wo2",
+      "id": "msfdei6qr25bcp",
       "level": "week",
       "title": "第23章 财务报告 + 第28章 每股收益 · 客观题第一轮",
       "mod": "cpa",
-      "priority": "low",
+      "priority": "high",
       "startDate": "2026-08-03",
       "endDate": "2026-08-09",
       "dueDate": "2026-08-09",
       "phase": "第一轮收尾 + 章节客观题",
       "done": false,
-      "created": "2026-08-04"
+      "created": "2026-08-05"
     },
     {
-      "id": "msets8djc0sk1m",
+      "id": "msfdei6qqsdsl4",
       "level": "week",
       "title": "第27章 合并财务报表 · 学完即做客观题第一轮",
       "mod": "cpa",
-      "priority": "low",
+      "priority": "high",
       "startDate": "2026-08-03",
       "endDate": "2026-08-09",
       "dueDate": "2026-08-09",
       "phase": "第一轮收尾 + 章节客观题",
       "done": false,
-      "created": "2026-08-04"
+      "created": "2026-08-05"
     },
     {
-      "id": "msets8djc9d579",
+      "id": "msfdei6qxq11sm",
       "level": "week",
       "title": "第26章 企业合并 · 学完即做客观题第一轮",
       "mod": "cpa",
-      "priority": "low",
+      "priority": "high",
       "startDate": "2026-08-03",
       "endDate": "2026-08-09",
       "dueDate": "2026-08-09",
       "phase": "第一轮收尾 + 章节客观题",
       "done": false,
-      "created": "2026-08-04"
+      "created": "2026-08-05"
     },
     {
-      "id": "msets8djyxw2or",
+      "id": "msfdei6qa8msuj",
       "level": "week",
       "title": "第19章 所得税 · 学完即做客观题第一轮",
       "mod": "cpa",
-      "priority": "low",
+      "priority": "high",
       "startDate": "2026-08-03",
       "endDate": "2026-08-09",
       "dueDate": "2026-08-09",
       "phase": "第一轮收尾 + 章节客观题",
-      "done": false,
-      "created": "2026-08-04"
+      "done": true,
+      "created": "2026-08-05"
     }
   ],
-  "roadmapPlans": {},
+  "roadmapPlans": {
+    "基础学习": [
+      {
+        "text": "111",
+        "priority": "high",
+        "startDate": "",
+        "endDate": "",
+        "mod": "cpa",
+        "done": true
+      }
+    ]
+  },
   "reviews": {},
   "settings": {
     "dailyBrief": true,
@@ -1963,7 +1814,7 @@
       "urgent": true
     }
   },
-  "_updated": "2026-08-04T16:01:03.212Z",
+  "_updated": "2026-08-05T00:57:10.759Z",
   "checkins": [],
   "_mig": {
     "cpaTasksCleared": true,
@@ -1971,6 +1822,11 @@
     "cpaSprintImported2": true
   },
   "profile": {
-    "nickname": "小王同学"
+    "nickname": ""
+  },
+  "roadmapStageStatus": {
+    "cpa": {
+      "基础学习": "已完成"
+    }
   }
 }
