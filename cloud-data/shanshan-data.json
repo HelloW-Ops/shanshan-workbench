@@ -207,6 +207,14 @@
         "total": 53,
         "correct": 49,
         "note": "第二十一章债务重组"
+      },
+      {
+        "id": "msffybl6wwpmcv",
+        "subject": "会计",
+        "date": "2026-05-09",
+        "total": 56,
+        "correct": 43,
+        "note": "第十四章租赁"
       }
     ],
     "chapter2": [],
@@ -215,7 +223,7 @@
     "mistakes": [
       {
         "subject": "会计",
-        "objectiveWrong": 263,
+        "objectiveWrong": 276,
         "subjectiveWrong": 0,
         "reviewCount": 0,
         "proficiency": "low"
@@ -2035,7 +2043,7 @@
       "urgent": true
     }
   },
-  "_updated": "2026-08-05T01:59:37.831Z",
+  "_updated": "2026-08-05T02:01:43.722Z",
   "checkins": [],
   "profile": {
     "nickname": "小王同学"
