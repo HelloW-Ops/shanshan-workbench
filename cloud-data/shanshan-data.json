@@ -1832,7 +1832,7 @@
         "startDate": "2026-04-01",
         "endDate": "2026-06-30",
         "mod": "cpa",
-        "done": false
+        "done": true
       }
     ]
   },
@@ -1847,7 +1847,7 @@
       "urgent": true
     }
   },
-  "_updated": "2026-08-05T01:33:55.103Z",
+  "_updated": "2026-08-05T01:33:59.511Z",
   "checkins": [
     "2026-08-05"
   ],
@@ -1858,5 +1858,10 @@
   },
   "profile": {
     "nickname": "小王同学"
+  },
+  "roadmapStageStatus": {
+    "cpa": {
+      "基础学习": "已完成"
+    }
   }
 }
