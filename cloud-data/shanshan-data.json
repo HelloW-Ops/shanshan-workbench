@@ -2727,45 +2727,6 @@
       "created": "2026-08-05"
     },
     {
-      "id": "msfdei6qc25ulf",
-      "level": "week",
-      "title": "每天固定时段重做旧错（错题本）",
-      "mod": "cpa",
-      "priority": "high",
-      "startDate": "2026-08-17",
-      "endDate": "2026-08-23",
-      "dueDate": "2026-08-23",
-      "phase": "历年真题 + 模拟题 + 错题二刷",
-      "done": false,
-      "created": "2026-08-05"
-    },
-    {
-      "id": "msfdei6qd6s2rv",
-      "level": "week",
-      "title": "做模拟题 2 套",
-      "mod": "cpa",
-      "priority": "high",
-      "startDate": "2026-08-17",
-      "endDate": "2026-08-23",
-      "dueDate": "2026-08-23",
-      "phase": "历年真题 + 模拟题 + 错题二刷",
-      "done": false,
-      "created": "2026-08-05"
-    },
-    {
-      "id": "msfdei6qrckyif",
-      "level": "week",
-      "title": "做历年真题（2021–2025 近5年，严格计时 3h/套，至少 3 套）",
-      "mod": "cpa",
-      "priority": "high",
-      "startDate": "2026-08-17",
-      "endDate": "2026-08-23",
-      "dueDate": "2026-08-23",
-      "phase": "历年真题 + 模拟题 + 错题二刷",
-      "done": false,
-      "created": "2026-08-05"
-    },
-    {
       "id": "msfdei6qw4nk7q",
       "level": "week",
       "title": "整理错题本（标注错因 + 正确分录）",
@@ -3175,7 +3136,7 @@
       "urgent": true
     }
   },
-  "_updated": "2026-08-05T02:29:03.193Z",
+  "_updated": "2026-08-05T02:29:20.341Z",
   "checkins": [],
   "_mig": {
     "cpaTasksCleared": true,
