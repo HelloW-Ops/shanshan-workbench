@@ -2933,13 +2933,6 @@
   },
   "inbox": [
     {
-      "id": "msff9szat6532o",
-      "type": "text",
-      "content": "CPA报名时间是4月，记得提前准备照片和学历认证",
-      "date": "2026-07-29",
-      "target": ""
-    },
-    {
       "id": "msff9sza2vtx17",
       "type": "link",
       "content": "https://www.cicpa.org.cn — 中注协官网",
@@ -2947,45 +2940,10 @@
       "target": ""
     },
     {
-      "id": "msff9szakd128s",
-      "type": "task",
-      "content": "整理一份各科目考试时间表",
-      "date": "2026-07-26",
-      "target": ""
-    },
-    {
-      "id": "msess46d2rc9pg",
-      "type": "text",
-      "content": "CPA报名时间是4月，记得提前准备照片和学历认证",
-      "date": "2026-07-29",
-      "target": ""
-    },
-    {
-      "id": "msess46do36iwt",
-      "type": "link",
-      "content": "https://www.cicpa.org.cn — 中注协官网",
-      "date": "2026-07-28",
-      "target": ""
-    },
-    {
-      "id": "msess46d2gkp9a",
-      "type": "task",
-      "content": "整理一份各科目考试时间表",
-      "date": "2026-07-26",
-      "target": ""
-    },
-    {
       "id": "msfbmun2weo9h2",
       "type": "text",
       "content": "CPA报名时间是4月，记得提前准备照片和学历认证",
       "date": "2026-07-29",
-      "target": ""
-    },
-    {
-      "id": "msfbmun2us1ros",
-      "type": "link",
-      "content": "https://www.cicpa.org.cn — 中注协官网",
-      "date": "2026-07-28",
       "target": ""
     },
     {
@@ -3723,7 +3681,7 @@
       "urgent": true
     }
   },
-  "_updated": "2026-08-05T03:13:02.260Z",
+  "_updated": "2026-08-05T03:13:15.881Z",
   "checkins": [],
   "profile": {
     "nickname": "小王同学"
