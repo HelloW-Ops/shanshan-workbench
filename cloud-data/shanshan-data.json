@@ -17,13 +17,6 @@
         "color": "yellow"
       },
       {
-        "id": "msfbmun1olnnym",
-        "name": "经济法",
-        "total": 20,
-        "completed": 0,
-        "color": "green"
-      },
-      {
         "id": "msfbmun1ibffjh",
         "name": "公司战略与风险管理",
         "total": 18,
@@ -2922,7 +2915,7 @@
       "urgent": true
     }
   },
-  "_updated": "2026-08-05T02:30:51.316Z",
+  "_updated": "2026-08-05T02:30:54.616Z",
   "checkins": [],
   "_mig": {
     "cpaTasksCleared": true,
