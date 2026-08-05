@@ -1597,7 +1597,7 @@
       "date": "2026-08-05",
       "title": "第26章 企业合并 · 学完即做客观题第一轮",
       "mod": "cpa",
-      "priority": "",
+      "priority": "high",
       "schedDate": "2026-08-05",
       "detail": "",
       "done": false,
@@ -1867,7 +1867,7 @@
       "urgent": true
     }
   },
-  "_updated": "2026-08-05T01:37:53.988Z",
+  "_updated": "2026-08-05T01:38:00.018Z",
   "checkins": [
     "2026-08-05"
   ],
