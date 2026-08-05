@@ -1721,7 +1721,18 @@
       "created": "2026-08-05"
     }
   ],
-  "roadmapPlans": {},
+  "roadmapPlans": {
+    "基础学习": [
+      {
+        "text": "太拖拉！！！！！未完成",
+        "priority": "",
+        "startDate": "2026-04-01",
+        "endDate": "2026-06-30",
+        "mod": "cpa",
+        "done": true
+      }
+    ]
+  },
   "reviews": {},
   "settings": {
     "dailyBrief": true,
@@ -1733,12 +1744,17 @@
       "urgent": true
     }
   },
-  "_updated": "2026-08-05T01:47:02.541Z",
+  "_updated": "2026-08-05T01:47:46.712Z",
   "checkins": [],
   "profile": {
     "nickname": "小王同学"
   },
   "_mig": {
     "cpaSprintImported2": true
+  },
+  "roadmapStageStatus": {
+    "cpa": {
+      "基础学习": "已完成"
+    }
   }
 }
