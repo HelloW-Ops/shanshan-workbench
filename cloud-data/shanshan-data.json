@@ -2688,45 +2688,6 @@
   ],
   "weeklyTasks": [
     {
-      "id": "msfdei6qhxmml9",
-      "level": "week",
-      "title": "考前 1 天只翻不刷题 · 调状态上考场",
-      "mod": "cpa",
-      "priority": "high",
-      "startDate": "2026-08-24",
-      "endDate": "2026-08-28",
-      "dueDate": "2026-08-28",
-      "phase": "真题模拟 + 错题二刷 + 调状态",
-      "done": false,
-      "created": "2026-08-05"
-    },
-    {
-      "id": "msfdei6quwv8fr",
-      "level": "week",
-      "title": "错题本二刷至能独立写全分录",
-      "mod": "cpa",
-      "priority": "high",
-      "startDate": "2026-08-24",
-      "endDate": "2026-08-28",
-      "dueDate": "2026-08-28",
-      "phase": "真题模拟 + 错题二刷 + 调状态",
-      "done": false,
-      "created": "2026-08-05"
-    },
-    {
-      "id": "msfdei6q3a5dt9",
-      "level": "week",
-      "title": "再做真题 2 套（累计约 3 套）",
-      "mod": "cpa",
-      "priority": "high",
-      "startDate": "2026-08-24",
-      "endDate": "2026-08-28",
-      "dueDate": "2026-08-28",
-      "phase": "真题模拟 + 错题二刷 + 调状态",
-      "done": false,
-      "created": "2026-08-05"
-    },
-    {
       "id": "msfdei6qw4nk7q",
       "level": "week",
       "title": "整理错题本（标注错因 + 正确分录）",
@@ -3136,7 +3097,7 @@
       "urgent": true
     }
   },
-  "_updated": "2026-08-05T02:29:20.341Z",
+  "_updated": "2026-08-05T02:29:31.143Z",
   "checkins": [],
   "_mig": {
     "cpaTasksCleared": true,
