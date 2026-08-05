@@ -756,6 +756,216 @@
         "date": "2026-08-05",
         "name": "TODAY",
         "progress": 0
+      },
+      {
+        "date": "2026-08-05",
+        "name": "VLOOKUP",
+        "progress": 31
+      },
+      {
+        "date": "2026-08-05",
+        "name": "VLOOKUP",
+        "progress": 23
+      },
+      {
+        "date": "2026-08-05",
+        "name": "VLOOKUP",
+        "progress": 10
+      },
+      {
+        "date": "2026-08-05",
+        "name": "VLOOKUP",
+        "progress": 0
+      },
+      {
+        "date": "2026-08-05",
+        "name": "INDEX+MATCH",
+        "progress": 2
+      },
+      {
+        "date": "2026-08-05",
+        "name": "INDEX+MATCH",
+        "progress": 0
+      },
+      {
+        "date": "2026-08-05",
+        "name": "SUMIF",
+        "progress": 42
+      },
+      {
+        "date": "2026-08-05",
+        "name": "SUMIF",
+        "progress": 28
+      },
+      {
+        "date": "2026-08-05",
+        "name": "SUMIF",
+        "progress": 17
+      },
+      {
+        "date": "2026-08-05",
+        "name": "SUMIF",
+        "progress": 5
+      },
+      {
+        "date": "2026-08-05",
+        "name": "SUMIF",
+        "progress": 0
+      },
+      {
+        "date": "2026-08-05",
+        "name": "SUMIFS",
+        "progress": 26
+      },
+      {
+        "date": "2026-08-05",
+        "name": "SUMIFS",
+        "progress": 28
+      },
+      {
+        "date": "2026-08-05",
+        "name": "SUMIFS",
+        "progress": 12
+      },
+      {
+        "date": "2026-08-05",
+        "name": "SUMIFS",
+        "progress": 0
+      },
+      {
+        "date": "2026-08-05",
+        "name": "COUNTIF",
+        "progress": 50
+      },
+      {
+        "date": "2026-08-05",
+        "name": "COUNTIF",
+        "progress": 47
+      },
+      {
+        "date": "2026-08-05",
+        "name": "COUNTIF",
+        "progress": 26
+      },
+      {
+        "date": "2026-08-05",
+        "name": "COUNTIF",
+        "progress": 10
+      },
+      {
+        "date": "2026-08-05",
+        "name": "COUNTIF",
+        "progress": 0
+      },
+      {
+        "date": "2026-08-05",
+        "name": "COUNTIFS",
+        "progress": 19
+      },
+      {
+        "date": "2026-08-05",
+        "name": "COUNTIFS",
+        "progress": 12
+      },
+      {
+        "date": "2026-08-05",
+        "name": "COUNTIFS",
+        "progress": 0
+      },
+      {
+        "date": "2026-08-05",
+        "name": "RANK",
+        "progress": 4
+      },
+      {
+        "date": "2026-08-05",
+        "name": "RANK",
+        "progress": 0
+      },
+      {
+        "date": "2026-08-05",
+        "name": "IF",
+        "progress": 57
+      },
+      {
+        "date": "2026-08-05",
+        "name": "IF",
+        "progress": 47
+      },
+      {
+        "date": "2026-08-05",
+        "name": "IF",
+        "progress": 38
+      },
+      {
+        "date": "2026-08-05",
+        "name": "IF",
+        "progress": 28
+      },
+      {
+        "date": "2026-08-05",
+        "name": "IF",
+        "progress": 14
+      },
+      {
+        "date": "2026-08-05",
+        "name": "IF",
+        "progress": 4
+      },
+      {
+        "date": "2026-08-05",
+        "name": "IF",
+        "progress": 0
+      },
+      {
+        "date": "2026-08-05",
+        "name": "AND",
+        "progress": 31
+      },
+      {
+        "date": "2026-08-05",
+        "name": "AND",
+        "progress": 28
+      },
+      {
+        "date": "2026-08-05",
+        "name": "AND",
+        "progress": 12
+      },
+      {
+        "date": "2026-08-05",
+        "name": "AND",
+        "progress": 0
+      },
+      {
+        "date": "2026-08-05",
+        "name": "OR",
+        "progress": 26
+      },
+      {
+        "date": "2026-08-05",
+        "name": "OR",
+        "progress": 16
+      },
+      {
+        "date": "2026-08-05",
+        "name": "OR",
+        "progress": 4
+      },
+      {
+        "date": "2026-08-05",
+        "name": "OR",
+        "progress": 0
+      },
+      {
+        "date": "2026-08-05",
+        "name": "IFERROR",
+        "progress": 4
+      },
+      {
+        "date": "2026-08-05",
+        "name": "IFERROR",
+        "progress": 0
       }
     ],
     "functions": [
@@ -910,7 +1120,7 @@
         "syntax": "=VLOOKUP(查找值, 表格区域, 列序号, 0)",
         "desc": "在表格首列查找关键字，返回同行指定列内容，0为精确匹配。",
         "usage": "用工号在工资表里查对应姓名或部门",
-        "progress": 40
+        "progress": 0
       },
       {
         "id": "ef14",
@@ -928,7 +1138,7 @@
         "syntax": "=INDEX(返回列, MATCH(查找值, 查找列, 0))",
         "desc": "INDEX配合MATCH实现双向查找，不受列顺序限制。",
         "usage": "工资表列顺序变动也不出错",
-        "progress": 10
+        "progress": 0
       },
       {
         "id": "ef16",
@@ -937,7 +1147,7 @@
         "syntax": "=SUMIF(条件区域, 条件, [求和区域])",
         "desc": "对满足单个条件的单元格求和。",
         "usage": "汇总某个部门的工资总额",
-        "progress": 50
+        "progress": 0
       },
       {
         "id": "ef17",
@@ -946,7 +1156,7 @@
         "syntax": "=SUMIFS(求和区域, 条件区1, 条件1, 条件区2, 条件2)",
         "desc": "多条件同时满足才求和，财务统计主力。",
         "usage": "按“部门+月份”汇总报销金额",
-        "progress": 30
+        "progress": 0
       },
       {
         "id": "ef18",
@@ -1009,7 +1219,7 @@
         "syntax": "=COUNTIF(区域, 条件)",
         "desc": "统计满足单个条件的单元格个数。",
         "usage": "统计某部门人数或迟到次数",
-        "progress": 60
+        "progress": 0
       },
       {
         "id": "ef25",
@@ -1018,7 +1228,7 @@
         "syntax": "=COUNTIFS(区1,条件1, 区2,条件2)",
         "desc": "多条件同时满足才计数。",
         "usage": "统计“销售部且绩效A”的人数",
-        "progress": 20
+        "progress": 0
       },
       {
         "id": "ef26",
@@ -1045,7 +1255,7 @@
         "syntax": "=RANK(数值, 区域, 0)",
         "desc": "返回数值在区域中的排名，0为降序。",
         "usage": "销售业绩名次排序",
-        "progress": 10
+        "progress": 0
       },
       {
         "id": "ef29",
@@ -1234,7 +1444,7 @@
         "syntax": "=IF(条件, 真时结果, 假时结果)",
         "desc": "根据条件判断返回不同结果，最常用逻辑函数。",
         "usage": "工资是否超起征点，超了才计税",
-        "progress": 60
+        "progress": 0
       },
       {
         "id": "ef50",
@@ -1252,7 +1462,7 @@
         "syntax": "=AND(条件1, 条件2)",
         "desc": "所有条件都为真时返回真，常与IF配合。",
         "usage": "判断工资既在范围又属某部门",
-        "progress": 30
+        "progress": 0
       },
       {
         "id": "ef52",
@@ -1261,7 +1471,7 @@
         "syntax": "=OR(条件1, 条件2)",
         "desc": "任一条件为真即返回真。",
         "usage": "迟到或请假都算缺勤",
-        "progress": 20
+        "progress": 0
       },
       {
         "id": "ef53",
@@ -1288,7 +1498,7 @@
         "syntax": "=IFERROR(公式, 出错返回值)",
         "desc": "公式出错时返回指定值，避免表格出现错误值。",
         "usage": "VLOOKUP查不到时显示“无记录”",
-        "progress": 10
+        "progress": 0
       }
     ],
     "templates": [
@@ -2471,7 +2681,7 @@
       "urgent": true
     }
   },
-  "_updated": "2026-08-05T02:03:38.875Z",
+  "_updated": "2026-08-05T02:03:56.643Z",
   "checkins": [],
   "profile": {
     "nickname": "小王同学"
