@@ -46,27 +46,6 @@
         "color": "green",
         "passed": "2024",
         "focus": false
-      },
-      {
-        "id": "msff9szaczi9bf",
-        "name": "审计",
-        "total": 25,
-        "completed": 0,
-        "color": "blue"
-      },
-      {
-        "id": "msff9sza597rgp",
-        "name": "财务成本管理",
-        "total": 28,
-        "completed": 0,
-        "color": "yellow"
-      },
-      {
-        "id": "msff9szaljjv7i",
-        "name": "公司战略与风险管理",
-        "total": 18,
-        "completed": 0,
-        "color": "blue"
       }
     ],
     "chapter1": [
@@ -4295,7 +4274,7 @@
       "urgent": true
     }
   },
-  "_updated": "2026-08-05T08:54:24.466Z",
+  "_updated": "2026-08-05T08:54:34.331Z",
   "checkins": [],
   "_mig": {
     "cpaTasksCleared": true,
