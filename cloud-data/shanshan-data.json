@@ -151,6 +151,14 @@
         "total": 43,
         "correct": 28,
         "note": "第十五章持有待售的非流动资产、处置组和终止经营"
+      },
+      {
+        "id": "msffqx04j0hgqx",
+        "subject": "会计",
+        "date": "2026-04-23",
+        "total": 96,
+        "correct": 65,
+        "note": "第十七章收入、费用和利润"
       }
     ],
     "chapter2": [],
@@ -159,7 +167,7 @@
     "mistakes": [
       {
         "subject": "会计",
-        "objectiveWrong": 134,
+        "objectiveWrong": 165,
         "subjectiveWrong": 0,
         "reviewCount": 0,
         "proficiency": "low"
@@ -1979,7 +1987,7 @@
       "urgent": true
     }
   },
-  "_updated": "2026-08-05T01:55:33.572Z",
+  "_updated": "2026-08-05T01:55:58.228Z",
   "checkins": [],
   "profile": {
     "nickname": "小王同学"
