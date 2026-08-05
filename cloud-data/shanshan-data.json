@@ -79,6 +79,14 @@
         "total": 46,
         "correct": 40,
         "note": "第四章无形资产"
+      },
+      {
+        "id": "msffls8kx50ka7",
+        "subject": "会计",
+        "date": "2026-04-04",
+        "total": 68,
+        "correct": 59,
+        "note": "第五章投资性房地产"
       }
     ],
     "chapter2": [],
@@ -87,7 +95,7 @@
     "mistakes": [
       {
         "subject": "会计",
-        "objectiveWrong": 37,
+        "objectiveWrong": 46,
         "subjectiveWrong": 0,
         "reviewCount": 0,
         "proficiency": "low"
@@ -1907,7 +1915,7 @@
       "urgent": true
     }
   },
-  "_updated": "2026-08-05T01:51:34.254Z",
+  "_updated": "2026-08-05T01:51:58.772Z",
   "checkins": [],
   "profile": {
     "nickname": "小王同学"
