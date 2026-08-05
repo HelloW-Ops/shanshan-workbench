@@ -1824,7 +1824,18 @@
       "created": "2026-08-05"
     }
   ],
-  "roadmapPlans": {},
+  "roadmapPlans": {
+    "基础学习": [
+      {
+        "text": "太拖拉！！！！！   未完成",
+        "priority": "high",
+        "startDate": "2026-04-01",
+        "endDate": "2026-06-30",
+        "mod": "cpa",
+        "done": false
+      }
+    ]
+  },
   "reviews": {},
   "settings": {
     "dailyBrief": true,
@@ -1836,7 +1847,7 @@
       "urgent": true
     }
   },
-  "_updated": "2026-08-05T01:32:40.354Z",
+  "_updated": "2026-08-05T01:33:55.103Z",
   "checkins": [
     "2026-08-05"
   ],
