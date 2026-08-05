@@ -1532,9 +1532,9 @@
     {
       "id": "msffb3ctvwtibv",
       "level": "week",
-      "title": "错题本二刷至能独立写全分录",
+      "title": "错题本二刷",
       "mod": "cpa",
-      "priority": "high",
+      "priority": "",
       "startDate": "2026-08-24",
       "endDate": "2026-08-28",
       "dueDate": "2026-08-28",
@@ -1724,7 +1724,7 @@
       "urgent": true
     }
   },
-  "_updated": "2026-08-05T01:46:20.634Z",
+  "_updated": "2026-08-05T01:46:28.604Z",
   "checkins": [],
   "profile": {
     "nickname": "小王同学"
