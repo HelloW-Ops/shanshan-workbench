@@ -2919,14 +2919,6 @@
   "roadmapPlans": {
     "基础学习": [
       {
-        "text": "111",
-        "priority": "high",
-        "startDate": "",
-        "endDate": "",
-        "mod": "cpa",
-        "done": true
-      },
-      {
         "text": "太拖拉！！！！！未完成",
         "priority": "",
         "startDate": "2026-04-01",
@@ -2967,7 +2959,7 @@
       "urgent": true
     }
   },
-  "_updated": "2026-08-05T02:29:59.062Z",
+  "_updated": "2026-08-05T02:30:16.446Z",
   "checkins": [],
   "_mig": {
     "cpaTasksCleared": true,
