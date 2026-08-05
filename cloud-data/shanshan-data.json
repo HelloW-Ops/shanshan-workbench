@@ -2688,18 +2688,6 @@
   ],
   "weeklyTasks": [
     {
-      "id": "msfdfvr8t8w5aq",
-      "level": "day",
-      "date": "2026-08-05",
-      "title": "11",
-      "mod": "cpa",
-      "priority": "high",
-      "schedDate": "",
-      "detail": "",
-      "done": false,
-      "created": "2026-08-05"
-    },
-    {
       "id": "msfdei6qhxmml9",
       "level": "week",
       "title": "考前 1 天只翻不刷题 · 调状态上考场",
@@ -3187,7 +3175,7 @@
       "urgent": true
     }
   },
-  "_updated": "2026-08-05T02:27:16.957Z",
+  "_updated": "2026-08-05T02:29:03.193Z",
   "checkins": [],
   "_mig": {
     "cpaTasksCleared": true,
