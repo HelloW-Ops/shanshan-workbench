@@ -2688,45 +2688,6 @@
   ],
   "weeklyTasks": [
     {
-      "id": "msfdei6qw4nk7q",
-      "level": "week",
-      "title": "整理错题本（标注错因 + 正确分录）",
-      "mod": "cpa",
-      "priority": "high",
-      "startDate": "2026-08-10",
-      "endDate": "2026-08-16",
-      "dueDate": "2026-08-16",
-      "phase": "章节主客观题第二轮 + 整理错题本",
-      "done": false,
-      "created": "2026-08-05"
-    },
-    {
-      "id": "msfdei6qrf079a",
-      "level": "week",
-      "title": "逐章做客观题第二轮",
-      "mod": "cpa",
-      "priority": "high",
-      "startDate": "2026-08-10",
-      "endDate": "2026-08-16",
-      "dueDate": "2026-08-16",
-      "phase": "章节主客观题第二轮 + 整理错题本",
-      "done": false,
-      "created": "2026-08-05"
-    },
-    {
-      "id": "msfdei6q2sqnx6",
-      "level": "week",
-      "title": "逐章做主观题（计算分析 / 综合题）第二轮",
-      "mod": "cpa",
-      "priority": "high",
-      "startDate": "2026-08-10",
-      "endDate": "2026-08-16",
-      "dueDate": "2026-08-16",
-      "phase": "章节主客观题第二轮 + 整理错题本",
-      "done": false,
-      "created": "2026-08-05"
-    },
-    {
       "id": "msfdei6qx1yp9z",
       "level": "week",
       "title": "8.9 本周回看 · 归集错题",
@@ -3097,7 +3058,7 @@
       "urgent": true
     }
   },
-  "_updated": "2026-08-05T02:29:31.143Z",
+  "_updated": "2026-08-05T02:29:40.003Z",
   "checkins": [],
   "_mig": {
     "cpaTasksCleared": true,
