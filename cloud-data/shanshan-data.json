@@ -3,14 +3,6 @@
     "examDate": "2026-08-28",
     "courses": [
       {
-        "id": "msess46djyskht",
-        "name": "会计",
-        "total": 30,
-        "completed": 12,
-        "color": "green",
-        "focus": true
-      },
-      {
         "id": "msess46d70pvlf",
         "name": "审计",
         "total": 25,
@@ -3694,7 +3686,7 @@
       "urgent": true
     }
   },
-  "_updated": "2026-08-05T02:50:43.560Z",
+  "_updated": "2026-08-05T02:52:24.038Z",
   "checkins": [],
   "_mig": {
     "cpaTasksCleared": true,
