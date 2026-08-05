@@ -3,14 +3,6 @@
     "examDate": "2026-08-28",
     "courses": [
       {
-        "id": "msfizq4j5eyjvp",
-        "name": "会计",
-        "total": 30,
-        "completed": 12,
-        "color": "green",
-        "focus": true
-      },
-      {
         "id": "msfizq4j0tcrhr",
         "name": "审计",
         "total": 25,
@@ -45,13 +37,6 @@
         "total": 18,
         "completed": 0,
         "color": "blue"
-      },
-      {
-        "id": "msfbmun1gccj1f",
-        "name": "财务成本管理",
-        "total": 28,
-        "completed": 0,
-        "color": "yellow"
       },
       {
         "id": "msfbmun1ibffjh",
@@ -3988,7 +3973,7 @@
       "urgent": true
     }
   },
-  "_updated": "2026-08-05T03:36:39.458Z",
+  "_updated": "2026-08-05T03:37:04.223Z",
   "checkins": [],
   "_mig": {
     "cpaTasksCleared": true,
