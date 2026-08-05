@@ -2212,25 +2212,11 @@
   "shiyebian": {
     "items": [
       {
-        "id": "msess46dh9dnjy",
-        "title": "省属事业单位招聘信息",
-        "content": "关注省人事考试网，预计明年3月发布公告",
-        "source": "省人事考试网",
-        "date": "2026-07-20"
-      },
-      {
         "id": "msess46d5yqlnc",
         "title": "公共基础知识备考范围",
         "content": "政治、经济、法律、管理、公文写作等",
         "source": "备考论坛",
         "date": "2026-07-15"
-      },
-      {
-        "id": "msfbmun2jof6d2",
-        "title": "省属事业单位招聘信息",
-        "content": "关注省人事考试网，预计明年3月发布公告",
-        "source": "省人事考试网",
-        "date": "2026-07-20"
       },
       {
         "id": "msfbmun2w3niph",
@@ -3571,7 +3557,7 @@
       "urgent": true
     }
   },
-  "_updated": "2026-08-05T02:54:12.941Z",
+  "_updated": "2026-08-05T02:54:40.557Z",
   "checkins": [],
   "_mig": {
     "cpaTasksCleared": true,
