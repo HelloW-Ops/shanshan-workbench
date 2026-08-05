@@ -1731,6 +1731,16 @@
         "mod": "cpa",
         "done": true
       }
+    ],
+    "强化提升": [
+      {
+        "text": "太拖拉！！！！！未完成",
+        "priority": "",
+        "startDate": "2026-07-01",
+        "endDate": "2026-07-31",
+        "mod": "cpa",
+        "done": false
+      }
     ]
   },
   "reviews": {},
@@ -1744,7 +1754,7 @@
       "urgent": true
     }
   },
-  "_updated": "2026-08-05T01:47:46.712Z",
+  "_updated": "2026-08-05T01:48:06.324Z",
   "checkins": [],
   "profile": {
     "nickname": "小王同学"
