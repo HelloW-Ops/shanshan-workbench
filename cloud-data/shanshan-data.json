@@ -310,7 +310,7 @@
         "name": "税法一",
         "total": 20,
         "completed": 20,
-        "color": "green",
+        "color": "blue",
         "passed": "2024",
         "focus": false
       },
@@ -3864,7 +3864,7 @@
       "urgent": true
     }
   },
-  "_updated": "2026-08-05T03:12:09.432Z",
+  "_updated": "2026-08-05T03:12:18.986Z",
   "checkins": [],
   "profile": {
     "nickname": "小王同学"
