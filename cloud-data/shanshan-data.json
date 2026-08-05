@@ -52,13 +52,6 @@
         "total": 20,
         "completed": 0,
         "color": "green"
-      },
-      {
-        "id": "msff9szaljjv7i",
-        "name": "公司战略与风险管理",
-        "total": 18,
-        "completed": 0,
-        "color": "blue"
       }
     ],
     "chapter1": [
@@ -2929,7 +2922,7 @@
       "urgent": true
     }
   },
-  "_updated": "2026-08-05T02:30:48.595Z",
+  "_updated": "2026-08-05T02:30:51.316Z",
   "checkins": [],
   "_mig": {
     "cpaTasksCleared": true,
