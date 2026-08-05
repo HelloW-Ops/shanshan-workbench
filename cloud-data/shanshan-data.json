@@ -299,26 +299,12 @@
         "color": "yellow"
       },
       {
-        "id": "msess46dfpfzi0",
-        "name": "财务与会计",
-        "total": 28,
-        "completed": 0,
-        "color": "green"
-      },
-      {
         "id": "msfbmun2xs76d1",
         "name": "税法一",
         "total": 20,
         "completed": 20,
         "color": "green",
         "passed": "2024"
-      },
-      {
-        "id": "msff9sza2jyocz",
-        "name": "税法二",
-        "total": 22,
-        "completed": 0,
-        "color": "blue"
       },
       {
         "id": "msff9sza0pyt94",
@@ -3615,7 +3601,7 @@
       "urgent": true
     }
   },
-  "_updated": "2026-08-05T02:53:35.287Z",
+  "_updated": "2026-08-05T02:53:40.779Z",
   "checkins": [],
   "_mig": {
     "cpaTasksCleared": true,
