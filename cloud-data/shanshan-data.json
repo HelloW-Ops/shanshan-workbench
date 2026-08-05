@@ -39,13 +39,6 @@
         "color": "blue"
       },
       {
-        "id": "msfbmun1ibffjh",
-        "name": "公司战略与风险管理",
-        "total": 18,
-        "completed": 0,
-        "color": "blue"
-      },
-      {
         "id": "msff9sza89mk1p",
         "name": "会计",
         "total": 130,
@@ -60,13 +53,6 @@
         "completed": 22,
         "color": "pink",
         "passed": "2024"
-      },
-      {
-        "id": "msff9szas8a2l0",
-        "name": "经济法",
-        "total": 20,
-        "completed": 0,
-        "color": "green"
       },
       {
         "id": "msff9szaczi9bf",
@@ -3672,7 +3658,7 @@
       "urgent": true
     }
   },
-  "_updated": "2026-08-05T02:52:32.256Z",
+  "_updated": "2026-08-05T02:52:40.421Z",
   "checkins": [],
   "_mig": {
     "cpaTasksCleared": true,
