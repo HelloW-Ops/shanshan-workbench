@@ -199,6 +199,14 @@
         "total": 87,
         "correct": 68,
         "note": "第六章长期股权投资与合营安排"
+      },
+      {
+        "id": "msffvmg7iu8n1t",
+        "subject": "会计",
+        "date": "2026-05-22",
+        "total": 53,
+        "correct": 49,
+        "note": "第二十一章债务重组"
       }
     ],
     "chapter2": [],
@@ -207,7 +215,7 @@
     "mistakes": [
       {
         "subject": "会计",
-        "objectiveWrong": 259,
+        "objectiveWrong": 263,
         "subjectiveWrong": 0,
         "reviewCount": 0,
         "proficiency": "low"
@@ -2027,7 +2035,7 @@
       "urgent": true
     }
   },
-  "_updated": "2026-08-05T01:58:54.300Z",
+  "_updated": "2026-08-05T01:59:37.831Z",
   "checkins": [],
   "profile": {
     "nickname": "小王同学"
