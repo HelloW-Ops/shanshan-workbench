@@ -389,13 +389,6 @@
         "color": "yellow"
       },
       {
-        "id": "msess46dkv7pog",
-        "name": "税法二",
-        "total": 22,
-        "completed": 0,
-        "color": "blue"
-      },
-      {
         "id": "msfizq4jb9yhhm",
         "name": "税法一",
         "total": 20,
@@ -409,13 +402,6 @@
         "total": 22,
         "completed": 0,
         "color": "blue"
-      },
-      {
-        "id": "msfizq4jrr7n1r",
-        "name": "涉税服务实务",
-        "total": 25,
-        "completed": 0,
-        "color": "yellow"
       },
       {
         "id": "msfizq4jlocjpl",
@@ -2622,66 +2608,28 @@
       ],
       "2026-08-05": [
         {
-          "id": "ex_1785900143540_49war",
+          "id": "ex_1785900740709_zn3rh",
           "name": "数据透视表",
-          "why": "财务分析，数据汇总",
-          "usage": "创建数据透视表分析销售数据"
+          "why": "提升数据分析能力，适合财务文员场景",
+          "usage": "将数据源创建数据透视表，分析销售数据"
         },
         {
-          "id": "ex_1785900143541_qsfi9",
+          "id": "ex_1785900740709_rxi7h",
           "name": "分列",
-          "why": "数据整理，格式调整",
-          "usage": "将合并单元格数据分列显示"
+          "why": "数据整理，提高数据输入效率",
+          "usage": "将包含混合数据的单元格按分隔符分列"
         },
         {
-          "id": "ex_1785900143541_opr43",
+          "id": "ex_1785900740709_64i7d",
           "name": "条件格式",
-          "why": "数据可视化，快速识别异常",
-          "usage": "突出显示超过平均值的销售数据"
-        },
-        {
-          "id": "ex_1785900408068_u8qyd",
-          "name": "数据透视表",
-          "why": "当前掌握度 0%，建议巩固练习",
-          "usage": "按 部门+月份 拖拽即出销售/费用汇总表，比公式快得多"
-        },
-        {
-          "id": "ex_1785900408068_9kk3g",
-          "name": "分列",
-          "why": "当前掌握度 0%，建议巩固练习",
-          "usage": "把 姓名-工号 一列拆成姓名、工号两列，方便后续匹配"
-        },
-        {
-          "id": "ex_1785900408068_ui3xe",
-          "name": "条件格式",
-          "why": "当前掌握度 0%，建议巩固练习",
-          "usage": "给逾期天数>30 的单元格标红，给 Top10 销售额高亮"
-        },
-        {
-          "id": "ex_1785900408068_lfdra",
-          "name": "快速填充",
-          "why": "当前掌握度 0%，建议巩固练习",
-          "usage": "从 2026/8/1 批量提取 8月，或从全称中拆出姓名"
+          "why": "数据可视化，快速识别异常值",
+          "usage": "设置条件格式，突出显示超过平均值的销售数据"
         }
       ]
     }
   },
   "shiyebian": {
     "items": [
-      {
-        "id": "msff9szag6a4us",
-        "title": "省属事业单位招聘信息",
-        "content": "关注省人事考试网，预计明年3月发布公告",
-        "source": "省人事考试网",
-        "date": "2026-07-20"
-      },
-      {
-        "id": "msff9sza4j7m9n",
-        "title": "公共基础知识备考范围",
-        "content": "政治、经济、法律、管理、公文写作等",
-        "source": "备考论坛",
-        "date": "2026-07-15"
-      },
       {
         "id": "msfizq4jzuwpzs",
         "title": "省属事业单位招聘信息",
@@ -2698,27 +2646,6 @@
       }
     ],
     "lyg": [
-      {
-        "id": "msff9sza31y4ue",
-        "title": "连云港市事业单位招聘公告发布渠道",
-        "content": "连云港市人力资源和社会保障局官网(http://rsj.lyg.gov.cn)是发布事业单位招聘公告的官方渠道，建议每周关注。",
-        "source": "连云港市人社局",
-        "date": "2026-07-30"
-      },
-      {
-        "id": "msff9szagzyxzp",
-        "title": "连云港2026年事业单位统考时间预测",
-        "content": "参考往年时间安排，连云港事业单位统考通常在上半年3-5月发布公告，5-6月笔试。建议提前3个月开始备考。",
-        "source": "备考分析",
-        "date": "2026-07-30"
-      },
-      {
-        "id": "msff9szanycy7y",
-        "title": "连云港事业编考试内容",
-        "content": "连云港事业单位考试一般包括：公共基础知识（政治、经济、法律、管理、公文写作）+ 职业能力测验 + 专业知识（根据岗位不同）",
-        "source": "考试大纲",
-        "date": "2026-07-30"
-      },
       {
         "id": "msfizq4j81kexw",
         "title": "连云港市事业单位招聘公告发布渠道",
@@ -2905,93 +2832,10 @@
         "status": "planned",
         "startDate": "2026-09-01",
         "source": ""
-      },
-      {
-        "id": "msfizq4jc6t52f",
-        "title": "认知觉醒",
-        "author": "周岭",
-        "totalPages": 280,
-        "currentPage": 156,
-        "status": "reading",
-        "startDate": "2026-06-15",
-        "source": ""
-      },
-      {
-        "id": "msfizq4ja5f7sx",
-        "title": "小岛经济学",
-        "author": "彼得·希夫",
-        "totalPages": 320,
-        "currentPage": 0,
-        "status": "planned",
-        "startDate": "",
-        "source": ""
       }
     ],
-    "podcasts": [
-      {
-        "id": "msfizq4j9d1x7l",
-        "title": "纵横四海",
-        "host": "携隐",
-        "totalEpisodes": 120,
-        "listenedEpisodes": 45,
-        "status": "reading",
-        "startDate": "2026-05-01",
-        "note": "商业类播客，很有启发",
-        "source": ""
-      },
-      {
-        "id": "msfizq4j8j527u",
-        "title": "知行小酒馆",
-        "host": "有知有行",
-        "totalEpisodes": 80,
-        "listenedEpisodes": 80,
-        "status": "done",
-        "startDate": "2025-11-01",
-        "note": "投资理财播客",
-        "source": ""
-      }
-    ],
+    "podcasts": [],
     "news": [
-      {
-        "id": "msess46dtof4bx",
-        "date": "2026-07-30",
-        "title": "国务院研究优化营商环境条例",
-        "summary": "国务院常务会议审议通过优化营商环境条例修订草案，进一步简化审批流程。",
-        "category": "时政",
-        "reason": "营商环境改革涉及企业注册、税务办理等，与CPA经济法相关",
-        "attention": "关注行政审批简化和税务服务优化的具体措施",
-        "source": "新华社"
-      },
-      {
-        "id": "msfbmun20yq6xz",
-        "date": "2026-07-30",
-        "title": "央行宣布降准0.5个百分点",
-        "summary": "中国人民银行决定下调金融机构存款准备金率0.5个百分点，释放长期资金。",
-        "category": "财经",
-        "reason": "货币政策影响企业融资成本和投资决策，审计和财管涉及宏观分析",
-        "attention": "理解降准对流动性、利率、资本市场的影响链条",
-        "source": "中国人民银行"
-      },
-      {
-        "id": "msff9szaw5qane",
-        "date": "2026-07-30",
-        "title": "增值税留抵退税政策延续优化",
-        "summary": "财政部、税务总局联合发布通知，进一步完善增值税留抵退税政策，扩大适用范围。",
-        "category": "税务",
-        "reason": "直接关系企业税负，CPA税法和税务师考试高频考点",
-        "attention": "注意退税条件的变化和计算方法，考试可能出计算题",
-        "source": "国家税务总局"
-      },
-      {
-        "id": "msff9sza4tqi8u",
-        "date": "2026-07-30",
-        "title": "个人所得税专项附加扣除标准提高",
-        "summary": "3岁以下婴幼儿照护、子女教育、赡养老人三项专项附加扣除标准提高。",
-        "category": "税务",
-        "reason": "个税改革是近年热点，CPA经济法和税务师涉税法律常考内容",
-        "attention": "关注扣除标准和适用条件的变化，注意综合所得汇算清缴的影响",
-        "source": "国家税务总局"
-      },
       {
         "id": "msfizq4jbx1hiu",
         "date": "2026-07-30",
@@ -3034,26 +2878,6 @@
       }
     ],
     "dailyPicks": [
-      {
-        "id": "msff9szab0ukht",
-        "date": "2026-07-30",
-        "type": "podcast",
-        "title": "纵横四海 · EP45：如何构建个人知识体系",
-        "author": "携隐",
-        "reason": "个人知识管理方法论，帮助你更高效地整合备考知识，建立系统化学习框架",
-        "attention": "尝试将播客中的知识管理方法应用到CPA和税务师备考中",
-        "source": ""
-      },
-      {
-        "id": "msfbmun2szv9lg",
-        "date": "2026-07-30",
-        "type": "book",
-        "title": "纳税筹划实务与案例",
-        "author": "蔡昌",
-        "reason": "结合当前税务政策变化，系统讲解纳税筹划思路，对CPA税法和税务师实务考试有直接帮助",
-        "attention": "重点关注增值税和企业所得税的筹划案例，与最新政策对照学习",
-        "source": ""
-      },
       {
         "id": "msfizq4jt4rmua",
         "date": "2026-07-30",
@@ -3219,27 +3043,6 @@
     "recent": {}
   },
   "inbox": [
-    {
-      "id": "msess46d2rc9pg",
-      "type": "text",
-      "content": "CPA报名时间是4月，记得提前准备照片和学历认证",
-      "date": "2026-07-29",
-      "target": ""
-    },
-    {
-      "id": "msess46do36iwt",
-      "type": "link",
-      "content": "https://www.cicpa.org.cn — 中注协官网",
-      "date": "2026-07-28",
-      "target": ""
-    },
-    {
-      "id": "msess46d2gkp9a",
-      "type": "task",
-      "content": "整理一份各科目考试时间表",
-      "date": "2026-07-26",
-      "target": ""
-    },
     {
       "id": "msfizq4jxnjhwq",
       "type": "text",
@@ -3993,7 +3796,7 @@
       "urgent": true
     }
   },
-  "_updated": "2026-08-05T03:29:46.733Z",
+  "_updated": "2026-08-05T03:32:43.809Z",
   "checkins": [],
   "profile": {
     "nickname": "小王同学"
