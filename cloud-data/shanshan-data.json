@@ -1635,7 +1635,7 @@
     {
       "id": "msfen5uj91f8uq",
       "level": "week",
-      "title": "再做真题 2 套（累计约 3 套）",
+      "title": "历年真题二刷",
       "mod": "cpa",
       "priority": "low",
       "startDate": "2026-08-24",
@@ -1827,7 +1827,7 @@
       "urgent": true
     }
   },
-  "_updated": "2026-08-05T01:30:39.341Z",
+  "_updated": "2026-08-05T01:31:11.041Z",
   "checkins": [
     "2026-08-05"
   ],
