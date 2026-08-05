@@ -982,6 +982,131 @@
         "date": "2026-08-05",
         "name": "IFERROR",
         "progress": 0
+      },
+      {
+        "date": "2026-08-05",
+        "name": "ROUND",
+        "progress": 93
+      },
+      {
+        "date": "2026-08-05",
+        "name": "ROUND",
+        "progress": 86
+      },
+      {
+        "date": "2026-08-05",
+        "name": "ROUND",
+        "progress": 78
+      },
+      {
+        "date": "2026-08-05",
+        "name": "ROUND",
+        "progress": 67
+      },
+      {
+        "date": "2026-08-05",
+        "name": "ROUND",
+        "progress": 48
+      },
+      {
+        "date": "2026-08-05",
+        "name": "ROUND",
+        "progress": 26
+      },
+      {
+        "date": "2026-08-05",
+        "name": "ROUND",
+        "progress": 1
+      },
+      {
+        "date": "2026-08-05",
+        "name": "ROUND",
+        "progress": 0
+      },
+      {
+        "date": "2026-08-05",
+        "name": "SUM",
+        "progress": 97
+      },
+      {
+        "date": "2026-08-05",
+        "name": "SUM",
+        "progress": 91
+      },
+      {
+        "date": "2026-08-05",
+        "name": "SUM",
+        "progress": 79
+      },
+      {
+        "date": "2026-08-05",
+        "name": "SUM",
+        "progress": 69
+      },
+      {
+        "date": "2026-08-05",
+        "name": "SUM",
+        "progress": 52
+      },
+      {
+        "date": "2026-08-05",
+        "name": "SUM",
+        "progress": 29
+      },
+      {
+        "date": "2026-08-05",
+        "name": "SUM",
+        "progress": 1
+      },
+      {
+        "date": "2026-08-05",
+        "name": "SUM",
+        "progress": 0
+      },
+      {
+        "date": "2026-08-05",
+        "name": "AVERAGE",
+        "progress": 95
+      },
+      {
+        "date": "2026-08-05",
+        "name": "AVERAGE",
+        "progress": 90
+      },
+      {
+        "date": "2026-08-05",
+        "name": "AVERAGE",
+        "progress": 81
+      },
+      {
+        "date": "2026-08-05",
+        "name": "AVERAGE",
+        "progress": 67
+      },
+      {
+        "date": "2026-08-05",
+        "name": "AVERAGE",
+        "progress": 52
+      },
+      {
+        "date": "2026-08-05",
+        "name": "AVERAGE",
+        "progress": 38
+      },
+      {
+        "date": "2026-08-05",
+        "name": "AVERAGE",
+        "progress": 27
+      },
+      {
+        "date": "2026-08-05",
+        "name": "AVERAGE",
+        "progress": 10
+      },
+      {
+        "date": "2026-08-05",
+        "name": "AVERAGE",
+        "progress": 0
       }
     ],
     "functions": [
@@ -1181,7 +1306,7 @@
         "syntax": "=ROUND(数值, 小数位数)",
         "desc": "按指定小数位四舍五入，金额处理必备。",
         "usage": "金额保留2位避免分毫误差",
-        "progress": 100
+        "progress": 0
       },
       {
         "id": "ef19",
@@ -1199,7 +1324,7 @@
         "syntax": "=SUM(数值1, 数值2, ...)",
         "desc": "计算所有参数之和，最基础的求和。",
         "usage": "各类金额合计",
-        "progress": 100
+        "progress": 0
       },
       {
         "id": "ef21",
@@ -1208,7 +1333,7 @@
         "syntax": "=AVERAGE(数值区域)",
         "desc": "返回参数的算术平均值。",
         "usage": "计算部门平均工资",
-        "progress": 100
+        "progress": 0
       },
       {
         "id": "ef22",
@@ -2858,7 +2983,7 @@
       "urgent": true
     }
   },
-  "_updated": "2026-08-05T02:31:42.572Z",
+  "_updated": "2026-08-05T02:33:12.407Z",
   "checkins": [],
   "_mig": {
     "cpaTasksCleared": true,
