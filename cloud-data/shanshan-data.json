@@ -3,42 +3,12 @@
     "examDate": "2026-08-28",
     "courses": [
       {
-        "id": "msfbmun1gccj1f",
-        "name": "财务成本管理",
-        "total": 28,
-        "completed": 0,
-        "color": "yellow"
-      },
-      {
-        "id": "msfbmun1ibffjh",
-        "name": "公司战略与风险管理",
-        "total": 18,
-        "completed": 0,
-        "color": "blue"
-      },
-      {
         "id": "msff9sza89mk1p",
         "name": "会计",
         "total": 130,
         "completed": 97,
         "color": "green",
         "focus": true
-      },
-      {
-        "id": "msff9sza13teze",
-        "name": "税法",
-        "total": 22,
-        "completed": 22,
-        "color": "green",
-        "passed": "2024",
-        "focus": false
-      },
-      {
-        "id": "msff9szas8a2l0",
-        "name": "经济法",
-        "total": 20,
-        "completed": 0,
-        "color": "green"
       },
       {
         "id": "msff9szaczi9bf",
@@ -55,7 +25,37 @@
         "color": "yellow"
       },
       {
+        "id": "msff9sza13teze",
+        "name": "税法",
+        "total": 22,
+        "completed": 22,
+        "color": "pink",
+        "passed": "2024",
+        "focus": false
+      },
+      {
+        "id": "msff9szas8a2l0",
+        "name": "经济法",
+        "total": 20,
+        "completed": 0,
+        "color": "green"
+      },
+      {
         "id": "msff9szaljjv7i",
+        "name": "公司战略与风险管理",
+        "total": 18,
+        "completed": 0,
+        "color": "blue"
+      },
+      {
+        "id": "msfbmun1gccj1f",
+        "name": "财务成本管理",
+        "total": 28,
+        "completed": 0,
+        "color": "yellow"
+      },
+      {
+        "id": "msfbmun1ibffjh",
         "name": "公司战略与风险管理",
         "total": 18,
         "completed": 0,
@@ -248,13 +248,6 @@
     "aiRecs": {
       "2026-08-05": [
         {
-          "id": "exm_1785888050081_jgt63",
-          "title": "听完「会计」剩余课程",
-          "type": "听课",
-          "content": "当前进度 40%，是今年重点，优先推进",
-          "reason": "重点科目进度偏低"
-        },
-        {
           "id": "exm_1785894532104_26ak5",
           "title": "会计重点章节复习",
           "type": "听课",
@@ -302,6 +295,13 @@
           "type": "规划",
           "content": "制定每日学习计划和复习计划",
           "reason": "合理安排时间，确保高效备考"
+        },
+        {
+          "id": "exm_1785888050081_jgt63",
+          "title": "听完「会计」剩余课程",
+          "type": "听课",
+          "content": "当前进度 40%，是今年重点，优先推进",
+          "reason": "重点科目进度偏低"
         }
       ],
       "2026-08-04": [
@@ -320,8 +320,17 @@
     "examDate": "2026-11-14",
     "courses": [
       {
+        "id": "msff9szahauhio",
+        "name": "税法一",
+        "total": 20,
+        "completed": 20,
+        "color": "blue",
+        "passed": "2024",
+        "focus": false
+      },
+      {
         "id": "msff9sza0pyt94",
-        "name": "涉税服务实务",
+        "name": "税二",
         "total": 25,
         "completed": 0,
         "color": "yellow",
@@ -344,13 +353,11 @@
         "focus": true
       },
       {
-        "id": "msff9szahauhio",
-        "name": "税法一",
-        "total": 20,
-        "completed": 20,
-        "color": "blue",
-        "passed": "2024",
-        "focus": false
+        "id": "msess46dzd30pw",
+        "name": "涉税服务实务",
+        "total": 25,
+        "completed": 0,
+        "color": "yellow"
       },
       {
         "id": "msess46dkv7pog",
@@ -358,13 +365,6 @@
         "total": 22,
         "completed": 0,
         "color": "blue"
-      },
-      {
-        "id": "msess46dzd30pw",
-        "name": "涉税服务实务",
-        "total": 25,
-        "completed": 0,
-        "color": "yellow"
       }
     ],
     "chapter1": [],
@@ -375,13 +375,6 @@
     "tasks": [],
     "aiRecs": {
       "2026-08-05": [
-        {
-          "id": "exm_1785888050081_ca5y0",
-          "title": "梳理今日学习计划",
-          "type": "规划",
-          "content": "按倒计时安排听课/刷题/复盘",
-          "reason": "保持每日节奏"
-        },
         {
           "id": "exm_1785894567689_510pc",
           "title": "复习税法基础概念",
@@ -430,6 +423,13 @@
           "type": "规划",
           "content": "预习明天的课程内容，做到心中有数，提高听课效率。",
           "reason": "预习有助于跟上老师的思路，提高学习效果。"
+        },
+        {
+          "id": "exm_1785888050081_ca5y0",
+          "title": "梳理今日学习计划",
+          "type": "规划",
+          "content": "按倒计时安排听课/刷题/复盘",
+          "reason": "保持每日节奏"
         }
       ],
       "2026-08-04": [
@@ -2550,24 +2550,6 @@
       ],
       "2026-08-05": [
         {
-          "id": "ex_1785899014723_trxdg",
-          "name": "数据透视表",
-          "why": "提升数据分析能力，适合财务报表制作",
-          "usage": "创建数据透视表分析销售数据"
-        },
-        {
-          "id": "ex_1785899014723_7iv51",
-          "name": "分列",
-          "why": "数据整理，适用于文员日常数据录入",
-          "usage": "将合并单元格的数据分列显示"
-        },
-        {
-          "id": "ex_1785899014723_dbto2",
-          "name": "条件格式",
-          "why": "数据可视化，便于快速识别异常值",
-          "usage": "突出显示销售数据中的最高值"
-        },
-        {
           "id": "ex_1785899569389_p8m7z",
           "name": "数据透视表",
           "why": "提升数据分析能力，适合财务报表制作",
@@ -2584,6 +2566,24 @@
           "name": "条件格式",
           "why": "突出显示关键数据，便于快速识别异常值",
           "usage": "设置条件格式，突出显示销售超过10万的记录"
+        },
+        {
+          "id": "ex_1785899014723_trxdg",
+          "name": "数据透视表",
+          "why": "提升数据分析能力，适合财务报表制作",
+          "usage": "创建数据透视表分析销售数据"
+        },
+        {
+          "id": "ex_1785899014723_7iv51",
+          "name": "分列",
+          "why": "数据整理，适用于文员日常数据录入",
+          "usage": "将合并单元格的数据分列显示"
+        },
+        {
+          "id": "ex_1785899014723_dbto2",
+          "name": "条件格式",
+          "why": "数据可视化，便于快速识别异常值",
+          "usage": "突出显示销售数据中的最高值"
         }
       ]
     }
@@ -2607,27 +2607,6 @@
     ],
     "lyg": [
       {
-        "id": "msff9sza31y4ue",
-        "title": "连云港市事业单位招聘公告发布渠道",
-        "content": "连云港市人力资源和社会保障局官网(http://rsj.lyg.gov.cn)是发布事业单位招聘公告的官方渠道，建议每周关注。",
-        "source": "连云港市人社局",
-        "date": "2026-07-30"
-      },
-      {
-        "id": "msff9szagzyxzp",
-        "title": "连云港2026年事业单位统考时间预测",
-        "content": "参考往年时间安排，连云港事业单位统考通常在上半年3-5月发布公告，5-6月笔试。建议提前3个月开始备考。",
-        "source": "备考分析",
-        "date": "2026-07-30"
-      },
-      {
-        "id": "msff9szanycy7y",
-        "title": "连云港事业编考试内容",
-        "content": "连云港事业单位考试一般包括：公共基础知识（政治、经济、法律、管理、公文写作）+ 职业能力测验 + 专业知识（根据岗位不同）",
-        "source": "考试大纲",
-        "date": "2026-07-30"
-      },
-      {
         "id": "msess46d1dv4xw",
         "title": "连云港市事业单位招聘公告发布渠道",
         "content": "连云港市人力资源和社会保障局官网(http://rsj.lyg.gov.cn)是发布事业单位招聘公告的官方渠道，建议每周关注。",
@@ -2647,34 +2626,55 @@
         "content": "连云港事业单位考试一般包括：公共基础知识（政治、经济、法律、管理、公文写作）+ 职业能力测验 + 专业知识（根据岗位不同）",
         "source": "考试大纲",
         "date": "2026-07-30"
+      },
+      {
+        "id": "msff9sza31y4ue",
+        "title": "连云港市事业单位招聘公告发布渠道",
+        "content": "连云港市人力资源和社会保障局官网(http://rsj.lyg.gov.cn)是发布事业单位招聘公告的官方渠道，建议每周关注。",
+        "source": "连云港市人社局",
+        "date": "2026-07-30"
+      },
+      {
+        "id": "msff9szagzyxzp",
+        "title": "连云港2026年事业单位统考时间预测",
+        "content": "参考往年时间安排，连云港事业单位统考通常在上半年3-5月发布公告，5-6月笔试。建议提前3个月开始备考。",
+        "source": "备考分析",
+        "date": "2026-07-30"
+      },
+      {
+        "id": "msff9szanycy7y",
+        "title": "连云港事业编考试内容",
+        "content": "连云港事业单位考试一般包括：公共基础知识（政治、经济、法律、管理、公文写作）+ 职业能力测验 + 专业知识（根据岗位不同）",
+        "source": "考试大纲",
+        "date": "2026-07-30"
       }
     ],
     "tasks": [],
     "lygAI": {
       "2026-08-05": [
         {
-          "id": "lyg_1785897662883_g43uz",
+          "id": "lyg_1785894569839_1p5uh",
           "title": "连云港市某医院招聘公告",
           "type": "招聘",
-          "content": "招聘临床医生、护士等岗位，即日起至9月30日报名。",
+          "content": "临床、医技等岗位招聘，8月10日开始报名。",
           "source": "连云港人社局官网",
-          "attention": "关注岗位要求及报名时间。"
+          "attention": "岗位信息、报名流程"
         },
         {
-          "id": "lyg_1785897662883_toywa",
-          "title": "事业单位统考报名即将开始",
+          "id": "lyg_1785894569839_yynkv",
+          "title": "连云港事业单位统一招聘政策调整",
+          "type": "政策",
+          "content": "明年政策将实施新标准，注意政策变动。",
+          "source": "连云港人社局官网",
+          "attention": "政策调整内容"
+        },
+        {
+          "id": "lyg_1785894569839_i531f",
+          "title": "事业单位考试大纲公布时间预计11月",
           "type": "考试",
-          "content": "2027年事业单位统考报名将于10月1日开始，持续至10月15日。",
+          "content": "大纲预计11月发布，提前了解考试方向。",
           "source": "连云港人社局官网",
-          "attention": "留意报名时间和考试科目。"
-        },
-        {
-          "id": "lyg_1785897662883_gm0px",
-          "title": "连云港市教育系统招聘教师",
-          "type": "招聘",
-          "content": "计划招聘中学教师50名，报名时间为9月20日至10月10日。",
-          "source": "连云港教育局官网",
-          "attention": "关注教师岗位及报名详情。"
+          "attention": "大纲发布时间、考试内容"
         },
         {
           "id": "lyg_1785898536953_bunv8",
@@ -2709,28 +2709,28 @@
           "attention": "考试大纲内容"
         },
         {
-          "id": "lyg_1785894569839_1p5uh",
+          "id": "lyg_1785897662883_g43uz",
           "title": "连云港市某医院招聘公告",
           "type": "招聘",
-          "content": "临床、医技等岗位招聘，8月10日开始报名。",
+          "content": "招聘临床医生、护士等岗位，即日起至9月30日报名。",
           "source": "连云港人社局官网",
-          "attention": "岗位信息、报名流程"
+          "attention": "关注岗位要求及报名时间。"
         },
         {
-          "id": "lyg_1785894569839_yynkv",
-          "title": "连云港事业单位统一招聘政策调整",
-          "type": "政策",
-          "content": "明年政策将实施新标准，注意政策变动。",
-          "source": "连云港人社局官网",
-          "attention": "政策调整内容"
-        },
-        {
-          "id": "lyg_1785894569839_i531f",
-          "title": "事业单位考试大纲公布时间预计11月",
+          "id": "lyg_1785897662883_toywa",
+          "title": "事业单位统考报名即将开始",
           "type": "考试",
-          "content": "大纲预计11月发布，提前了解考试方向。",
+          "content": "2027年事业单位统考报名将于10月1日开始，持续至10月15日。",
           "source": "连云港人社局官网",
-          "attention": "大纲发布时间、考试内容"
+          "attention": "留意报名时间和考试科目。"
+        },
+        {
+          "id": "lyg_1785897662883_gm0px",
+          "title": "连云港市教育系统招聘教师",
+          "type": "招聘",
+          "content": "计划招聘中学教师50名，报名时间为9月20日至10月10日。",
+          "source": "连云港教育局官网",
+          "attention": "关注教师岗位及报名详情。"
         }
       ],
       "2026-08-04": [
@@ -2786,6 +2786,36 @@
     "podcasts": [],
     "news": [
       {
+        "id": "msess46d2cprcu",
+        "date": "2026-07-30",
+        "title": "增值税留抵退税政策延续优化",
+        "summary": "财政部、税务总局联合发布通知，进一步完善增值税留抵退税政策，扩大适用范围。",
+        "category": "税务",
+        "reason": "直接关系企业税负，CPA税法和税务师考试高频考点",
+        "attention": "注意退税条件的变化和计算方法，考试可能出计算题",
+        "source": "国家税务总局"
+      },
+      {
+        "id": "msess46dfh9niz",
+        "date": "2026-07-30",
+        "title": "个人所得税专项附加扣除标准提高",
+        "summary": "3岁以下婴幼儿照护、子女教育、赡养老人三项专项附加扣除标准提高。",
+        "category": "税务",
+        "reason": "个税改革是近年热点，CPA经济法和税务师涉税法律常考内容",
+        "attention": "关注扣除标准和适用条件的变化，注意综合所得汇算清缴的影响",
+        "source": "国家税务总局"
+      },
+      {
+        "id": "msess46dtof4bx",
+        "date": "2026-07-30",
+        "title": "国务院研究优化营商环境条例",
+        "summary": "国务院常务会议审议通过优化营商环境条例修订草案，进一步简化审批流程。",
+        "category": "时政",
+        "reason": "营商环境改革涉及企业注册、税务办理等，与CPA经济法相关",
+        "attention": "关注行政审批简化和税务服务优化的具体措施",
+        "source": "新华社"
+      },
+      {
         "id": "msfbmun20yq6xz",
         "date": "2026-07-30",
         "title": "央行宣布降准0.5个百分点",
@@ -2814,49 +2844,9 @@
         "reason": "个税改革是近年热点，CPA经济法和税务师涉税法律常考内容",
         "attention": "关注扣除标准和适用条件的变化，注意综合所得汇算清缴的影响",
         "source": "国家税务总局"
-      },
-      {
-        "id": "msess46dtof4bx",
-        "date": "2026-07-30",
-        "title": "国务院研究优化营商环境条例",
-        "summary": "国务院常务会议审议通过优化营商环境条例修订草案，进一步简化审批流程。",
-        "category": "时政",
-        "reason": "营商环境改革涉及企业注册、税务办理等，与CPA经济法相关",
-        "attention": "关注行政审批简化和税务服务优化的具体措施",
-        "source": "新华社"
-      },
-      {
-        "id": "msess46d2cprcu",
-        "date": "2026-07-30",
-        "title": "增值税留抵退税政策延续优化",
-        "summary": "财政部、税务总局联合发布通知，进一步完善增值税留抵退税政策，扩大适用范围。",
-        "category": "税务",
-        "reason": "直接关系企业税负，CPA税法和税务师考试高频考点",
-        "attention": "注意退税条件的变化和计算方法，考试可能出计算题",
-        "source": "国家税务总局"
-      },
-      {
-        "id": "msess46dfh9niz",
-        "date": "2026-07-30",
-        "title": "个人所得税专项附加扣除标准提高",
-        "summary": "3岁以下婴幼儿照护、子女教育、赡养老人三项专项附加扣除标准提高。",
-        "category": "税务",
-        "reason": "个税改革是近年热点，CPA经济法和税务师涉税法律常考内容",
-        "attention": "关注扣除标准和适用条件的变化，注意综合所得汇算清缴的影响",
-        "source": "国家税务总局"
       }
     ],
     "dailyPicks": [
-      {
-        "id": "msfbmun2szv9lg",
-        "date": "2026-07-30",
-        "type": "book",
-        "title": "纳税筹划实务与案例",
-        "author": "蔡昌",
-        "reason": "结合当前税务政策变化，系统讲解纳税筹划思路，对CPA税法和税务师实务考试有直接帮助",
-        "attention": "重点关注增值税和企业所得税的筹划案例，与最新政策对照学习",
-        "source": ""
-      },
       {
         "id": "msff9szab0ukht",
         "date": "2026-07-30",
@@ -2866,10 +2856,18 @@
         "reason": "个人知识管理方法论，帮助你更高效地整合备考知识，建立系统化学习框架",
         "attention": "尝试将播客中的知识管理方法应用到CPA和税务师备考中",
         "source": ""
+      },
+      {
+        "id": "msfbmun2szv9lg",
+        "date": "2026-07-30",
+        "type": "book",
+        "title": "纳税筹划实务与案例",
+        "author": "蔡昌",
+        "reason": "结合当前税务政策变化，系统讲解纳税筹划思路，对CPA税法和税务师实务考试有直接帮助",
+        "attention": "重点关注增值税和企业所得税的筹划案例，与最新政策对照学习",
+        "source": ""
       }
     ],
-    "dismissed": [],
-    "recent": {},
     "aiRecs": {
       "2026-08-05": [
         {
@@ -3009,30 +3007,11 @@
           "source": ""
         }
       ]
-    }
+    },
+    "dismissed": [],
+    "recent": {}
   },
   "inbox": [
-    {
-      "id": "msess46d2rc9pg",
-      "type": "text",
-      "content": "CPA报名时间是4月，记得提前准备照片和学历认证",
-      "date": "2026-07-29",
-      "target": ""
-    },
-    {
-      "id": "msess46do36iwt",
-      "type": "link",
-      "content": "https://www.cicpa.org.cn — 中注协官网",
-      "date": "2026-07-28",
-      "target": ""
-    },
-    {
-      "id": "msess46d2gkp9a",
-      "type": "task",
-      "content": "整理一份各科目考试时间表",
-      "date": "2026-07-26",
-      "target": ""
-    },
     {
       "id": "msff9sza2vtx17",
       "type": "link",
@@ -3053,9 +3032,42 @@
       "content": "整理一份各科目考试时间表",
       "date": "2026-07-26",
       "target": ""
+    },
+    {
+      "id": "msess46d2rc9pg",
+      "type": "text",
+      "content": "CPA报名时间是4月，记得提前准备照片和学历认证",
+      "date": "2026-07-29",
+      "target": ""
+    },
+    {
+      "id": "msess46do36iwt",
+      "type": "link",
+      "content": "https://www.cicpa.org.cn — 中注协官网",
+      "date": "2026-07-28",
+      "target": ""
+    },
+    {
+      "id": "msess46d2gkp9a",
+      "type": "task",
+      "content": "整理一份各科目考试时间表",
+      "date": "2026-07-26",
+      "target": ""
     }
   ],
   "changelog": [
+    {
+      "date": "2026-08-05",
+      "content": "v2.2.39 修复路线图阶段状态下拉框 ReferenceError：saveStageStatus/saveStageNote 原定义在 renderRoadmap 函数体内（闭包），inline handler（onchange/onblur）调用栈外查不到 → ReferenceError。已移至顶层为全局函数。"
+    },
+    {
+      "date": "2026-08-05",
+      "content": "v2.2.38 修复设置页渲染崩溃：DATA.changelog 历史累积 null 元素导致「设置与数据」整页报\"null is not an object (evaluating c.date)\"；已加 filter 防御 + _clnDataPlaceholders 清理 changelog 数组。"
+    },
+    {
+      "date": "2026-08-05",
+      "content": "v2.2.37 勾选完成终极保险：勾选「各阶段学习规划」完成后，状态写入本地独立存证（shanshan_done_marks），任何云端同步 / 合并 / 覆盖都无法回退；设置页「关于」新增同步诊断（本地最后修改 / 云端最后同步 / 勾选存证数）。"
+    },
     {
       "date": "2026-08-05",
       "content": "v2.2.36 云端同步彻底改为合并式：勾选「各阶段学习规划 / 今日任务 / 模块任务」完成后，本地已完成状态永不被云端旧数据回退（此前修复已生效，本版更新版本号强制所有设备刷新到最新文件，避免旧缓存继续回写旧状态）。"
@@ -3495,18 +3507,6 @@
       "content": "课程卡片新增编辑按钮，可直接修改科目名称、总课时、已完成课时和备考标记",
       "scope": "CPA备考/税务师备考",
       "action": "刷新页面即可看到更新"
-    },
-    {
-      "date": "2026-08-05",
-      "content": "v2.2.39 修复路线图阶段状态下拉框 ReferenceError：saveStageStatus/saveStageNote 原定义在 renderRoadmap 函数体内（闭包），inline handler（onchange/onblur）调用栈外查不到 → ReferenceError。已移至顶层为全局函数。"
-    },
-    {
-      "date": "2026-08-05",
-      "content": "v2.2.38 修复设置页渲染崩溃：DATA.changelog 历史累积 null 元素导致「设置与数据」整页报\"null is not an object (evaluating c.date)\"；已加 filter 防御 + _clnDataPlaceholders 清理 changelog 数组。"
-    },
-    {
-      "date": "2026-08-05",
-      "content": "v2.2.37 勾选完成终极保险：勾选「各阶段学习规划」完成后，状态写入本地独立存证（shanshan_done_marks），任何云端同步 / 合并 / 覆盖都无法回退；设置页「关于」新增同步诊断（本地最后修改 / 云端最后同步 / 勾选存证数）。"
     }
   ],
   "weeklyTasks": [
@@ -3782,15 +3782,15 @@
       "urgent": true
     }
   },
-  "_updated": "2026-08-05T03:13:39.684Z",
+  "_updated": "2026-08-05T03:20:45.905Z",
   "checkins": [],
-  "_mig": {
-    "cpaTasksCleared": true,
-    "excelUsageBackfill": true,
-    "cpaSprintImported2": true
-  },
   "profile": {
     "nickname": "小王同学"
+  },
+  "_mig": {
+    "cpaSprintImported2": true,
+    "cpaTasksCleared": true,
+    "excelUsageBackfill": true
   },
   "roadmapStageStatus": {
     "cpa": {
