@@ -307,13 +307,6 @@
         "passed": "2024"
       },
       {
-        "id": "msff9sza0pyt94",
-        "name": "涉税服务实务",
-        "total": 25,
-        "completed": 0,
-        "color": "yellow"
-      },
-      {
         "id": "msff9sza9o3d03",
         "name": "涉税服务相关法律",
         "total": 1,
@@ -3601,7 +3594,7 @@
       "urgent": true
     }
   },
-  "_updated": "2026-08-05T02:53:40.779Z",
+  "_updated": "2026-08-05T02:53:43.795Z",
   "checkins": [],
   "_mig": {
     "cpaTasksCleared": true,
