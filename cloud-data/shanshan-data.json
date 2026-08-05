@@ -87,6 +87,14 @@
         "total": 68,
         "correct": 59,
         "note": "第五章投资性房地产"
+      },
+      {
+        "id": "msffmep9xcgkum",
+        "subject": "会计",
+        "date": "2026-04-05",
+        "total": 53,
+        "correct": 45,
+        "note": "第九章职工薪酬"
       }
     ],
     "chapter2": [],
@@ -95,7 +103,7 @@
     "mistakes": [
       {
         "subject": "会计",
-        "objectiveWrong": 46,
+        "objectiveWrong": 54,
         "subjectiveWrong": 0,
         "reviewCount": 0,
         "proficiency": "low"
@@ -1915,7 +1923,7 @@
       "urgent": true
     }
   },
-  "_updated": "2026-08-05T01:51:58.772Z",
+  "_updated": "2026-08-05T01:52:27.885Z",
   "checkins": [],
   "profile": {
     "nickname": "小王同学"
