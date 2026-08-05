@@ -1844,6 +1844,16 @@
         "mod": "cpa",
         "done": true
       }
+    ],
+    "冲刺模考": [
+      {
+        "text": "按照冲刺计划（每周安排计划里有）",
+        "priority": "high",
+        "startDate": "2026-08-01",
+        "endDate": "2026-08-28",
+        "mod": "cpa",
+        "done": false
+      }
     ]
   },
   "reviews": {},
@@ -1857,7 +1867,7 @@
       "urgent": true
     }
   },
-  "_updated": "2026-08-05T01:34:22.623Z",
+  "_updated": "2026-08-05T01:35:08.756Z",
   "checkins": [
     "2026-08-05"
   ],
