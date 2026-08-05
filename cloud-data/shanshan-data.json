@@ -1845,6 +1845,56 @@
         "date": "2026-08-05",
         "name": "RANK",
         "progress": 0
+      },
+      {
+        "date": "2026-08-05",
+        "name": "IF",
+        "progress": 68
+      },
+      {
+        "date": "2026-08-05",
+        "name": "IF",
+        "progress": 32
+      },
+      {
+        "date": "2026-08-05",
+        "name": "IF",
+        "progress": 26
+      },
+      {
+        "date": "2026-08-05",
+        "name": "IF",
+        "progress": 12
+      },
+      {
+        "date": "2026-08-05",
+        "name": "IF",
+        "progress": 0
+      },
+      {
+        "date": "2026-08-05",
+        "name": "AND",
+        "progress": 6
+      },
+      {
+        "date": "2026-08-05",
+        "name": "AND",
+        "progress": 0
+      },
+      {
+        "date": "2026-08-05",
+        "name": "OR",
+        "progress": 15
+      },
+      {
+        "date": "2026-08-05",
+        "name": "OR",
+        "progress": 0
+      },
+      {
+        "date": "2026-08-05",
+        "name": "IFERROR",
+        "progress": 0
       }
     ],
     "functions": [
@@ -2323,7 +2373,7 @@
         "syntax": "=IF(条件, 真时结果, 假时结果)",
         "desc": "根据条件判断返回不同结果，最常用逻辑函数。",
         "usage": "工资是否超起征点，超了才计税",
-        "progress": 60
+        "progress": 0
       },
       {
         "id": "ef50",
@@ -2341,7 +2391,7 @@
         "syntax": "=AND(条件1, 条件2)",
         "desc": "所有条件都为真时返回真，常与IF配合。",
         "usage": "判断工资既在范围又属某部门",
-        "progress": 30
+        "progress": 0
       },
       {
         "id": "ef52",
@@ -2350,7 +2400,7 @@
         "syntax": "=OR(条件1, 条件2)",
         "desc": "任一条件为真即返回真。",
         "usage": "迟到或请假都算缺勤",
-        "progress": 20
+        "progress": 0
       },
       {
         "id": "ef53",
@@ -2377,7 +2427,7 @@
         "syntax": "=IFERROR(公式, 出错返回值)",
         "desc": "公式出错时返回指定值，避免表格出现错误值。",
         "usage": "VLOOKUP查不到时显示“无记录”",
-        "progress": 10
+        "progress": 0
       }
     ],
     "templates": [
@@ -3893,7 +3943,7 @@
       "urgent": true
     }
   },
-  "_updated": "2026-08-05T02:56:27.273Z",
+  "_updated": "2026-08-05T02:56:31.436Z",
   "checkins": [],
   "_mig": {
     "cpaTasksCleared": true,
