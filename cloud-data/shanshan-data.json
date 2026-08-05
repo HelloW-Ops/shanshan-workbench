@@ -304,14 +304,6 @@
         "color": "green"
       },
       {
-        "id": "msff9szahauhio",
-        "name": "税法一",
-        "total": 20,
-        "completed": 20,
-        "color": "green",
-        "passed": "2024"
-      },
-      {
         "id": "msff9sza2jyocz",
         "name": "税法二",
         "total": 22,
@@ -2915,7 +2907,7 @@
       "urgent": true
     }
   },
-  "_updated": "2026-08-05T02:30:54.616Z",
+  "_updated": "2026-08-05T02:31:12.310Z",
   "checkins": [],
   "_mig": {
     "cpaTasksCleared": true,
