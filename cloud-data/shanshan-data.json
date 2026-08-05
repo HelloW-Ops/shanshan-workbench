@@ -135,6 +135,14 @@
         "total": 47,
         "correct": 43,
         "note": "第十六章所有者权益"
+      },
+      {
+        "id": "msffpld4e8uzit",
+        "subject": "会计",
+        "date": "2026-04-15",
+        "total": 52,
+        "correct": 42,
+        "note": "第十二章或有事项"
       }
     ],
     "chapter2": [],
@@ -143,7 +151,7 @@
     "mistakes": [
       {
         "subject": "会计",
-        "objectiveWrong": 109,
+        "objectiveWrong": 119,
         "subjectiveWrong": 0,
         "reviewCount": 0,
         "proficiency": "low"
@@ -1963,7 +1971,7 @@
       "urgent": true
     }
   },
-  "_updated": "2026-08-05T01:54:22.010Z",
+  "_updated": "2026-08-05T01:54:56.488Z",
   "checkins": [],
   "profile": {
     "nickname": "小王同学"
