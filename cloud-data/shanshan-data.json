@@ -63,6 +63,14 @@
         "total": 67,
         "correct": 61,
         "note": "第二章存货"
+      },
+      {
+        "id": "msffkegkbulkx9",
+        "subject": "会计",
+        "date": "2026-04-02",
+        "total": 67,
+        "correct": 56,
+        "note": "第三章固定资产"
       }
     ],
     "chapter2": [],
@@ -71,7 +79,7 @@
     "mistakes": [
       {
         "subject": "会计",
-        "objectiveWrong": 20,
+        "objectiveWrong": 31,
         "subjectiveWrong": 0,
         "reviewCount": 0,
         "proficiency": "low"
@@ -1891,7 +1899,7 @@
       "urgent": true
     }
   },
-  "_updated": "2026-08-05T01:50:32.322Z",
+  "_updated": "2026-08-05T01:50:54.260Z",
   "checkins": [],
   "profile": {
     "nickname": "小王同学"
