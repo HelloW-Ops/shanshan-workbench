@@ -1587,7 +1587,7 @@
       "level": "week",
       "title": "考前 1 天只翻不刷题 · 调状态上考场",
       "mod": "cpa",
-      "priority": "high",
+      "priority": "low",
       "startDate": "2026-08-24",
       "endDate": "2026-08-28",
       "dueDate": "2026-08-28",
@@ -1803,7 +1803,7 @@
       "urgent": true
     }
   },
-  "_updated": "2026-08-05T01:26:39.107Z",
+  "_updated": "2026-08-05T01:26:41.727Z",
   "checkins": [
     "2026-08-05"
   ],
