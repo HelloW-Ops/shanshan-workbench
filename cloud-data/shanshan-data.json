@@ -1690,7 +1690,7 @@
       "level": "week",
       "title": "第27章 合并财务报表 · 学完即做客观题第一轮",
       "mod": "cpa",
-      "priority": "high",
+      "priority": "",
       "startDate": "2026-08-03",
       "endDate": "2026-08-09",
       "dueDate": "2026-08-09",
@@ -1703,7 +1703,7 @@
       "level": "week",
       "title": "第26章 企业合并 · 学完即做客观题第一轮",
       "mod": "cpa",
-      "priority": "high",
+      "priority": "",
       "startDate": "2026-08-03",
       "endDate": "2026-08-09",
       "dueDate": "2026-08-09",
@@ -1737,7 +1737,7 @@
       "urgent": true
     }
   },
-  "_updated": "2026-08-05T01:44:46.968Z",
+  "_updated": "2026-08-05T01:44:53.599Z",
   "checkins": [],
   "profile": {
     "nickname": "小王同学"
