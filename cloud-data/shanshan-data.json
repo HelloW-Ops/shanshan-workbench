@@ -1612,7 +1612,7 @@
       "level": "week",
       "title": "逐章做客观题第二轮",
       "mod": "cpa",
-      "priority": "high",
+      "priority": "",
       "startDate": "2026-08-10",
       "endDate": "2026-08-16",
       "dueDate": "2026-08-16",
@@ -1724,7 +1724,7 @@
       "urgent": true
     }
   },
-  "_updated": "2026-08-05T01:45:19.554Z",
+  "_updated": "2026-08-05T01:45:23.247Z",
   "checkins": [],
   "profile": {
     "nickname": "小王同学"
