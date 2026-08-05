@@ -47,11 +47,28 @@
         "color": "blue"
       }
     ],
-    "chapter1": [],
+    "chapter1": [
+      {
+        "id": "msffjhbe9vbobr",
+        "subject": "会计",
+        "date": "2026-04-01",
+        "total": 57,
+        "correct": 43,
+        "note": "第一章总论"
+      }
+    ],
     "chapter2": [],
     "pastpapers": [],
     "mocks": [],
-    "mistakes": [],
+    "mistakes": [
+      {
+        "subject": "会计",
+        "objectiveWrong": 14,
+        "subjectiveWrong": 0,
+        "reviewCount": 0,
+        "proficiency": "low"
+      }
+    ],
     "tasks": [],
     "aiRecs": {
       "2026-08-05": [
@@ -1866,7 +1883,7 @@
       "urgent": true
     }
   },
-  "_updated": "2026-08-05T01:49:29.839Z",
+  "_updated": "2026-08-05T01:50:11.306Z",
   "checkins": [],
   "profile": {
     "nickname": "小王同学"
