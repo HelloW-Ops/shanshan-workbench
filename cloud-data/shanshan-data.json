@@ -283,13 +283,6 @@
         "color": "yellow"
       },
       {
-        "id": "msfbmun2tebmy4",
-        "name": "财务与会计",
-        "total": 28,
-        "completed": 0,
-        "color": "green"
-      },
-      {
         "id": "msff9sza2jyocz",
         "name": "税法二",
         "total": 22,
@@ -2893,7 +2886,7 @@
       "urgent": true
     }
   },
-  "_updated": "2026-08-05T02:31:20.248Z",
+  "_updated": "2026-08-05T02:31:24.349Z",
   "checkins": [],
   "_mig": {
     "cpaTasksCleared": true,
