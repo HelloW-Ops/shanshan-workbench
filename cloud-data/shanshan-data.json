@@ -1583,6 +1583,15 @@
   ],
   "weeklyTasks": [
     {
+      "id": "msfewyeac8e7nj",
+      "level": "month",
+      "month": "2026-08",
+      "title": "CPA会计冲刺阶段！！！！！",
+      "content": "",
+      "done": false,
+      "created": "2026-08-05"
+    },
+    {
       "id": "msfer4xttmz3ep",
       "level": "day",
       "date": "2026-08-05",
@@ -1827,7 +1836,7 @@
       "urgent": true
     }
   },
-  "_updated": "2026-08-05T01:32:05.103Z",
+  "_updated": "2026-08-05T01:32:40.354Z",
   "checkins": [
     "2026-08-05"
   ],
