@@ -5,8 +5,8 @@
       {
         "id": "msff9sza89mk1p",
         "name": "会计",
-        "total": 30,
-        "completed": 12,
+        "total": 130,
+        "completed": 97,
         "color": "green",
         "focus": true
       },
@@ -1789,7 +1789,7 @@
       "urgent": true
     }
   },
-  "_updated": "2026-08-05T01:48:52.104Z",
+  "_updated": "2026-08-05T01:49:01.296Z",
   "checkins": [],
   "profile": {
     "nickname": "小王同学"
