@@ -47,13 +47,6 @@
         "focus": true
       },
       {
-        "id": "msff9szaczi9bf",
-        "name": "审计",
-        "total": 25,
-        "completed": 0,
-        "color": "blue"
-      },
-      {
         "id": "msff9sza597rgp",
         "name": "财务成本管理",
         "total": 28,
@@ -2951,7 +2944,7 @@
       "urgent": true
     }
   },
-  "_updated": "2026-08-05T02:30:31.879Z",
+  "_updated": "2026-08-05T02:30:38.225Z",
   "checkins": [],
   "_mig": {
     "cpaTasksCleared": true,
