@@ -1634,19 +1634,6 @@
       "created": "2026-08-05"
     },
     {
-      "id": "msffb3ctvar4au",
-      "level": "week",
-      "title": "8.9 本周回看 · 归集错题",
-      "mod": "cpa",
-      "priority": "",
-      "startDate": "2026-08-03",
-      "endDate": "2026-08-09",
-      "dueDate": "2026-08-09",
-      "phase": "第一轮收尾 + 章节客观题",
-      "done": false,
-      "created": "2026-08-05"
-    },
-    {
       "id": "msffb3ctq7tyzw",
       "level": "week",
       "title": "第29章 公允价值计量 + 第30章 政府及民间非营利组织会计 · 客观题第一轮",
@@ -1737,7 +1724,7 @@
       "urgent": true
     }
   },
-  "_updated": "2026-08-05T01:44:57.061Z",
+  "_updated": "2026-08-05T01:45:08.708Z",
   "checkins": [],
   "profile": {
     "nickname": "小王同学"
