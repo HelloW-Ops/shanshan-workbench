@@ -1648,7 +1648,7 @@
     {
       "id": "msfen5ujnx4bas",
       "level": "week",
-      "title": "每天固定时段重做旧错（错题本）",
+      "title": "错题本一刷",
       "mod": "cpa",
       "priority": "low",
       "startDate": "2026-08-17",
@@ -1827,7 +1827,7 @@
       "urgent": true
     }
   },
-  "_updated": "2026-08-05T01:31:46.448Z",
+  "_updated": "2026-08-05T01:32:05.103Z",
   "checkins": [
     "2026-08-05"
   ],
