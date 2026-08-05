@@ -17,14 +17,6 @@
         "color": "yellow"
       },
       {
-        "id": "msfbmun1fqrc3d",
-        "name": "税法",
-        "total": 22,
-        "completed": 22,
-        "color": "pink",
-        "passed": "2024"
-      },
-      {
         "id": "msfbmun1olnnym",
         "name": "经济法",
         "total": 20,
@@ -2937,7 +2929,7 @@
       "urgent": true
     }
   },
-  "_updated": "2026-08-05T02:30:44.235Z",
+  "_updated": "2026-08-05T02:30:48.595Z",
   "checkins": [],
   "_mig": {
     "cpaTasksCleared": true,
