@@ -48,13 +48,6 @@
         "color": "blue"
       },
       {
-        "id": "msess46d70pvlf",
-        "name": "审计",
-        "total": 25,
-        "completed": 0,
-        "color": "blue"
-      },
-      {
         "id": "msess46dke6fkg",
         "name": "财务成本管理",
         "total": 28,
@@ -3919,7 +3912,7 @@
       "urgent": true
     }
   },
-  "_updated": "2026-08-05T03:10:39.549Z",
+  "_updated": "2026-08-05T03:11:04.898Z",
   "checkins": [],
   "profile": {
     "nickname": "小王同学"
