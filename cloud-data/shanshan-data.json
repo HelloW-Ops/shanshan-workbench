@@ -1519,9 +1519,9 @@
     {
       "id": "msffb3ctzgyaup",
       "level": "week",
-      "title": "考前 1 天只翻不刷题 · 调状态上考场",
+      "title": "做的模拟题再看看",
       "mod": "cpa",
-      "priority": "high",
+      "priority": "",
       "startDate": "2026-08-24",
       "endDate": "2026-08-28",
       "dueDate": "2026-08-28",
@@ -1724,7 +1724,7 @@
       "urgent": true
     }
   },
-  "_updated": "2026-08-05T01:45:57.793Z",
+  "_updated": "2026-08-05T01:46:20.634Z",
   "checkins": [],
   "profile": {
     "nickname": "小王同学"
