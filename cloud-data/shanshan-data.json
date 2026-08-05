@@ -191,6 +191,14 @@
         "total": 104,
         "correct": 75,
         "note": "第十三章金融工具与保险合同"
+      },
+      {
+        "id": "msffuov0c1o5ru",
+        "subject": "会计",
+        "date": "2026-06-03",
+        "total": 87,
+        "correct": 68,
+        "note": "第六章长期股权投资与合营安排"
       }
     ],
     "chapter2": [],
@@ -199,7 +207,7 @@
     "mistakes": [
       {
         "subject": "会计",
-        "objectiveWrong": 240,
+        "objectiveWrong": 259,
         "subjectiveWrong": 0,
         "reviewCount": 0,
         "proficiency": "low"
@@ -2019,7 +2027,7 @@
       "urgent": true
     }
   },
-  "_updated": "2026-08-05T01:58:04.795Z",
+  "_updated": "2026-08-05T01:58:54.300Z",
   "checkins": [],
   "profile": {
     "nickname": "小王同学"
