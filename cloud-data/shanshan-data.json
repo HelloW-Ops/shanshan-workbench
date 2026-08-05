@@ -1750,12 +1750,12 @@
     "books": [
       {
         "id": "msff9szado230b",
-        "title": "小岛经济学",
-        "author": "彼得·希夫",
-        "totalPages": 320,
+        "title": "毛泽东选集（1-7卷）",
+        "author": "毛泽东",
+        "totalPages": 2740,
         "currentPage": 0,
         "status": "planned",
-        "startDate": "",
+        "startDate": "2026-09-01",
         "source": ""
       }
     ],
@@ -2671,7 +2671,7 @@
       "urgent": true
     }
   },
-  "_updated": "2026-08-05T02:04:28.104Z",
+  "_updated": "2026-08-05T02:20:59.205Z",
   "checkins": [],
   "profile": {
     "nickname": "小王同学"
