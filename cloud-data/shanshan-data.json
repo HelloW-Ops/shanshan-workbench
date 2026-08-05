@@ -316,10 +316,11 @@
       },
       {
         "id": "msff9sza0pyt94",
-        "name": "涉税服务实务",
+        "name": "税二",
         "total": 25,
         "completed": 0,
-        "color": "yellow"
+        "color": "yellow",
+        "focus": false
       },
       {
         "id": "msff9sza9o3d03",
@@ -3863,7 +3864,7 @@
       "urgent": true
     }
   },
-  "_updated": "2026-08-05T03:11:49.442Z",
+  "_updated": "2026-08-05T03:12:09.432Z",
   "checkins": [],
   "profile": {
     "nickname": "小王同学"
