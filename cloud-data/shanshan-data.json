@@ -1743,7 +1743,7 @@
       "level": "week",
       "title": "第23章 财务报告 + 第28章 每股收益 · 客观题第一轮",
       "mod": "cpa",
-      "priority": "high",
+      "priority": "low",
       "startDate": "2026-08-03",
       "endDate": "2026-08-09",
       "dueDate": "2026-08-09",
@@ -1803,7 +1803,7 @@
       "urgent": true
     }
   },
-  "_updated": "2026-08-05T01:25:36.993Z",
+  "_updated": "2026-08-05T01:25:42.875Z",
   "checkins": [
     "2026-08-05"
   ],
