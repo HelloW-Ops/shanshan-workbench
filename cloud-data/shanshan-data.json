@@ -420,28 +420,6 @@
         "color": "blue",
         "passed": "2024",
         "focus": false
-      },
-      {
-        "id": "msess46dkv7pog",
-        "name": "税法二",
-        "total": 22,
-        "completed": 0,
-        "color": "blue"
-      },
-      {
-        "id": "msess46dzd30pw",
-        "name": "涉税服务实务",
-        "total": 25,
-        "completed": 0,
-        "color": "yellow"
-      },
-      {
-        "id": "msff9sza0pyt94",
-        "name": "涉税服务实务",
-        "total": 25,
-        "completed": 0,
-        "color": "yellow",
-        "focus": false
       }
     ],
     "chapter1": [],
@@ -4366,7 +4344,7 @@
       "urgent": true
     }
   },
-  "_updated": "2026-08-05T08:53:07.604Z",
+  "_updated": "2026-08-05T08:53:46.595Z",
   "checkins": [],
   "_mig": {
     "cpaTasksCleared": true,
