@@ -1827,6 +1827,201 @@
         "date": "2026-08-05",
         "name": "OR",
         "progress": 15
+      },
+      {
+        "date": "2026-08-05",
+        "name": "ROUND",
+        "progress": 59
+      },
+      {
+        "date": "2026-08-05",
+        "name": "ROUND",
+        "progress": 50
+      },
+      {
+        "date": "2026-08-05",
+        "name": "ROUND",
+        "progress": 41
+      },
+      {
+        "date": "2026-08-05",
+        "name": "ROUND",
+        "progress": 35
+      },
+      {
+        "date": "2026-08-05",
+        "name": "ROUND",
+        "progress": 15
+      },
+      {
+        "date": "2026-08-05",
+        "name": "ROUND",
+        "progress": 0
+      },
+      {
+        "date": "2026-08-05",
+        "name": "SUM",
+        "progress": 88
+      },
+      {
+        "date": "2026-08-05",
+        "name": "SUM",
+        "progress": 62
+      },
+      {
+        "date": "2026-08-05",
+        "name": "SUM",
+        "progress": 56
+      },
+      {
+        "date": "2026-08-05",
+        "name": "SUM",
+        "progress": 32
+      },
+      {
+        "date": "2026-08-05",
+        "name": "SUM",
+        "progress": 0
+      },
+      {
+        "date": "2026-08-05",
+        "name": "AVERAGE",
+        "progress": 76
+      },
+      {
+        "date": "2026-08-05",
+        "name": "AVERAGE",
+        "progress": 65
+      },
+      {
+        "date": "2026-08-05",
+        "name": "AVERAGE",
+        "progress": 32
+      },
+      {
+        "date": "2026-08-05",
+        "name": "AVERAGE",
+        "progress": 0
+      },
+      {
+        "date": "2026-08-05",
+        "name": "COUNT",
+        "progress": 70
+      },
+      {
+        "date": "2026-08-05",
+        "name": "COUNT",
+        "progress": 62
+      },
+      {
+        "date": "2026-08-05",
+        "name": "COUNT",
+        "progress": 56
+      },
+      {
+        "date": "2026-08-05",
+        "name": "COUNT",
+        "progress": 38
+      },
+      {
+        "date": "2026-08-05",
+        "name": "COUNT",
+        "progress": 18
+      },
+      {
+        "date": "2026-08-05",
+        "name": "COUNT",
+        "progress": 0
+      },
+      {
+        "date": "2026-08-05",
+        "name": "COUNTA",
+        "progress": 79
+      },
+      {
+        "date": "2026-08-05",
+        "name": "COUNTA",
+        "progress": 76
+      },
+      {
+        "date": "2026-08-05",
+        "name": "COUNTA",
+        "progress": 70
+      },
+      {
+        "date": "2026-08-05",
+        "name": "COUNTA",
+        "progress": 56
+      },
+      {
+        "date": "2026-08-05",
+        "name": "COUNTA",
+        "progress": 38
+      },
+      {
+        "date": "2026-08-05",
+        "name": "COUNTA",
+        "progress": 18
+      },
+      {
+        "date": "2026-08-05",
+        "name": "COUNTA",
+        "progress": 0
+      },
+      {
+        "date": "2026-08-05",
+        "name": "MAX",
+        "progress": 41
+      },
+      {
+        "date": "2026-08-05",
+        "name": "MAX",
+        "progress": 29
+      },
+      {
+        "date": "2026-08-05",
+        "name": "MAX",
+        "progress": 23
+      },
+      {
+        "date": "2026-08-05",
+        "name": "MAX",
+        "progress": 0
+      },
+      {
+        "date": "2026-08-05",
+        "name": "MIN",
+        "progress": 65
+      },
+      {
+        "date": "2026-08-05",
+        "name": "MIN",
+        "progress": 62
+      },
+      {
+        "date": "2026-08-05",
+        "name": "MIN",
+        "progress": 56
+      },
+      {
+        "date": "2026-08-05",
+        "name": "MIN",
+        "progress": 44
+      },
+      {
+        "date": "2026-08-05",
+        "name": "MIN",
+        "progress": 29
+      },
+      {
+        "date": "2026-08-05",
+        "name": "MIN",
+        "progress": 12
+      },
+      {
+        "date": "2026-08-05",
+        "name": "MIN",
+        "progress": 0
       }
     ],
     "functions": [
@@ -2026,7 +2221,7 @@
         "syntax": "=ROUND(数值, 小数位数)",
         "desc": "按指定小数位四舍五入，金额处理必备。",
         "usage": "金额保留2位避免分毫误差",
-        "progress": 100
+        "progress": 0
       },
       {
         "id": "ef19",
@@ -2044,7 +2239,7 @@
         "syntax": "=SUM(数值1, 数值2, ...)",
         "desc": "计算所有参数之和，最基础的求和。",
         "usage": "各类金额合计",
-        "progress": 100
+        "progress": 0
       },
       {
         "id": "ef21",
@@ -2053,7 +2248,7 @@
         "syntax": "=AVERAGE(数值区域)",
         "desc": "返回参数的算术平均值。",
         "usage": "计算部门平均工资",
-        "progress": 100
+        "progress": 0
       },
       {
         "id": "ef22",
@@ -2062,7 +2257,7 @@
         "syntax": "=COUNT(值区域)",
         "desc": "统计区域中数字单元格的个数。",
         "usage": "统计有效单据数量",
-        "progress": 100
+        "progress": 0
       },
       {
         "id": "ef23",
@@ -2071,7 +2266,7 @@
         "syntax": "=COUNTA(值区域)",
         "desc": "统计区域中非空单元格的个数。",
         "usage": "统计已填写字段数",
-        "progress": 100
+        "progress": 0
       },
       {
         "id": "ef24",
@@ -2125,7 +2320,7 @@
         "syntax": "=MAX(数值区域)",
         "desc": "返回参数中的最大值。",
         "usage": "最高工资或最大单笔支出",
-        "progress": 100
+        "progress": 0
       },
       {
         "id": "ef30",
@@ -2134,7 +2329,7 @@
         "syntax": "=MIN(数值区域)",
         "desc": "返回参数中的最小值。",
         "usage": "最低支出或最低工资",
-        "progress": 100
+        "progress": 0
       },
       {
         "id": "ef31",
@@ -3837,7 +4032,7 @@
       "urgent": true
     }
   },
-  "_updated": "2026-08-05T03:38:07.705Z",
+  "_updated": "2026-08-05T03:38:40.023Z",
   "checkins": [],
   "_mig": {
     "cpaTasksCleared": true,
