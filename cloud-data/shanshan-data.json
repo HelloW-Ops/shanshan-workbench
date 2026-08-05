@@ -1493,6 +1493,15 @@
   ],
   "weeklyTasks": [
     {
+      "id": "msffffnxnrsqdb",
+      "level": "month",
+      "month": "2026-08",
+      "title": "CPA会计冲刺阶段！！！！！",
+      "content": "",
+      "done": false,
+      "created": "2026-08-05"
+    },
+    {
       "id": "msffbwdfar3noi",
       "level": "day",
       "date": "2026-08-05",
@@ -1724,7 +1733,7 @@
       "urgent": true
     }
   },
-  "_updated": "2026-08-05T01:46:41.058Z",
+  "_updated": "2026-08-05T01:47:02.541Z",
   "checkins": [],
   "profile": {
     "nickname": "小王同学"
