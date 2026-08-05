@@ -1450,6 +1450,171 @@
         "date": "2026-08-05",
         "name": "IFERROR",
         "progress": 3
+      },
+      {
+        "date": "2026-08-05",
+        "name": "ROUND",
+        "progress": 82
+      },
+      {
+        "date": "2026-08-05",
+        "name": "ROUND",
+        "progress": 76
+      },
+      {
+        "date": "2026-08-05",
+        "name": "ROUND",
+        "progress": 65
+      },
+      {
+        "date": "2026-08-05",
+        "name": "ROUND",
+        "progress": 53
+      },
+      {
+        "date": "2026-08-05",
+        "name": "ROUND",
+        "progress": 38
+      },
+      {
+        "date": "2026-08-05",
+        "name": "ROUND",
+        "progress": 23
+      },
+      {
+        "date": "2026-08-05",
+        "name": "ROUND",
+        "progress": 9
+      },
+      {
+        "date": "2026-08-05",
+        "name": "ROUND",
+        "progress": 0
+      },
+      {
+        "date": "2026-08-05",
+        "name": "SUM",
+        "progress": 94
+      },
+      {
+        "date": "2026-08-05",
+        "name": "SUM",
+        "progress": 88
+      },
+      {
+        "date": "2026-08-05",
+        "name": "SUM",
+        "progress": 70
+      },
+      {
+        "date": "2026-08-05",
+        "name": "SUM",
+        "progress": 53
+      },
+      {
+        "date": "2026-08-05",
+        "name": "SUM",
+        "progress": 32
+      },
+      {
+        "date": "2026-08-05",
+        "name": "SUM",
+        "progress": 9
+      },
+      {
+        "date": "2026-08-05",
+        "name": "SUM",
+        "progress": 0
+      },
+      {
+        "date": "2026-08-05",
+        "name": "AVERAGE",
+        "progress": 88
+      },
+      {
+        "date": "2026-08-05",
+        "name": "AVERAGE",
+        "progress": 79
+      },
+      {
+        "date": "2026-08-05",
+        "name": "AVERAGE",
+        "progress": 59
+      },
+      {
+        "date": "2026-08-05",
+        "name": "AVERAGE",
+        "progress": 32
+      },
+      {
+        "date": "2026-08-05",
+        "name": "AVERAGE",
+        "progress": 3
+      },
+      {
+        "date": "2026-08-05",
+        "name": "AVERAGE",
+        "progress": 0
+      },
+      {
+        "date": "2026-08-05",
+        "name": "COUNT",
+        "progress": 76
+      },
+      {
+        "date": "2026-08-05",
+        "name": "COUNT",
+        "progress": 70
+      },
+      {
+        "date": "2026-08-05",
+        "name": "COUNT",
+        "progress": 56
+      },
+      {
+        "date": "2026-08-05",
+        "name": "COUNT",
+        "progress": 35
+      },
+      {
+        "date": "2026-08-05",
+        "name": "COUNT",
+        "progress": 15
+      },
+      {
+        "date": "2026-08-05",
+        "name": "COUNT",
+        "progress": 0
+      },
+      {
+        "date": "2026-08-05",
+        "name": "COUNTA",
+        "progress": 88
+      },
+      {
+        "date": "2026-08-05",
+        "name": "COUNTA",
+        "progress": 68
+      },
+      {
+        "date": "2026-08-05",
+        "name": "COUNTA",
+        "progress": 56
+      },
+      {
+        "date": "2026-08-05",
+        "name": "COUNTA",
+        "progress": 44
+      },
+      {
+        "date": "2026-08-05",
+        "name": "COUNTA",
+        "progress": 20
+      },
+      {
+        "date": "2026-08-05",
+        "name": "COUNTA",
+        "progress": 0
       }
     ],
     "functions": [
@@ -1649,7 +1814,7 @@
         "syntax": "=ROUND(数值, 小数位数)",
         "desc": "按指定小数位四舍五入，金额处理必备。",
         "usage": "金额保留2位避免分毫误差",
-        "progress": 100
+        "progress": 0
       },
       {
         "id": "ef19",
@@ -1667,7 +1832,7 @@
         "syntax": "=SUM(数值1, 数值2, ...)",
         "desc": "计算所有参数之和，最基础的求和。",
         "usage": "各类金额合计",
-        "progress": 100
+        "progress": 0
       },
       {
         "id": "ef21",
@@ -1676,7 +1841,7 @@
         "syntax": "=AVERAGE(数值区域)",
         "desc": "返回参数的算术平均值。",
         "usage": "计算部门平均工资",
-        "progress": 100
+        "progress": 0
       },
       {
         "id": "ef22",
@@ -1685,7 +1850,7 @@
         "syntax": "=COUNT(值区域)",
         "desc": "统计区域中数字单元格的个数。",
         "usage": "统计有效单据数量",
-        "progress": 100
+        "progress": 0
       },
       {
         "id": "ef23",
@@ -1694,7 +1859,7 @@
         "syntax": "=COUNTA(值区域)",
         "desc": "统计区域中非空单元格的个数。",
         "usage": "统计已填写字段数",
-        "progress": 100
+        "progress": 0
       },
       {
         "id": "ef24",
@@ -3498,7 +3663,7 @@
       "urgent": true
     }
   },
-  "_updated": "2026-08-05T02:55:36.953Z",
+  "_updated": "2026-08-05T02:56:04.675Z",
   "checkins": [],
   "_mig": {
     "cpaTasksCleared": true,
