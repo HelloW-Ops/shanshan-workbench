@@ -1545,9 +1545,9 @@
     {
       "id": "msffb3ct6dkobq",
       "level": "week",
-      "title": "再做真题 2 套（累计约 3 套）",
+      "title": "历年真题二刷",
       "mod": "cpa",
-      "priority": "high",
+      "priority": "",
       "startDate": "2026-08-24",
       "endDate": "2026-08-28",
       "dueDate": "2026-08-28",
@@ -1724,7 +1724,7 @@
       "urgent": true
     }
   },
-  "_updated": "2026-08-05T01:46:28.604Z",
+  "_updated": "2026-08-05T01:46:41.058Z",
   "checkins": [],
   "profile": {
     "nickname": "小王同学"
