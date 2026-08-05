@@ -1730,7 +1730,7 @@
       "level": "week",
       "title": "第24章 会计政策变更 + 第25章 资产负债表日后事项 · 客观题第一轮",
       "mod": "cpa",
-      "priority": "high",
+      "priority": "low",
       "startDate": "2026-08-03",
       "endDate": "2026-08-09",
       "dueDate": "2026-08-09",
@@ -1803,7 +1803,7 @@
       "urgent": true
     }
   },
-  "_updated": "2026-08-05T01:25:31.782Z",
+  "_updated": "2026-08-05T01:25:36.993Z",
   "checkins": [
     "2026-08-05"
   ],
