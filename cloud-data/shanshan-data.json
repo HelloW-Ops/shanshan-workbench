@@ -284,9 +284,10 @@
       {
         "id": "msff9sza9o3d03",
         "name": "涉税服务相关法律",
-        "total": 20,
+        "total": 1,
         "completed": 0,
-        "color": "pink"
+        "color": "green",
+        "focus": true
       },
       {
         "id": "msff9szaamt9kq",
@@ -2044,7 +2045,7 @@
       "urgent": true
     }
   },
-  "_updated": "2026-08-05T02:02:28.999Z",
+  "_updated": "2026-08-05T02:02:40.358Z",
   "checkins": [],
   "profile": {
     "nickname": "小王同学"
