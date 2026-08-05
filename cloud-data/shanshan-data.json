@@ -29,8 +29,9 @@
         "name": "税法",
         "total": 22,
         "completed": 22,
-        "color": "pink",
-        "passed": "2024"
+        "color": "green",
+        "passed": "2024",
+        "focus": false
       },
       {
         "id": "msff9szas8a2l0",
@@ -305,14 +306,6 @@
     "examDate": "2026-11-14",
     "courses": [
       {
-        "id": "msfbmun2xs76d1",
-        "name": "税法一",
-        "total": 20,
-        "completed": 20,
-        "color": "green",
-        "passed": "2024"
-      },
-      {
         "id": "msff9sza0pyt94",
         "name": "涉税服务实务",
         "total": 25,
@@ -340,8 +333,9 @@
         "name": "税法一",
         "total": 20,
         "completed": 20,
-        "color": "green",
-        "passed": "2024"
+        "color": "blue",
+        "passed": "2024",
+        "focus": false
       },
       {
         "id": "msess46dkv7pog",
@@ -349,13 +343,6 @@
         "total": 22,
         "completed": 0,
         "color": "blue"
-      },
-      {
-        "id": "msess46dzd30pw",
-        "name": "涉税服务实务",
-        "total": 25,
-        "completed": 0,
-        "color": "yellow"
       }
     ],
     "chapter1": [],
@@ -2623,27 +2610,6 @@
         "content": "连云港事业单位考试一般包括：公共基础知识（政治、经济、法律、管理、公文写作）+ 职业能力测验 + 专业知识（根据岗位不同）",
         "source": "考试大纲",
         "date": "2026-07-30"
-      },
-      {
-        "id": "msess46d1dv4xw",
-        "title": "连云港市事业单位招聘公告发布渠道",
-        "content": "连云港市人力资源和社会保障局官网(http://rsj.lyg.gov.cn)是发布事业单位招聘公告的官方渠道，建议每周关注。",
-        "source": "连云港市人社局",
-        "date": "2026-07-30"
-      },
-      {
-        "id": "msess46d73mb4s",
-        "title": "连云港2026年事业单位统考时间预测",
-        "content": "参考往年时间安排，连云港事业单位统考通常在上半年3-5月发布公告，5-6月笔试。建议提前3个月开始备考。",
-        "source": "备考分析",
-        "date": "2026-07-30"
-      },
-      {
-        "id": "msess46dw1l1ud",
-        "title": "连云港事业编考试内容",
-        "content": "连云港事业单位考试一般包括：公共基础知识（政治、经济、法律、管理、公文写作）+ 职业能力测验 + 专业知识（根据岗位不同）",
-        "source": "考试大纲",
-        "date": "2026-07-30"
       }
     ],
     "tasks": [],
@@ -3856,7 +3822,7 @@
       "urgent": true
     }
   },
-  "_updated": "2026-08-05T03:02:04.504Z",
+  "_updated": "2026-08-05T03:03:18.704Z",
   "checkins": [],
   "_mig": {
     "cpaTasksCleared": true,
