@@ -18,13 +18,6 @@
         "color": "blue"
       },
       {
-        "id": "msff9sza597rgp",
-        "name": "财务成本管理",
-        "total": 28,
-        "completed": 0,
-        "color": "yellow"
-      },
-      {
         "id": "msff9sza13teze",
         "name": "税法",
         "total": 22,
@@ -39,13 +32,6 @@
         "total": 20,
         "completed": 0,
         "color": "green"
-      },
-      {
-        "id": "msff9szaljjv7i",
-        "name": "公司战略与风险管理",
-        "total": 18,
-        "completed": 0,
-        "color": "blue"
       },
       {
         "id": "msfbmun1gccj1f",
@@ -3782,7 +3768,7 @@
       "urgent": true
     }
   },
-  "_updated": "2026-08-05T03:20:45.905Z",
+  "_updated": "2026-08-05T03:21:36.748Z",
   "checkins": [],
   "profile": {
     "nickname": "小王同学"
