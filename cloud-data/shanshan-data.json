@@ -143,6 +143,14 @@
         "total": 52,
         "correct": 42,
         "note": "第十二章或有事项"
+      },
+      {
+        "id": "msffqdz8qox5dy",
+        "subject": "会计",
+        "date": "2026-04-17",
+        "total": 43,
+        "correct": 28,
+        "note": "第十五章持有待售的非流动资产、处置组和终止经营"
       }
     ],
     "chapter2": [],
@@ -151,7 +159,7 @@
     "mistakes": [
       {
         "subject": "会计",
-        "objectiveWrong": 119,
+        "objectiveWrong": 134,
         "subjectiveWrong": 0,
         "reviewCount": 0,
         "proficiency": "low"
@@ -1971,7 +1979,7 @@
       "urgent": true
     }
   },
-  "_updated": "2026-08-05T01:54:56.488Z",
+  "_updated": "2026-08-05T01:55:33.572Z",
   "checkins": [],
   "profile": {
     "nickname": "小王同学"
