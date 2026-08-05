@@ -127,6 +127,14 @@
         "total": 35,
         "correct": 22,
         "note": "第八章负债"
+      },
+      {
+        "id": "msffouretqu4qc",
+        "subject": "会计",
+        "date": "2026-04-13",
+        "total": 47,
+        "correct": 43,
+        "note": "第十六章所有者权益"
       }
     ],
     "chapter2": [],
@@ -135,7 +143,7 @@
     "mistakes": [
       {
         "subject": "会计",
-        "objectiveWrong": 105,
+        "objectiveWrong": 109,
         "subjectiveWrong": 0,
         "reviewCount": 0,
         "proficiency": "low"
@@ -1955,7 +1963,7 @@
       "urgent": true
     }
   },
-  "_updated": "2026-08-05T01:53:57.532Z",
+  "_updated": "2026-08-05T01:54:22.010Z",
   "checkins": [],
   "profile": {
     "nickname": "小王同学"
