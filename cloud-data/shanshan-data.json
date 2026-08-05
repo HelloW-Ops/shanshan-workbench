@@ -1600,7 +1600,7 @@
       "level": "week",
       "title": "错题本二刷至能独立写全分录",
       "mod": "cpa",
-      "priority": "high",
+      "priority": "low",
       "startDate": "2026-08-24",
       "endDate": "2026-08-28",
       "dueDate": "2026-08-28",
@@ -1613,7 +1613,7 @@
       "level": "week",
       "title": "再做真题 2 套（累计约 3 套）",
       "mod": "cpa",
-      "priority": "high",
+      "priority": "low",
       "startDate": "2026-08-24",
       "endDate": "2026-08-28",
       "dueDate": "2026-08-28",
@@ -1803,7 +1803,7 @@
       "urgent": true
     }
   },
-  "_updated": "2026-08-05T01:26:41.727Z",
+  "_updated": "2026-08-05T01:26:46.922Z",
   "checkins": [
     "2026-08-05"
   ],
