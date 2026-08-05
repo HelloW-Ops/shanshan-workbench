@@ -1583,18 +1583,6 @@
   ],
   "weeklyTasks": [
     {
-      "id": "msfes8vztsmah4",
-      "level": "day",
-      "date": "2026-08-05",
-      "title": "111",
-      "mod": "cpa",
-      "priority": "",
-      "schedDate": "2026-08-05",
-      "detail": "",
-      "done": false,
-      "created": "2026-08-05"
-    },
-    {
       "id": "msfer4xttmz3ep",
       "level": "day",
       "date": "2026-08-05",
@@ -1839,7 +1827,7 @@
       "urgent": true
     }
   },
-  "_updated": "2026-08-05T01:29:00.671Z",
+  "_updated": "2026-08-05T01:29:09.069Z",
   "checkins": [
     "2026-08-05"
   ],
