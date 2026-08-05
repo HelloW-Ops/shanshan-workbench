@@ -338,13 +338,6 @@
         "focus": true
       },
       {
-        "id": "msess46dkv7pog",
-        "name": "税法二",
-        "total": 22,
-        "completed": 0,
-        "color": "blue"
-      },
-      {
         "id": "msess46dzd30pw",
         "name": "涉税服务实务",
         "total": 25,
@@ -3870,7 +3863,7 @@
       "urgent": true
     }
   },
-  "_updated": "2026-08-05T03:11:43.908Z",
+  "_updated": "2026-08-05T03:11:49.442Z",
   "checkins": [],
   "profile": {
     "nickname": "小王同学"
