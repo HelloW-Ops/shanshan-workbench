@@ -48,13 +48,6 @@
         "color": "blue"
       },
       {
-        "id": "msfbmun1gccj1f",
-        "name": "财务成本管理",
-        "total": 28,
-        "completed": 0,
-        "color": "yellow"
-      },
-      {
         "id": "msfbmun1ibffjh",
         "name": "公司战略与风险管理",
         "total": 18,
@@ -3891,7 +3884,7 @@
       "urgent": true
     }
   },
-  "_updated": "2026-08-05T03:11:19.030Z",
+  "_updated": "2026-08-05T03:11:25.680Z",
   "checkins": [],
   "profile": {
     "nickname": "小王同学"
