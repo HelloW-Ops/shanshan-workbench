@@ -456,6 +456,306 @@
         "date": "2026-08-05",
         "name": "AVERAGE",
         "progress": 0
+      },
+      {
+        "date": "2026-08-05",
+        "name": "COUNTA",
+        "progress": 94
+      },
+      {
+        "date": "2026-08-05",
+        "name": "COUNTA",
+        "progress": 92
+      },
+      {
+        "date": "2026-08-05",
+        "name": "COUNTA",
+        "progress": 80
+      },
+      {
+        "date": "2026-08-05",
+        "name": "COUNTA",
+        "progress": 64
+      },
+      {
+        "date": "2026-08-05",
+        "name": "COUNTA",
+        "progress": 47
+      },
+      {
+        "date": "2026-08-05",
+        "name": "COUNTA",
+        "progress": 30
+      },
+      {
+        "date": "2026-08-05",
+        "name": "COUNTA",
+        "progress": 12
+      },
+      {
+        "date": "2026-08-05",
+        "name": "COUNTA",
+        "progress": 0
+      },
+      {
+        "date": "2026-08-05",
+        "name": "COUNT",
+        "progress": 88
+      },
+      {
+        "date": "2026-08-05",
+        "name": "COUNT",
+        "progress": 69
+      },
+      {
+        "date": "2026-08-05",
+        "name": "COUNT",
+        "progress": 45
+      },
+      {
+        "date": "2026-08-05",
+        "name": "COUNT",
+        "progress": 21
+      },
+      {
+        "date": "2026-08-05",
+        "name": "COUNT",
+        "progress": 0
+      },
+      {
+        "date": "2026-08-05",
+        "name": "MAX",
+        "progress": 88
+      },
+      {
+        "date": "2026-08-05",
+        "name": "MAX",
+        "progress": 75
+      },
+      {
+        "date": "2026-08-05",
+        "name": "MAX",
+        "progress": 66
+      },
+      {
+        "date": "2026-08-05",
+        "name": "MAX",
+        "progress": 57
+      },
+      {
+        "date": "2026-08-05",
+        "name": "MAX",
+        "progress": 47
+      },
+      {
+        "date": "2026-08-05",
+        "name": "MAX",
+        "progress": 35
+      },
+      {
+        "date": "2026-08-05",
+        "name": "MAX",
+        "progress": 24
+      },
+      {
+        "date": "2026-08-05",
+        "name": "MAX",
+        "progress": 10
+      },
+      {
+        "date": "2026-08-05",
+        "name": "MAX",
+        "progress": 0
+      },
+      {
+        "date": "2026-08-05",
+        "name": "MIN",
+        "progress": 99
+      },
+      {
+        "date": "2026-08-05",
+        "name": "MIN",
+        "progress": 95
+      },
+      {
+        "date": "2026-08-05",
+        "name": "MIN",
+        "progress": 90
+      },
+      {
+        "date": "2026-08-05",
+        "name": "MIN",
+        "progress": 81
+      },
+      {
+        "date": "2026-08-05",
+        "name": "MIN",
+        "progress": 68
+      },
+      {
+        "date": "2026-08-05",
+        "name": "MIN",
+        "progress": 56
+      },
+      {
+        "date": "2026-08-05",
+        "name": "MIN",
+        "progress": 40
+      },
+      {
+        "date": "2026-08-05",
+        "name": "MIN",
+        "progress": 23
+      },
+      {
+        "date": "2026-08-05",
+        "name": "MIN",
+        "progress": 2
+      },
+      {
+        "date": "2026-08-05",
+        "name": "MIN",
+        "progress": 0
+      },
+      {
+        "date": "2026-08-05",
+        "name": "LEFT",
+        "progress": 94
+      },
+      {
+        "date": "2026-08-05",
+        "name": "LEFT",
+        "progress": 90
+      },
+      {
+        "date": "2026-08-05",
+        "name": "LEFT",
+        "progress": 85
+      },
+      {
+        "date": "2026-08-05",
+        "name": "LEFT",
+        "progress": 81
+      },
+      {
+        "date": "2026-08-05",
+        "name": "LEFT",
+        "progress": 75
+      },
+      {
+        "date": "2026-08-05",
+        "name": "LEFT",
+        "progress": 57
+      },
+      {
+        "date": "2026-08-05",
+        "name": "LEFT",
+        "progress": 40
+      },
+      {
+        "date": "2026-08-05",
+        "name": "LEFT",
+        "progress": 19
+      },
+      {
+        "date": "2026-08-05",
+        "name": "LEFT",
+        "progress": 0
+      },
+      {
+        "date": "2026-08-05",
+        "name": "RIGHT",
+        "progress": 99
+      },
+      {
+        "date": "2026-08-05",
+        "name": "RIGHT",
+        "progress": 95
+      },
+      {
+        "date": "2026-08-05",
+        "name": "RIGHT",
+        "progress": 94
+      },
+      {
+        "date": "2026-08-05",
+        "name": "RIGHT",
+        "progress": 88
+      },
+      {
+        "date": "2026-08-05",
+        "name": "RIGHT",
+        "progress": 85
+      },
+      {
+        "date": "2026-08-05",
+        "name": "RIGHT",
+        "progress": 76
+      },
+      {
+        "date": "2026-08-05",
+        "name": "RIGHT",
+        "progress": 66
+      },
+      {
+        "date": "2026-08-05",
+        "name": "RIGHT",
+        "progress": 43
+      },
+      {
+        "date": "2026-08-05",
+        "name": "RIGHT",
+        "progress": 10
+      },
+      {
+        "date": "2026-08-05",
+        "name": "RIGHT",
+        "progress": 0
+      },
+      {
+        "date": "2026-08-05",
+        "name": "MID",
+        "progress": 83
+      },
+      {
+        "date": "2026-08-05",
+        "name": "MID",
+        "progress": 54
+      },
+      {
+        "date": "2026-08-05",
+        "name": "MID",
+        "progress": 28
+      },
+      {
+        "date": "2026-08-05",
+        "name": "MID",
+        "progress": 0
+      },
+      {
+        "date": "2026-08-05",
+        "name": "TODAY",
+        "progress": 90
+      },
+      {
+        "date": "2026-08-05",
+        "name": "TODAY",
+        "progress": 83
+      },
+      {
+        "date": "2026-08-05",
+        "name": "TODAY",
+        "progress": 57
+      },
+      {
+        "date": "2026-08-05",
+        "name": "TODAY",
+        "progress": 30
+      },
+      {
+        "date": "2026-08-05",
+        "name": "TODAY",
+        "progress": 0
       }
     ],
     "functions": [
@@ -691,7 +991,7 @@
         "syntax": "=COUNT(值区域)",
         "desc": "统计区域中数字单元格的个数。",
         "usage": "统计有效单据数量",
-        "progress": 100
+        "progress": 0
       },
       {
         "id": "ef23",
@@ -700,7 +1000,7 @@
         "syntax": "=COUNTA(值区域)",
         "desc": "统计区域中非空单元格的个数。",
         "usage": "统计已填写字段数",
-        "progress": 100
+        "progress": 0
       },
       {
         "id": "ef24",
@@ -754,7 +1054,7 @@
         "syntax": "=MAX(数值区域)",
         "desc": "返回参数中的最大值。",
         "usage": "最高工资或最大单笔支出",
-        "progress": 100
+        "progress": 0
       },
       {
         "id": "ef30",
@@ -763,7 +1063,7 @@
         "syntax": "=MIN(数值区域)",
         "desc": "返回参数中的最小值。",
         "usage": "最低支出或最低工资",
-        "progress": 100
+        "progress": 0
       },
       {
         "id": "ef31",
@@ -772,7 +1072,7 @@
         "syntax": "=LEFT(文本, 位数)",
         "desc": "从文本左侧截取指定数量的字符。",
         "usage": "从身份证取前6位地区码",
-        "progress": 100
+        "progress": 0
       },
       {
         "id": "ef32",
@@ -781,7 +1081,7 @@
         "syntax": "=RIGHT(文本, 位数)",
         "desc": "从文本右侧截取指定数量的字符。",
         "usage": "从订单号取后4位序号",
-        "progress": 100
+        "progress": 0
       },
       {
         "id": "ef33",
@@ -790,7 +1090,7 @@
         "syntax": "=MID(文本, 起始位, 位数)",
         "desc": "从指定位置开始截取指定长度文本。",
         "usage": "从身份证第7位取8位出生日期",
-        "progress": 100
+        "progress": 0
       },
       {
         "id": "ef34",
@@ -844,7 +1144,7 @@
         "syntax": "=TODAY()",
         "desc": "返回当前日期，随系统自动更新。",
         "usage": "考勤表自动填当天日期",
-        "progress": 100
+        "progress": 0
       },
       {
         "id": "ef40",
@@ -2171,7 +2471,7 @@
       "urgent": true
     }
   },
-  "_updated": "2026-08-05T02:03:29.259Z",
+  "_updated": "2026-08-05T02:03:38.875Z",
   "checkins": [],
   "profile": {
     "nickname": "小王同学"
